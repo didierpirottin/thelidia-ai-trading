@@ -1,0 +1,139 @@
+= Bear Put Spread
+:description: Protection à coût réduit par achat et vente simultanés de puts — mécanisme, exemple chiffré, limites
+
+
+
+xref:hedging/index.adoc[← Retour à l'overview Hedging]
+
+Le *Bear Put Spread* réduit le coût de la protection en acceptant un *plafond sur le gain de couverture*.
+Vous achetez un put à strike haut (protection) et vendez simultanément un put à strike bas (financement partiel).
+La prime encaissée sur le put vendu réduit votre coût — mais au-delà du strike bas, vous ne gagnez plus rien.
+
+'''
+
+== Comment ça fonctionne
+
+[source]
+----
+Position = Long Put (strike haut) + Short Put (strike bas)
+----
+
+* Entre les deux strikes : *la couverture est active et croissante*
+* En dessous du strike bas : *le gain est plafonné* (le put vendu compense exactement le put acheté)
+* Au-dessus du strike haut : *les deux puts expirent sans valeur* — vous perdez uniquement le coût net
+
+=== Calcul des niveaux clés
+
+[source]
+----
+Coût net      = Prime put haut − Prime put bas
+Gain maximal  = (Strike haut − Strike bas) − Coût net
+Breakeven     = Strike haut − Coût net
+Perte max     = Coût net (si le prix reste au-dessus du strike haut)
+----
+
+'''
+
+== Visualisation P&L à expiration
+
+_Long Put strike 95 $ (prime 4 $), Short Put strike 85 $ (prime 2 $), coût net 2 $, breakeven 93 $_
+
+[mermaid]
+....
+xychart-beta
+    title "Bear Put Spread — P&L total à expiration (par contrat de 100 actions)"
+    x-axis ["70 $", "80 $", "85 $", "90 $", "93 $", "95 $", "100 $", "110 $"]
+    y-axis "P&L ($)" -500 --> 1200
+    bar [800, 800, 800, 300, 0, -200, -200, -200]
+    line [800, 800, 800, 300, 0, -200, -200, -200]
+....
+
+NOTE: Le gain est *plafonné à 800 $* dès que le prix descend sous 85 $ (strike bas).
+La perte maximale est limitée à *200 $* quelle que soit la hausse de l'action.
+
+'''
+
+== Exemple chiffré complet
+
+*Situation* : 100 actions XYZ à *100 $*.
+
+* Achat Put strike *95 $*, prime *4 $*
+* Vente Put strike *85 $*, prime *2 $*
+* *Coût net = 2 $* par action, soit *200 $* par contrat
+
+[cols="1,1,1,1,1"]
+|===
+| Prix à expiration | P&L Action seule | Protection Put seul (strike 95, prime 4 $) | Bear Put Spread (coût 2 $) | Économie vs Put seul
+
+| 70 $ | -3 000 $ | -900 $ | *-200 $* | +700 $ (mais gain plafonné)
+| 80 $ | -2 000 $ | -900 $ | *-200 $* | +700 $
+| 85 $ | -1 500 $ | -900 $ | *-200 $* | +700 $
+| 90 $ | -1 000 $ | -900 $ | *+300 $* | —
+| 93 $ | -700 $ | -600 $ | *0 $* | breakeven
+| 95 $ | -500 $ | -900 $ | *-200 $* | —
+| 100 $ | 0 $ | -400 $ | *-200 $* | +200 $ d'économie sur la prime
+| 110 $ | +1 000 $ | +600 $ | *-200 $* | —
+|===
+
+WARNING: Si l'action s'effondre sous le strike bas vendu (85 $), vous ne gagnez *plus rien de plus*.
+Le Bear Put Spread est adapté à une *correction modérée*, pas à un krach total illimité.
+
+'''
+
+== Comparaison : Bear Put Spread vs Protective Put
+
+[cols="1,1,1"]
+|===
+| Critère | Protective Put | Bear Put Spread
+
+| Coût | 4 $ (400 $ / contrat) | 2 $ (200 $ / contrat)
+| Protection maximale | Illimitée (toute chute couverte) | Limitée à 800 $ (entre les strikes)
+| Perte max si hausse | 400 $ (prime seule) | 200 $ (prime nette seule)
+| Complexité | Faible | Modérée
+| Adapté à | Krach total redouté | Correction modérée attendue
+|===
+
+'''
+
+== Quand utiliser le Bear Put Spread ?
+
+* Vous anticipez une *correction modérée* (10–15 %) mais pas un effondrement total
+* Vous voulez *réduire le coût* de la protection vs un put seul
+* Votre budget pour le hedging est limité
+* Vous êtes prêt à accepter un plafond sur le gain de couverture
+
+[cols="1,1"]
+|===
+| Situation favorable | Situation défavorable
+
+| Correction attendue dans une fourchette définie | Risque de krach sévère (> 20 %) redouté
+| Budget hedging serré | Vous voulez une couverture illimitée
+| IV élevée (put vendu génère une prime intéressante) | Écart entre les strikes trop faible (protection insuffisante)
+|===
+
+TIP: Plus l'écart entre les deux strikes est large, meilleure est la protection maximale — mais plus le coût est élevé.
+Un écart de *10–15 %* du prix de l'action est généralement un bon compromis.
+
+'''
+
+== Avantages et inconvénients
+
+[cols="1,1"]
+|===
+| Avantages | Inconvénients
+
+| Coût réduit de moitié environ vs un put seul | Protection plafonnée — au-delà du strike bas, plus de gain supplémentaire
+| Perte maximale limitée au coût net (200 $ dans l'exemple) | Ne couvre pas un effondrement total (krach > 20 %)
+| Facile à dimensionner : coût connu à l'avance | Nécessite deux jambes — légèrement plus complexe
+| Bonne solution pour un budget hedging serré | Spread bid/ask plus large sur les petites options (double friction)
+| En IV haute, le put vendu génère une prime intéressante | Si l'action monte fortement, coût total non récupérable
+|===
+
+'''
+
+== Voir aussi
+
+* xref:hedging/index.adoc[Hedging — Vue d'ensemble et guide décisionnel]
+* xref:hedging/protective-put.adoc[Protective Put — protection illimitée, coût plus élevé]
+* xref:hedging/collar.adoc[Collar — protection financée par un Call]
+* xref:options/index.adoc[Options — concepts fondamentaux (Delta, Theta, IV)]

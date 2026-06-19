@@ -1,0 +1,3 @@
+* xref:market-analysis:index.adoc[Analyses de Marché]
+** xref:market-analysis:market-analysis-2026-06-10.adoc[10 juin 2026 — Niveau 4 Prudence]
+** xref:market-analysis:market-analysis-2026-06-09.adoc[9 juin 2026 — Niveau 4 Prudence]

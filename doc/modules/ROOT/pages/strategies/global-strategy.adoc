@@ -1,0 +1,193 @@
+= Stratégie Globale d'Investissement
+
+
+:description: Vision globale d'une démarche d'investissement options structurée selon les phases du marché
+
+xref:strategies/index.adoc[← Retour aux Stratégies]
+
+Une approche d'investissement efficace en options ne consiste pas à appliquer une seule stratégie en permanence.
+Le marché boursier traverse des *phases distinctes* — correction, rebond, tendance haussière, volatilité élevée, consolidation — et chaque phase appelle une stratégie adaptée.
+
+NOTE: L'objectif n'est pas de "battre le marché" à tout prix, mais de *générer des revenus réguliers, contrôler le risque et profiter des opportunités* que chaque phase de marché présente.
+
+'''
+
+== Les phases du marché et leurs stratégies
+
+=== Phase 1 — Correction + premiers signes de rebond
+
+*Situation* : Le marché a subi une correction importante (−20 % ou plus) et montre les premiers signes de retournement haussier.
+
+*Opportunité* : La volatilité implicite redescend, les options redeviennent abordables, et le potentiel de rebond est élevé.
+
+*Stratégies recommandées* :
+
+* xref:strategies/leaps.adoc[LEAPS Calls] — Achat de calls long terme (12–24 mois), profite du rebond sur la durée
+* xref:strategies/leaps.adoc#zebra[Stratégie Zébra] — Variante LEAPS à coût réduit, se comporte comme 100 actions
+
+=== Phase 2 — Tendance haussière / Marché stable
+
+*Situation* : Le marché est en tendance ou consolide. La volatilité implicite est modérée à basse.
+
+*Stratégies recommandées* :
+
+* xref:strategies/wheel.adoc[Wheel (CSP → Covered Call)] — Revenus réguliers sur des actions de qualité
+* xref:strategies/rolling-put-diagonal.adoc[Rolling Put Diagonal] — Revenus mensuels via des puts diagonaux renouvelés
+
+=== Phase 3 — Volatilité élevée (VIX > 25–30)
+
+*Situation* : Le marché est nerveux. Les primes d'options sont gonflées par la peur. Le VIX monte.
+
+*Opportunité* : Vous devenez *vendeur de volatilité* — vous profitez du retour à la normale de l'IV.
+
+*Stratégies recommandées* :
+
+* xref:strategies/butterfly.adoc[Iron Butterfly] — Vente d'un straddle couvert, profite de la contraction de l'IV
+* xref:strategies/wheel.adoc[CSP sur actions de qualité] — Primes élevées, acquisition à prix attractif
+
+=== Phase 4 — Protection des gains
+
+*Situation* : Vous avez des plus-values latentes significatives et redoutez un retournement.
+
+*Stratégies recommandées* :
+
+* xref:hedging/protective-put.adoc[Protective Put] — Protection d'une ligne individuelle
+* xref:hedging/collar.adoc[Collar] — Financement de la protection via vente d'un call
+* xref:hedging/couverture-indices.adoc[Couverture par indices] — Protection d'un portefeuille diversifié
+
+=== Phase 5 — Réparation de positions perdantes
+
+*Situation* : Une action que vous détenez a chuté significativement. Vous ne voulez pas vendre à perte mais vous voulez réduire votre seuil de rentabilité.
+
+*Stratégies recommandées* :
+
+* xref:strategies/stock-repair.adoc[Stock Repair Strategy] — Abaisse le seuil de rentabilité sans capital supplémentaire
+
+'''
+
+== Arbre de décision global
+
+----
+  VOTRE SITUATION                              STRATÉGIE RECOMMANDÉE
+  ─────────────────────────────────────────────────────────────────────────
+
+  Marché en forte correction, premiers signes de rebond
+  ├── Capital disponible, horizon long terme   → LEAPS Calls (12–24 mois)
+  └── Budget limité, levier contrôlé           → Stratégie Zébra
+
+  Marché stable ou haussier
+  ├── Je veux des revenus mensuels réguliers   → Rolling Put Diagonal
+  ├── Je veux acheter des actions à prix réduit → Wheel / CSP
+  └── Je possède déjà des actions              → Covered Call (vente de call)
+
+  Volatilité élevée (VIX > 25)
+  ├── Marché en range attendu                  → Iron Butterfly (vente)
+  └── Actions de qualité = primes élevées      → CSP (primes très attractives)
+
+  Gains latents à protéger
+  ├── Une seule ligne                          → Protective Put / Collar
+  └── Portefeuille diversifié                  → Puts sur indices (SPY / SPX)
+
+  Action en perte, pas envie de vendre
+  └── Réduction de la perte sans capital       → Stock Repair Strategy
+----
+
+'''
+
+== Principes directeurs
+
+=== 1. Soyez vendeur de volatilité, pas acheteur
+
+La plupart des options perdent de leur valeur avec le temps (*theta négatif*).
+En vendant des options (puts, calls, spreads), vous êtes *du côté gagnant du temps* : chaque jour qui passe vous rapproche du profit.
+
+IMPORTANT: Règle d'or — Vendez des options quand l'IV est *haute*, achetez-en quand l'IV est *basse*. L'IV Rank vous indique cela : au-dessus de 50, vous vendez ; en-dessous de 30, vous achetez.
+
+=== 2. Gérez la taille de chaque position
+
+Ne risquez jamais plus de *2–5 % de votre portefeuille* sur une seule position.
+Un portefeuille de 100 000 € signifie un risque max de 2 000–5 000 € par ligne.
+
+=== 3. Définissez votre plan de sortie avant d'entrer
+
+Avant d'ouvrir une position, décidez :
+
+* *Profit target* : à quel niveau fermer ? (typiquement 50 % du profit maximum)
+* *Stop loss* : à quel niveau couper ? (typiquement 2× la prime encaissée pour les ventes)
+* *Roll ou fermer* : si la position se détériore, rouler vers une meilleure expiration ou fermer ?
+
+=== 4. Réévaluez à chaque roulement
+
+Chaque roulement est une *nouvelle décision*, pas une obligation mécanique.
+Si le contexte de marché a changé, il vaut parfois mieux fermer que rouler.
+
+=== 5. Le hedging n'est pas optionnel
+
+Pour tout portefeuille de plus de 50 000 €, prévoyez une couverture systématique.
+Voir xref:hedging/index.adoc[le guide de hedging] pour les méthodes et les coûts.
+
+'''
+
+== Tableau de synthèse des stratégies
+
+[cols="2,1,1,1,2"]
+|===
+| Stratégie | Phase de marché | IV nécessaire | Risque | Objectif
+
+| xref:strategies/leaps.adoc[LEAPS Calls]
+| Correction → Rebond | Basse (< 30) | Limité (prime payée) | Participer au rebond avec effet de levier
+
+| xref:strategies/leaps.adoc#zebra[Zébra]
+| Correction → Rebond | Basse | Modéré | Levier contrôlé, similaire à 100 actions
+
+| xref:strategies/wheel.adoc[Wheel / CSP]
+| Stable / Haussier | Modérée à haute | Modéré (achat forcé) | Revenus 2–5 %/mois + acquisition d'actions
+
+| xref:strategies/rolling-put-diagonal.adoc[Rolling Put Diagonal]
+| Stable | Modérée | Modéré | Revenus 15–30 %/mois sur capital engagé
+
+| xref:strategies/butterfly.adoc[Iron Butterfly]
+| Volatil, range attendu | Haute (> 25) | Limité (spread) | Collecter des primes élevées
+
+| xref:strategies/stock-repair.adoc[Stock Repair]
+| Post-baisse | Modérée | Plafonné à la hausse | Abaisser le seuil de rentabilité sans coût
+
+| xref:hedging/index.adoc[Hedging]
+| Tout (préventif) | Variable | Coût de protection | Limiter les pertes lors des krachs
+|===
+
+'''
+
+== Sources
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://youtu.be/7rPH2vwwHX8[$176,237 LEAPS Options Trading Strategy — 91 % Win Rate]
+| Stratégie LEAPS purement mécanique, sans analyse technique, profitable à long terme
+
+| link:https://youtu.be/xgKPl3VDUgc[Butterfly Options Explained: Iron vs Standard vs Broken Wing]
+| Les variantes du Butterfly et leur utilisation en environnement de haute volatilité
+
+| link:https://youtu.be/7DQWW_zCFUk[Can This Options Strategy Really Make 15–30 % a Month?]
+| Rolling Put Diagonal — stratégie hybride pour revenus mensuels réguliers
+
+| link:https://youtu.be/s7dNzX6KWmg[How I Buy Stocks for 30 % Less Than The Market Price]
+| Vente de Cash Secured Puts pour acquérir des actions de qualité à prix réduit
+
+| link:https://youtu.be/MwsxXa0jA9g[How Ravish Ahuja Made $1 Million with Low-Risk Options Strategies]
+| Approches faible risque : LEAPS couverts, Collar modifié, gestion du risque
+
+| link:https://youtu.be/bwJsE5-AbPQ[LEAPS Options Selling Strategy: 92 % Win Rate]
+| Vente de LEAPS puts pour un taux de réussite élevé avec levier sécurisé
+
+| link:https://youtu.be/2r708o7u-1k[Stock Repair Strategy: Turn Losing Trades Into Winners]
+| Technique pour réparer une position en perte sans capital supplémentaire
+|===
+
+== Voir aussi
+
+* xref:options/index.adoc[Concepts fondamentaux des options — Calls, Puts, Grecs]
+* xref:hedging/index.adoc[Hedging — Protection du portefeuille]
+* xref:portfolio/index.adoc[Gestion de Portefeuille — Position Sizing, Risque]

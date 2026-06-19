@@ -1,0 +1,191 @@
+= Gestion de Portefeuille
+
+
+:description: Allocation d'actifs, dimensionnement des positions, métriques de risque et règles de gestion pour un portefeuille options
+
+Gérer un portefeuille d'options ne se résume pas à choisir les bonnes stratégies.
+Il faut aussi *dimensionner les positions correctement*, *mesurer le risque global* et *définir des règles de gestion strictes*.
+
+*Analogie* : gérer un portefeuille, c'est comme piloter un avion. Chaque instrument (Delta, Theta, Beta) vous donne une information vitale. Ignorer l'un d'eux, c'est voler à l'aveugle.
+
+'''
+
+== Allocation d'actifs
+
+=== Principes de diversification
+
+[cols="1,2"]
+|===
+| Type de diversification | Objectif
+
+| *Sectorielle* | Éviter la concentration : tech, santé, finance, conso, énergie...
+| *Géographique* | US, Europe, émergents — réduire le risque pays
+| *Classes d'actifs* | Actions, obligations, cash, alternatives
+| *Stratégies* | Mélanger revenus (Wheel, CC), protection (puts), croissance (LEAPS)
+|===
+
+=== Répartition recommandée pour un portefeuille options
+
+[cols="1,1,2"]
+|===
+| Composante | Allocation typique | Rôle
+
+| *Actions (positions longues)* | 40–60 % | Base de rendement long terme
+| *Cash (collateral CSP)* | 20–40 % | Réserve pour les puts vendus, opportunités
+| *Options de revenu* (Covered Call, CSP) | Sur les actions détenues | Génération de revenus mensuels
+| *Options de protection* (puts, spreads) | 1–3 % du portefeuille / an | Hedging — coût d'assurance
+| *Options directionnelles* (LEAPS, calls) | 5–15 % | Levier sur les convictions fortes
+|===
+
+TIP: Ne jamais avoir plus de *30 % du portefeuille exposé à un seul secteur*.
+En options, une position CSP immobilise du capital — comptez-le comme si vous déteniez les actions.
+
+'''
+
+== Dimensionnement des positions (Position Sizing)
+
+=== La règle des 2 %
+
+Ne risquez jamais plus de *2 % du capital total* sur une seule position.
+
+[example]
+====
+Portefeuille de 50 000 € → risque maximum par position : *1 000 €*
+
+Pour un CSP sur une action à 80 € (strike put à 75 €) :
+* Risque si perte totale = 75 € × 100 actions = 7 500 €
+* Risque acceptable = 1 000 €, soit 1 000 / 7 500 = *13 % du capital exposé*
+* Nombre de contrats = 1 (car 1 contrat × 7 500 € > budget, mais 1 seul est déjà proche du seuil)
+====
+
+=== Delta weighting — mesurer l'exposition réelle
+
+Pour les options, le *Delta* est l'équivalent en nombre d'actions.
+
+[source]
+----
+Exposition réelle = Quantité d'actions × Delta de l'option
+----
+
+[cols="1,1,1"]
+|===
+| Position | Delta | Exposition "actions" équivalente
+
+| 100 actions AAPL (action directe) | 1,0 | 100 actions
+| 1 call AAPL delta 0,70 | 0,70 | 70 actions
+| 1 put vendu AAPL delta −0,30 | −0,30 (vendeur) → +0,30 | 30 actions (exposition longue)
+|===
+
+NOTE: Un portefeuille avec un *Delta global élevé* est très sensible aux mouvements du marché.
+Gérer le Delta global permet de contrôler l'exposition directionnelle totale.
+
+=== Beta weighting — normaliser vers un indice de référence
+
+Pour comparer des positions sur différentes actions, normalisez vers SPY ou SPX :
+
+[source]
+----
+Delta pondéré par Beta = Delta position × Beta de l'action × (Prix action / Prix SPY)
+----
+
+[example]
+====
+Votre portefeuille :
+* 100 actions Apple (Beta 1,2, prix 180 $) → Delta pondéré SPY = 100 × 1,2 × (180/500) = *43,2*
+* 50 actions Tesla (Beta 2,0, prix 250 $) → Delta pondéré SPY = 50 × 2,0 × (250/500) = *50,0*
+* Delta global SPY = *93,2 unités*
+
+→ Si le SPY perd 1 %, votre portefeuille perd environ 93,2 × 5 $ = *466 $* (avec SPY à 500 $).
+====
+
+'''
+
+== Métriques de risque du portefeuille
+
+[cols="1,2,2"]
+|===
+| Métrique | Description | Objectif de gestion
+
+| *Beta global* | Sensibilité du portefeuille aux mouvements du marché (SPX = 1,0) | Réduire si Beta > 1,5 (trop volatil)
+| *Delta global* | Exposition nette aux mouvements de prix | Hedger si trop élevé (via puts sur indices)
+| *Theta global* | Revenus (ou coûts) temporels cumulés quotidiens | Positif = stratégie de vendeur (bon signe)
+| *Vega global* | Exposition aux changements de xref:hedging/vix-volatilite.adoc[volatilité implicite] | Négatif = vous profitez de la baisse de l'IV
+|===
+
+TIP: Un portefeuille sain de vendeur d'options a un *Theta positif* et un *Vega négatif* : vous gagnez du temps et vous profitez d'une baisse de la volatilité.
+
+'''
+
+== Règles de gestion des positions
+
+=== Entrée
+
+. *Définissez votre thèse avant d'entrer* : pourquoi cette position, pour combien de temps, à quel niveau fermez-vous ?
+. *Vérifiez le Delta global* : la nouvelle position va-t-elle trop augmenter votre exposition directionnelle ?
+. *Évitez les événements binaires* (résultats, FDA, Fed) dans la fenêtre de l'option.
+
+=== Gestion en cours de vie
+
+. *Fermez à 50 % du profit max* pour les options vendues — libérez le capital et le risque.
+. *Stop loss = 2× la prime encaissée* : si vous avez encaissé 3 $, coupez si la perte atteint 6 $.
+. *Roulez avant l'expiration* (DTE < 21 jours) si la position est encore valide.
+. *Réévaluez le contexte* : si la thèse initiale a changé, fermez plutôt que roulez.
+
+=== Sortie
+
+. *Ne restez jamais jusqu'à l'expiration* sauf stratégie spécifique — les derniers jours sont les plus risqués (Gamma élevé).
+. *Sécurisez les profits importants* (+100 % ou plus) — le marché peut vite reprendre.
+. *Acceptez les pertes limitées* — préférez perdre 200 $ proprement plutôt que d'attendre une hypothétique remontée.
+
+WARNING: L'erreur la plus commune est de *"rouler pour éviter la perte"*. Rouler une position perdante, c'est parfois doubler une mauvaise décision. Évaluez chaque roulement comme une nouvelle position indépendante.
+
+'''
+
+== Gestion du risque global — Check-list mensuelle
+
+[cols="1,1"]
+|===
+| Question | Action si problème
+
+| Mon Delta global est-il excessif (> 200 unités SPY pour 100 K€) ? | Réduire des positions ou ajouter des puts de couverture
+| Mon Theta global est-il positif ? | Si négatif, je suis trop acheteur d'options — rééquilibrer
+| Mon exposition par secteur dépasse-t-elle 30 % ? | Réduire la concentration sectorielle
+| Ai-je une couverture active (puts ou spreads) ? | Si le VIX < 20 et portefeuille > 50 K€, ajouter une couverture
+| Mes positions ont-elles toutes un stop loss défini ? | Définir ou rappeler les niveaux de sortie
+|===
+
+'''
+
+== Guide décisionnel — Gérer une situation inhabituelle
+
+----
+  SITUATION                                 ACTION RECOMMANDÉE
+  ─────────────────────────────────────────────────────────────────────
+
+  Marché en forte hausse (+15 % en 2 mois)
+  ├── PV latentes importantes               → Envisager le hedging (Collar, Protective Put)
+  └── Positions trop concentrées            → Alléger partiellement, rééquilibrer
+
+  Marché en forte baisse (−15 % en 2 mois)
+  ├── Couverture active                     → Laisser jouer, tenir le plan
+  └── Pas de couverture                     → Ne pas acheter de puts maintenant (trop chers)
+      └── Réduire les positions si nécessaire → Récupérer du cash, attendre la stabilisation
+
+  Position individuelle en forte perte (−20 %+)
+  ├── Thèse intacte + action de qualité     → Stock Repair Strategy
+  └── Thèse compromise                      → Fermer la position, prendre la perte
+
+  Assignation sur un CSP vendu
+  ├── Vous voulez l'action                  → Passer à la Phase 2 : Covered Call
+  └── Vous ne voulez plus l'action          → Vendre l'action, accepter la perte, réinvestir
+----
+
+'''
+
+== Voir aussi
+
+* xref:hedging/index.adoc[Hedging — Couverture du portefeuille (Protective Put, Collar, indices)]
+* xref:strategies/index.adoc[Stratégies — Covered Call, CSP, Wheel, LEAPS]
+* xref:strategies/global-strategy.adoc[Stratégie Globale — Vue d'ensemble par phase de marché]
+* xref:hedging/couverture-indices.adoc[Couverture par indices — Beta weighting et sizing détaillés]
+* xref:options/index.adoc[Options — Delta, Theta, Vega : les métriques de risque]

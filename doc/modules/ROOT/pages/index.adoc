@@ -1,0 +1,60 @@
+= Base de Connaissance — Investissement en Bourse
+:description: Vue d'ensemble de la base de connaissance : actions, options, stratégies, hedging, portefeuille
+
+Bienvenue dans cette base de connaissance dédiée à l'investissement en bourse avec les options.
+Elle couvre l'ensemble des concepts — des fondamentaux aux stratégies avancées — organisés par thème.
+
+TIP: Vous débutez ? Commencez par xref:options/index.adoc[Options] pour comprendre les bases, puis xref:strategies/global-strategy.adoc[la Stratégie Globale] pour une vue d'ensemble.
+
+'''
+
+== Sections principales
+
+[cols="1,3"]
+|===
+| Section | Contenu
+
+| xref:actions/index.adoc[*Actions*]
+| Analyse fondamentale (P/E, FCF, qualité), analyse technique (supports, MA, RSI), types d'ordres, guide de sélection
+
+| xref:options/index.adoc[*Options*]
+| Calls, Puts, diagrammes P&L, les Grecs (Delta, Theta, Gamma, Vega), valeur intrinsèque vs valeur temps, guide décisionnel
+
+| xref:strategies/index.adoc[*Stratégies*]
+| xref:strategies/global-strategy.adoc[Stratégie Globale], xref:strategies/leaps.adoc[LEAPS & Zébra], xref:strategies/wheel.adoc[Wheel / CSP], xref:strategies/rolling-put-diagonal.adoc[Rolling Put Diagonal], xref:strategies/butterfly.adoc[Butterfly], xref:strategies/stock-repair.adoc[Stock Repair]
+
+| xref:hedging/index.adoc[*Hedging*]
+| xref:hedging/protective-put.adoc[Protective Put], xref:hedging/collar.adoc[Collar], xref:hedging/bear-put-spread.adoc[Bear Put Spread], xref:hedging/couverture-indices.adoc[Couverture par indices], xref:hedging/vix-volatilite.adoc[VIX & Volatilité]
+
+| xref:portfolio/index.adoc[*Gestion de Portefeuille*]
+| Allocation d'actifs, position sizing (règle des 2 %), Delta weighting, Beta weighting, métriques de risque, check-list mensuelle
+
+| xref:ressources/index.adoc[*Ressources*]
+| Plateformes (IBKR, Tastytrade), outils d'analyse (barchart, optionstrat), livres, vidéos YouTube référencées, glossaire
+|===
+
+'''
+
+== Par où commencer ?
+
+----
+  VOTRE PROFIL                              POINT D'ENTRÉE RECOMMANDÉ
+  ─────────────────────────────────────────────────────────────────────
+
+  Je débute complètement
+  └── Comprendre ce qu'est une option       → Options — Concepts fondamentaux
+
+  Je connais les options, je veux une méthode
+  └── Approche structurée par phase de marché → Stratégie Globale
+
+  Je veux générer des revenus mensuels
+  ├── Avec des actions que je possède       → Wheel / CSP
+  └── Sans détenir d'actions               → Rolling Put Diagonal
+
+  Je veux protéger mon portefeuille
+  ├── Une seule ligne                       → Protective Put / Collar
+  └── Portefeuille diversifié              → Couverture par indices (SPY / QQQ)
+
+  J'ai une position en perte
+  └── Abaisser le breakeven sans capital    → Stock Repair Strategy
+----

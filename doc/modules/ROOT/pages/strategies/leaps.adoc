@@ -1,0 +1,256 @@
+= LEAPS — Options Long Terme & Stratégie Zébra
+
+
+:description: LEAPS calls et puts longue durée, stratégie mécanique à 91 % de win rate, et variante Zébra
+
+xref:strategies/index.adoc[← Retour aux Stratégies]
+
+== Définition
+
+Un *LEAPS* (Long-term Equity AnticiPation Security) est simplement une option dont l'échéance est *supérieure à 9 mois*, généralement 1 à 2 ans.
+
+L'analogie : un LEAPS call, c'est comme payer un acompte pour réserver le droit d'acheter une action à un prix fixé aujourd'hui, pendant les deux prochaines années.
+Si l'action monte fortement, vous avez capturé tout le gain avec une fraction du capital requis.
+
+TIP: Les LEAPS permettent d'obtenir un *effet de levier contrôlé* sur une action sans risquer plus que la prime payée.
+
+'''
+
+== Pourquoi utiliser les LEAPS ?
+
+[cols="1,2"]
+|===
+| Avantage | Explication
+
+| Coût réduit vs actions | Un LEAPS call coûte 20–40 % du prix de l'action, pour un expositioncomparable
+| Risque limité | Perte maximale = prime payée (vs perte totale possible avec une action à 0)
+| Temps pour avoir raison | 1–2 ans pour que votre thèse se réalise (vs options court terme = trop de pression)
+| Theta faible | La décroissance temporelle est lente sur une longue durée, contrairement aux options courtes
+| Stratégie mécanique | Aucune analyse technique requise — règles de gestion claires
+|===
+
+'''
+
+== LEAPS Calls — Achat directionnel
+
+=== Comment ça fonctionne
+
+. *Identifier l'action* : choisir une entreprise solide dont vous êtes fondamentalement confiant
+. *Choisir l'échéance* : 12 à 24 mois minimum
+. *Choisir le strike* : légèrement In-The-Money (ITM), delta entre 0,65 et 0,80
+. *Acheter le call* et attendre que la thèse se réalise
+. *Sortie mécanique* : fermer la position quand le profit atteint 50–100 % de la prime payée, ou à 50 jours de l'expiration au plus tard
+
+=== Schéma P&L
+
+._Action à 100 $, LEAPS Call strike 90 $, prime 18 $, breakeven 108 $_
+[mermaid]
+....
+xychart-beta
+    title "LEAPS Call — P&L à expiration (par contrat de 100 actions)"
+    x-axis ["60 $", "75 $", "90 $", "100 $", "108 $", "120 $", "135 $", "150 $"]
+    y-axis "P&L ($)" -2500 --> 5000
+    bar [-1800, -1800, -1800, -800, 0, 1200, 2700, 4200]
+    line [-1800, -1800, -1800, -800, 0, 1200, 2700, 4200]
+....
+
+NOTE: En dessous du strike (90 $), toutes les barres sont au même niveau : c'est la perte maximale limitée à la prime payée (1 800 $).
+Le breakeven est à 108 $ (strike + prime = 90 + 18).
+Au-dessus, le profit est illimité.
+
+=== Exemple chiffré complet
+
+[cols="1,1,1,1"]
+|===
+| Prix à expiration | Valeur intrinsèque call | P&L call (×100) | Commentaire
+
+| 60 $ | 0 $ | −1 800 $ | Perte totale, call expire OTM
+| 75 $ | 0 $ | −1 800 $ | Perte totale, call expire OTM
+| 90 $ | 0 $ | −1 800 $ | ATM, perte totale de la prime
+| 100 $ | 10 $ | −800 $ | ITM mais prime non récupérée
+| 108 $ | 18 $ | 0 $ | Seuil de rentabilité exact
+| 120 $ | 30 $ | +1 200 $ | Profit net confortable
+| 135 $ | 45 $ | +2 700 $ | Solide rebond capturé
+| 150 $ | 60 $ | +4 200 $ | Fort rebond, levier maximisé
+|===
+
+[example]
+====
+*Situation réelle* : vous pensez qu'Amazon (AMZN) à 185 $ va remonter après une correction.
+Vous achetez un LEAPS call strike 170 $ (ITM), expiration janvier N+2, pour une prime de 28 $.
+Breakeven = 170 + 28 = 198 $.
+Si AMZN monte à 220 $ dans 18 mois → profit = (220−170−28) × 100 = 2 200 $.
+Capital engagé : 2 800 $. Rendement : +78 %.
+Vs achat de 100 actions AMZN à 185 $ = 18 500 $ investis, même gain de +3 500 $.
+====
+
+=== Quand utiliser les LEAPS Calls
+
+[cols="1,1"]
+|===
+| Situation favorable | Situation défavorable
+
+| Marché après une correction importante (−15 % +) | Marché à son sommet historique
+| IV basse (VIX < 20) — primes abordables | IV haute — les LEAPS sont chers à l'achat
+| Vous êtes fondamentalement confiant sur l'action | Incertitude élevée sur le secteur
+| Horizon long terme (6–18 mois) | Besoin de liquidités rapides
+| Action trop chère pour 100 parts | Action très peu volatile (peu d'effet levier)
+|===
+
+=== Règles de gestion mécanique (91 % win rate)
+
+. *Entrez* après un recul de ≥ 5 % sur une action solide — pas en pleine euphorie
+. *Strike ITM* : choisissez un delta de 0,70–0,80 pour un comportement proche de l'action
+. *Durée* : minimum 12 mois, idéalement 18–24 mois
+. *Sortie gagnante* : fermez à 50 % de profit (si vous avez payé 18 $, fermez à 27 $)
+. *Stop loss* : fermez si la prime perd 50 % de sa valeur (9 $ dans l'exemple)
+. *Roulez* : si l'expiration approche (< 60 jours) et la thèse est toujours valide, roulez vers une expiration plus lointaine
+
+TIP: Cette approche mécanique atteint un taux de réussite de 91 % selon la source citée car elle *élimine les décisions émotionnelles* et laisse le temps jouer en votre faveur.
+
+'''
+
+== LEAPS Puts — Vente longue durée
+
+=== Comment ça fonctionne
+
+Au lieu d'acheter des LEAPS, vous pouvez *vendre* des LEAPS puts très OTM (delta 0,10–0,15) pour collecter des primes importantes sur une longue durée.
+
+Pourquoi cela fonctionne (92 % de win rate) :
+
+* Les LEAPS puts ont une valeur temps *absolue* élevée même très OTM
+* Vous avez 12–24 mois de marge avant l'expiration
+* L'action doit chuter de 20–30 % pour que vous perdiez de l'argent
+* Vous encaissez la prime dès le début
+
+WARNING: Cette stratégie nécessite du *capital immobilisé* pour couvrir l'obligation d'achat (Cash-Secured Put long terme). Pour un put LEAPS à strike 80 $ sur 100 actions, il faut 8 000 $ disponibles.
+
+=== Schéma P&L
+
+._Action à 100 $, vente LEAPS put strike 70 $, prime 5 $, breakeven 65 $ (−35 % OTM)_
+[mermaid]
+....
+xychart-beta
+    title "LEAPS Put vendu — P&L à expiration (par contrat de 100 actions)"
+    x-axis ["40 $", "50 $", "60 $", "65 $", "70 $", "80 $", "90 $", "100 $"]
+    y-axis "P&L ($)" -3000 --> 1000
+    bar [-2500, -1500, -500, 0, 500, 500, 500, 500]
+    line [-2500, -1500, -500, 0, 500, 500, 500, 500]
+....
+
+NOTE: Au-dessus du strike (70 $), la prime de 500 $ est conservée intégralement.
+Le breakeven est à 65 $ (strike − prime = 70 − 5), soit −35 % sous le cours actuel.
+En dessous de 65 $, la perte est identique à celle d'un propriétaire ayant acheté à 65 $.
+
+=== Exemple chiffré
+
+Action à 100 $. Vente d'un LEAPS put strike 70 $ (−30 % OTM), delta 0,10, échéance 18 mois.
+
+* Prime encaissée : 5 $ × 100 = 500 $ par contrat
+* Capital immobilisé : 7 000 $ (strike × 100 actions)
+* ROC annualisé : (500 / 7000) / 1,5 an = ~4,8 % / an (si non exercé)
+* Seuil de rentabilité : 70 − 5 = 65 $ (soit −35 % depuis le cours actuel)
+
+'''
+
+[[zebra]]
+== Stratégie Zébra (Zero Extrinsic Back Ratio)
+
+=== Définition
+
+La *stratégie Zébra* est une variante LEAPS qui reproduit le comportement de 100 actions avec *moins de capital* et *presque zéro valeur extrinsèque*.
+
+Le nom vient de l'acronyme : *Zero Extrinsic Back RAtio*.
+
+=== Comment ça fonctionne
+
+. *Achetez 2 calls LEAPS deep ITM* (delta ≈ 0,80, strike fortement en dessous du cours actuel)
+. *Vendez 1 call LEAPS ATM* (strike ≈ cours actuel)
+
+La vente du call ATM finance une partie de l'achat des 2 calls ITM, et "annule" la valeur extrinsèque excédentaire.
+Le résultat : une position qui se comporte *presque exactement comme 100 actions*, mais avec un coût réduit de 30–50 %.
+
+=== Exemple
+
+Action à 100 $, LEAPS à 18 mois :
+
+[cols="1,1,1,1"]
+|===
+| Jambe | Action | Strike | Prime
+
+| Achat | 2× call LEAPS | 70 $ (deep ITM) | 34 $ × 2 = −68 $
+| Vente | 1× call LEAPS | 100 $ (ATM) | +8 $ × 1 = +8 $
+| *Coût net* | | | *60 $ par action = 6 000 $*
+|===
+
+Vs achat de 100 actions à 100 $ = 10 000 $.
+La Zébra coûte 40 % de moins pour un comportement presque identique.
+
+=== Schéma P&L
+
+._Action à 100 $, Zébra : achat 2× call 70 $ (−68 $) + vente 1× call 100 $ (+8 $), coût net 6 000 $_
+[mermaid]
+....
+xychart-beta
+    title "Stratégie Zébra — P&L à expiration (vs 100 actions à 100 $)"
+    x-axis ["55 $", "65 $", "70 $", "80 $", "90 $", "100 $", "115 $", "130 $"]
+    y-axis "P&L ($)" -7000 --> 4000
+    bar [-6000, -6000, -6000, -4000, -2000, 0, 1500, 3000]
+    line [-6000, -6000, -6000, -4000, -2000, 0, 1500, 3000]
+....
+
+NOTE: Le breakeven est à 100 $ — identique à l'achat de 100 actions.
+Au-dessus de 100 $, la Zébra suit parfaitement les actions (delta ≈ 1).
+En dessous de 70 $, les calls n'ont plus de valeur intrinsèque — la perte est plafonnée au coût net (6 000 $).
+C'est le principal avantage vs les actions : la perte maximum est connue à l'avance.
+
+=== Quand utiliser la Zébra
+
+[cols="1,1"]
+|===
+| Situation favorable | Situation défavorable
+
+| Après une correction, vous êtes bullish moyen terme | IV très haute (achat coûteux)
+| Budget limité pour acheter 100 actions | Action sans LEAPS liquides disponibles
+| Vous voulez le comportement d'un actionnaire sans immobiliser le capital | Vous avez besoin de dividendes (les calls n'y donnent pas droit)
+|===
+
+'''
+
+== Avantages et inconvénients
+
+[cols="1,1"]
+|===
+| Avantages | Inconvénients
+
+| Risque limité (max = prime payée) | Perte totale si action ne remonte pas
+| Levier important sur faible capital | Pas de dividendes
+| Temps pour que la thèse se réalise | Breakeven plus élevé que l'achat d'action
+| Stratégie mécanique, peu de stress | Illiquidité sur certains LEAPS (large spread bid/ask)
+| Pas de marge requise (vs futures) | Theta est plus faible mais existe quand même
+|===
+
+'''
+
+== Références
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://youtu.be/7rPH2vwwHX8[$176,237 LEAPS Options Trading Strategy — 91 % Win Rate]
+| Stratégie LEAPS call mécanique sans analyse technique
+
+| link:https://youtu.be/bwJsE5-AbPQ[LEAPS Options Selling Strategy: 92 % Win Rate]
+| Vente de LEAPS puts profonde OTM pour taux de réussite élevé
+
+| link:https://youtu.be/MwsxXa0jA9g[How Ravish Ahuja Made $1 Million with Low-Risk Options Strategies]
+| Stratégie Zébra et approches LEAPS faible risque
+|===
+
+== Voir aussi
+
+* xref:strategies/global-strategy.adoc[Stratégie Globale — Quand utiliser les LEAPS ?]
+* xref:options/index.adoc[Concepts fondamentaux — Delta, Theta, IV]
+* xref:strategies/wheel.adoc[Wheel / CSP — Revenus réguliers avec les puts]
+* xref:hedging/index.adoc[Hedging — Protéger sa position LEAPS]

@@ -1,0 +1,24 @@
+= Global Strategy
+
+Je voudrais décrire une démarche globale pour gérer des investissements en bourse.
+
+Quelques idées de base :
+- après une correction importante, aux premiers signes de retournement, acheter des leaps call (éventuellement une stratégie zébra)
+- trader régulièrement des stratégies telle que celle décrites dans les sources
+- lorsque la volatilité est haute, vendre des butterfly comme expliqué dans les sources
+- pour des titres de qualité trop chers et avec une volatilité élevée, vendre des puts pour rémunérer son cash (wheel, cash Secured put)
+- identifier le moment de faire du hedging pour protéger ses gains
+- etc.
+
+Détailler cela de façon structurée et précise, avec une vision globale et puis des documents séparés qui rentrent dans le détail de la mise en place, et de la gestion de chaque stratégie.
+
+Voici quelques sources utiles :
+
+
+.  **$176,237 LEAPS Options Trading Strategy - 91% Win Rate** : [https://youtu.be/7rPH2vwwHX8](https://youtu.be/7rPH2vwwHX8). Cette source présente une stratégie de LEAPS purement mécanique qui ne nécessite aucune analyse technique pour générer des profits à long terme,.
+.  **Butterfly Options Explained: Iron vs Standard vs Broken Wing** : [https://youtu.be/xgKPl3VDUgc](https://youtu.be/xgKPl3VDUgc). Elle détaille le fonctionnement des différentes structures de "Butterfly" et explique comment elles tirent profit de la décomposition temporelle et de la volatilité,.
+.  **Can This Options Strategy Really Make 15–30% a Month?** : [https://youtu.be/7DQWW_zCFUk](https://youtu.be/7DQWW_zCFUk). Cette vidéo se concentre sur le "Rolling Put Diagonal", une stratégie hybride visant des revenus mensuels réguliers basés sur le capital engagé,.
+.  **How I Buy Stocks for 30% Less Than The Market Price** : [https://youtu.be/s7dNzX6KWmg](https://youtu.be/s7dNzX6KWmg). Cette source explique la méthode de vente de puts (Cash Secured Puts) pour acquérir des actions de qualité à un prix réduit par rapport au marché actuel,.
+.  **How Ravish Ahuja Made $1 Million with Low-Risk Options Strategies** : [https://youtu.be/MwsxXa0jA9g](https://youtu.be/MwsxXa0jA9g). Il s'agit d'un entretien explorant des approches à faible risque, comme les LEAPS couverts et les stratégies de type "Collar" modifiées,.
+.  **LEAPS Options Selling Strategy: 92% Win Rate** : [https://youtu.be/bwJsE5-AbPQ](https://youtu.be/bwJsE5-AbPQ). Cette vidéo approfondit la vente de LEAPS pour obtenir un taux de réussite élevé en utilisant l'effet de levier de manière sécurisée,.
+.  **Stock Repair Strategy: Turn Losing Trades Into Winners** : [https://youtu.be/2r708o7u-1k](https://youtu.be/2r708o7u-1k). Elle présente une technique spécifique pour réparer une position sur actions en perte sans avoir à rajouter de capital pour faire baisser le prix de revient moyen,.

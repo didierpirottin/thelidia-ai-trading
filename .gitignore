@@ -1,0 +1,8 @@
+.env
+out/
+*.class
+.idea/
+/build/site/
+/node_modules/
+/build/
+.claude/worktrees/

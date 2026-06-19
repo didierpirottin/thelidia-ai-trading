@@ -1,0 +1,134 @@
+= Collar
+:description: Stratégie de couverture financée — combiner un Put de protection et un Call vendu pour réduire le coût
+
+
+
+xref:hedging/index.adoc[← Retour à l'overview Hedging]
+
+Le *Collar* résout le principal défaut du xref:hedging/protective-put.adoc[Protective Put] : son coût.
+En ajoutant la *vente d'un Call* sur la même position, vous financez partiellement ou totalement le put acheté.
+En échange, vous plafonnez votre gain à la hausse.
+
+TIP: Pensez au Collar comme à un « sandwich » autour du prix actuel : une limite basse (put) et une limite haute (call), avec votre action au milieu.
+
+'''
+
+== Comment ça fonctionne
+
+[source]
+----
+Position complète = Long Action + Long Put (protection basse) + Short Call (financement haut)
+----
+
+* En dessous du strike du put : *le put compense la perte de l'action* (plancher)
+* Entre les deux strikes : la position évolue normalement
+* Au-dessus du strike du call : *le call est exercé*, votre gain est plafonné
+
+=== Calcul des niveaux clés
+
+[source]
+----
+Prime nette     = Prime put payée − Prime call encaissée
+Plancher (perte max) = (Prix d'achat − Strike put) + Prime nette
+Plafond (gain max)   = (Strike call − Prix d'achat) − Prime nette
+Breakeven       = Prix d'achat + Prime nette
+----
+
+'''
+
+== Visualisation P&L à expiration
+
+._100 actions à 100 $, Long Put strike 92 $ (prime 4 $), Short Call strike 108 $ (prime 3 $), coût net 1 $_
+
+[mermaid]
+....
+xychart-beta
+    title "Collar — P&L total à expiration (par contrat de 100 actions)"
+    x-axis ["75 $", "85 $", "92 $", "100 $", "101 $", "108 $", "120 $"]
+    y-axis "P&L ($)" -1200 --> 1000
+    bar [-900, -900, -900, -100, 0, 700, 700]
+    line [-900, -900, -900, -100, 0, 700, 700]
+....
+
+NOTE: Pour seulement *100 $ de coût net*, le risque est borné entre -900 $ et +700 $.
+Le graphique illustre clairement les deux bornes : *plancher plat* à gauche, *plafond plat* à droite.
+
+'''
+
+== Exemple chiffré complet
+
+*Situation* : 100 actions XYZ à *100 $*.
+
+* Achat Put strike *92 $*, prime *4 $*
+* Vente Call strike *108 $*, prime *3 $*
+* *Prime nette = 1 $* — coût total 100 $
+
+[cols="1,1,1,1,1"]
+|===
+| Prix à expiration | P&L Action | P&L Put | P&L Call | P&L Total
+
+| 75 $ | -2 500 $ | +1 300 $ | +300 $ | *-900 $* (plancher)
+| 85 $ | -1 500 $ | +300 $ | +300 $ | *-900 $* (plancher)
+| 92 $ | -800 $ | -400 $ | +300 $ | *-900 $* (plancher)
+| 100 $ | 0 $ | -400 $ | +300 $ | *-100 $* (coût net)
+| 101 $ | +100 $ | -400 $ | +300 $ | *0 $* (breakeven)
+| 108 $ | +800 $ | -400 $ | +300 $ | *+700 $* (plafond)
+| 120 $ | +2 000 $ | -400 $ | -900 $ | *+700 $* (plafond — call exercé)
+|===
+
+'''
+
+== Variante : Zero-Cost Collar
+
+Si vous choisissez des strikes tels que `prime call vendu = prime put acheté`, la protection est *entièrement gratuite*.
+
+[example]
+====
+Action à 100 $, Put strike 92 $ (prime 3 $), Call strike 106 $ (prime 3 $) → Prime nette = 0 $.
+Perte max = 8 $, gain max = 6 $, protection totale entre 92 $ et 106 $.
+====
+
+WARNING: Plus les strikes sont serrés pour atteindre le coût zéro, plus le potentiel haussier est limité.
+Évaluez si le gain plafonné est compatible avec vos objectifs sur la position.
+
+'''
+
+== Quand utiliser le Collar ?
+
+* Vous voulez une *protection quasi gratuite* sur une position longue
+* Vous acceptez de *plafonner vos gains* à la hausse sur une période donnée
+* Vous avez de grosses plus-values à protéger avant une *vente programmée* dans quelques mois
+* Vous préparez la *cession d'une ligne* et voulez sécuriser un prix de vente minimum
+
+[cols="1,1"]
+|===
+| Situation favorable | Situation défavorable
+
+| Position stable avec PV latentes importantes | Vous anticipez une forte hausse à venir
+| Horizon de détention défini (3–12 mois) | Vous ne voulez aucun plafond sur les gains
+| Budget hedging très limité | IV élevée (call vendu rapporte peu, put coûte cher)
+|===
+
+'''
+
+== Avantages et inconvénients
+
+[cols="1,1"]
+|===
+| Avantages | Inconvénients
+
+| Coût de protection très faible (voire nul avec le Zero-Cost Collar) | Gain à la hausse plafonné au strike call
+| Protection illimitée sous le put strike | Nécessite de posséder 100 actions par contrat
+| Psychologiquement confortable — vous connaissez à l'avance votre pire et meilleur cas | Exercice du call possible si forte hausse — vous perdez vos actions
+| Idéal pour sécuriser des plus-values latentes avant une date clé | En IV haute, le call vendu rapporte peu et le put coûte cher
+| Peut être mis en place pour zéro coût net (Zero-Cost Collar) | Moins adapté si vous anticipez une forte hausse à court terme
+|===
+
+'''
+
+== Voir aussi
+
+* xref:hedging/index.adoc[Hedging — Vue d'ensemble et guide décisionnel]
+* xref:hedging/protective-put.adoc[Protective Put — protection sans plafond]
+* xref:hedging/bear-put-spread.adoc[Bear Put Spread — protection à coût encore plus réduit]
+* xref:strategies/wheel.adoc[Wheel / Covered Call — même mécanique que le Short Call du Collar]

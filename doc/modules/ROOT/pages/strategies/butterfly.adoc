@@ -1,0 +1,214 @@
+= Butterfly Options — Standard, Iron & Broken Wing
+
+
+:description: Stratégies Butterfly en options : standard, iron butterfly, broken wing — fonctionnement, P&L et utilisation en haute volatilité
+
+xref:strategies/index.adoc[← Retour aux Stratégies]
+
+== Définition
+
+Un *Butterfly* (papillon en français) est une stratégie options neutre qui combine *trois strikes différents* pour créer un profit maximum si l'action reste proche d'un niveau cible, et une perte limitée dans tous les autres cas.
+
+L'analogie : c'est comme parier qu'une fléchette va atterrir dans un cercle précis sur une cible.
+Si elle tombe exactement au centre, vous gagnez beaucoup.
+Si elle rate de loin, vous perdez peu.
+
+NOTE: Le Butterfly est particulièrement efficace quand la *volatilité implicite est élevée* — les primes sont gonflées, et vous pouvez vendre cher en espérant une contraction de l'IV.
+
+'''
+
+== Les trois variantes du Butterfly
+
+=== Standard Call Butterfly (débit)
+
+Structure : *Achat 1 call bas + Vente 2 calls milieu + Achat 1 call haut*
+
+* Ouvert avec un *débit* (vous payez une prime nette)
+* Profit maximum si l'action est exactement au strike milieu à l'expiration
+* Utilisé quand vous anticipez une action neutre autour d'un niveau précis
+
+._Action à 100 $, strikes 90/100/110 $, débit net 3 $, breakeven 93–107 $_
+[mermaid]
+....
+xychart-beta
+    title "Standard Call Butterfly — P&L à expiration (par contrat de 100 actions)"
+    x-axis ["80 $", "87 $", "90 $", "93 $", "100 $", "107 $", "110 $", "120 $"]
+    y-axis "P&L ($)" -500 --> 1000
+    bar [-300, -300, -300, 0, 700, 0, -300, -300]
+    line [-300, -300, -300, 0, 700, 0, -300, -300]
+....
+
+NOTE: Le profit maximum (700 $) est atteint si l'action ferme exactement à 100 $ (strike milieu).
+La perte est plafonnée au débit payé (300 $) dès que le prix sort des breakevens 93–107 $.
+Avantage vs Iron Butterfly : pas de risque illimité, mais profit plus faible car on paie un débit.
+
+=== Iron Butterfly (crédit) — La plus utilisée
+
+Structure : *Vente 1 put ATM + Vente 1 call ATM + Achat 1 put OTM bas + Achat 1 call OTM haut*
+
+* Ouvert avec un *crédit* (vous encaissez une prime nette dès le départ)
+* Profit maximum si l'action reste proche du strike central à l'expiration
+* Idéale en haute volatilité : vous vendez le straddle ATM (cher) tout en vous protégeant
+
+TIP: L'Iron Butterfly est souvent préférée au Butterfly standard car elle génère un *crédit net* — vous êtes payé dès l'entrée, et la décroissance temporelle joue en votre faveur.
+
+=== Broken Wing Butterfly (BWB)
+
+Structure : Butterfly asymétrique — les deux ailes ne sont pas équidistantes du strike central.
+
+* Vous élargissez une aile pour diminuer le risque d'un côté
+* Le crédit encaissé est plus élevé (ou le débit plus faible)
+* Utilisé quand vous avez un biais directionnel modéré
+
+'''
+
+== Iron Butterfly — Mécanique détaillée
+
+=== Comment ça fonctionne
+
+Prenons une action à 100 $, VIX élevé (IV haute).
+
+[cols="1,1,1,1"]
+|===
+| Jambe | Action | Strike | Prime
+
+| Short Call ATM | Vente 1 call | 100 $ | +4 $
+| Short Put ATM | Vente 1 put | 100 $ | +4 $
+| Long Call OTM | Achat 1 call | 110 $ | −1 $
+| Long Put OTM | Achat 1 put | 90 $ | −1 $
+| *Crédit net total* | | | *+6 $ = +600 $ / contrat*
+|===
+
+Résumé :
+
+* *Crédit encaissé* : 600 $
+* *Profit maximum* : 600 $ (si l'action est à 100 $ à expiration)
+* *Perte maximale* : 400 $ (largeur d'aile − crédit = 10 × 100 − 600)
+* *Seuils de rentabilité* : 94 $ (100 − 6) et 106 $ (100 + 6)
+
+=== Schéma P&L
+
+._Iron Butterfly — Action à 100 $, strikes 90/100/110 $, crédit 6 $, breakeven 94–106 $_
+[mermaid]
+....
+xychart-beta
+    title "Iron Butterfly — P&L à expiration (par contrat de 100 actions)"
+    x-axis ["75 $", "85 $", "90 $", "94 $", "100 $", "106 $", "110 $", "120 $"]
+    y-axis "P&L ($)" -700 --> 900
+    bar [-400, -400, -400, 0, 600, 0, -400, -400]
+    line [-400, -400, -400, 0, 600, 0, -400, -400]
+....
+
+NOTE: Le profit est maximum au centre (100 $) et décroît symétriquement vers les deux ailes.
+En dessous de 90 $ ou au-dessus de 110 $, la perte est plafonnée à 400 $.
+
+=== Exemple chiffré complet
+
+[cols="1,1,1,1,1,1"]
+|===
+| Prix à expiration | Short Put 100 $ | Short Call 100 $ | Long Put 90 $ | Long Call 110 $ | P&L Total
+
+| 75 $ | −2 500 $ | +400 $ | +1 500 $ | 0 $ | −600 $ → max loss
+| 85 $ | −1 500 $ | +400 $ | +500 $ | 0 $ | −600 $ → capped
+| 90 $ | −1 000 $ | +400 $ | 0 $ | 0 $ | −600 $ + crédit initial → −400 $
+| 94 $ | −600 $ | +400 $ | 0 $ | 0 $ | 0 $ (breakeven)
+| 100 $ | 0 $ | +400 $ | 0 $ | 0 $ | +600 $ (max profit)
+| 106 $ | 0 $ | −200 $ | 0 $ | 0 $ | 0 $ (breakeven haut)
+| 110 $ | 0 $ | −600 $ | 0 $ | 0 $ | 0 $ − 600 $ + crédit → −400 $
+| 120 $ | 0 $ | −1 600 $ | 0 $ | +1 000 $ | −600 $ → max loss
+|===
+
+NOTE: Dans le tableau ci-dessus, les valeurs des options sont calculées à partir de leur P&L par rapport à la prime initiale encaissée/payée. La perte maximale est toujours plafonnée à (largeur d'aile × 100) − crédit net = (10 × 100) − 600 = 400 $.
+
+=== Quand utiliser l'Iron Butterfly
+
+[cols="1,1"]
+|===
+| Situation favorable | Situation défavorable
+
+| VIX élevé (> 25) — primes gonflées | VIX bas — crédit insuffisant
+| Action attendue en range ou stagnation | Fort mouvement imminent (résultats, Fed)
+| Vous anticipez une contraction de l'IV | Vous anticipez une accélération de la volatilité
+| 20–45 jours avant expiration | Trop loin de l'expiration (theta trop lent)
+|===
+
+WARNING: Avant une annonce majeure (résultats trimestriels, décision Fed), ne vendez *jamais* un Iron Butterfly — le mouvement peut dépasser largement vos breakevens.
+
+=== Règles pratiques
+
+. *Entrez quand l'IV Rank est > 50* (la volatilité est haute par rapport à son historique)
+. *Visez un crédit ≥ 30–40 % de la largeur d'une aile* (ex: aile de 10 $, crédit ≥ 3–4 $)
+. *Fermez à 25–50 % du crédit* (ex: encaissé 600 $, fermez quand vous avez gagné 150–300 $)
+. *Stop loss* : fermez si la perte atteint 150–200 % du crédit encaissé
+. *DTE idéal* : entrez à 30–45 jours, fermez à 10–15 jours avant expiration
+
+'''
+
+== Broken Wing Butterfly — Fonctionnement
+
+=== Principes
+
+Dans un Butterfly standard, les deux ailes sont égales (ex : strikes à −10, 0, +10).
+Dans un *Broken Wing Butterfly*, vous élargissez une aile.
+
+Exemple : au lieu d'acheter le put à 90 $, vous achetez le put à 85 $ (aile basse plus large).
+
+Résultat :
+
+* Vous collectez un *crédit légèrement plus élevé* (ou réduisez le débit)
+* *Une aile est moins protégée* (du côté élargi) — risque accru en cas de fort mouvement dans ce sens
+* *Biais directionnel* : idéal si vous pensez que le risque est asymétrique (ex: marché peu susceptible de chuter de 15 % mais pouvant monter)
+
+=== Exemple simplifié (BWB put élargi)
+
+[cols="1,1,1,1"]
+|===
+| Jambe | Action | Strike | Prime
+
+| Short Put ATM | Vente 1 put | 100 $ | +4 $
+| Short Call ATM | Vente 1 call | 100 $ | +4 $
+| Long Call OTM | Achat 1 call | 110 $ | −1 $
+| Long Put OTM *élargi* | Achat 1 put | 85 $ | −0,5 $
+| *Crédit net* | | | *+6,5 $ = +650 $ / contrat*
+|===
+
+* Crédit légèrement supérieur (+50 $ vs Iron Butterfly)
+* Mais si l'action tombe sous 85 $, la perte max est plus élevée : (15 × 100) − 650 = 850 $
+* En contrepartie, si la chute est modérée (entre 85 $ et 94 $), vous perdez moins vite
+
+'''
+
+== Comparatif des trois variantes
+
+[cols="1,1,1,1,1,1"]
+|===
+| Variante | Débit/Crédit | Max Profit | Max Perte | Complexité | Idéale pour
+
+| Standard Butterfly
+| Débit | Élevé (strike central) | Débit payé | Modérée | Action attendue immobile à un niveau précis
+
+| Iron Butterfly
+| Crédit | Crédit encaissé | Aile − crédit | Modérée | Haute IV, range attendu, génération de revenus
+
+| Broken Wing Butterfly
+| Crédit (plus élevé) | Crédit encaissé | Variable (aile élargie) | Élevée | Biais directionnel, prime plus élevée acceptée
+|===
+
+'''
+
+== Références
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://youtu.be/xgKPl3VDUgc[Butterfly Options Explained: Iron vs Standard vs Broken Wing]
+| Explication complète des variantes du Butterfly et leur application pratique
+|===
+
+== Voir aussi
+
+* xref:strategies/global-strategy.adoc[Stratégie Globale — Quand utiliser le Butterfly ?]
+* xref:options/index.adoc[Concepts fondamentaux — Delta, Theta, IV, Grecs]
+* xref:hedging/vix-volatilite.adoc[VIX & Volatilité — Lire et anticiper la volatilité]
+* xref:strategies/wheel.adoc[Wheel / CSP — Alternative en haute volatilité]

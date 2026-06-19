@@ -1,0 +1,189 @@
+= Rolling Put Diagonal — Revenus Mensuels 15–30 %
+
+
+:description: Rolling Put Diagonal — stratégie hybride put diagonal renouvelé chaque mois pour générer des revenus réguliers sur le capital engagé
+
+xref:strategies/index.adoc[← Retour aux Stratégies]
+
+== Définition
+
+Le *Rolling Put Diagonal* est une stratégie hybride qui combine :
+
+* L'achat d'un *put long terme* (l'« ancre » — protection et levier)
+* La vente répétée de *puts court terme OTM* contre cette ancre
+
+L'analogie : c'est comme posséder un immeuble (le put long terme) et le louer chaque mois (les puts court terme vendus).
+Chaque mois, vous encaissez un loyer sans vendre votre immeuble.
+
+NOTE: Cette stratégie peut générer des revenus de *15–30 % par mois sur le capital engagé*, selon la volatilité et le sous-jacent. footnote:[Source : https://youtu.be/7DQWW_zCFUk]
+
+TIP: Le Rolling Put Diagonal est souvent appelé « Poor Man's Covered Put » (PMCP) — une version à capital réduit du Cash-Secured Put classique.
+
+'''
+
+== Comment ça fonctionne
+
+=== Structure de la position
+
+[cols="1,1,1,1"]
+|===
+| Jambe | Action | Caractéristiques | Rôle
+
+| *Ancre (Jambe longue)* | Achat 1 put | ITM, long terme (3–6 mois) | Fournit le levier et la couverture
+| *Court terme (Jambe courte)* | Vente 1 put | OTM, court terme (10–30 jours) | Génère le revenu mensuel
+|===
+
+La jambe longue (ancre) doit avoir :
+
+* Un *delta élevé* (0,70–0,80) — elle se comporte presque comme 100 actions vendues à découvert
+* Une *valeur temps importante* (expiration lointaine) pour amortir sa décroissance
+
+La jambe courte (roulement) doit avoir :
+
+* Un *delta faible* (0,20–0,30) — haute probabilité d'expirer OTM
+* Une *expiration proche* (10–30 jours) — theta maximal
+
+=== Cycle mensuel
+
+----
+  DÉBUT : Achat de l'ancre (put long terme ITM)
+  │
+  ├── Semaine 1–4 : Vente d'un put court terme OTM
+  │   → Encaissement d'une prime
+  │   │
+  │   ├── Put court terme expire OTM (cas favorable)
+  │   │   → Garder la prime → Recommencer le cycle
+  │   │
+  │   └── Put court terme approche du strike (cas défavorable)
+  │       → Rouler vers une expiration plus lointaine / strike plus bas
+  │
+  └── À l'approche de l'expiration de l'ancre (30–45 jours)
+      → Rouler l'ancre vers une expiration plus lointaine
+        (maintenez toujours 60+ jours sur l'ancre)
+----
+
+=== Exemple complet
+
+*Sous-jacent* : SPY (ETF S&P 500) à 450 $.
+
+*Étape 1 — Mise en place de l'ancre*
+
+[cols="1,1,1,1"]
+|===
+| Élément | Valeur | Calcul | Montant
+
+| Achat put SPY | Strike 430 $ (4,4 % OTM) | | −18 $ × 100 = −1 800 $
+| Expiration | 6 mois (180 DTE) | | Capital engagé : 1 800 $
+| Delta put | ≈ −0,72 | | Se comporte comme 72 actions vendues
+|===
+
+*Étape 2 — Premier roulement mensuel*
+
+[cols="1,1,1,1"]
+|===
+| Élément | Valeur | Calcul | Montant
+
+| Vente put SPY | Strike 430 $ (OTM) | | +2,50 $ × 100 = +250 $/mois
+| Expiration | 30 jours | | ROC mensuel : 250/1800 = 13,9 %
+| Annualisé | 12 × 13,9 % | | ~166 % annualisé (théorique)
+|===
+
+NOTE: En pratique, le ROC annualisé est plus modeste (30–60 %) car le marché ne reste pas stationnaire et les roulements ne sont pas tous optimaux.
+
+*Étape 3 — Gestion après 3 mois (3 roulements)*
+
+[cols="1,1,1"]
+|===
+| Période | Prime encaissée | Cumul
+
+| Mois 1 | +250 $ | 250 $
+| Mois 2 | +260 $ | 510 $
+| Mois 3 | +270 $ | 780 $
+|===
+
+Après 3 mois : 780 $ encaissés sur une ancre de 1 800 $.
+L'ancre a perdu ~300–400 $ de valeur temps (theta), mais les primes encaissées couvrent cette décroissance.
+*Profit net cumulé* : 780 $ − 400 $ (theta ancre) ≈ 380 $ sur 1 800 $ = 21 % en 3 mois.
+
+'''
+
+== Diagramme P&L d'un cycle mensuel
+
+._SPY à 450 $, ancre put 430 $ 6 mois, vente put 430 $ 30 jours, prime 2,50 $_
+[mermaid]
+....
+xychart-beta
+    title "Rolling Put Diagonal — P&L du cycle mensuel (prime encaissée sur la jambe courte)"
+    x-axis ["390 $", "405 $", "420 $", "430 $", "440 $", "450 $", "460 $", "470 $"]
+    y-axis "P&L cycle ($)" -600 --> 500
+    bar [-300, -100, 0, 250, 250, 250, 250, 250]
+    line [-300, -100, 0, 250, 250, 250, 250, 250]
+....
+
+NOTE: Au-dessus de 430 $, la prime de 250 $ est gagnée intégralement (put OTM expire sans valeur).
+En dessous de 430 $, le put vendu est exercé, mais l'ancre (put long ITM) compense partiellement la perte.
+Ce graphique ne montre que le P&L de la jambe courte — l'ancre absorbe la perte résiduelle.
+
+'''
+
+== Avantages vs Cash-Secured Put classique
+
+[cols="1,1,1"]
+|===
+| Critère | CSP classique | Rolling Put Diagonal
+
+| Capital requis | 100 % (strike × 100 actions) | 15–25 % (prime de l'ancre seulement)
+| ROC mensuel | 2–5 % | 10–20 % (sur capital engagé, plus faible)
+| Risque de détenir des actions | Oui (si assigné) | Non (contrôle via l'ancre)
+| Complexité | Faible | Modérée
+| Adapté aux petits comptes | Non | Oui
+|===
+
+TIP: Pour un compte de 10 000 $, le CSP classique sur SPY (450 $) immobilise 45 000 $ — impossible.
+Le Rolling Put Diagonal ne nécessite que 1 800 $ d'ancre pour une exposition similaire.
+
+'''
+
+== Quand utiliser le Rolling Put Diagonal
+
+[cols="1,1"]
+|===
+| Situation favorable | Situation défavorable
+
+| Marché stable ou légèrement baissier | Marché en forte chute (ancre perd de la valeur trop vite)
+| IV modérée — primes intéressantes sur l'ancre | IV très basse — revenus mensuels insuffisants
+| Compte de taille modeste (< 50 000 $) | Besoin de revenus très élevés chaque mois
+| Horizon de 3–6 mois minimum | Besoin de flexibilité et liquidité immédiate
+|===
+
+WARNING: Si le marché chute de plus de 15–20 % rapidement, l'ancre perd de la valeur et le coût de roulement augmente. *Gérez le risque en clôturant tôt* si le mouvement est défavorable.
+
+'''
+
+== Règles pratiques
+
+. *Ancre* : achetez un put à 60–90 % du prix actuel de l'action (légèrement OTM à ATM), 90–180 DTE.
+. *Jambe courte* : vendez un put à 90–95 % du prix actuel, 20–30 DTE.
+. *Ratio* : jambe longue delta ≥ 2× jambe courte delta (pour que l'ancre couvre bien la vente).
+. *Fermez la jambe courte à 50 % du profit* — ne soyez pas trop gourmand.
+. *Roulez l'ancre* quand elle descend à 30–45 DTE : vendez-la et rachetez une expiration plus lointaine.
+. *Stop loss global* : fermez tout si vous perdez > 2× la prime encaissée sur un cycle.
+
+'''
+
+== Références
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://youtu.be/7DQWW_zCFUk[Can This Options Strategy Really Make 15–30 % a Month?]
+| Présentation détaillée du Rolling Put Diagonal et de sa mécanique de revenus mensuels
+|===
+
+== Voir aussi
+
+* xref:strategies/global-strategy.adoc[Stratégie Globale — Quand utiliser le Rolling Put Diagonal ?]
+* xref:strategies/wheel.adoc[Wheel / CSP — Alternative avec détention d'actions]
+* xref:strategies/leaps.adoc[LEAPS — Stratégie similaire sur les calls]
+* xref:options/index.adoc[Concepts fondamentaux — Delta, Theta, IV]

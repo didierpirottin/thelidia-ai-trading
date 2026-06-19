@@ -1,0 +1,196 @@
+= Stock Repair Strategy — Réparer une Position Perdante
+
+
+:description: Stock Repair Strategy — abaisser le seuil de rentabilité d'une action en perte sans capital supplémentaire, grâce aux options
+
+xref:strategies/index.adoc[← Retour aux Stratégies]
+
+== Définition
+
+La *Stock Repair Strategy* (stratégie de réparation) est une technique qui permet d'*abaisser votre seuil de rentabilité* sur une action en perte, *sans injecter de capital supplémentaire* et sans avoir à vendre l'action à perte.
+
+L'analogie : vous avez acheté une voiture 20 000 € et sa valeur a chuté à 14 000 €.
+Au lieu de la vendre à perte ou d'attendre passivement qu'elle revienne à 20 000 €, vous trouvez une astuce pour la revendre à 17 000 € dès que le marché remonte légèrement.
+La Stock Repair fait exactement cela avec vos actions.
+
+NOTE: Cette stratégie ne *supprime pas* la perte — elle réduit le chemin nécessaire pour retrouver votre seuil de rentabilité, sans capital additionnel.
+
+'''
+
+== Quand l'utiliser
+
+* Vous possédez 100 actions achetées à un prix donné
+* L'action a chuté de *15 % ou plus*
+* Vous croyez toujours en l'action long terme (vous ne voulez pas vendre)
+* Vous ne voulez pas ajouter de capital (pas de "buying the dip")
+* Vous voulez réduire votre breakeven *sans risque supplémentaire significatif*
+
+WARNING: La Stock Repair *plafonne votre gain* au-dessus du nouveau breakeven. Si l'action monte fortement, vous manquez une partie de la hausse. C'est le prix à payer pour réduire le breakeven.
+
+'''
+
+== Comment ça fonctionne
+
+=== Structure
+
+. *Acheter 1 call ATM* (au cours actuel de l'action — pas à votre prix d'achat initial)
+. *Vendre 2 calls OTM* (à un strike supérieur, souvent à mi-chemin entre cours actuel et prix d'achat)
+
+La vente des 2 calls *finance* l'achat du call ATM.
+Résultat : *coût net nul* (ou quasi nul) pour la réparation.
+
+=== Exemple détaillé
+
+*Situation initiale* :
+
+[cols="1,1"]
+|===
+| Élément | Valeur
+
+| Prix d'achat initial | 100 $
+| Prix actuel de l'action | 80 $ (chute de −20 %)
+| Perte latente | −2 000 $ sur 100 actions
+| Breakeven actuel | 100 $ (il faut remonter à 100 $ pour être à l'équilibre)
+|===
+
+*Mise en place de la réparation* :
+
+[cols="1,1,1,1"]
+|===
+| Jambe | Action | Strike | Prime
+
+| Achat 1 call | Long call | 80 $ (ATM) | −6 $ × 100 = −600 $
+| Vente 2 calls | 2× short call | 90 $ (OTM) | +3 $ × 200 = +600 $
+| *Coût net de la réparation* | | | *0 $ — gratuit !*
+|===
+
+=== Résultat : nouveau breakeven
+
+Avec la réparation, vous récupérez l'équivalent de 100 % de gain entre 80 $ et 90 $ (via le long call + stock), puis vous êtes bloqué (via les 2 short calls).
+
+Nouveau breakeven : *90 $* au lieu de *100 $*
+Réduction du chemin de récupération : de −20 % nécessaire à −10 % seulement.
+
+'''
+
+== Schéma P&L
+
+._100 actions à 100 $, cours actuel 80 $. Réparation : long call 80 $, 2× short call 90 $, coût net 0 $_
+[mermaid]
+....
+xychart-beta
+    title "Stock Repair — P&L total (stock + options) à expiration"
+    x-axis ["65 $", "75 $", "80 $", "85 $", "90 $", "95 $", "100 $", "110 $"]
+    y-axis "P&L ($)" -4000 --> 1500
+    bar [-3500, -2500, -2000, -1000, 0, 0, 0, 0]
+    line [-3500, -2500, -2000, -1000, 0, 0, 0, 0]
+....
+
+NOTE: Le P&L est plafonné à 0 $ au-delà de 90 $. C'est le compromis : le nouveau breakeven est à 90 $ (vs 100 $), mais vous ne bénéficiez pas de la hausse au-delà.
+En dessous de 80 $, les options expirent sans valeur (coût = 0 $) — votre situation est identique à celle d'un simple détenteur des actions.
+
+'''
+
+== Tableau comparatif : avec vs sans réparation
+
+[cols="1,1,1,1"]
+|===
+| Prix à expiration | Sans réparation | Avec réparation | Amélioration
+
+| 65 $ | −3 500 $ | −3 500 $ | Identique (options sans valeur)
+| 75 $ | −2 500 $ | −2 500 $ | Identique
+| 80 $ | −2 000 $ | −2 000 $ | Identique (point d'entrée des options)
+| 85 $ | −1 500 $ | −1 000 $ | +500 $ (call long en jeu)
+| 90 $ | −1 000 $ | 0 $ | +1 000 $ (nouveau breakeven !)
+| 95 $ | −500 $ | 0 $ | +500 $ (2 calls courts plafonnent)
+| 100 $ | 0 $ | 0 $ | Identique (ancien breakeven)
+| 110 $ | +1 000 $ | 0 $ | −1 000 $ (vous manquez la hausse)
+|===
+
+NOTE: Au-dessus du nouveau breakeven (90 $), les 2 calls vendus neutralisent exactement le gain supplémentaire du call acheté *et* du gain sur les actions. C'est pourquoi le P&L est plafonné à 0 $ entre 90 $ et 100 $.
+
+[example]
+====
+*Explication détaillée à 90 $* :
+
+* Stock : (90 $ − 100 $) × 100 = −1 000 $ (perte latente sur les actions)
+* Long call 80 $ : (90 − 80) × 100 = +1 000 $
+* 2× short call 90 $ : les 2 calls expirent ATM (valeur nulle à expiration) = 0 $
+
+P&L total = −1 000 + 1 000 + 0 = *0 $* ← nouveau breakeven atteint !
+
+*Explication à 100 $* :
+
+* Stock : 0 $ (retour au prix d'achat)
+* Long call 80 $ : (100 − 80) × 100 = +2 000 $
+* 2× short call 90 $ : (100 − 90) × 200 = −2 000 $
+
+P&L total = 0 + 2 000 − 2 000 = *0 $* ← toujours plafonné
+====
+
+'''
+
+== Avantages et inconvénients
+
+[cols="1,1"]
+|===
+| Avantages | Inconvénients
+
+| *Coût nul* — pas besoin de capital supplémentaire | Gain plafonné au-dessus du nouveau breakeven
+| Réduit le chemin de récupération de moitié | L'action doit quand même remonter jusqu'au nouveau breakeven
+| Simple à comprendre et à mettre en place | Uniquement applicable si vous croyez encore en l'action
+| Pas de risque additionnel sous le cours actuel | Nécessite que les options aient une liquidité suffisante
+| Psychologiquement rassurant — vous agissez | Ne convient pas si vous souhaitez sortir rapidement
+|===
+
+'''
+
+== Règles pratiques
+
+. *N'appliquez la réparation que si vous êtes fondamentalement confiant* : l'action va remonter.
+. *Strike du call ATM* : achetez au cours actuel, pas à votre prix d'achat (l'ATM de *maintenant*).
+. *Strike des 2 calls OTM* : choisissez environ à mi-chemin entre le cours actuel et votre prix d'achat.
+. *Expiration* : 30–60 jours — assez court pour que le theta joue en votre faveur sur les calls vendus.
+. *Vérifiez que le crédit des 2 calls vendus ≥ débit du call acheté* avant d'entrer.
+. *Si l'action repart fortement à la hausse et dépasse les calls vendus* : roulez les 2 calls vers un strike plus haut pour "déplacer le plafond" vers le haut.
+
+TIP: Si après la réparation l'action remonte au-delà du nouveau breakeven (90 $ dans l'exemple), vous pouvez *rouler les 2 calls courts à la hausse* pour dégager un peu de profit supplémentaire.
+
+'''
+
+== Variante : réparation partielle
+
+Si vous ne voulez pas bloquer tout votre gain potentiel, vous pouvez faire une réparation *partielle* :
+
+* Achetez 1 call ATM
+* Vendez *1 seul* call OTM (au lieu de 2)
+
+Résultat : la réparation est *partiellement financée* (vous payez une prime nette modeste), mais vous conservez la moitié du gain au-delà du strike OTM.
+
+[cols="1,1,1"]
+|===
+| Type de réparation | Coût | Gain au-delà du strike OTM
+
+| Réparation complète (1 call ATM / 2 calls OTM) | 0 $ | Plafonné
+| Réparation partielle (1 call ATM / 1 call OTM) | Petit débit | Plafonné à 50 % du gain potentiel
+| Aucune réparation | 0 $ | Illimité mais seuil à −20 %
+|===
+
+'''
+
+== Références
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://youtu.be/2r708o7u-1k[Stock Repair Strategy: Turn Losing Trades Into Winners]
+| Présentation complète de la stratégie de réparation — méthode et gestion
+|===
+
+== Voir aussi
+
+* xref:strategies/global-strategy.adoc[Stratégie Globale — Quand utiliser la Stock Repair ?]
+* xref:strategies/wheel.adoc[Wheel / CSP — Après la réparation, générer des revenus]
+* xref:hedging/protective-put.adoc[Protective Put — Protéger une position avant qu'elle ne chute]
+* xref:options/index.adoc[Concepts fondamentaux — Calls, Puts, Strike, Delta]

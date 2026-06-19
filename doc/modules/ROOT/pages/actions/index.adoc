@@ -1,0 +1,131 @@
+= Actions — Analyse et Sélection
+
+
+:description: Investissement en actions — analyse fondamentale, analyse technique, sélection de titres, types d'ordres
+
+Les *actions* (ou titres) représentent une participation dans le capital d'une entreprise cotée en bourse.
+Posséder une action, c'est être copropriétaire de l'entreprise : vous bénéficiez de sa croissance, de ses dividendes, mais aussi de ses pertes potentielles.
+
+*Analogie* : acheter une action, c'est comme acheter une part dans une boulangerie.
+Si la boulangerie prospère, votre part vaut plus. Si elle ferme, vous perdez votre mise.
+
+'''
+
+== Analyse fondamentale
+
+L'analyse fondamentale évalue la *valeur intrinsèque* d'une entreprise en étudiant ses données financières, son secteur, et sa position concurrentielle.
+L'objectif : identifier des actions dont le *prix de marché est inférieur à la valeur réelle* de l'entreprise.
+
+=== Indicateurs clés
+
+[cols="1,2,2"]
+|===
+| Indicateur | Description | Interprétation pratique
+
+| *P/E* (Price-to-Earnings) | Ratio cours / bénéfice par action | P/E < 15 : potentiellement sous-évalué ; P/E > 30 : cher mais croissance attendue
+| *PEG* | P/E divisé par le taux de croissance attendu | PEG < 1 : attractive ; PEG > 2 : trop cher vs croissance
+| *P/B* (Price-to-Book) | Ratio cours / valeur comptable | P/B < 1 : l'action vaut moins que les actifs nets
+| *Dividende* | Distribution annuelle aux actionnaires | Rendement > 4 % : élevé — vérifier la pérennité
+| *Free Cash Flow* | Flux de trésorerie disponible après investissements | FCF positif = entreprise génère du cash réel
+| *Marge nette* | Bénéfice net / chiffre d'affaires | > 20 % : entreprise très rentable (GAFAM, pharma)
+| *Dette / EBITDA* | Niveau d'endettement relatif | < 2 : sain ; > 4 : risqué en cas de remontée des taux
+|===
+
+TIP: Pour les débutants, concentrez-vous d'abord sur *3 indicateurs* : P/E (est-ce cher ?), Free Cash Flow (est-ce profitable ?) et Dividende (est-ce que ça verse du revenu ?).
+
+=== Critères de qualité (actions de type "Buffett")
+
+Une action de qualité pour une stratégie long terme (Wheel, LEAPS) présente généralement :
+
+* *Avantage concurrentiel durable* (marque forte, réseau, coûts de transfert élevés)
+* *Bénéfices prévisibles et croissants* sur 5–10 ans
+* *Management fiable* avec historique de création de valeur
+* *Bilan solide* (faible dette, FCF positif)
+* *Secteur compréhensible* — n'investissez pas dans ce que vous ne comprenez pas
+
+'''
+
+== Analyse technique
+
+L'analyse technique étudie les *graphiques de prix et de volume* pour anticiper les mouvements futurs.
+Elle ne dit pas *pourquoi* une action va bouger, mais *quand* un mouvement est probable selon les patterns historiques.
+
+=== Concepts de base
+
+[cols="1,3"]
+|===
+| Concept | Description
+
+| *Support* | Niveau de prix où les acheteurs reviennent systématiquement — plancher psychologique
+| *Résistance* | Niveau de prix où les vendeurs s'activent systématiquement — plafond psychologique
+| *Tendance haussière* | Succession de plus-hauts et plus-bas croissants
+| *Tendance baissière* | Succession de plus-hauts et plus-bas décroissants
+| *MA20 / MA50 / MA200* | Moyennes mobiles — lissent les mouvements pour identifier la tendance de fond
+| *Volume* | Confirme la force d'un mouvement — une cassure avec fort volume est plus fiable
+|===
+
+=== Indicateurs courants
+
+[cols="1,3"]
+|===
+| Indicateur | Usage
+
+| *RSI* (Relative Strength Index) | RSI > 70 : suracheté (possible retournement) ; RSI < 30 : survendu (possible rebond)
+| *MACD* | Croisements signalent les changements de tendance
+| *Bandes de Bollinger* | Mesure la volatilité — prix hors bandes = mouvement extrême potentiellement réversible
+|===
+
+TIP: L'analyse technique est utile pour *choisir le bon moment d'entrée* sur une action déjà sélectionnée fondamentalement.
+N'utilisez pas la technique seule sans comprendre l'entreprise sous-jacente.
+
+'''
+
+== Types d'ordres
+
+[cols="1,2,2"]
+|===
+| Type | Description | Quand l'utiliser
+
+| *Market Order* | Exécution immédiate au meilleur prix disponible | Achat / vente urgent sur actif très liquide
+| *Limit Order* | Exécution uniquement au prix défini ou meilleur | Toujours préférable pour les options et actions peu liquides
+| *Stop Order* | Déclenché quand le prix atteint un seuil | Stop-loss automatique
+| *Stop-Limit* | Stop + Limit combinés | Stop-loss avec contrôle du prix d'exécution
+|===
+
+WARNING: Pour les options, *utilisez toujours des Limit Orders* — le spread bid/ask peut être large et un Market Order peut vous faire payer beaucoup plus cher que prévu.
+
+'''
+
+== Guide décisionnel — Choisir et timer une action
+
+----
+  VOTRE OBJECTIF                            ACTION RECOMMANDÉE
+  ─────────────────────────────────────────────────────────────────────
+
+  Investissement long terme (5–10 ans)
+  ├── Entreprise de qualité, prix raisonnable → Achat direct, conserver
+  └── Entreprise de qualité, prix élevé      → Attendre une correction ou utiliser un CSP
+
+  Investissement moyen terme (6–18 mois)
+  ├── Vous êtes bullish après une correction  → LEAPS Call (levier contrôlé)
+  └── Vous voulez générer du revenu           → Wheel / CSP
+
+  Sécuriser une position existante
+  ├── Forte plus-value latente               → Protective Put ou Collar
+  └── Action en perte                        → Stock Repair Strategy
+
+  Identifier le bon moment d'achat
+  ├── RSI < 30 + support technique           → Signal d'entrée potentiel
+  └── Action > MA200                         → Tendance long terme haussière confirmée
+----
+
+'''
+
+== Voir aussi
+
+* xref:options/index.adoc[Options — Calls, Puts, Grecs : amplifier les mouvements des actions]
+* xref:strategies/wheel.adoc[Wheel / CSP — Acquérir des actions de qualité à prix réduit]
+* xref:strategies/leaps.adoc[LEAPS — Participer à la hausse d'une action avec levier]
+* xref:strategies/stock-repair.adoc[Stock Repair — Réparer une position en perte]
+* xref:hedging/protective-put.adoc[Protective Put — Protéger une position longue]
+* xref:portfolio/index.adoc[Gestion de Portefeuille — Allocation, sizing, risque]

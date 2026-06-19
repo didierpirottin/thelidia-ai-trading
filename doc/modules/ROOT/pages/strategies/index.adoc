@@ -1,0 +1,164 @@
+= Stratégies
+
+:description: Stratégies de trading et d'investissement en options et actions — vue d'ensemble et liens vers les guides détaillés
+
+== Vision globale
+
+Pour une approche structurée par phase de marché (correction, rebond, haute volatilité, protection des gains), consultez d'abord la page de synthèse :
+
+* xref:strategies/global-strategy.adoc[*Stratégie Globale* — Arbre de décision et tableau de synthèse complet]
+
+'''
+
+== Stratégies de génération de revenus
+
+=== xref:strategies/wheel.adoc[Wheel / Cash-Secured Put (CSP)]
+
+Cycle en deux phases : vendre un put → si assigné, vendre un call → répéter.
+
+* *Profil* : revenus réguliers de 2–5 %/mois, achat d'actions à prix réduit
+* *Risque* : détention d'actions en baisse si assigné
+* *Contexte* : marché stable, action de qualité, IV modérée à haute
+
+=== xref:strategies/rolling-put-diagonal.adoc[Rolling Put Diagonal]
+
+Achat d'un put long terme (ancre) + vente mensuelle de puts court terme contre lui.
+
+* *Profil* : revenus 10–20 %/mois sur capital engagé, sans détenir d'actions
+* *Risque* : ancre perd de la valeur si forte baisse
+* *Contexte* : marché stable, comptes de taille modeste
+
+'''
+
+== Stratégies directionnelles long terme
+
+=== xref:strategies/leaps.adoc[LEAPS Calls & Zébra]
+
+Achat de calls ou puts à longue échéance (12–24 mois) pour participer à un rebond avec levier contrôlé.
+
+* *Profil* : effet de levier, risque limité à la prime, pas de dividendes
+* *Risque* : perte totale de la prime si l'action ne remonte pas
+* *Contexte* : après une correction, IV basse, horizon long terme
+
+'''
+
+== Stratégies sur la volatilité
+
+=== xref:strategies/butterfly.adoc[Butterfly — Iron, Standard, Broken Wing]
+
+Combinaison de trois strikes pour profiter d'une action neutre et d'une contraction de la volatilité.
+
+* *Profil* : crédit encaissé (Iron Butterfly), profit si l'action reste dans une plage
+* *Risque* : perte limitée aux ailes du spread
+* *Contexte* : VIX élevé (IV haute), marché en range attendu
+
+=== Bull Call Spread
+
+Achat d'un call à strike bas + vente d'un call à strike haut (même expiration).
+
+* *Profil* : gain limité, perte limitée, coût réduit vs achat de call seul
+* *Contexte* : vision haussière modérée
+
+=== xref:hedging/bear-put-spread.adoc[Bear Put Spread]
+
+Achat d'un put à strike haut + vente d'un put à strike bas (même expiration).
+
+* *Profil* : gain limité, perte limitée, coût réduit vs put seul
+* *Contexte* : vision baissière modérée ou correction anticipée (voir aussi xref:hedging/bear-put-spread.adoc[guide détaillé dans Hedging])
+
+=== Iron Condor
+
+Combinaison d'un Bull Put Spread + Bear Call Spread.
+
+* *Profil* : profit si le sous-jacent reste dans une plage de prix définie
+* *Contexte* : faible volatilité attendue, marché en range (variante de l'xref:strategies/butterfly.adoc[Iron Butterfly])
+
+=== Straddle / Strangle
+
+Achat simultané d'un call et d'un put (même strike pour le straddle, strikes différents pour le strangle).
+
+* *Profil* : profit si fort mouvement dans un sens ou l'autre
+* *Contexte* : forte volatilité attendue (résultats trimestriels, événements macro)
+
+'''
+
+== Stratégie de réparation
+
+=== xref:strategies/stock-repair.adoc[Stock Repair Strategy]
+
+Abaisse le seuil de rentabilité d'une action en perte sans capital supplémentaire.
+
+* *Profil* : coût nul, nouveau breakeven plus bas, mais gain plafonné
+* *Risque* : vous manquez la hausse au-delà du nouveau breakeven
+* *Contexte* : action en perte de 15 %+, conviction long terme intacte
+
+'''
+
+== Guide décisionnel — Quelle stratégie pour quelle situation ?
+
+----
+  VOTRE SITUATION                              STRATÉGIE RECOMMANDÉE
+  ─────────────────────────────────────────────────────────────────────────
+
+  Marché après une correction (−15 %+), IV basse
+  ├── Capital disponible, horizon 12–24 mois    → LEAPS Calls (delta 0,70–0,80)
+  └── Budget limité, comportement proche actions → Stratégie Zébra
+
+  Marché stable ou haussier (IV modérée)
+  ├── Vous voulez des revenus sur vos actions    → Covered Call (Phase 2 Wheel)
+  ├── Vous voulez acquérir des actions à bas prix → Cash-Secured Put (Phase 1 Wheel)
+  ├── Vous voulez des revenus sans détenir d'actions → Rolling Put Diagonal
+  └── Vous avez une position Wheel en cours      → Continuer le cycle CSP → CC
+
+  Volatilité élevée (VIX > 25)
+  ├── Marché en range attendu, IV à vendre       → Iron Butterfly / Iron Condor
+  └── Actions de qualité avec primes gonflées    → CSP (rendements très attractifs)
+
+  Vous anticipez un mouvement directionnel
+  ├── Hausse modérée, budget limité              → Bull Call Spread
+  ├── Baisse modérée anticipée                   → Bear Put Spread
+  └── Fort mouvement prévu (annonce, résultats)  → Straddle / Strangle
+
+  Situation délicate
+  ├── Action en perte −15 %+, vous croyez encore dessus → Stock Repair Strategy
+  └── Gains latents à protéger                   → Voir Hedging (Protective Put, Collar)
+----
+
+'''
+
+== Tableau comparatif des stratégies
+
+[cols="2,1,1,1,1,2"]
+|===
+| Stratégie | Phase | IV | Risque | Revenus | Idéale pour
+
+| xref:strategies/leaps.adoc[LEAPS Calls]
+| Correction → Rebond | Basse | Limité (prime) | Non | Levier long terme après correction
+
+| xref:strategies/leaps.adoc#zebra[Zébra]
+| Correction → Rebond | Basse | Limité (prime) | Non | Simuler 100 actions à −40 % de coût
+
+| xref:strategies/wheel.adoc[Wheel / CSP]
+| Stable / Haussier | Modérée–haute | Modéré (achat forcé) | 2–5 %/mois | Revenus + acquisition d'actions qualité
+
+| xref:strategies/rolling-put-diagonal.adoc[Rolling Put Diagonal]
+| Stable | Modérée | Modéré | 10–20 %/mois | Revenus élevés sur petit capital
+
+| xref:strategies/butterfly.adoc[Iron Butterfly]
+| Volatil, range | Haute (> 25) | Limité (spread) | Crédit | Vente de volatilité, marché en range
+
+| xref:hedging/bear-put-spread.adoc[Bear Put Spread]
+| Tout | Variable | Limité (débit) | Non | Protection économique, correction modérée
+
+| xref:strategies/stock-repair.adoc[Stock Repair]
+| Post-baisse | Modérée | Plafonné | Non | Abaisser breakeven sans coût
+|===
+
+'''
+
+== Voir aussi
+
+* xref:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision complet par phase de marché]
+* xref:options/index.adoc[Concepts fondamentaux des options — Calls, Puts, Grecs]
+* xref:hedging/index.adoc[Hedging — Protection du portefeuille]
+* xref:portfolio/index.adoc[Gestion de Portefeuille — Position Sizing, Risque]

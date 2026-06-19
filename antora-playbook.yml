@@ -1,0 +1,26 @@
+site:
+  title: Thelidia Invest — Base de Connaissance
+  start_page: invest-kb::index.adoc
+
+antora:
+  extensions:
+    - '@antora/lunr-extension'
+
+asciidoc:
+  extensions:
+    - ./lib/mermaid-extension.js
+
+content:
+  sources:
+    - url: .
+      branches: [HEAD]
+      start_path: doc
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./ui-supplement
+
+output:
+  dir: ./build/site

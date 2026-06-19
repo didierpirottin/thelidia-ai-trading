@@ -1,0 +1,7 @@
+= Hedging
+
+Voici quelques liens qui me semblent intéressants pour les stratégies de hedging) :
+
+* link:https://youtu.be/MDKYcK8Fcxo[Hedge Like a Pro: Options Strategies to Protect From a Market Crash in 2026 (YouTube)]
+* link:https://www.cboe.com/tradable_products/vix/[CBOE VIX — Données et contrats VIX]
+* link:https://www.optionstrading.org/blog/options-portfolio-hedging-strategies/[Options Portfolio Hedging Strategies (optionstrading.org)]

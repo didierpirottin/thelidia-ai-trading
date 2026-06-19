@@ -1,0 +1,162 @@
+= Hedging — Vue d'ensemble
+:description: Introduction au hedging, concepts clés, comparatif des stratégies de couverture de portefeuille
+
+Le *hedging* (couverture) est l'ensemble des techniques qui permettent de _réduire le risque de perte_ sur un portefeuille, à l'image d'une assurance.
+Vous ne supprimez pas le risque — vous l'encadrez, le limitez, le rendez prévisible.
+
+TIP: Hedger son portefeuille, c'est comme assurer sa voiture.
+Vous payez une prime régulière (le coût de la couverture) pour éviter la catastrophe financière en cas d'accident (krach boursier).
+
+'''
+
+== Pourquoi hedger ?
+
+=== Le danger du drawdown
+
+Un *drawdown* est la chute d'un portefeuille depuis son plus haut.
+Ce qui est insidieux avec les drawdowns, c'est l'asymétrie mathématique de la récupération :
+
+[cols="1,1,1"]
+|===
+| Perte subie | Gain nécessaire pour récupérer | Durée typique
+
+| -10 % | +11 % | Quelques semaines
+| -25 % | +33 % | Plusieurs mois
+| -50 % | +100 % | Des années
+| -75 % | +300 % | Très long terme (ou jamais)
+|===
+
+WARNING: Le S&P 500 a perdu *-57 %* lors de la crise de 2008–2009.
+Un portefeuille de 100 000 € est tombé à 43 000 €.
+Il a fallu attendre *2013* pour retrouver le niveau de 2007.
+
+=== Les deux types de risque
+
+[cols="1,2,2"]
+|===
+| Type | Description | Peut-on le hedger ?
+
+| *Risque systémique* | Concerne tout le marché (krach, récession, crise financière) | Oui — c'est l'objet principal du hedging
+| *Risque spécifique* | Propre à une entreprise (scandale, faillite, mauvais résultats) | Partiellement — via diversification et puts individuels
+|===
+
+=== La psychologie : pourquoi la protection aide à mieux trader
+
+Un portefeuille couvert permet de :
+
+* *Ne pas paniquer* lors d'une correction — vous savez que votre perte est limitée
+* *Tenir ses positions* au lieu de vendre au plus bas par peur
+* *Dormir sereinement* même quand les marchés sont volatils
+
+'''
+
+== Concepts clés
+
+=== Le Delta : mesurer son exposition réelle
+
+Le *Delta* mesure de combien votre portefeuille bouge pour chaque variation de 1 $ du marché.
+
+* Un portefeuille 100 % actions a un Delta positif → vous perdez quand le marché baisse
+* L'objectif du hedging est de *réduire ce Delta* en ajoutant des positions à Delta négatif (puts)
+
+=== Le Beta Weighting : normaliser le risque
+
+Pour un portefeuille multi-lignes, chaque action contribue différemment au risque global selon son *Beta* (sensibilité au marché).
+Il faut pondérer le Delta de chaque position avant de calculer la taille de la couverture.
+
+[source]
+----
+Delta pondéré = Delta position × Beta de l'action
+----
+
+=== Le coût de la protection
+
+Le coût d'un put dépend de la *volatilité implicite (IV)* au moment de l'achat.
+
+TIP: *Règle d'or* : achetez la protection quand le VIX est bas (< 20), pas quand il est à 40.
+Les puts sont 2 à 3 fois moins chers en période calme qu'en période de panique.
+
+'''
+
+== Les stratégies de hedging
+
+[cols="1,1,1,1,1,1"]
+|===
+| Stratégie | Coût | Complexité | Protection | Gain limité ? | Idéale pour
+
+| xref:hedging/protective-put.adoc[Protective Put]
+| Modéré | Facile | Illimitée sous le strike | Non | Protection d'une ligne individuelle
+
+| xref:hedging/collar.adoc[Collar]
+| Faible (prime nette) | Facile | Illimitée sous le put strike | Oui | Sécuriser des plus-values latentes
+
+| xref:hedging/bear-put-spread.adoc[Bear Put Spread]
+| Faible | Modéré | Limitée entre les deux strikes | Oui | Correction modérée attendue
+
+| xref:hedging/couverture-indices.adoc[Couverture par indices]
+| Variable | Modéré | Risque systémique global | Non | Portefeuille diversifié multi-lignes
+
+| xref:hedging/vix-volatilite.adoc[VIX & Volatilité]
+| Faible à modéré | Complexe | Court terme uniquement | Non | Choc de volatilité imminent
+|===
+
+'''
+
+== Guide décisionnel
+
+----
+  Votre situation                          Stratégie recommandée
+  ───────────────────────────────────────────────────────────────────
+
+  Vous avez UNE action avec des PV
+  ├── Vous voulez garder toute la hausse  → Protective Put
+  └── Vous acceptez de plafonner la hausse → Collar (moins cher)
+
+  Vous avez UN portefeuille diversifié
+  ├── Correction modérée attendue         → Bear Put Spread sur SPY
+  └── Krach majeur redouté               → Put ATM sur SPY / SPX
+
+  Vous anticipez un choc de volatilité
+  └── Court terme (jours / semaines)      → Calls VIX ou UVXY tactique
+
+  Votre budget hedging est très limité
+  └── Protection partielle acceptable     → Bear Put Spread (coût minimal)
+
+  Vous ne savez pas quoi faire
+  └── Le VIX est bas (< 20)              → C'est le meilleur moment pour acheter
+      Le VIX est élevé (> 30)            → Réduire les positions plutôt que hedger
+----
+
+'''
+
+== Règles pratiques
+
+. *Hedgez avant, pas pendant.* La protection coûte 2–3× plus cher quand le marché est déjà en crise.
+. *Dimensionnez votre protection.* Couvrir 100 % est coûteux et rarement nécessaire — 30–50 % du risque suffit souvent.
+. *Comptabilisez le coût annualisé.* Visez un coût de couverture < 1–2 % du portefeuille par an via des stratégies de financement (Collar, Spread).
+. *Réévaluez régulièrement.* Le Delta de votre couverture change avec le marché — vérifiez chaque mois.
+. *Tenez le plan.* Si votre couverture s'active, _c'est normal et c'est exactement pour ça que vous avez hedgé_.
+
+'''
+
+== Références
+
+[cols="1,3"]
+|===
+| Ressource | Description
+
+| link:https://youtu.be/MDKYcK8Fcxo[Hedge Like a Pro: Options Strategies to Protect From a Market Crash in 2026 (YouTube)]
+| Stratégies options concrètes pour se protéger d'un krach marché en 2026
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Données officielles, contrats et documentation sur le VIX
+
+| link:https://www.optionstrading.org/blog/options-portfolio-hedging-strategies/[Options Portfolio Hedging Strategies (optionstrading.org)]
+| Article sur les stratégies de hedging de portefeuille avec les options
+|===
+
+== Voir aussi
+
+* xref:options/index.adoc[Options — concepts fondamentaux (Calls, Puts, Grecs)]
+* xref:strategies/index.adoc[Stratégies — Covered Call, CSP, Iron Condor]
+* xref:portfolio/index.adoc[Gestion de Portefeuille — Position Sizing, Beta]

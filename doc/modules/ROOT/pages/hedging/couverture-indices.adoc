@@ -1,0 +1,150 @@
+= Couverture par les Indices
+:description: Hedger un portefeuille entier via des puts sur indices (SPY, SPX, QQQ) — beta weighting et sizing
+
+
+
+xref:hedging/index.adoc[← Retour à l'overview Hedging]
+
+Si votre portefeuille contient de nombreuses lignes, acheter un put sur chaque action est compliqué et coûteux.
+La solution : couvrir le *risque systémique global* en achetant des puts sur un *indice de marché* (SPY, SPX, QQQ).
+
+TIP: Cette approche ne protège que contre le risque de marché global.
+Le risque spécifique à une entreprise (résultats décevants, scandale) n'est pas couvert.
+
+'''
+
+== Étape 1 — Calculer le Delta pondéré par le Beta
+
+Le *Beta* mesure la sensibilité d'une action aux mouvements du marché global (SPX = Beta 1,0).
+
+[source]
+----
+Delta pondéré (en "unités SPX") = Σ (quantité × prix action × Beta) / prix de l'indice de référence
+----
+
+[example]
+====
+Portefeuille de 20 000 $ avec SPY à 500 $ (1 contrat = 100 actions × 500 $ = 50 000 $) :
+
+[cols="1,1,1,1,1,2"]
+|===
+| Action | Quantité | Prix | Valeur | Beta | Delta pondéré (unités SPY)
+
+| Apple (AAPL) | 50 | 180 $ | 9 000 $ | 1,2 | 50 × 180 × 1,2 / 500 = *21,6*
+| Tesla (TSLA) | 20 | 250 $ | 5 000 $ | 2,0 | 20 × 250 × 2,0 / 500 = *20,0*
+| J&J (JNJ) | 40 | 150 $ | 6 000 $ | 0,6 | 40 × 150 × 0,6 / 500 = *7,2*
+| *Total* | | | *20 000 $* | | *Delta pondéré = 48,8*
+|===
+
+→ Votre portefeuille se comporte comme si vous déteniez *~49 unités de SPY*.
+====
+
+'''
+
+== Étape 2 — Choisir et dimensionner le Put de couverture
+
+Pour neutraliser ces 49 unités de Delta SPY, il faut des puts dont le Delta total = *-49*.
+
+[cols="1,1,1,1"]
+|===
+| Type de put SPY | Delta approximatif | Contrats nécessaires | Couverture
+
+| ATM (strike ≈ prix SPY) | ≈ -0,50 par contrat | 1 contrat (1 × 100 × 0,50 = 50 Δ) | ~100 %
+| OTM 5 % | ≈ -0,30 par contrat | 2 contrats (2 × 100 × 0,30 = 60 Δ) | ~100 %
+| OTM 10 % | ≈ -0,15 par contrat | 3 contrats (3 × 100 × 0,15 = 45 Δ) | ~90 %
+|===
+
+NOTE: Pour une couverture *partielle* (50 %), divisez le nombre de contrats par 2.
+Couvrir 50 % du risque systémique à moitié prix est souvent le meilleur compromis coût/protection.
+
+'''
+
+== Étape 3 — Ajuster régulièrement (Rebalancing)
+
+Le Delta de vos puts évolue avec le marché :
+
+* *Si le marché monte* : le Delta du put diminue (put devient plus OTM) → couverture moins efficace → renforcer si nécessaire
+* *Si le marché baisse* : le Delta du put augmente (put devient plus ITM) → couverture plus forte → possibilité de réduire
+* *Avec le temps* : le Theta érode la valeur du put → surveiller la date d'expiration
+
+IMPORTANT: Réévaluez votre couverture au minimum *une fois par mois* et après tout mouvement de marché de plus de 5 %.
+
+'''
+
+== Exemple pratique complet
+
+[example]
+====
+*Situation* : portefeuille de 100 000 $, Beta moyen = 1,1, SPY à 500 $.
+
+Delta pondéré total = 100 000 × 1,1 / 500 = *220 unités SPY*
+
+Pour couvrir 50 % (110 unités) :
+* Put SPY OTM 5 % (strike ~475 $), Delta ≈ -0,30
+* Nombre de contrats = 110 / (100 × 0,30) = *3,7 → 4 contrats*
+* Coût approximatif : 4 × prime (ex. : 5 $ × 100) = *2 000 $*
+
+Si le marché baisse de 20 % :
+* Perte portefeuille ≈ -100 000 × 1,1 × 20 % = *-22 000 $*
+* Gain puts ≈ 4 contrats × (475 - 400) × 100 = *+30 000 $* (approximatif)
+* Résultat net couvert ≈ *-22 000 + 30 000 = +8 000 $*
+====
+
+'''
+
+== Choix de l'indice selon votre portefeuille
+
+[cols="1,2,2"]
+|===
+| Indice | Adapté si votre portefeuille est… | Notes
+
+| *SPY / SPX* | Diversifié, large cap US | Référence standard, forte liquidité
+| *QQQ* | Dominé par la tech (FAANG, semiconducteurs…) | Beta tech > SPY
+| *IWM* | Small caps américaines | Comportement différent en crise
+| *EFA / EEM* | Actions internationales | Pour les portefeuilles avec exposition hors US
+|===
+
+TIP: Si votre portefeuille est composé à plus de 60 % de valeurs tech, préférez *QQQ* plutôt que SPY — la corrélation est meilleure et votre couverture sera plus efficace.
+
+'''
+
+== Quand utiliser la couverture par indices ?
+
+* Portefeuille *diversifié avec de nombreuses lignes* (10+ actions)
+* Vous voulez couvrir le *risque de marché global* sans toucher à vos positions individuelles
+* Horizon de couverture *moyen terme* (1–6 mois)
+* Budget de couverture à *optimiser* (une seule position vs un put par action)
+
+[cols="1,1"]
+|===
+| Situation favorable | Situation défavorable
+
+| Portefeuille bien diversifié | Portefeuille concentré sur 1–2 actions (risque spécifique dominant)
+| Corrélation élevée entre vos actions et l'indice | Actions peu corrélées au marché (Beta très faible)
+| Événement macro systémique redouté | Risque sur une entreprise individuelle
+|===
+
+'''
+
+== Avantages et inconvénients
+
+[cols="1,1"]
+|===
+| Avantages | Inconvénients
+
+| Une seule position couvre tout le portefeuille | Ne protège que le risque systémique, pas le risque spécifique (une entreprise qui s'effondre seule)
+| Très efficace pour les portefeuilles diversifiés (10+ lignes) | Calcul du Beta weighting requis — plus complexe
+| Coût optimisé vs un put par action | Si la corrélation portefeuille/indice est faible, couverture imparfaite
+| Forte liquidité sur SPY/SPX/QQQ | Rééquilibrage mensuel nécessaire (Delta du put évolue)
+| Adapté à tous les niveaux de protection (50 %, 100 %) | Pour un portefeuille concentré sur 1–2 actions, moins efficace qu'un put direct
+|===
+
+'''
+
+== Voir aussi
+
+* xref:hedging/index.adoc[Hedging — Vue d'ensemble et guide décisionnel]
+* xref:hedging/protective-put.adoc[Protective Put — couverture d'une ligne individuelle]
+* xref:hedging/bear-put-spread.adoc[Bear Put Spread — couverture à coût réduit sur un indice]
+* xref:hedging/vix-volatilite.adoc[VIX & Volatilité — couverture contre les chocs de volatilité]
+* xref:portfolio/index.adoc[Gestion de Portefeuille — Beta weighting, Delta global, position sizing]

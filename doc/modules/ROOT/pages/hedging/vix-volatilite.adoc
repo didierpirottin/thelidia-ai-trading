@@ -1,0 +1,169 @@
+= VIX & Volatilité comme Couverture
+:description: Utiliser le VIX et les produits de volatilité (UVXY, VIXY) pour se protéger des chocs de marché
+
+
+
+xref:hedging/index.adoc[← Retour à l'overview Hedging]
+
+Lorsque les marchés paniquent, la volatilité explose.
+C'est cette relation inverse entre prix et volatilité qui permet d'utiliser des produits liés au *VIX* comme couverture tactique court terme.
+
+WARNING: Les produits de volatilité (UVXY, VIXY) ont un comportement complexe et une érosion structurelle.
+Ce sont des outils *tactiques court terme*, jamais des positions longues terme.
+
+'''
+
+== Le VIX : l'indice de la peur
+
+Le *VIX* (CBOE Volatility Index) mesure la volatilité implicite attendue sur le S&P 500 pour les 30 prochains jours.
+Il est calculé en temps réel par le link:https://www.cboe.com/tradable_products/vix/[CBOE].
+
+=== Interprétation des niveaux
+
+[cols="1,1,2"]
+|===
+| Niveau VIX | Interprétation | Ce que ça signifie pour le hedging
+
+| < 15 | Marché calme, complacence | *Meilleur moment pour acheter des puts* — ils sont bon marché
+| 15–25 | Volatilité normale | Hedging standard au coût habituel
+| 25–35 | Tension, incertitude élevée | Puts déjà 2× plus chers — hedging coûteux
+| > 35 | Panique, krach en cours | Puts 3–5× plus chers — mieux vaut réduire les positions
+|===
+
+=== La corrélation inverse VIX / S&P 500
+
+[mermaid]
+....
+xychart-beta
+    title "Comportement typique du VIX lors d'une correction de marché"
+    x-axis ["T-4", "T-3", "T-2", "T-1", "T (krach)", "T+1", "T+2", "T+3"]
+    y-axis "VIX (points)" 10 --> 60
+    bar [14, 16, 18, 22, 55, 40, 30, 22]
+    line [14, 16, 18, 22, 55, 40, 30, 22]
+....
+
+NOTE: Le VIX peut tripler ou quadrupler en quelques jours lors d'un choc.
+C'est ce mouvement brutal qui rend les produits de volatilité utiles comme couverture tactique.
+
+TIP: Le VIX et le S&P 500 sont *inversement corrélés* : quand le marché baisse fortement, le VIX monte.
+Détenir un produit qui monte quand votre portefeuille baisse, c'est l'essence du hedging.
+
+'''
+
+== Les produits disponibles
+
+=== Tableau comparatif
+
+[cols="1,2,1,2"]
+|===
+| Produit | Description | Accessible ? | Risque principal
+
+| *Options VIX* | Calls sur l'indice VIX (réglés en cash, pas en actions) | Oui (CBOE) | Complexe — le VIX n'est pas tradable directement ; la base entre VIX spot et futures peut être trompeuse
+| *UVXY* | ETF amplifié (×1,5 ou ×2) sur futures VIX court terme | Oui (actions ordinaires) | Érosion permanente par contango — perd de la valeur chaque mois sans événement
+| *VIXY* | ETF non amplifié sur futures VIX court terme | Oui (actions ordinaires) | Érosion moins forte qu'UVXY mais toujours présente
+| *VXX* | ETF iPath sur futures VIX (plus ancien, structure différente) | Oui | Même érosion que VIXY
+|===
+
+=== Pourquoi UVXY s'érode-t-il ?
+
+Le phénomène s'appelle le *contango* :
+
+[source]
+----
+Situation normale (contango) :
+  Futures VIX 1 mois = 15 $
+  Futures VIX 2 mois = 17 $
+  → Pour rester "1 mois", l'ETF vend le contrat proche (15 $) et achète le lointain (17 $)
+  → Perte structurelle de 2 $ à chaque roll mensuel
+----
+
+WARNING: En 2024, UVXY a perdu plus de *70 %* de sa valeur sur l'année, même sans krach majeur.
+Un investisseur qui aurait acheté UVXY en janvier "pour se protéger" et ne l'aurait pas vendu aurait perdu la quasi-totalité de sa mise.
+
+'''
+
+== Comment utiliser ces produits correctement
+
+=== Usage tactique court terme (la bonne approche)
+
+L'utilisation correcte est d'entrer et sortir *rapidement*, autour d'un événement identifié :
+
+. Identifiez un événement risqué dans les 2–4 prochaines semaines (décision Fed, résultats majeurs, tensions géopolitiques)
+. Achetez des calls UVXY (ou UVXY en direct) avec une expiration 3–4 semaines
+. Si l'événement est calme → vendez avant expiration, perte limitée à la prime
+. Si panique → UVXY monte fortement → vendez rapidement, ne restez pas
+
+[example]
+====
+*Exemple* : annonce Fed dans 2 semaines, marché incertain.
+
+* Achat de 10 calls UVXY, strike 20 $ (UVXY à 18 $), expiration 4 semaines, prime 1,50 $
+* Coût total = 10 × 100 × 1,50 = *1 500 $*
+
+*Scénario A* — Fed rassurante, marché stable :
+* UVXY reste à 17–18 $, calls expirent sans valeur → perte = 1 500 $
+
+*Scénario B* — Fed hawkish, marché chute -5 % :
+* VIX passe de 18 à 30, UVXY monte à 28 $
+* Calls valent 8 $, vente = 10 × 100 × 8 = *8 000 $* → gain = +6 500 $
+* Pendant ce temps, portefeuille de 100 000 $ perd ~5 000 $ → *net = +1 500 $*
+====
+
+=== Règles d'or pour les produits de volatilité
+
+. *Ne jamais garder plus de 4 semaines* sans raison tactique précise
+. *Ne jamais allouer plus de 1–2 %* du portefeuille en produits de volatilité
+. *Définir la sortie avant d'entrer* : quel prix de VIX déclenchera la vente ?
+. *Ne pas moyenner à la baisse* : si UVXY continue de baisser, c'est normal (contango) — ne pas renforcer
+
+'''
+
+== Quand utiliser les produits de volatilité ?
+
+[cols="1,1"]
+|===
+| Situation favorable | Situation défavorable
+
+| Événement macro identifié dans 2–4 semaines (décision Fed, tensions géopolitiques) | Utilisation sur plusieurs mois (contango détruit la valeur)
+| VIX bas (< 18) — produits bon marché | VIX déjà élevé (> 30) — trop cher, moment raté
+| Couverture tactique court terme uniquement | Portefeuille sans plan de sortie défini
+| Vous êtes trader actif capable de gérer quotidiennement | Investisseur passif cherchant une protection simple
+|===
+
+== Avantages et inconvénients
+
+[cols="1,1"]
+|===
+| Avantages | Inconvénients
+
+| Très forte réactivité en cas de krach — levier implicite élevé | Érosion structurelle permanente (contango) — perd de la valeur sans krach
+| Peut compenser rapidement des pertes de portefeuille | Gestion quotidienne requise — pas un "set and forget"
+| Accessible comme une action ordinaire (UVXY, VIXY) | Comportement contre-intuitif (futures, pas spot VIX)
+| Coût faible à l'entrée en période calme | Risque de perte totale si pas de mouvement volatil
+| Complément tactique court terme aux puts classiques | Déconseillé aux débutants — complexité cachée élevée
+|===
+
+'''
+
+== Comparaison VIX vs Puts classiques pour le hedging
+
+[cols="1,1,1"]
+|===
+| Critère | Puts sur actions/indices | UVXY / Options VIX
+
+| Horizon | Semaines à mois | Jours à semaines
+| Coût en période calme | Faible à modéré | Faible (mais érosion permanente)
+| Réactivité en cas de krach | Bonne | Très élevée (levier implicite)
+| Gestion requise | Mensuelle | Quotidienne à hebdomadaire
+| Risque de perte totale | Non (put conserve sa valeur temps) | Oui (contango détruit la valeur)
+| Adapté aux débutants | Oui | Non — réservé aux traders actifs
+|===
+
+'''
+
+== Voir aussi
+
+* xref:hedging/index.adoc[Hedging — Vue d'ensemble et guide décisionnel]
+* xref:hedging/protective-put.adoc[Protective Put — alternative plus simple et prévisible]
+* xref:hedging/couverture-indices.adoc[Couverture par indices — hedging systémique moyen terme]
+* xref:ressources/index.adoc[Ressources — cboe.com/vix et outils d'analyse de volatilité]

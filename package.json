@@ -1,0 +1,17 @@
+{
+  "name": "thelidia-invest-ai-docs",
+  "private": true,
+  "scripts": {
+    "build": "cross-env NODE_TLS_REJECT_UNAUTHORIZED=0 antora antora-playbook.yml",
+    "build:clean": "cross-env NODE_TLS_REJECT_UNAUTHORIZED=0 antora --clean antora-playbook.yml"
+  },
+  "dependencies": {
+    "@antora/cli": "^3.1",
+    "@antora/lunr-extension": "^1.0.0-alpha.8",
+    "@antora/site-generator": "^3.1",
+    "asciidoctor-kroki": "^0.18"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0"
+  }
+}

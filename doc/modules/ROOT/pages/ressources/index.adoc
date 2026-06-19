@@ -1,0 +1,96 @@
+= Ressources
+:description: Outils, liens et références pour l'investissement en bourse avec les options
+
+Cette page centralise les outils pratiques, les plateformes de trading recommandées, les références éducatives et le glossaire utilisé dans cette base de connaissance.
+
+TIP: Vous débutez ? Commencez par les livres et vidéos listés ci-dessous, puis explorez xref:options/index.adoc[Options — Concepts fondamentaux] pour la théorie et xref:strategies/global-strategy.adoc[la Stratégie Globale] pour la méthode.
+
+'''
+
+== Plateformes de trading
+
+[cols="1,3"]
+|===
+| Plateforme | Notes
+
+| Interactive Brokers | Accès mondial, frais compétitifs, excellente plateforme options (TWS)
+| Tastytrade (ex Tastyworks) | Orienté options, interface intuitive, frais réduits sur options
+| TD Ameritrade / thinkorswim | Outils d'analyse avancés, très complet pour les options
+|===
+
+== Outils d'analyse
+
+[cols="1,3"]
+|===
+| Outil | Usage
+
+| barchart.com | Screener d'options, IV Rank, IV Percentile
+| Market Chameleon | Analyse de volatilité, statistiques options
+| Optionstrat | Visualisation et simulation de stratégies options
+| optionsprofitcalculator.com | Calculateur de P&L options
+| link:https://www.cboe.com/tradable_products/vix/[cboe.com/vix] | Données officielles VIX, contrats futures, historique de volatilité
+|===
+
+== Références éducatives
+
+=== Livres
+
+* _Options as a Strategic Investment_ — Lawrence G. McMillan
+* _The Options Playbook_ — Brian Overby (disponible en ligne gratuitement)
+* _Trading Options Greeks_ — Dan Passarelli
+
+=== Vidéos et chaînes
+
+[cols="1,3"]
+|===
+| Vidéo | Description
+
+| link:https://youtu.be/MDKYcK8Fcxo[Hedge Like a Pro: Options Strategies to Protect From a Market Crash in 2026]
+| Stratégies options pour se protéger d'un krach marché — voir aussi xref:hedging/index.adoc[Hedging]
+
+| link:https://youtu.be/7rPH2vwwHX8[$176,237 LEAPS Options Trading Strategy — 91 % Win Rate]
+| Stratégie LEAPS call mécanique sans analyse technique — voir aussi xref:strategies/leaps.adoc[LEAPS & Zébra]
+
+| link:https://youtu.be/bwJsE5-AbPQ[LEAPS Options Selling Strategy: 92 % Win Rate]
+| Vente de LEAPS puts profonde OTM — voir aussi xref:strategies/leaps.adoc[LEAPS & Zébra]
+
+| link:https://youtu.be/MwsxXa0jA9g[How Ravish Ahuja Made $1 Million with Low-Risk Options Strategies]
+| Stratégie Zébra, LEAPS couverts, approches faible risque — voir aussi xref:strategies/leaps.adoc[LEAPS & Zébra]
+
+| link:https://youtu.be/xgKPl3VDUgc[Butterfly Options Explained: Iron vs Standard vs Broken Wing]
+| Les variantes du Butterfly en haute volatilité — voir aussi xref:strategies/butterfly.adoc[Butterfly]
+
+| link:https://youtu.be/7DQWW_zCFUk[Can This Options Strategy Really Make 15–30 % a Month?]
+| Rolling Put Diagonal — revenus mensuels sur capital engagé — voir aussi xref:strategies/rolling-put-diagonal.adoc[Rolling Put Diagonal]
+
+| link:https://youtu.be/s7dNzX6KWmg[How I Buy Stocks for 30 % Less Than The Market Price]
+| Cash Secured Puts pour acheter des actions à prix réduit — voir aussi xref:strategies/wheel.adoc[Wheel / CSP]
+
+| link:https://youtu.be/2r708o7u-1k[Stock Repair Strategy: Turn Losing Trades Into Winners]
+| Réparer une position en perte sans capital — voir aussi xref:strategies/stock-repair.adoc[Stock Repair]
+|===
+
+== Glossaire
+
+[cols="1,3"]
+|===
+| Terme | Définition
+
+| IV (Implied Volatility) | Volatilité implicite — anticipation du marché sur les mouvements futurs
+| IV Rank | Rang de l'IV actuelle vs son historique sur 52 semaines (0–100)
+| IV Percentile | % du temps où l'IV était inférieure au niveau actuel sur 52 semaines
+| DTE (Days to Expiration) | Nombre de jours jusqu'à l'expiration de l'option
+| P&L | Profit and Loss — résultat d'une position
+| ROC | Return on Capital — rendement sur le capital immobilisé
+| Assignment | Exercice de l'option par le détenteur, obligation pour le vendeur
+| Roll | Fermer une position et en ouvrir une nouvelle à une autre expiration/strike
+|===
+
+'''
+
+== Voir aussi
+
+* xref:options/index.adoc[Options — Concepts fondamentaux : Calls, Puts, Grecs, valeur d'une option]
+* xref:strategies/index.adoc[Stratégies — Vue d'ensemble de toutes les stratégies]
+* xref:hedging/index.adoc[Hedging — Couverture de portefeuille]
+* xref:portfolio/index.adoc[Gestion de Portefeuille — Métriques et check-list]

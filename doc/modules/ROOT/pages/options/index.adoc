@@ -1,0 +1,256 @@
+= Options — Concepts Fondamentaux
+
+
+:description: Options financières — calls, puts, grecs, valeur d'une option, exemples chiffrés et guide décisionnel
+
+Une option est un *contrat* qui donne le droit (mais pas l'obligation) d'acheter ou de vendre un actif à un prix convenu d'avance, avant une date limite.
+
+L'analogie : imaginez que vous voulez acheter une maison à 300 000 €, mais vous n'êtes pas encore sûr.
+Vous versez 3 000 € au propriétaire pour qu'il *réserve* ce prix pendant 3 mois.
+Si vous décidez d'acheter → vous exercez votre droit. Sinon → vous abandonnez et perdez les 3 000 €.
+C'est exactement ce qu'est une option.
+
+'''
+
+== Les deux types d'options
+
+=== Le Call — droit d'acheter
+
+Un *call* donne le droit d'*acheter* 100 actions au strike price avant l'expiration.
+
+*Analogie* : vous achetez un "bon d'achat" pour une action à prix fixé. Si l'action monte au-delà de ce prix, votre bon vaut de l'or.
+
+*Profil* : vous gagnez si l'action *monte* au-delà du strike + prime.
+
+._Long Call — Action à 100 $, strike 100 $, prime 5 $, breakeven 105 $_
+[mermaid]
+....
+xychart-beta
+    title "Long Call — P&L à expiration (par contrat de 100 actions)"
+    x-axis ["70 $", "80 $", "90 $", "100 $", "105 $", "115 $", "125 $", "135 $"]
+    y-axis "P&L ($)" -800 --> 3500
+    bar [-500, -500, -500, -500, 0, 1000, 2000, 3000]
+    line [-500, -500, -500, -500, 0, 1000, 2000, 3000]
+....
+
+NOTE: En dessous du strike (100 $), la perte est plafonnée à la prime payée (500 $).
+Le breakeven est à 105 $ (strike + prime). Au-dessus, le gain est illimité.
+
+=== Le Put — droit de vendre
+
+Un *put* donne le droit de *vendre* 100 actions au strike price avant l'expiration.
+
+*Analogie* : c'est une assurance contre la baisse. Si votre action s'effondre, vous pouvez quand même la "vendre" au prix garanti par le put.
+
+*Profil* : vous gagnez si l'action *descend* sous le strike − prime.
+
+._Long Put — Action à 100 $, strike 100 $, prime 5 $, breakeven 95 $_
+[mermaid]
+....
+xychart-beta
+    title "Long Put — P&L à expiration (par contrat de 100 actions)"
+    x-axis ["65 $", "75 $", "85 $", "95 $", "100 $", "110 $", "120 $", "130 $"]
+    y-axis "P&L ($)" -800 --> 3500
+    bar [2500, 1500, 500, 0, -500, -500, -500, -500]
+    line [2500, 1500, 500, 0, -500, -500, -500, -500]
+....
+
+NOTE: Au-dessus du strike (100 $), la perte est limitée à la prime (500 $).
+Le breakeven est à 95 $ (strike − prime). En dessous, le gain augmente jusqu'à un maximum théorique si l'action tombe à 0.
+
+'''
+
+== Terminologie essentielle
+
+[cols="1,3,2"]
+|===
+| Terme | Définition | Analogie
+
+| *Strike* (prix d'exercice) | Prix auquel l'option peut être exercée | Le prix fixé dans votre "bon d'achat"
+| *Expiration* | Date limite après laquelle l'option n'a plus de valeur | La date de validité du bon
+| *Prime* | Prix payé pour acquérir l'option | Le coût du bon d'achat lui-même
+| *Sous-jacent* | L'actif sur lequel porte l'option (action, ETF, indice) | La maison que vous voulez acheter
+| *Contrat* | 1 contrat = droit sur 100 actions | —
+|===
+
+=== Position par rapport au marché
+
+[cols="1,1,2"]
+|===
+| Terme | Condition | Interprétation
+
+| *ITM* (In The Money) | Call : cours > strike / Put : cours < strike | Option avec valeur intrinsèque — "dans la monnaie"
+| *ATM* (At The Money) | Strike ≈ cours actuel | Option au prix du marché
+| *OTM* (Out of The Money) | Call : cours < strike / Put : cours > strike | Pas encore de valeur intrinsèque — "hors de la monnaie"
+|===
+
+TIP: Un put OTM à −10 % du cours, c'est une assurance avec une franchise de 10 %.
+Vous ne toucherez un bénéfice que si la baisse dépasse cette franchise.
+
+'''
+
+== Les Grecs — Mesurer la sensibilité de l'option
+
+Les Grecs sont des indicateurs qui mesurent comment la valeur d'une option réagit aux changements du marché.
+
+=== Delta (Δ) — La vitesse de réaction
+
+*Définition* : variation de la prime pour une hausse de 1 $ du sous-jacent.
+
+*Analogie* : le Delta, c'est le compteur de vitesse d'une voiture. Un Delta de 0,60 signifie que si l'action monte de 1 $, l'option gagne 0,60 $.
+
+[cols="1,1,2"]
+|===
+| Delta | Interprétation | Exemple
+
+| 0 à 0,30 | Option OTM, peu sensible | Si action +1 $, option +0,20 $
+| 0,40 à 0,60 | Option ATM, moyennement sensible | Si action +1 $, option +0,50 $
+| 0,70 à 1,00 | Option deep ITM, très sensible | Si action +1 $, option +0,80 $
+|===
+
+NOTE: Pour les *puts*, le Delta est négatif (−1 à 0) : si l'action monte de 1 $, le put *perd* de la valeur.
+
+=== Theta (Θ) — L'érosion du temps
+
+*Définition* : perte de valeur de l'option par jour qui passe, toutes choses égales par ailleurs.
+
+*Analogie* : le Theta, c'est comme un glaçon qui fond. Chaque jour qui passe, l'option perd un peu de sa valeur temps, même si le marché ne bouge pas.
+
+IMPORTANT: Le Theta est *négatif pour les acheteurs* d'options (vous perdez de la valeur chaque jour).
+Il est *positif pour les vendeurs* (vous gagnez de la valeur chaque jour). C'est pour cela que les stratégies de vente d'options (CSP, Covered Call, Iron Butterfly) sont souvent préférées.
+
+=== Gamma (Γ) — L'accélération du Delta
+
+*Définition* : vitesse à laquelle le Delta change quand le sous-jacent bouge.
+
+*Analogie* : si le Delta est le compteur de vitesse, le Gamma est l'accélérateur. Plus le Gamma est élevé, plus le Delta change rapidement.
+
+NOTE: Le Gamma est maximum pour les options ATM et proche de l'expiration. C'est pourquoi les options courtes terme ATM sont les plus risquées.
+
+=== Vega (ν) — La sensibilité à la volatilité
+
+*Définition* : variation de la prime pour une hausse de 1 % de la volatilité implicite (IV).
+
+*Analogie* : le Vega, c'est l'assurance qui coûte plus cher quand la météo est mauvaise. Si le marché devient agité (IV monte), toutes les options deviennent plus chères.
+
+TIP: En pratique : quand le VIX monte, les primes d'options gonflent → moment idéal pour *vendre* des options.
+Quand le VIX est bas, les primes sont faibles → moment idéal pour *acheter* des options (LEAPS, Protective Puts).
+
+=== Rho (ρ) — La sensibilité aux taux
+
+*Définition* : variation de la prime pour une hausse de 1 % des taux d'intérêt.
+
+*Analogie* : le Rho est rarement le facteur décisif, sauf pour les options très longues durée (LEAPS). En pratique, ignorez-le pour les stratégies courtes terme.
+
+'''
+
+== Valeur d'une option
+
+[source]
+----
+Prime = Valeur intrinsèque + Valeur temps (extrinsèque)
+----
+
+[cols="1,2,2"]
+|===
+| Composante | Définition | Exemple (Call 100 $, action à 105 $, prime 8 $)
+
+| *Valeur intrinsèque* | Ce que vaut l'option si exercée maintenant (0 si OTM) | 105 − 100 = 5 $ de valeur intrinsèque
+| *Valeur temps* | Prime restante liée au temps et à la volatilité | 8 − 5 = 3 $ de valeur temps
+|===
+
+NOTE: À l'expiration, la valeur temps = 0. Il ne reste que la valeur intrinsèque (ou zéro si OTM).
+C'est pour cela que les options *perdent de la valeur avec le temps*.
+
+'''
+
+== Exemples chiffrés
+
+=== Exemple 1 — Achat d'un call (vision haussière)
+
+[example]
+====
+Apple (AAPL) est à 180 $. Vous pensez qu'il va monter à 200 $ dans 2 mois.
+
+* Achat 1 call AAPL strike 180 $ (ATM), expiration 60 jours, prime 8 $
+* Capital investi : 8 × 100 = *800 $*
+
+[cols="1,1,1"]
+|===
+| Prix AAPL à expiration | Valeur du call | P&L total
+
+| 160 $ | 0 $ | −800 $ (perte totale)
+| 170 $ | 0 $ | −800 $
+| 180 $ | 0 $ | −800 $
+| 188 $ | 8 $ | 0 $ (breakeven)
+| 200 $ | 20 $ | +1 200 $
+| 210 $ | 30 $ | +2 200 $
+|===
+
+→ Risque maximum : 800 $. Gain potentiel : illimité au-delà de 188 $.
+→ Vs achat de 100 actions AAPL : capital nécessaire = 18 000 $, risque total identique en cas de krach.
+====
+
+=== Exemple 2 — Achat d'un put (protection ou spéculation baissière)
+
+[example]
+====
+Vous détenez 100 Tesla (TSLA) à 250 $. Résultats dans 3 semaines, vous craignez une baisse.
+
+* Achat 1 put TSLA strike 240 $ (légèrement OTM), expiration 30 jours, prime 7 $
+* Capital investi (protection) : 7 × 100 = *700 $*
+
+[cols="1,1,1,1"]
+|===
+| Prix TSLA à expiration | P&L action (100 actions) | P&L put | P&L total
+
+| 200 $ | −5 000 $ | +3 300 $ | −1 700 $
+| 220 $ | −3 000 $ | +1 300 $ | −1 700 $
+| 233 $ | −1 700 $ | 0 $ | −1 700 $ (plancher)
+| 240 $ | −1 000 $ | −700 $ | −1 700 $ (plancher)
+| 250 $ | 0 $ | −700 $ | −700 $ (coût assurance)
+| 260 $ | +1 000 $ | −700 $ | +300 $
+| 275 $ | +2 500 $ | −700 $ | +1 800 $
+|===
+
+→ La perte maximale est désormais plafonnée à 1 700 $, quelle que soit l'ampleur de la chute.
+→ C'est exactement le xref:hedging/protective-put.adoc[Protective Put] décrit dans la section Hedging.
+====
+
+'''
+
+== Guide décisionnel — Call ou Put ?
+
+----
+  VOTRE OBJECTIF                            ACTION RECOMMANDÉE
+  ─────────────────────────────────────────────────────────────────────
+
+  Vous anticipez une hausse de l'action
+  ├── Hausse certaine, capital limité        → Achat de Call (levier, risque limité)
+  ├── Hausse modérée, vous voulez du revenu  → Vente de Put (CSP — prime encaissée)
+  └── Vous détenez déjà l'action            → Vente de Call couvert (Covered Call)
+
+  Vous anticipez une baisse de l'action
+  ├── Baisse forte et rapide attendue        → Achat de Put (levier baissier)
+  ├── Baisse modérée                         → Bear Put Spread (protection à coût réduit)
+  └── Vous détenez des actions à protéger   → Protective Put (assurance)
+
+  Vous voulez un revenu régulier
+  ├── Vous détenez des actions               → Covered Call (vendre un call chaque mois)
+  ├── Vous voulez acquérir des actions       → Cash-Secured Put — xref:strategies/wheel.adoc[Wheel]
+  └── Marché en range, IV haute             → xref:strategies/butterfly.adoc[Iron Butterfly] / Iron Condor
+
+  Vous ne savez pas dans quel sens ça va aller
+  ├── Fort mouvement attendu (annonce)       → Long Straddle (call ATM + put ATM)
+  └── Marché calme attendu                  → xref:strategies/butterfly.adoc[Short Iron Butterfly]
+----
+
+'''
+
+== Voir aussi
+
+* xref:strategies/index.adoc[Stratégies — Covered Call, CSP, Butterfly, LEAPS, Wheel]
+* xref:strategies/global-strategy.adoc[Stratégie Globale — Vue d'ensemble par phase de marché]
+* xref:hedging/index.adoc[Hedging — Protective Put, Collar, Bear Put Spread]
+* xref:hedging/vix-volatilite.adoc[VIX & Volatilité — Quand acheter ou vendre des options]
+* xref:portfolio/index.adoc[Gestion de Portefeuille — Delta global, Theta global, sizing]

@@ -1,0 +1,328 @@
+= Analyse de Marché — 9 juin 2026
+:description: Nasdaq -4 % le 5 juin (choc semis + jobs report), rebond partiel, FOMC Warsh le 16 juin — Baromètre Niveau 4 PRUDENCE
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| ~718 $ (+20,3 % YTD)
+| Rebond partiel (+11,2 % YTD)
+| 20,45 — Tension modérée
+| 43 — *Fear*
+| ~691 $ — *Au-dessus*
+| *Niveau 4/6 — PRUDENCE*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 4/6 — PRUDENCE : FOMC Warsh le 16 juin, VIX 20, pas de capitulation_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre de marché — 9 juin 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Niveau actif" 0 --> 1
+    bar [0, 0, 0, 1, 0, 0]
+    line [0, 0, 0, 1, 0, 0]
+....
+
+NOTE: Le Nasdaq reste techniquement au-dessus de sa MA50 (~691 $) et de sa MA200 (~662 $) — la tendance long terme est intacte.
+Cependant, le premier FOMC de Kevin Warsh (16–17 juin) représente un *risque binaire majeur* : le dot plot va probablement supprimer la dernière baisse prévue pour 2026, voire signaler une hausse.
+Le VIX à 20,45 et le Fear & Greed à 43 ne signalent pas la capitulation qui justifierait un achat agressif — les stratégies *theta et delta-neutral* sont à privilégier.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+La semaine du 2 juin 2026 a été marquée par un *choc violent le jeudi 5 juin* : le Nasdaq a chuté de *−4 %* en une seule séance, sa pire journée depuis le choc des tarifs Trump d'avril 2025.
+Le secteur des semi-conducteurs a mené la débâcle : Intel −11 %, AMD −11 %, Micron −13 %, Qualcomm −11 %.
+Le rebond de lundi 8 juin (+1,56 % sur QQQ, de 705 $ à 716 $) est partiel et fragile — le VIX repart à la hausse ce matin (+8 % à 20,45), signe que la nervosité persiste.
+Sur le mois, le Nasdaq est en repli de *~3–4 %* depuis son pic de fin mai, après un rallye exceptionnel de *+30 %* depuis le creux de mars.
+
+=== Pourquoi (causes profondes)
+
+Trois forces convergentes expliquent la correction.
+*Premièrement*, le choc macro : le rapport emploi de mai (172 000 créations de postes, soit le double des attentes du marché) a alimenté les craintes de stagflation et propulsé les taux 10 ans à 4,54 %.
+*Deuxièmement*, la déception Broadcom : des perspectives de puces IA plus faibles que prévu ont agi comme détonateur d'une prise de bénéfices généralisée sur un secteur qui avait progressé de +30 % en deux mois sur l'espoir de l'IA.
+*Troisièmement*, l'incertitude Fed-Warsh : Kevin Warsh, nouveau chairman depuis le 15 mai, préside son premier FOMC le 16–17 juin.
+Les marchés anticipent un statu quo sur les taux (3,50–3,75 %) à 97 %, mais le nouveau dot plot va probablement *effacer la dernière baisse prévue pour 2026*, voire abandonner le cadre des projections lui-même — incertitude maximale sur la forward guidance.
+
+=== Signaux techniques clés
+
+[cols="1,1,2"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | ~718 $ | —
+| MA50 QQQ | ~691 $ | *Au-dessus* (+3,9 % de marge) — tendance intermédiaire haussière
+| MA200 QQQ | ~662 $ | *Au-dessus* (+8,5 % de marge) — tendance long terme haussière
+| Support clé | 695–700 $ | Zone de consolidation pré-crash du 5 juin
+| Support fort | 660–665 $ | MA200 + creux de mars — plancher structurel
+| Résistance | 735–740 $ | Pic du 3 juin avant le krach intraday
+| RSI | ~48 (estimé) | *Neutre* — ni suracheté ni survendu
+| VIX | 20,45 | Zone de tension modérée (seuil de prudence : 20–28)
+|===
+
+WARNING: La marge au-dessus de la MA50 est de seulement 3,9 % — un deuxième choc de même ampleur que le 5 juin toucherait la MA50 et pourrait déclencher des stops automatiques.
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 40 %
+
+*Conditions nécessaires* : FOMC du 16–17 juin perçu comme neutre (Warsh maintient un ton mesuré, dot plot sans surprise majeure), CPI du 13 juin dans les attentes ou en légère baisse, stabilisation des taux 10 ans en dessous de 4,50 %.
+
+*Cibles* : QQQ retest 735–750 $ (résistance du pic de juin), SPY vers 580–590 $.
+
+*Catalyseurs positifs* : données CPI favorables le 13 juin, rachats d'actions (buybacks) des grandes capitalisations, confirmation des commandes IA chez Nvidia ou TSMC, apaisement sur les taux longs.
+
+=== Scénario baissier — Probabilité 60 %
+
+*Conditions de déclenchement* : FOMC hawkish (dot plot supprime toutes les baisses 2026 ou signale une hausse), CPI mai surprise à la hausse le 13 juin, second choc sur les taux 10 ans (> 4,65 %), nouvelles déceptions sur les commandes de puces IA.
+
+*Supports critiques* : cassure de QQQ sous 695 $ → test MA50 (~691 $) → si cassure MA50, test de 660–665 $ (MA200 et creux de mars).
+
+*Risques de queue* : escalade géopolitique au Moyen-Orient (déjà pesé en mars), retour de la rhétorique tarifaire Trump, accident de liquidité sur les leveraged ETF IA, CPI surprise à +4 %+.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Toutes les primes et cours indiqués sont des *estimations* — vérifier les cours réels avant d'entrer en position. footnote:[Estimation basée sur les niveaux d'IV et de cours du 9 juin 2026 — vérifier les cours réels avant d'entrer en position.] Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel.
+
+=== Trade #1 — Iron Condor sur QQQ (theta pur, delta-neutral)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (vente de volatilité, delta-neutral)
+| *Sous-jacent* | QQQ (~718 $)
+| *Raisonnement* | VIX à 20 = primes correctes à collecter. Le QQQ devrait rester en range 680–758 $ sur 5 semaines si le FOMC ne surprend pas excessivement. Stratégie theta pure, ne requiert pas d'avoir raison sur la direction.
+| *Expiration* | 18 juillet 2026 (~39 DTE — bien post-FOMC)
+| *Strike(s)* | Vente put 680 / Achat put 665 + Vente call 758 / Achat call 773
+| *Prime reçue* | ~4,00–4,50 $ net ≈ 400–450 $/contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~0 (neutre)
+| *Theta/jour* | ~+8 à +12 $/jour/contrat
+| *Breakevens* | 676 $ (bas) et 762 $ (haut)
+| *Max profit* | 400–450 $ si QQQ entre 680 $ et 758 $ à expiration
+| *Max perte* | ~1 050–1 100 $ (largeur aile 15 × 100 − crédit)
+| *Entrée* | Immédiatement, en Limit Order au mid du spread
+| *Cible* | Fermer à 50 % du crédit (~200 $)
+| *Stop-loss* | Fermer si perte = 2× le crédit (~800 $) ou si QQQ casse 685 $ ou dépasse 755 $ avec momentum
+| *Taille* | 2–3 % du portefeuille max (1 contrat pour 50 K€)
+|===
+
+._Iron Condor QQQ — Strikes 665/680/758/773, crédit 400 $, breakevens 676 $ et 762 $_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ — P&L estimé à expiration (par contrat)"
+    x-axis ["640 $", "665 $", "676 $", "710 $", "718 $", "740 $", "762 $", "790 $"]
+    y-axis "P&L ($)" -1500 --> 700
+    bar [-1100, -1100, 0, 400, 400, 400, 0, -1100]
+    line [-1100, -1100, 0, 400, 400, 400, 0, -1100]
+....
+
+NOTE: Le profit maximum (+400 $) est atteint si QQQ reste entre 680 $ et 758 $ à expiration (zone large de 78 $).
+Les deux breakevens sont à 676 $ (−5,9 % du cours) et 762 $ (+6,1 % du cours).
+La perte est plafonnée à −1 100 $ quelle que soit l'amplitude du mouvement hors des ailes.
+Voir xref:ROOT:strategies/butterfly.adoc[la page Butterfly] pour comprendre la mécanique des ventes de volatilité.
+
+=== Trade #2 — Cash-Secured Put sur AAPL (revenus + acquisition opportuniste)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (vente de put OTM)
+| *Sous-jacent* | AAPL (Apple)
+| *Raisonnement* | Apple est moins exposée aux déceptions IA semis que NVDA/AMD. Action de qualité défensive. IV correcte post-crash du 5 juin = prime attractive. Si assigné, acquisition à prix réduit.
+| *Expiration* | 18 juillet 2026 (~39 DTE)
+| *Strike* | −7 % du cours actuel (ex. si AAPL à 205 $ → strike 190 $, delta ~0,22)
+| *Prime reçue* | ~4,00–5,00 $/action ≈ 400–500 $/contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Capital immobilisé* | ~19 000 $ (strike × 100 actions)
+| *ROC mensuel* | ~2,1–2,6 % / mois
+| *Breakeven* | Strike − prime ≈ −8,5 % du cours actuel
+| *Delta total* | ~+0,22 (exposition modérée à la hausse AAPL)
+| *Entrée* | Si AAPL baisse encore de 1–2 % intraday (meilleure prime) — Limit Order
+| *Cible* | Fermer à 50 % du crédit
+| *Stop-loss* | Rouler si AAPL casse son support technique ou si FOMC génère une baisse > 5 %
+| *Taille* | 3–4 % du portefeuille (capital collateral inclus)
+|===
+
+TIP: Si vous êtes assigné sur ce CSP, vous achetez AAPL à un coût effectif de ~−8 à −9 % sous le cours actuel — une entrée opportuniste sur une action de qualité. Passez alors à la Phase 2 de la xref:ROOT:strategies/wheel.adoc[Wheel Strategy] : vente d'un Covered Call.
+
+=== Trade #3 — Bear Put Spread QQQ (couverture FOMC du 16–17 juin)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bear Put Spread (protection directionnelle à risque défini)
+| *Sous-jacent* | QQQ (~718 $)
+| *Raisonnement* | Le FOMC du 16–17 juin est un risque binaire sous Warsh. Ce spread offre une protection ciblée sur un mouvement baissier de 1–4 %, avec un ratio risque/rendement favorable et un coût plafonné.
+| *Expiration* | 20 juin 2026 (~11 DTE — juste après le FOMC)
+| *Strike(s)* | Achat put 710 $ (delta ~−0,45) / Vente put 690 $ (delta ~−0,30)
+| *Coût net* | ~6 $ ≈ 600 $/contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Max profit* | 1 400 $ si QQQ < 690 $ à expiration
+| *Max perte* | 600 $ (coût net — risque totalement défini)
+| *Ratio R/R* | 2,3× (1 400 / 600)
+| *Breakeven* | 704 $ (710 − 6)
+| *Delta total* | ~−0,15 (position légèrement baissière)
+| *Entrée* | Aujourd'hui ou avant le 13 juin (CPI)
+| *Cible* | Vendre si profit > 70 % (~+1 000 $) ou fermer après le FOMC
+| *Stop-loss* | Perte max = 600 $ — pas de stop-loss nécessaire, risque défini par structure
+| *Taille* | 1–2 % du portefeuille (1 contrat pour 30–50 K€)
+|===
+
+._Bear Put Spread QQQ 710/690 — Coût 600 $, max profit 1 400 $, breakeven 704 $_
+[mermaid]
+....
+xychart-beta
+    title "Bear Put Spread QQQ 710/690 — P&L à expiration (par contrat)"
+    x-axis ["660 $", "675 $", "690 $", "700 $", "704 $", "710 $", "730 $", "750 $"]
+    y-axis "P&L ($)" -900 --> 1800
+    bar [1400, 1400, 1400, 400, 0, -600, -600, -600]
+    line [1400, 1400, 1400, 400, 0, -600, -600, -600]
+....
+
+NOTE: Le gain est maximum (+1 400 $) si QQQ descend sous 690 $ (−3,9 % depuis 718 $), ce qui correspond à un scénario FOMC hawkish.
+Le breakeven est à 704 $ (−2 % du cours actuel).
+La perte est plafonnée à 600 $ si le marché ne bouge pas ou monte.
+Voir xref:ROOT:hedging/bear-put-spread.adoc[la page Bear Put Spread] pour la mécanique détaillée.
+
+=== Trade #4 — Covered Call sur positions tech existantes
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (vente de call sur position longue en actions)
+| *Sous-jacent* | Toute position tech longue > 100 actions (MSFT, NVDA, GOOGL, AMZN, META...)
+| *Raisonnement* | Le rebond du 8 juin a redonné de la valeur aux positions long. Vendre un call OTM encaisse une prime et réduit le coût de revient avant le FOMC risqué. Si le marché rebaisse, la prime amortit la perte.
+| *Expiration* | 18 juillet 2026 (~39 DTE — post-FOMC, post-CPI)
+| *Strike* | +6–8 % du cours actuel (delta ~0,22–0,27)
+| *Prime reçue* | 1,5–4 % du cours selon le titre et l'IV footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Theta/jour* | Positif (revenu quotidien)
+| *Entrée* | Immédiatement si vous détenez les actions
+| *Cible* | Fermer à 50 % du profit (rachat du call à mi-vie)
+| *Stop-loss* | Si le titre monte fortement et dépasse le strike → rouler le call vers le haut
+| *Taille* | Sur la totalité des positions tech éligibles (100 actions par contrat)
+|===
+
+TIP: Cette stratégie est la plus simple à mettre en place si vous avez déjà des actions tech. Elle ne nécessite aucun capital supplémentaire et génère un revenu mensuel de 1,5 à 4 % selon le titre. C'est la *Phase 2 de la xref:ROOT:strategies/wheel.adoc[Wheel Strategy]*.
+
+=== Trade #5 — Collar QQQ (protection zero-cost si grande position long)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Collar (Protective Put + Short Call, coût net nul)
+| *Sous-jacent* | QQQ (~718 $) — si position longue significative (> 5 % du portefeuille)
+| *Raisonnement* | Le VIX à 20 permet d'acheter des puts à prix encore raisonnable. Le collar protège contre un FOMC hawkish tout en finançant la prime du put par la vente d'un call OTM.
+| *Expiration* | 18 juillet 2026 (~39 DTE)
+| *Long Put* | QQQ strike 700 $ (~prime 8–10 $, delta ~−0,35)
+| *Short Call* | QQQ strike 752 $ (~prime 8–10 $, delta ~+0,22)
+| *Coût net* | ~0 $ (Zero-Cost Collar approximatif) footnote:[Estimation — les strikes exacts pour un coût nul dépendent des cours réels. Ajuster le strike call si nécessaire.]
+| *Plancher* | 700 $ — perte max = (718 − 700) × 100 = −1 800 $/contrat
+| *Plafond* | 752 $ — gain max = (752 − 718) × 100 = +3 400 $/contrat
+| *Entrée* | Avant le 13 juin (CPI) — coût nul, faible urgence
+| *Cible* | Laisser courir ou fermer le put si scénario haussier confirmé post-FOMC
+| *Stop-loss* | Non applicable — risque défini par structure
+| *Taille* | Sur 50–100 % de la position QQQ longue
+|===
+
+Voir xref:ROOT:hedging/collar.adoc[la page Collar] pour la mécanique complète et la variante Zero-Cost Collar.
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| *Taux Fed* | 3,50–3,75 % — statu quo attendu à 97 % pour le FOMC du 16 juin
+| *Prochain FOMC* | 16–17 juin 2026 — premier meeting de Kevin Warsh (nouveau chairman)
+| *Dot plot attendu* | Suppression probable de la dernière baisse 2026, possible abandon du framework dot plot
+| *NFP mai 2026* | +172 000 emplois — double des attentes (~85 K) → signal hawkish
+| *Taux 10 ans* | 4,54 % (en hausse depuis 4,50 % avant le NFP) → pression sur les valorisations tech
+| *VIX* | 20,45 aujourd'hui (+8 % on the day) vs 18,92 à la clôture du 8 juin
+| *Fear & Greed* | 43 — *Fear* (pas encore de capitulation — pas de signal d'achat agressif)
+| *Breadth S&P* | 57 % des constituants au-dessus de leur MA200 (percentile 36 — modeste)
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,2,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| *13 juin 2026* | CPI mai 2026 — inflation US | *Élevé* — pivot possible si surprise à la baisse
+| *16–17 juin 2026* | FOMC Warsh — dot plot, tone, forward guidance | *Très élevé* — risque binaire principal
+| *Mi-juillet 2026* | Début earnings Q2 (JPMorgan en premier) | *Élevé* — baromètre de la santé économique
+| *Fin juillet 2026* | Résultats Mag7 (NVDA, MSFT, META, AMZN...) | *Élevé* — test des valorisations IA
+|===
+
+WARNING: Ne jamais rouler ou ouvrir une nouvelle position options la veille d'un FOMC sans avoir défini précisément le scénario de sortie — le gamma est élevé et les mouvements peuvent être extrêmes.
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême) — actuellement 43 (Fear)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — données temps réel, futures et historique
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures sur les Fed Funds
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, chaîne d'options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel et historique
+
+| link:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm[Fed — Calendrier FOMC]
+| Dates officielles des réunions de la Réserve Fédérale
+
+| link:https://www.chase.com/personal/investments/learning-and-insights/article/kevin-warsh-first-federal-reserve-meeting-as-chair-june-2026[Chase — Analyse FOMC Warsh juin 2026]
+| Ce qu'il faut surveiller au premier FOMC de Kevin Warsh
+
+| link:https://fortune.com/2026/06/05/auto-draft-5/[Fortune — Traders lose hope of rate cut]
+| Contexte et réaction du marché après le NFP de mai et la chute du 5 juin
+
+| link:https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html[CNBC — Live updates 4 juin 2026]
+| Couverture en direct du krach Nasdaq de −4 %
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter le VIX et choisir le bon moment]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Mécanique du Trade #3]
+* xref:ROOT:hedging/collar.adoc[Collar — Mécanique du Trade #5]
+* xref:ROOT:strategies/butterfly.adoc[Butterfly / Iron Condor — Mécanique du Trade #1]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Mécanique du Trade #2 et Trade #4]
+* xref:ROOT:options/index.adoc[Options — Concepts fondamentaux : Delta, Theta, IV, Grecs]
+* xref:ROOT:portfolio/index.adoc[Gestion de Portefeuille — Position sizing, Beta weighting, règle des 2 %]

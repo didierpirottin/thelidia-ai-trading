@@ -1,0 +1,35 @@
+= Analyses de Marché
+:description: Historique des analyses hebdomadaires du marché — Nasdaq, S&P 500, VIX, baromètre et recommandations de trades
+
+Cette section regroupe les analyses de marché périodiques, produites par la commande `/analyse-market`.
+Chaque analyse contient : tableau de bord des indices, analyse technique, scénarios, baromètre et recommandations de trades.
+
+TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consultez xref:ROOT:strategies/global-strategy.adoc[la Stratégie Globale] et xref:ROOT:hedging/index.adoc[le Guide de Hedging].
+
+'''
+
+== Analyses disponibles
+
+[cols="1,1,1,1"]
+|===
+| Date | Baromètre | Tendance | Résumé
+
+| xref:market-analysis:market-analysis-2026-06-10.adoc[10 juin 2026]
+| Niveau 4/6 — PRUDENCE
+| Haussière (LT)
+| CPI mai +4,2 % (3 ans haut), escalade Iran-USA, tech selloff
+
+| xref:market-analysis:market-analysis-2026-06-09.adoc[9 juin 2026]
+| Niveau 4/6 — PRUDENCE
+| Haussière (LT)
+| FOMC Warsh 16 juin, Nasdaq −4 % le 5 juin, jobs report x2
+|===
+
+'''
+
+== Voir aussi
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Protéger le portefeuille]
+* xref:ROOT:options/index.adoc[Options — Concepts fondamentaux]
+* xref:ROOT:ressources/index.adoc[Ressources — Outils et liens utiles]

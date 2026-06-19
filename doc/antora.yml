@@ -1,0 +1,7 @@
+name: invest-kb
+title: Base de Connaissance — Investissement
+version: latest
+start_page: ROOT:index.adoc
+nav:
+  - modules/ROOT/nav.adoc
+  - modules/market-analysis/nav.adoc
