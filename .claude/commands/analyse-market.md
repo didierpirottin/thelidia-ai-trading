@@ -120,9 +120,72 @@ Définition des niveaux :
 - **Niveau 5 — Couverture** : tendance en question, cassure de MA50, VIX > 28 — protéger le portefeuille avec puts, collars ou spreads baissiers
 - **Niveau 6 — Danger** : tendance baissière confirmée, cassure de MA200, macro se détériore — sortie des positions risquées, cash ou inverse ETF
 
+## Étape 4bis — Signaux de trading du Congrès américain
+
+Avant de formuler les recommandations, collecter les achats récents des membres du Congrès pour identifier les tickers sur lesquels plusieurs élus ont investi. Ces signaux serviront de critère supplémentaire dans l'étape 5.
+
+### 4bis-a. Scraping Capitol Trades
+
+Lire le fichier `.env` pour récupérer `FINNHUB_API_KEY`. Calculer `DATE_FROM` = aujourd'hui − 30 jours (format `YYYY-MM-DD`).
+
+Effectuer la requête suivante (ajouter un `User-Agent` navigateur réel) :
+
+```bash
+curl -s "https://www.capitoltrades.com/trades?txDate.gte=DATE_FROM&pageSize=96&page=1" \
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" \
+  -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" \
+  -H "Accept-Language: en-US,en;q=0.9"
+```
+
+- Si HTTP 429 : attendre 20 secondes et réessayer une fois.
+- Si toujours bloqué : passer directement à l'étape 5 sans signal Congrès, noter `[Données Congrès indisponibles]` dans l'analyse.
+- Récupérer **2 pages maximum** (pageSize=96), attendre 3 secondes entre chaque page.
+
+### 4bis-b. Filtrage et classement
+
+Garder uniquement les lignes où :
+- Transaction = **Buy / Purchase** (ignorer les ventes, échanges, cadeaux)
+- Asset type = **Stock** (ignorer Options, ETF, Crypto)
+- Ticker = uniquement des lettres majuscules, 1 à 5 caractères
+
+Grouper par ticker. Pour chaque ticker calculer :
+- `buyCount` : nombre de parlementaires distincts ayant acheté
+- `latestDate` : date d'achat la plus récente
+- `politicians` : liste des noms
+
+Trier par `buyCount` décroissant, puis `latestDate` décroissant. Garder le **top 5**.
+
+### 4bis-c. Enrichissement Finnhub (si `FINNHUB_API_KEY` disponible)
+
+Pour chacun des 5 tickers, récupérer les 2 dernières actualités :
+
+```bash
+curl -s "https://finnhub.io/api/v1/company-news?symbol=TICKER&from=DATE_FROM_7J&to=DATE_TODAY&token=FINNHUB_API_KEY"
+```
+
+### 4bis-d. Présentation du signal Congrès
+
+Afficher le tableau suivant (bullets uniquement) :
+
+```
+SIGNAL CONGRÈS — TOP ACHATS (30 derniers jours)
+─────────────────────────────────────────────────────────────────
+- TICKER | N élus | Dernier achat | Élus | Actualité récente
+- TICKER | N élus | ...
+[ou : Données Capitol Trades indisponibles ce jour]
+─────────────────────────────────────────────────────────────────
+```
+
+**Règle d'utilisation dans les recommandations :**
+- Baromètre 1–3 : si un ticker du top Congrès est cohérent avec le contexte technique, le proposer en **trade prioritaire** (mentionner explicitement le signal Congrès comme raison)
+- Baromètre 4 : mentionner les tickers en observation seulement, sans trade actif
+- Baromètre 5–6 : ignorer les signaux haussiers du Congrès — le contexte de marché prime
+
+---
+
 ## Étape 5 — Recommandations de trades (3 à 5 exemples précis)
 
-En fonction du niveau de baromètre identifié, propose **3 à 5 trades concrets** adaptés au contexte.
+En fonction du niveau de baromètre identifié **et des signaux Congrès collectés à l'étape 4bis**, propose **3 à 5 trades concrets** adaptés au contexte.
 
 Pour chaque trade, format bullet points strict :
 
@@ -136,6 +199,7 @@ TRADE #N — [Stratégie] sur [Sous-jacent]
     · [Raison 1 — ex: "Momentum haussier intact, au-dessus MA50"]
     · [Raison 2 — ex: "IV rank 45 % — prime vendeuse intéressante"]
     · [Raison 3 — ex: "Support fort à [prix] testé 3 fois"]
+    · [Si applicable — ex: "Signal Congrès : 3 élus ont acheté récemment (Pelosi, Smith, Jones)"]
 
 Si options :
 - Expiration  : [Date — ex: 18 juil. 2026 / 45 DTE]
@@ -446,7 +510,25 @@ Après création des fichiers, lancer le build Antora pour valider qu'il n'y a p
 npm run build
 ```
 
-Si le build échoue, corriger les erreurs de syntaxe avant de rendre compte.
+Si le build échoue, corriger les erreurs de syntaxe avant de passer à l'étape suivante.
+
+### 7f. Commit et push
+
+Une fois le build validé, committer et pousser tous les fichiers modifiés :
+
+```bash
+git add doc/modules/market-analysis/pages/market-analysis-YYYY-MM-DD.adoc \
+        doc/modules/market-analysis/nav.adoc \
+        doc/modules/market-analysis/pages/index.adoc
+
+git commit -m "/analyse-market : YYYY-MM-DD — Niveau [X]/6 [LABEL]"
+
+git push origin main
+```
+
+Remplacer `YYYY-MM-DD` par la date du jour réelle et `[X]/6 [LABEL]` par le baromètre effectif (ex : `3/6 Consolidation`).
+
+Si le push échoue (erreur SSL ou credentials), signaler l'erreur à l'utilisateur avec la commande exacte à relancer manuellement — ne pas bloquer le rapport final.
 
 ---
 
