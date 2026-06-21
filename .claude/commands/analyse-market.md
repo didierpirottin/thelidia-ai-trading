@@ -126,7 +126,7 @@ Avant de formuler les recommandations, collecter les achats récents des membres
 
 ### 4bis-a. Scraping Capitol Trades
 
-Lire le fichier `.env` pour récupérer `FINNHUB_API_KEY`. Calculer `DATE_FROM` = aujourd'hui − 30 jours (format `YYYY-MM-DD`).
+Récupérer `FINNHUB_API_KEY` : si le fichier `.env` existe, le lire pour extraire la valeur (`grep FINNHUB_API_KEY .env | cut -d '=' -f2`). Sinon, utiliser la variable d'environnement `$FINNHUB_API_KEY` directement (disponible lors de l'exécution distante via les secrets de la routine). Calculer `DATE_FROM` = aujourd'hui − 30 jours (format `YYYY-MM-DD`).
 
 Effectuer la requête suivante (ajouter un `User-Agent` navigateur réel) :
 
@@ -506,7 +506,8 @@ Remplacer la ligne `_Aucune analyse enregistrée pour l'instant._` si c'est la p
 
 Après création des fichiers, lancer le build Antora pour valider qu'il n'y a pas d'erreurs :
 
-```
+```bash
+npm install --silent 2>/dev/null || true
 npm run build
 ```
 
@@ -523,7 +524,18 @@ git add doc/modules/market-analysis/pages/market-analysis-YYYY-MM-DD.adoc \
 
 git commit -m "/analyse-market : YYYY-MM-DD — Niveau [X]/6 [LABEL]"
 
-git push origin main
+# Lire GITHUB_TOKEN depuis .env si non défini en variable d'environnement
+if [ -z "$GITHUB_TOKEN" ] && [ -f .env ]; then
+  GITHUB_TOKEN=$(grep '^GITHUB_TOKEN=' .env | cut -d '=' -f2)
+fi
+
+if [ -n "$GITHUB_TOKEN" ]; then
+  REPO_URL=$(git remote get-url origin)
+  AUTH_URL=$(echo "$REPO_URL" | sed 's|https://github.com|https://'"$GITHUB_TOKEN"'@github.com|')
+  git push "$AUTH_URL" main
+else
+  git push origin main
+fi
 ```
 
 Remplacer `YYYY-MM-DD` par la date du jour réelle et `[X]/6 [LABEL]` par le baromètre effectif (ex : `3/6 Consolidation`).
