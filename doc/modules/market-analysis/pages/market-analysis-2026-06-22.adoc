@@ -1,0 +1,295 @@
+= Analyse de Marché — 22 juin 2026
+:description: Iran deal résout le principal tail risk, Intel +10,6 % (Apple chip deal), FOMC Warsh hawkish — Baromètre Niveau 3 CONSOLIDATION ; Covered Call QQQ, Bull Call Spread NVDA, CSP INTC, Iron Condor SPY
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| ~$740 (+20,7 % YTD)
+| ~$747 (+15,0 % YTD)
+| 18,44 — Tension modérée
+| 36 — *Fear*
+| $665 — *Au-dessus (+11,2 %)*
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : Iran deal positif, mais RSI suracheté + Fed hawkish freinent l'accélération_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 22 juin 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: La tendance haussière de long terme sur QQQ reste intacte (+11,2 % au-dessus de la MA50, +19,3 % au-dessus de la MA200). Deux évolutions positives justifient un passage du Niveau 4 (Prudence, 10 juin) au Niveau 3 : la résolution du conflit Iran-USA (principal tail risk écarté) et le FOMC Warsh qui a confirmé le statu quo. Cependant, le RSI QQQ à 73,53 (suracheté) et le ton hawkish de la Fed (dot plot 2026 relevé à 3,8 % — hike possible) empêchent de passer en mode déploiement agressif. L'attitude recommandée est un renforcement *sélectif* sur les leaders technologiques, avec priorité aux stratégies génératrices de theta.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Le 22 juin 2026 est la première séance après le long weekend de Juneteenth (marchés fermés vendredi 19 juin). QQQ s'est négocié entre $721,97 et $744,37 en intraday, autour de $739–740. Cette séance fait suite à un jeudi 18 juin exceptionnel : le Nasdaq 100 a progressé de +1,9 % et le S&P 500 de +1 %, portés par trois catalyseurs simultanés. *Premièrement*, l'accord de paix intérimaire US-Iran incluant la réouverture du détroit d'Ormuz a dissipé le principal risque géopolitique qui pesait sur les marchés depuis le mois de mai. *Deuxièmement*, le Président Trump a annoncé qu'Intel fabriquera des puces pour Apple aux États-Unis, propulsant INTC de +10,6 % et entraînant dans son sillage Nvidia (+2,8 %) et Micron (+8,5 %). *Troisièmement*, le FOMC présidé par Kevin Warsh (premier FOMC du nouveau chairman post-Powell) a voté 12–0 pour maintenir les taux à 3,50–3,75 %, conformément aux attentes du marché. Sur un mois, QQQ a progressé de +10,6 %, récupérant la quasi-totalité du repli de la mi-mai. Sur l'année, le gain YTD s'établit à +20,7 %. À la traîne, le secteur énergie subit la pression du repli des cours du pétrole consécutif à la réouverture du détroit d'Ormuz.
+
+=== Pourquoi (causes profondes)
+
+Quatre facteurs expliquent la dynamique de marché actuelle. *La résolution géopolitique* est le changement le plus structurant : l'accord US-Iran retire le risque d'une perturbation prolongée des approvisionnements pétroliers, ce qui devrait progressivement faire baisser les prix de l'énergie et, par ricochet, l'inflation CPI (dont +23,5 % YoY sur l'énergie était la principale composante). *La Fed Warsh* adopte un positionnement hawkish calibré : le maintien des taux était attendu, mais la révision des projections (dot plot médian 2026 à 3,8 %, soit 25 pb au-dessus des taux actuels) et la hausse des prévisions d'inflation (3,6 % headline, 3,3 % core) signalent qu'une hausse reste sur la table si le CPI de juin s'avérait décevant. *La thèse IA reste dominante* : le deal Intel-Apple démontre que les États-Unis accélèrent leur réindustrialisation semiconducteurs, bénéficiant à tout l'écosystème (NVDA, AMD, MU, AVGO). *Le sentiment reste prudent* malgré la hausse : Fear & Greed à 36 (Fear), put/call equity à 0,92 — ce qui laisse du carburant haussier si les catalyseurs (Q2 earnings, CPI juin) sont favorables.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | ~$740 | —
+| MA50 QQQ | $665 | *Au-dessus (+11,2 %)* — tendance CT haussière confirmée
+| MA200 QQQ | $620 | *Au-dessus (+19,3 %)* — tendance LT haussière confirmée
+| Nasdaq MA50 | 26 185 | Au-dessus — structure Nasdaq bullish
+| Nasdaq MA200 | 25 069 | Au-dessus (+5 %) — tendance LT intacte
+| SPX MA50 | 7 448 | SPX légèrement sous MA200 — micro death cross (fragilité)
+| SPX MA200 | 7 467 | *SPX à niveau critique* — à surveiller
+| Support clé QQQ | $721–722 | Bas intraday du 22 juin / zone MA20
+| Résistance QQQ | $744–755 | Haut intraday + zone ATH visée
+| RSI 14 QQQ | 73,53 | *Suracheté (>70)* — consolidation/correction CT probable
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 55 %
+
+*Conditions nécessaires* : QQQ maintient un support > $720 (MA20), le RSI se normalise sous 70 sans rupture de la structure, et le CPI de juin (publication ~10 juillet) confirme un début de désinflation grâce à l'effet Iran deal sur l'énergie.
+
+*Cibles* : QQQ $770–780, SPY $780–790.
+
+*Catalyseurs* : Q2 earnings Mag7 supérieurs aux attentes (mi-juillet) ; Fed confirme pause en juillet suite à la baisse attendue de l'inflation énergie ; Nvidia guide favorablement avant ses résultats du 26 août.
+
+=== Scénario baissier — Probabilité 45 %
+
+*Conditions de déclenchement* : CPI juin > 4,5 % (Iran deal ne fait pas encore baisser les prix) → Fed hike surprise ; ou cassure de la MA20 QQQ ($720) suivie d'un test de la MA50 ($665) ; ou SPX confirme sa cassure sous la MA200 (7 467).
+
+*Supports critiques* : QQQ $665 (MA50) — QQQ $620 (MA200).
+
+*Risques de queue* : Iran deal fragile — nouvelles tensions = VIX spike ; récession Q2 inattendue ; taux 10 ans US remonte au-dessus de 4,8 % (compression des multiples tech).
+
+'''
+
+== Signal Congrès américain
+
+NOTE: Capitol Trades n'était pas accessible en temps réel depuis cet environnement. Les données ci-dessous proviennent des disclosures publiques reportées par la presse financière.
+
+[cols="1,1,1,2,2"]
+|===
+| Ticker | Nb élus | Dernier achat | Élus | Actualité récente
+
+| NVDA | 2+ | Fév–mars 2026 | Trump, Pelosi | Blackwell Ultra, exports chips vers Chine
+| INTC | 1 | Mars 2026 | Trump | Apple chip deal US (annoncé 18 juin +10,6 %)
+| AAPL | 1 | Q1 2026 | Trump | Production chips US renforcée
+| DELL | 1 | Fév 2026 | Trump | Infrastructure IA data center
+|===
+
+*Règle d'application (Baromètre 3)* : NVDA et INTC intégrés en trades prioritaires, signal Congrès cité comme facteur de conviction supplémentaire.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes et les deltas sont des estimations — vérifier les cours réels des options avant d'entrer en position.
+
+=== Trade #1 — Covered Call sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (vente d'un call OTM contre position longue existante)
+| *Sous-jacent* | QQQ (~$740 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | RSI 73,53 (suracheté) — consolidation probable CT. Prime d'option élevée post-Juneteenth. Génère un revenu de ~$1 000/contrat pendant la phase de digestion sans sortir de la position core.
+| *Expiration* | 1 août 2026 (~40 DTE)
+| *Strike* | Call 760 (OTM ~2,7 %)
+| *Prime reçue* | ~$10 / action (~$1 000 / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Delta total* | Position nette ~+0,65 (long QQQ −0,35 call vendu)
+| *Theta/jour* | ~+$0,25/j (favorable — le temps joue pour le vendeur)
+| *Breakeven* | $730 (= $740 − $10 prime)
+| *Entrée* | Sell limit ≥ $10 en début de séance
+| *Cible* | Rachat à 50 % de la prime ($5) → profit $500/contrat
+| *Stop-loss* | QQQ clôture > $765 → racheter le call immédiatement
+| *Taille* | Sur position QQQ existante (ne pas initier un nouveau long pour cette stratégie)
+|===
+
+._Covered Call QQQ (achat $740 / vente Call 760) — P&L estimé à expiration (par action)_
+[mermaid]
+....
+xychart-beta
+    title "Covered Call QQQ (740/760 Aug 1) — P&L par action"
+    x-axis ["700$", "710$", "720$", "730$", "740$", "750$", "760$", "770$", "780$"]
+    y-axis "P&L ($)" -35 --> 35
+    bar [-30, -20, -10, 0, 10, 20, 30, 30, 30]
+    line [-30, -20, -10, 0, 10, 20, 30, 30, 30]
+....
+
+NOTE: *Plancher de perte* : illimité à la baisse (position longue QQQ), atténué de $10 (prime reçue) — breakeven à $730. *Plafond de profit* : +$30/action si QQQ ≥ $760 à expiration (gain QQQ $20 + prime $10). *Zone idéale* : QQQ entre $730 et $765 à l'expiration du 1er août.
+
+=== Trade #2 — Bull Call Spread sur NVDA
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (débit)
+| *Sous-jacent* | NVDA (~$211 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | Momentum AI intact — Blackwell Ultra H2 2026 driver. Signal Congrès : Trump et Pelosi ont tous deux acheté NVDA en Q1/Q2 2026. Pull-back récent depuis ATH → entrée technique favorable. Earnings Aug 26 = catalyseur de confirmation à venir.
+| *Expiration* | 18 juillet 2026 (~26 DTE)
+| *Strike(s)* | Achat Call 215 / Vente Call 235 (spread $20)
+| *Prime payée* | ~$7 / action (~$700 / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Delta total* | ~+0,40 (net long directionnel)
+| *Theta/jour* | ~-$0,08/j (coût du temps — contenu par la vente du call 235)
+| *Breakeven* | ~$222 (= $215 + $7)
+| *Max profit* | $13 / action ($1 300/contrat) si NVDA ≥ $235
+| *Entrée* | NVDA > $208 en séance (confirmation momentum)
+| *Cible* | 75 % de la valeur max (~$975/contrat, +39 %)
+| *Stop-loss* | Perte > $350 (50 % du débit) / NVDA clôture sous $200
+| *Taille* | 2–3 % du portefeuille
+|===
+
+=== Trade #3 — Cash-Secured Put sur INTC
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put
+| *Sous-jacent* | INTC (~$134 footnote:[Estimation — vérifier les cours réels avant d'entrer en position. INTC a progressé de +10,6 % le 18 juin — prix à confirmer le 22 juin.])
+| *Raisonnement* | Apple chip deal USA = nouveau stream de revenus LT pour Intel. IV post-événement élevée → prime CSP attractive. Signal Congrès : Trump a acheté INTC (mars 2026). Correction technique attendue après l'euphorie — CSP permet d'acheter INTC à rabais ou de collecter la prime.
+| *Expiration* | 18 juillet 2026 (~26 DTE)
+| *Strike* | Put 125 (OTM ~6,7 %)
+| *Prime reçue* | ~$4 / action (~$400 / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Delta total* | ~-0,20
+| *Theta/jour* | ~+$0,15/j
+| *Breakeven* | $121 (= $125 − $4)
+| *Entrée* | INTC se stabilise > $128 en séance (digestion de l'euphorie)
+| *Cible* | 50 % de la prime ($2) → $200/contrat
+| *Stop-loss* | INTC clôture sous $120 (invalide le thesis Apple deal)
+| *Taille* | 3–4 % (cash bloqué en garantie : ~$12 500/contrat)
+|===
+
+=== Trade #4 — Iron Condor sur SPY
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (delta-neutral, stratégie theta pure)
+| *Sous-jacent* | SPY (~$747 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | SPX near MA200 → probabilité de range élevée. Put/Call SPX à 1,32 — marché non unidirectionnel. FOMC passé, prochain event majeur CPI ~10 juillet. Stratégie theta idéale pour le Niveau 3 — Consolidation.
+| *Expiration* | 18 juillet 2026 (~26 DTE)
+| *Strike(s)* | Vente Put 720 / Achat Put 710 / Vente Call 770 / Achat Call 780
+| *Crédit reçu* | ~$3,50 / action (~$350 / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Delta total* | ~0 (neutre)
+| *Theta/jour* | ~+$0,12/j
+| *Breakeven(s)* | $716,50 (bas) / $773,50 (haut)
+| *Entrée* | Limit $3,50 net crédit en début de séance
+| *Cible* | 50 % crédit ($1,75) → $175/contrat
+| *Stop-loss* | Position vaut 2× crédit initial ($7) → fermer immédiatement
+| *Taille* | 3–5 % du portefeuille
+|===
+
+._Iron Condor SPY (720/710/770/780 Jul18) — P&L estimé à expiration (par action)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor SPY (720/710/770/780) — P&L par action"
+    x-axis ["700$", "710$", "720$", "735$", "747$", "762$", "770$", "780$", "790$"]
+    y-axis "P&L ($)" -8 --> 6
+    bar [-6.5, -6.5, 3.5, 3.5, 3.5, 3.5, 3.5, -6.5, -6.5]
+    line [-6.5, -6.5, 3.5, 3.5, 3.5, 3.5, 3.5, -6.5, -6.5]
+....
+
+NOTE: *Profit max* : +$3,50/action (+$350/contrat) si SPY reste entre $720 et $770 à expiration. *Breakeven bas* : $716,50 — *Breakeven haut* : $773,50. *Perte max* : -$6,50/action (-$650/contrat) si SPY < $710 ou > $780. La zone de profit couvre un range de $50 centré autour de $747 (cours actuel).
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed (fonds fédéraux) | 3,50–3,75 % — statu quo confirmé 17 juin (FOMC Warsh)
+| Prochain FOMC | Fin juillet 2026 — marché surveille CPI juin pour anticiper la décision
+| Dot plot 2026 (médiane) | 3,8 % — signal d'un hike possible si inflation reste élevée
+| CPI mai 2026 | +4,2 % YoY — niveau le plus élevé depuis avril 2023 ; energy +23,5 %
+| Core CPI mai 2026 | +2,9 % YoY — au-dessus de la target Fed (2 %)
+| NFP juin 2026 | Non publié — attendu premier vendredi de juillet
+| Taux 10 ans US | Non disponible en temps réel ce jour footnote:[Dernière valeur connue en hausse consécutivement aux projections hawkish du FOMC Warsh.]
+| Put/Call Equity (CBOE) | 0,92 (18 juin) — modérément haussier
+| Put/Call SPX | 1,32 (18 juin) — positionnement prudent sur l'indice large
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date estimée | Événement | Impact potentiel
+
+| ~10 juillet 2026 | CPI juin 2026 (BLS) | *Élevé* — détermine si la Fed hike ou non
+| Mi-juillet 2026 | Q2 earnings season — Apple, Microsoft, Alphabet | *Élevé* — test des valorisations tech
+| Fin juillet 2026 | FOMC — décision taux | *Élevé* — hike vs pause selon CPI juin
+| 26 août 2026 | Nvidia Q2 earnings | *Élevé* — validation thèse IA
+| Ongoing | Solidité accord de paix Iran-USA | *Modéré* — impact énergétique et CPI
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment (0 = Peur extrême, 100 = Avidité extrême) — valeur : 36 Fear
+
+| link:https://www.cboe.com/tradable-products/vix/[CBOE VIX]
+| Indice de volatilité officiel — valeur : 18,44
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités Fed implicites dans les futures de taux
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html[CNBC — FOMC juin 2026]
+| Décision FOMC Warsh — statu quo 3,50–3,75 %
+
+| link:https://www.cnbc.com/2026/06/10/cpi-inflation-report-may-2026.html[CNBC — CPI mai 2026]
+| CPI mai 2026 : +4,2 % YoY (plus haut depuis avril 2023)
+
+| link:https://www.capitoltrades.com/trades[Capitol Trades]
+| Tracker des achats/ventes d'actions par les membres du Congrès américain
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — stratégie utilisée pour Trade #3 INTC]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — scénario baissier si SPX casse MA200]
+* xref:market-analysis:market-analysis-2026-06-10.adoc[← Analyse précédente : 10 juin 2026 — Niveau 4 Prudence]
