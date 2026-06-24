@@ -1,0 +1,258 @@
+= Analyse de Marché — 23 juin 2026
+:description: Selloff semis −6 % (Micron −12 %, BoFA rate hike note), Nasdaq −2,21 %, VIX 19,49 — Baromètre Niveau 4 PRUDENCE ; Iron Condor QQQ, Bear Put Spread SOXX, Collar SPY
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| ~736 $ (~+23,5 % YTD)
+| ~745 $ (~+20 % YTD)
+| 19,49 — Tension élevée
+| 28 — *Fear*
+| ~718 $ — *Au-dessus* (marge réduite)
+| *Niveau 4/6 — PRUDENCE*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 4/6 — PRUDENCE : Selloff semis + hawkish Fed + catalyseurs binaires imminents_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 23 juin 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 1, 0, 0]
+....
+
+NOTE: Le marché reste techniquement haussier à long terme — QQQ se maintient au-dessus de sa MA50 ($718) et MA200 ($719). Cependant, trois facteurs simultanés imposent la prudence : (1) selloff brutal des semi-conducteurs (SOXX −6 %, Micron −12 %) sur crainte de ralentissement du capex IA, (2) signal hawkish de la Fed (9 officiels voient une hausse en 2026, PCE révisé à 3,6 %), (3) catalyseurs binaires imminents — Micron earnings le 24 juin et PCE le 25–26 juin. Le VIX à 19,49 (+12,79 % en séance) reflète une tension élevée mais pas de panique systémique. Niveau 4 : favoriser les stratégies theta/delta-neutral, ne pas initier de nouveaux longs directionnels.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Le 23 juin 2026, le marché américain subit un selloff brutal centré sur les semi-conducteurs. Le Nasdaq Composite chute de 2,21 % (−579,56 pts, clôture à 25 587), sa pire session depuis début juin. Le S&P 500 recule de 1,44 % à environ 7 456 points, s'éloignant de son ATH du 2 juin (7 616 points). QQQ oscille dans une fourchette intraday de $734 à $745, clôturant autour de $736. Les semi-conducteurs sont à l'épicentre : Micron Technology et SanDisk s'effondrent de 12 % et 13 % respectivement, Intel cède 8 %, AMD 6 %, Nvidia 3 %. L'ETF sectoriel SOXX perd 6 %. La contagion touche l'Asie : l'indice Kospi coréen plonge de 10 %, entraîné par les producteurs de puces mémoire. À l'opposé, les défensifs surperforment — Walmart et Johnson & Johnson gagnent 2 %, Coca-Cola 0,6 % — signe d'une rotation risk-off marquée.
+
+=== Pourquoi (causes profondes)
+
+Deux déclencheurs simultanés expliquent le selloff. *Premièrement*, une note de Bank of America publiée en début de séance rouvre le débat sur une hausse des taux Fed en 2026 : à l'issue du FOMC du 17 juin (premier meeting de Kevin Warsh en tant que nouveau président), 9 des 18 officiels ont signalé au moins une hausse cette année, contre des attentes de statu quo ou de baisse. Le PCE a été révisé brutalement à 3,6 % pour 2026 (vs 2,7 % précédemment). *Deuxièmement*, les grandes capitalisations technologiques (cloud providers) sont soupçonnées de vouloir réduire ou reporter leurs dépenses d'infrastructure IA, sans visibilité claire sur le retour sur investissement. Cette double pression — macro hawkish et doutes sur la pérennité du cycle IA — touche en premier lieu les fabricants de puces qui ont le plus bénéficié du boom IA depuis 2024. En toile de fond, la contagion asiatique amplifie le mouvement : les marchés coréens et taïwanais, très exposés à la mémoire et aux puces logiques, subissent des pertes historiques en une seule session.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours (clôture) | ~736 $ | Neutre / sous pression
+| MA50 QQQ | ~718 $ | Au-dessus (+18 $) — support immédiat clé
+| MA200 QQQ | ~719 $ | Au-dessus (+17 $) — confluence critique avec MA50
+| Support clé | 718–719 $ | Confluence MA50/MA200 — zone à défendre absolument
+| Résistance clé | 745–750 $ | Plafond intraday + hauts pré-selloff du 23 juin
+| RSI | Non disponible | Estimé 50–55 — neutralisation en cours (baisse en séance)
+| Structure | Higher highs depuis oct. 2025 | En danger si cassure MA50 en clôture
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 35 %
+
+*Conditions nécessaires* : QQQ maintient sa MA50/MA200 (zone $718–$719) en clôture hebdomadaire ; Micron Technology publie des résultats et une guidance supérieurs aux attentes le 24 juin, restaurant la confiance sur la demande IA.
+
+*Cibles* : QQQ $760–$780, SPY $770–$790.
+
+*Catalyseurs* : (1) PCE mai 2026 inférieur à 3,3 % publié le 25–26 juin → lecture Fed moins hawkish ; (2) méga-caps cloud (MSFT, GOOGL) confirment le maintien du capex IA lors de leurs résultats Q2 ; (3) rebond technique des semis post-Micron.
+
+=== Scénario baissier — Probabilité 65 %
+
+*Conditions de déclenchement* : Cassure de la confluence MA50/MA200 ($718–$719) de QQQ en clôture hebdomadaire ; guidance Micron négative sur la demande mémoire IA.
+
+*Supports critiques* : QQQ $718–$719 (MA50/MA200), puis QQQ $680–$695 (prochain niveau structurel / gap support).
+
+*Risques de queue* : (1) Hausse surprise Fed en juillet — VIX spike > 30 ; (2) PCE mai 2026 > 3,8 % — effondrement des espoirs de baisse de taux 2026 ; (3) Cloud providers annoncent réduction formelle du capex IA en Q2 → effondrement des multiples semis.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes et strikes indiqués sont des estimations — vérifier les cours réels avant d'entrer en position.
+
+=== Trade #1 — Iron Condor sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (stratégie theta pure, delta-neutral)
+| *Sous-jacent* | QQQ (~736 $)
+| *Raisonnement* | QQQ en range probable entre MA50/200 ($718) et résistance ($755) ; VIX ~19,5 gonfle les primes → conditions idéales pour la vente de volatilité ; catalyseurs binaires (Micron + PCE) susceptibles de déclencher un range post-événements
+| *Expiration* | 18 juillet 2026 (~25 DTE)
+| *Strike(s)* | Sell Put $715 / Buy Put $700 + Sell Call $755 / Buy Call $770
+| *Prime reçue* | ~$4,50 crédit total footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~+0,02 (quasi-neutre)
+| *Theta/jour* | ~+$18–22 / contrat
+| *Breakeven(s)* | $710,50 (bas) / $759,50 (haut)
+| *Entrée* | Ouverture si QQQ entre $730 et $745 — éviter d'entrer avant Micron earnings
+| *Cible* | 50 % du crédit reçu (~$2,25 de profit par contrat, ~$225/lot)
+| *Stop-loss* | Débit > 2× crédit (~$9) OU cassure QQQ < $715 en clôture hebdomadaire
+| *Taille* | 2–3 % du portefeuille
+|===
+
+._Iron Condor QQQ $700/$715/$755/$770 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ — P&L estimé à expiration (par contrat, $)"
+    x-axis ["695", "700", "705", "710", "715", "736", "755", "759", "765", "770", "775"]
+    y-axis "P&L ($)" -1200 --> 600
+    bar [-1050, -1050, -550, -50, 450, 450, 450, 0, -550, -1050, -1050]
+    line [-1050, -1050, -550, -50, 450, 450, 450, 0, -550, -1050, -1050]
+....
+
+NOTE: Crédit maximum de $450/contrat si QQQ reste entre $715 et $755 à expiration. Perte maximale $1 050/contrat si QQQ sort des wings ($700 ou $770). Breakeven à $710,50 (bas) et $759,50 (haut). Le cours actuel de $736 est au centre de la zone de profit.
+
+=== Trade #2 — Cash Secured Put sur AAPL
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash Secured Put (stratégie vendeuse défensive)
+| *Sous-jacent* | AAPL (Apple) — cours réel à vérifier footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Raisonnement* | Apple est moins exposé aux craintes de capex IA que les fabricants de puces ; rotation défensive en cours favorise AAPL (hardware + services récurrents) ; IV rank post-selloff → prime CSP attractive sur niveau de support solide
+| *Expiration* | 18 juillet 2026 (~25 DTE)
+| *Strike(s)* | Put ~5–7 % OTM sous le cours actuel (adapter au prix réel)
+| *Prime reçue* | ~$2,50–3,00 estimé footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0,20 à −0,25
+| *Theta/jour* | ~+$8–12 / contrat
+| *Breakeven(s)* | Strike − Prime reçue
+| *Entrée* | Après publication Micron earnings le 25 juin si marché stabilisé
+| *Cible* | Expiration sans valeur (50–75 % du crédit encaissé)
+| *Stop-loss* | Rachat si perte = 2× crédit initial reçu
+| *Taille* | 3–4 % du portefeuille
+|===
+
+=== Trade #3 — Bear Put Spread sur SOXX
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bear Put Spread (directionnel baissier limité)
+| *Sous-jacent* | SOXX ou SMH (ETF semi-conducteurs) — cours réel à vérifier
+| *Raisonnement* | Momentum baissier exceptionnel (−6 % le 23 juin) ; Micron earnings le 24 juin = catalyseur downside potentiel si guidance décevante ; AI capex concerns structurels — cycle capex en possible retournement ; Kospi −10 % = contagion mondiale chips mémoire
+| *Expiration* | 11 juillet 2026 (~18 DTE)
+| *Strike(s)* | Achat Put ATM + Vente Put −8 % OTM (adapter au cours réel)
+| *Prime payée* | ~$3,00–4,00 estimé footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0,40 à −0,50
+| *Breakeven(s)* | Strike achat − Prime payée
+| *Entrée* | Rebond technique des semis (pré-earnings Micron le 24 juin)
+| *Cible* | 50–80 % du profit maximum
+| *Stop-loss* | Perte totale de la prime si semis rebondissent > +5 %
+| *Taille* | 1–2 % du portefeuille (trade spéculatif/couverture)
+|===
+
+=== Trade #4 — Collar défensif sur SPY
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Collar (Protective Put + Short Call financeur)
+| *Sous-jacent* | SPY (~745 $)
+| *Raisonnement* | Contexte Niveau 4 → protéger les gains YTD (+20 %) ; le call vendu finance le put protecteur → coût quasi-nul ; stratégie idéale pour conserver les positions core long terme sans déployer de capital supplémentaire
+| *Expiration* | 18 juillet 2026
+| *Strike(s)* | Buy Put $728 / Sell Call $762
+| *Prime nette* | ~$0 (auto-financement estimé) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~+0,50 (protection asymétrique)
+| *Breakeven(s)* | Protection active sous $728 (−2,3 % du cours actuel)
+| *Entrée* | Immédiate si SPY se maintient au-dessus de $740
+| *Cible* | Retirer le collar si VIX repasse < 16 (contexte calme revenu)
+| *Stop-loss* | Pas de stop sur le collar — la structure elle-même est la protection
+| *Taille* | Sur 30–50 % des positions SPY long existantes
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed (Fed Funds) | 3,50–3,75 % — statu quo le 17 juin 2026 (Kevin Warsh, 1ᵉʳ meeting)
+| Prochain FOMC | Juillet 2026 — 9/18 officiels anticipent ≥1 hausse en 2026
+| PCE 2026 (révisé) | +3,6 % — brutalement révisé vs 2,7 % — très au-dessus du target 2 %
+| CPI mai 2026 | +4,2 % YoY (pic 3 ans, publié juin 10) — inflation structurellement élevée
+| NFP mai 2026 | +177K emplois — en ligne avec les attentes
+| Taux 10 ans | Maintenu élevé (environ 4,5–4,7 % estimé) — pression sur multiples tech
+| Put/Call ratio | [donnée non disponible en temps réel — estimé élevé vu VIX +12,79 %]
+| Flux ETF | Rotation défensive : vendeurs nets tech, acheteurs nets XLP/XLU/XLV
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 24 juin 2026 | Micron Technology — Résultats T3 fiscal 2026 | Élevé — pivot narratif IA
+| 25–26 juin 2026 | PCE inflation mai 2026 (Fed preferred gauge) | Élevé — signal hawkish/dovish
+| Juillet 2026 | FOMC — Décision taux Fed (Kevin Warsh) | Élevé — risque hausse ou signal hike
+| Fin juin 2026 | Résultats NIKE, FedEx (Q4 FY2026) | Modéré — santé du consommateur
+| Juil–août 2026 | Résultats Mag7 (AAPL, MSFT, GOOGL, META, AMZN, NVDA) | Élevé — confirmation capex IA
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment — valeur du 23 juin 2026 : 28 (Fear)
+
+| link:https://www.cboe.com/tradable-products/vix/[CBOE VIX]
+| VIX le 23 juin 2026 : 19,49 (+12,79 % en séance)
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed — surveiller après PCE du 25–26 juin
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://money.usnews.com/investing/news/articles/2026-06-23/nasdaq-futures-fall-2-on-tech-worries-fed-hike-bets[US News — Wall St Tumbles on Tech Selloff]
+| Analyse du selloff du 23 juin — BoFA note + AI spending concerns
+
+| link:https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-fall-2-tech-080433395.html[Yahoo Finance — S&P, Nasdaq drop on semiconductor selloff]
+| Détail des performances semis du 23 juin (Micron, Intel, AMD, Nvidia)
+
+| link:https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm[Federal Reserve — FOMC Statement June 17 2026]
+| Communiqué officiel FOMC Kevin Warsh — taux maintenus à 3,50–3,75 %
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly — Stratégie theta sur range (similaire Iron Condor)]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Cash Secured Put sur qualité]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Couverture directionnelle baissière]
+* xref:ROOT:hedging/collar.adoc[Collar — Protection du portefeuille à coût nul]

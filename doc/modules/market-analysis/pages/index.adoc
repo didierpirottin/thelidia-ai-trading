@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-06-23.adoc[23 juin 2026]
+| Niveau 4/6 — PRUDENCE
+| Haussière (LT) / Fragilisée CT
+| Selloff semis −6 % (Micron −12 %), BoFA rate hike note, Nasdaq −2,21 %
+
 | xref:market-analysis:market-analysis-2026-06-22.adoc[22 juin 2026]
 | Niveau 3/6 — CONSOLIDATION
 | Haussière
