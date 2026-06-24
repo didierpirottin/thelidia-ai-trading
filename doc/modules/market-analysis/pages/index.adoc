@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-06-22.adoc[22 juin 2026]
+| Niveau 3/6 — CONSOLIDATION
+| Haussière
+| Rebalance NDX IA, SpaceX −16 %, Big Tech rotation, PCE 25 juin
+
 | xref:market-analysis:market-analysis-2026-06-10.adoc[10 juin 2026]
 | Niveau 4/6 — PRUDENCE
 | Haussière (LT)

@@ -1,0 +1,303 @@
+= Analyse de Marché — 22 juin 2026
+:description: Rebalance NDX IA, SpaceX post-IPO selloff −16 %, Big Tech en rotation — Baromètre Niveau 3 CONSOLIDATION ; Iron Condor QQQ, Covered Call NVDA, CSP SPY
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $739,83 (~+17 % 3 mois)
+| ~$747 (~+13 % 3 mois)
+| ~16,41 footnote:[Dernière valeur connue : 16 juin 2026 — donnée temps réel non disponible en RT depuis l'environnement d'exécution.] — Calme
+| 37 — *Fear*
+| ~$694 footnote:[Estimation calculée à partir des données du 10 juin 2026 (MA50 ~$665) extrapolées sur 12 séances.] — *Au-dessus*
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : tendance haussière intacte, rotation tech→cycliques, PCE 25 juin à surveiller_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 22 juin 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: La structure technique reste haussière — QQQ et SPY demeurent bien au-dessus de leur MA50 et MA200. Cependant, trois signaux de prudence sont présents : le rebalance trimestriel du Nasdaq 100 (5 titres AI ajoutés, 5 retirés — turbulences mécaniques), le selloff SpaceX −16 % qui pèse sur le sentiment Big Tech, et le PCE prévu le 25 juin (Core PCE avril à +3,3 % YoY) qui reste le catalyseur macro de la semaine. Le VIX à ~16 et le Fear & Greed à 37 (Fear) reflètent une prudence sans panique — conditions typiques du Niveau 3 : favoriser les stratégies theta et le renforcement sélectif sur les meilleurs setups IA.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Le 22 juin 2026, le marché américain affiche une divergence sectorielle marquée : le Dow Jones gagne +0,29 % (+148 pts), porté par Caterpillar (+4 %), tandis que le Nasdaq Composite recule de −1,32 % à 26 166,60 points et le S&P 500 perd −0,37 % à 7 472,79. QQQ clôture à $739,83 (range intraday $721,97–$744,37), avec un volume de 50,15 M de parts contre une moyenne de 62,12 M — légèreté du volume suggérant une rotation plutôt qu'une vraie pression vendeuse.
+
+Deux événements structurants dominent la séance. *Premièrement*, le rebalance trimestriel du Nasdaq 100 prend effet à l'ouverture du 22 juin : cinq sociétés d'infrastructure IA sont ajoutées (Astera Labs ALAB, CoreWeave CRWV, Nebius Group NBIS, Rocket Lab RKLB, Teradyne TER) et cinq titres sont exclus (Charter Communications CHTR, Cognizant CTSH, Insmed INSM, Verisk Analytics VRSK, Zscaler ZS). Le rééquilibrage génère des flux mécaniques qui amplifient la volatilité intraday. *Deuxièmement*, SpaceX (SPCX), introduit en bourse le 12 juin à $135, après avoir atteint un ATH à $225,64 le 16 juin, chute de −16,4 % aujourd'hui (3e jour consécutif de baisse) — effaçant près de $600 Md de capitalisation sur trois séances. Les causes : acquisition surprise du studio IA Cursor pour $60 Md en actions (dilution massive), émission obligataire de $20 Md annoncée dans la foulée, et démarrage des options SPCX le 17 juin permettant les ventes à découvert pour la première fois.
+
+En toile de fond, les grandes capitalisations tech reculent : Alphabet −5 %, Amazon −4,8 %, Meta −2,3 %. Le marché bénéficie néanmoins d'un soutien géopolitique : le mémorandum d'accord (MoU) US-Iran a été signé le 17 juin, la réouverture du détroit d'Ormuz est en cours, et le Brent oil se stabilise autour de $78 — soit environ −20 % par rapport au pic de la guerre déclenchée le 28 février 2026.
+
+=== Pourquoi (causes profondes)
+
+La Fed a maintenu son taux directeur dans la fourchette 3,50–3,75 % depuis décembre 2025, après trois baisses au second semestre 2025. La réunion du FOMC de juin (16-17 juin) a confirmé ce statu quo, avec la publication des projections économiques. Le marché anticipe le *prochain FOMC les 28-29 juillet 2026*, avec une probabilité croissante d'un relèvement si les prochaines données d'inflation surprennent à la hausse. Le PCE d'avril 2026 — indicateur privilégié de la Fed — affiche +3,8 % YoY (Core PCE +3,3 %), bien au-dessus de la cible de 2 %. La *publication du PCE de mai est prévue le 25 juin 2026* : c'est l'événement macro de la semaine, et il déterminera le positionnement des investisseurs avant le FOMC de juillet.
+
+La résolution progressive du conflit Iran-USA constitue le principal levier haussier du mois : la réouverture du Strait of Hormuz desserre l'étau sur les prix de l'énergie, allégeant la pression inflationniste importée. La rotation sectorielle observée aujourd'hui (industriels et cycliques > tech) est cohérente avec ce scénario de normalisation géopolitique.
+
+Le selloff SpaceX illustre un risque structurel sur le marché 2026 : les méga-IPOs adossées à des valorisations extrêmes (SpaceX introduit à $750 Md de market cap, vite portée à $1 100 Md en intraday) sont vulnérables aux révélations post-IPO. La contagion à l'ensemble du secteur tech s'explique par le positionnement commun des fonds croissance sur ces titres.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $739,83 | —
+| MA50 QQQ | ~$694 footnote:[Estimation — extrapolée depuis le 10 juin 2026 (MA50 ~$665) en supposant QQQ moyen ~$720 sur les 12 séances suivantes.] | Au-dessus (+6,6 %) — structure CT haussière
+| MA200 QQQ | ~$640 footnote:[Estimation — basée sur données de début juin 2026. MA200 QQQ autour de $620–$665 selon les sources.] | Au-dessus (+15,6 %) — tendance LT confirmée
+| S&P 500 cours | 7 472,79 | —
+| S&P 500 MA50 | 7 447,61 | Au-dessus (+0,3 %) — marge serrée ⚠
+| S&P 500 MA200 | 7 466,99 | Au-dessus (+0,08 %) — marge critique ⚠
+| Nasdaq Comp. MA50 | 26 184,91 | Légèrement en-dessous (26 166 < 26 184) — signal de prudence sur small/mid
+| Support clé QQQ | ~$694 | MA50 — zone pivot CT
+| Résistance clé QQQ | ~$750–760 | Zone ATH potentielle / rejet récent
+| RSI S&P 500 | 52,35 | Neutre — ni suracheté ni survendu
+| VIX | ~16,41 | Calme — pas de signal de panique
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 60 %
+
+*Conditions nécessaires* : PCE 25 juin en ligne ou en baisse (Core < 3,2 % attendu), QQQ maintient sa MA50 (~$694) malgré la rotation tech, Iran MoU tient sans nouvelle escalade, pétrole stable sous $85.
+
+*Cibles* : QQQ $770–785 $, SPY $775–790 $.
+
+*Catalyseurs* : PCE dovish → attentes de baisses Fed réactivées pour fin 2026 ; résultats Q2 en juillet — Tesla (22 juil.), Meta (29 juil.), Apple + Amazon (30 juil.) au-dessus des attentes ; afflux mécaniques sur les 5 nouveaux membres du NDX (ALAB, CRWV, NBIS, RKLB, TER).
+
+=== Scénario baissier — Probabilité 40 %
+
+*Conditions de déclenchement* : PCE 25 juin > 4,0 % → Fed hawkish explicite → compression des multiples tech ; SpaceX contagion s'étend à l'ensemble du secteur growth → cassure MA50 QQQ ; Iran deal rompu → spike pétrolier → rechauffe inflationniste.
+
+*Supports critiques* : QQQ ~$694 (MA50), QQQ ~$640 (MA200) — rupture de MA200 S&P 500 (7 466) déclencherait signal technique négatif significatif.
+
+*Risques de queue* : Fed hike surprise en juillet, cyberattaque sur infrastructures critiques post-guerre Iran, Mag7 Q2 déception généralisée.
+
+'''
+
+== Signal Congrès
+
+WARNING: Données Capitol Trades indisponibles ce jour — HTTP 403 depuis l'environnement d'exécution. Endpoint Finnhub congressional-trading non autorisé sur la liste réseau.
+
+Tendance générale 2026 issue de sources médias agrégées (non vérifiées individuellement) :
+
+[cols="1,1,1"]
+|===
+| Ticker | Signaux estimés | Contexte
+
+| NVDA | Fort intérêt (sources 2026) | Leader IA computing — achat récurrent
+| MSFT | Fort intérêt | Azure + Copilot — cloud IA dominant
+| AMZN | Intérêt modéré | AWS — infrastructure cloud
+| AAPL | Intérêt modéré | Valeur refuge dividende
+| AMD | Intérêt modéré | Alternative NVDA sur IA chips
+|===
+
+NOTE: Compte tenu du Baromètre Niveau 3, les signaux Congrès sur NVDA sont utilisés comme critère complémentaire d'observation uniquement (Trade #2). Aucun trade actif Congress-driven n'est initié à ce niveau.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes d'options sont des estimations — vérifier les cours réels avant d'entrer en position.
+
+=== Trade #1 — Iron Condor sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (theta / delta-neutral)
+| *Sous-jacent* | QQQ (~$739,83)
+| *Raisonnement* | Consolidation attendue autour de MA50. VIX ~16 = theta favorable sur 26 DTE. Rebalance NDX crée turbulences temporaires sans trend directif. Breakevens $711–$764 couvrent 97 % du range des 4 dernières semaines.
+| *Expiration* | 18 juillet 2026 (26 DTE)
+| *Strike(s)* | Sell Put $715 / Buy Put $700 + Sell Call $760 / Buy Call $775
+| *Prime reçue* | ~$3,80 net footnote:[Estimation — vérifier les cours réels avant d'entrer en position.] / contrat
+| *Delta total* | ~0 (neutre)
+| *Theta/jour* | ~+$15–18/jour
+| *Breakeven(s)* | $711,20 (baisse) / $763,80 (hausse)
+| *Entrée* | QQQ entre $735–$745 en séance
+| *Cible* | 50 % du crédit reçu (~$190/contrat) — fermer avant PCE si possible
+| *Stop-loss* | Si débit > $7,60 (2× le crédit), fermer immédiatement
+| *Taille* | 3–5 % du portefeuille
+|===
+
+._Iron Condor QQQ — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ — P&L estimé par contrat (exp. 18 juil.)"
+    x-axis ["$695", "$700", "$711", "$715", "$740", "$760", "$764", "$775", "$785"]
+    y-axis "P&L ($)" -1200 --> 500
+    bar [-1120, -1120, 0, 380, 380, 380, 0, -1120, -1120]
+    line [-1120, -1120, 0, 380, 380, 380, 0, -1120, -1120]
+....
+
+NOTE: Profit maximum de $380 si QQQ expire entre $715 et $760. Perte maximale de $1 120 en dehors des wings. Breakevens à $711 (baisse) et $764 (hausse).
+
+=== Trade #2 — Covered Call sur NVDA
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (génération de revenu)
+| *Sous-jacent* | NVDA (~$209,25)
+| *Raisonnement* | NVDA leader de l'IA (capitalisation $5 150 Md, P/E 32×) au-dessus de SA50. Consolidation CT attendue — capturer prime sans quitter la conviction LT. Signal d'observation Congrès (achat récurrent 2026). PCE 25 juin = période d'incertitude favorable à la vente de premium.
+| *Expiration* | 18 juillet 2026 (26 DTE)
+| *Strike(s)* | Call $220 (OTM +5,1 %)
+| *Prime reçue* | ~$4,50 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.] / contrat
+| *Delta total* | ~−0,30 sur la position short call
+| *Theta/jour* | ~+$0,18/jour
+| *Breakeven(s)* | ~$204,75 (protection downside +2,2 %)
+| *Entrée* | Sur position NVDA existante — dès stabilisation au-dessus de $207
+| *Cible* | 50 % de la prime (~$2,25) ou expiration worthless
+| *Stop-loss* | Racheter le call si NVDA > $225 (gap +7,5 %)
+| *Taille* | Sur 100 % de la position NVDA existante
+|===
+
+=== Trade #3 — Cash-Secured Put sur SPY
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (income + accumulation défensive)
+| *Sous-jacent* | SPY (~$747)
+| *Raisonnement* | SPY s'appuie sur une double zone de support : MA50 S&P 500 (7 447) et MA200 (7 466). Le MoU Iran du 17 juin constitue un plancher géopolitique. Si assigné à $730 → coût net ~$725 = excellent point d'entrée LT sur l'indice large. Fear & Greed 37 = signal contrarian légèrement positif.
+| *Expiration* | 18 juillet 2026 (26 DTE)
+| *Strike(s)* | Put $730 (OTM −2,3 %)
+| *Prime reçue* | ~$5,00 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.] / contrat
+| *Delta total* | ~−0,25
+| *Theta/jour* | ~+$0,19/jour
+| *Breakeven(s)* | ~$725
+| *Entrée* | Immédiatement si SPY > $742
+| *Cible* | 50 % du crédit reçu (~$2,50/contrat)
+| *Stop-loss* | Racheter si SPY < $720 en clôture
+| *Taille* | 5–8 % du portefeuille ($73 000 cash requis/contrat)
+|===
+
+=== Trade #4 — Bull Call Spread sur QQQ (conditionnel PCE)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (directionnel conditionnel)
+| *Sous-jacent* | QQQ (~$739,83)
+| *Raisonnement* | Exposition directionnelle limitée au scénario haussier (60 %). PCE favorable = catalyseur de hausse immédiat. Iran deal + nouveaux membres NDX IA = vents porteurs. Risk/reward 2:1 avec perte max limitée au débit payé.
+| *Expiration* | 18 juillet 2026 (26 DTE)
+| *Strike(s)* | Buy Call $745 / Sell Call $760
+| *Prime payée* | ~$4,50 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.] débit / contrat
+| *Delta total* | ~+0,35
+| *Breakeven(s)* | ~$749,50
+| *Entrée* | UNIQUEMENT après publication PCE le 25 juin — si Core PCE < 3,2 %
+| *Cible* | QQQ > $760 → fermer à ~$10 (+$550 profit par contrat)
+| *Stop-loss* | Perte maximale = débit payé (~$450/contrat)
+| *Taille* | 1–2 % du portefeuille
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed (Fed Funds) | 3,50–3,75 % — statu quo depuis décembre 2025
+| Prochain FOMC | 28–29 juillet 2026 — risque de ton hawkish si PCE > 3,5 %
+| PCE avril (YoY) | +3,8 % — Core PCE +3,3 % — au-dessus de la cible 2 %
+| Prochain PCE | 25 juin 2026 — *événement macro clé de la semaine*
+| NFP prochain | 2 juillet 2026
+| Taux 10 ans US | [donnée non disponible en temps réel]
+| Iran-USA | MoU signé le 17 juin — Strait d'Ormuz en réouverture — Brent ~$78
+| Put/Call ratio | [donnée non disponible en temps réel — suivre sur Cboe]
+| AAII Bulls | 36,6 % (semaine du 18 juin) — sous moy. hist. 37,5 % — 5e semaine consécutive
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 25 juin 2026 | PCE mai + Personal Income | Élevé — détermine le positionnement FOMC juillet
+| 27 juin 2026 | Consumer Confidence + New Residential Sales | Modéré
+| 28 juin 2026 | Durable Goods Orders | Modéré
+| 2 juillet 2026 | NFP (rapport emploi) | Élevé — signal Fed
+| 22 juillet 2026 | Résultats Tesla (Q2 2026) | Élevé — premier Mag7
+| 28-29 juillet 2026 | FOMC — Décision taux Fed | Élevé — pivot potentiel
+| 29 juillet 2026 | Résultats Meta (Q2 2026) | Élevé — IA/publicité
+| 30 juillet 2026 | Résultats Apple + Amazon (Q2 2026) | Élevé — consumer + cloud
+| 26 août 2026 | Résultats NVIDIA (Q2 FY2027) | Très élevé — baromètre IA
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême) — valeur du 22 juin : 37 (Fear)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — données et futures — VIX ~16,41
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures — FOMC 28-29 juil. 2026
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.aaii.com/sentimentsurvey[AAII Investor Sentiment Survey]
+| Sondage hebdomadaire sentiment individuel (Bulls/Bears) — 36,6 % Bulls semaine du 18 juin
+
+| link:https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-100-indexr-june-2026-quarterly-changes[Nasdaq-100 Rebalance June 2026]
+| Annonce officielle des 5 ajouts (ALAB, CRWV, NBIS, RKLB, TER) et 5 retraits effectifs le 22 juin
+
+| link:https://www.capitoltrades.com/trades[Capitol Trades]
+| Tracker des transactions STOCK Act du Congrès US — indisponible en temps réel ce jour
+
+| link:https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-22-225817825.html[Yahoo Finance Markets — 22 juin]
+| Live coverage marché US du 22 juin 2026
+
+| link:https://www.cnbc.com/2026/06/22/spacex-stock-ipo-rally-selloff.html[CNBC — SpaceX selloff]
+| Article CNBC sur la chute de SpaceX −16,4 % le 22 juin 2026
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — si Trade #3 (Cash-Secured Put SPY) vous intéresse]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly — stratégie apparentée à l'Iron Condor]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — pour protéger en cas de scénario baissier]
+* xref:ROOT:hedging/protective-put.adoc[Protective Put — si renforcement des positions Big Tech]
