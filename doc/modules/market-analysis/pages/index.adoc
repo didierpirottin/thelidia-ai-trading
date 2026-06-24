@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-06-24.adoc[24 juin 2026]
+| Niveau 4/6 — PRUDENCE
+| Haussière (LT)
+| SOX −7,88 %, BofA 3 hikes, KOSPI circuit breaker, Micron AH
+
 | xref:market-analysis:market-analysis-2026-06-23.adoc[23 juin 2026]
 | Niveau 4/6 — PRUDENCE
 | Haussière (LT) / Fragilisée CT
