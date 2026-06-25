@@ -1,0 +1,276 @@
+= Analyse de Marché — 25 juin 2026
+:description: QQQ $725 | SPY $734 | VIX 18.63 | Baromètre Niveau 3/6 — Consolidation | Rotation tech→semis | CPI 4,2 % | Warsh hawkish
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| ~$725.39 (−0,46 %)
+| ~$734.30 (+0,14 %)
+| 18.63 — calme
+| 28 — Fear
+| Au-dessus ($665.46)
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : structure haussière intacte mais RSI suracheté et inflation persistante_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 25 juin 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: Le marché est en phase de consolidation haussière. La structure long-terme reste intacte (QQQ +9 % au-dessus de la MA50 et +17 % au-dessus de la MA200), mais le RSI à 73,53 signale un marché suracheté. L'inflation à 4,2 % YoY, combinée au nouveau chair de la Fed Warsh réputé hawkish, freine tout déploiement agressif. La rotation sectorielle (tech/AAPL −6 % vs semis/MU +17 %) et le Fear & Greed à 28 indiquent un marché sélectif, pas euphorique.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Le 25 juin 2026, la séance a été marquée par une forte divergence sectorielle. Le Nasdaq a cédé 0,46 % à 25 358 points, tiré vers le bas par Apple (−6 %) qui a annoncé des hausses de prix sur MacBook et iPad de 100 à 200 dollars en raison d'une pénurie de mémoire IA surnommée « RAMageddon ». À l'inverse, Micron Technology a bondi de 17 % après des résultats trimestriels spectaculaires (EPS $25,11 vs $20,78 attendu, chiffre d'affaires $41,46 milliards — quadruplé sur un an), et Qualcomm a progressé de 9 % après avoir doublé ses objectifs de revenus non-mobiles 2029 à 40 milliards de dollars. Caterpillar (+6 %) et J&J (+1 %) ont profité de la rotation vers les cycliques et les défensives, permettant au Dow Jones d'inscrire un nouveau record intrajournalier à 51 920 points. Enfin, Verizon sera retiré du DJIA le 29 juin et remplacé par Alphabet.
+
+=== Pourquoi (causes profondes)
+
+La Fed maintient ses taux dans la fourchette 3,50–3,75 % depuis la réunion du 17 juin présidée par le nouveau chairman Kevin Warsh, qui a remplacé Jerome Powell en mai 2026. Si le statu quo était attendu, Warsh a supprimé les orientations prospectives antérieures et instauré des groupes de travail pour réformer les opérations de la Fed — signal d'une politique plus restrictive possible. Le CPI de mai 2026 s'est établi à +4,2 % en glissement annuel (contre 3,8 % en avril), porté par les prix de l'énergie (+23,5 % YoY) à la suite du conflit en Iran. Le Core PCE est à 3,4 %, très au-dessus de la cible de 2 %. Cette combinaison — inflation élevée, nouveau chair hawkish, pénurie de puces mémoire — crée un environnement de marché sélectif où les valeurs à fort levier IA (mémoire, semis) s'en sortent, tandis que les mega-caps consommateurs (Apple, Microsoft) subissent des pressions sur les marges.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | ~$725.39 | —
+| MA50 QQQ | $665.46 | Au-dessus (+9 %) — haussier
+| MA200 QQQ | $620.16 | Au-dessus (+17 %) — haussier LT
+| Support clé 1 | ~$700 | Zone psychologique + ex-ATH
+| Support clé 2 | $665 | MA50 — support dynamique critique
+| Résistance clé | ~$755–760 | Zone d'extension — à surveiller
+| RSI | 73.53 | Suracheté (>70) — prudence
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 55 %
+
+*Conditions nécessaires* : CPI juin < 4,0 % montrant une décélération de l'inflation ; QQQ reste au-dessus de la MA50 ($665) lors de toute correction ; FOMC du 28–29 juillet confirme la pause (pas de signal hawkish surprenant).
+
+*Cibles* : QQQ $780, SPY $775.
+
+*Catalyseurs* : Pause Fed confirmée en juillet ; résultats Q2 2026 des Mag7 (mi-juillet) dépassent les attentes sur la monétisation IA ; stabilisation des prix des puces mémoire (fin du « RAMageddon »).
+
+=== Scénario baissier — Probabilité 45 %
+
+*Conditions de déclenchement* : Cassure de la MA50 QQQ sous $665 en clôture hebdomadaire ; CPI juin > 4,5 % forçant Warsh à signaler une hausse de taux en septembre 2026.
+
+*Supports critiques* : QQQ $665 (MA50), QQQ $620 (MA200).
+
+*Risques de queue* : Escalade du conflit Iran provoquant un spike du VIX > 30 ; vague de hausses de prix tech entraînant une contraction réelle de la consommation ; récession surprise avec NFP négatif.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes et prix indiqués sont des estimations — vérifier les cours réels avant toute entrée en position.footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+
+=== Trade #1 — Covered Call sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (vente de call OTM sur position longue)
+| *Sous-jacent* | QQQ (~$725.39)
+| *Raisonnement* | RSI 73.53 suracheté — consolidation probable ; QQQ proche résistance $755–760 ; collecte de theta en marché latéral/légèrement haussier
+| *Expiration* | 15 août 2026 (~51 DTE)
+| *Strike* | Call $755 (~4,1 % OTM)
+| *Prime reçue* | ~$11 / contrat (estimé)footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~0.25
+| *Theta/jour* | ~$0.12 $/jour
+| *Breakeven* | $714.89
+| *Entrée* | Sur position longue QQQ existante
+| *Cible* | Racheter à 50 % du crédit (~$5.50)
+| *Stop-loss* | Racheter si débit > $22 (2× crédit) ou clôture QQQ > $758
+| *Taille* | 1 contrat par 100 actions QQQ (~5–8 % du portefeuille)
+|===
+
+._Covered Call QQQ $755 août 2026 — P&L estimé à expiration (par contrat / pour 100 actions)_
+[mermaid]
+....
+xychart-beta
+    title "Covered Call QQQ $755 août 2026 — P&L total estimé"
+    x-axis ["$680", "$700", "$714", "$725", "$740", "$755", "$770", "$790"]
+    y-axis "P&L ($)" -40 --> 50
+    bar [-34, -14, 0, 11, 26, 41, 41, 41]
+    line [-34, -14, 0, 11, 26, 41, 41, 41]
+....
+
+NOTE: Plancher non-limité (baisse du sous-jacent) partiellement atténué par la prime de $11. Plafond à $41 (gain maxi si QQQ ≥ $755 à expiration). Breakeven à $714.89.
+
+=== Trade #2 — Bull Call Spread sur QCOM
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (haussier à risque limité)
+| *Sous-jacent* | QCOM (~$235 estimé après +9 % session)footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Raisonnement* | Doublement de l'objectif revenus 2029 non-mobile à $40 B ; momentum fort confirmé ; spread limite le risque dans un contexte RSI OB
+| *Expiration* | 19 juillet 2026 (~24 DTE)
+| *Strike(s)* | Achat Call $235 / Vente Call $255 (spread de $20)
+| *Prime payée* | ~$6.50 / contrat (estimé)footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~0.40
+| *Breakeven* | $241.50
+| *Gain max* | $13.50 si QCOM > $255 à expiration
+| *Perte max* | $6.50 (débit payé)
+| *Entrée* | QCOM > $232 en clôture
+| *Cible* | 80 % du gain max (~$10.80)
+| *Stop-loss* | Perte de 50 % du débit ($3.25) ou QCOM < $225
+| *Taille* | 2–3 % du portefeuille
+|===
+
+=== Trade #3 — Cash-Secured Put sur JNJ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (vente de put OTM — rendement défensif)
+| *Sous-jacent* | JNJ (~$163 estimé, +1 % session)footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Raisonnement* | Défensives en hausse lors du selloff tech — signal de rotation ; JNJ dividende solide, faible bêta, adapté à la consolidation ; premium de vente attractif en contexte macro incertain
+| *Expiration* | 18 juillet 2026 (~23 DTE)
+| *Strike* | Put $155 (~4,9 % OTM)
+| *Prime reçue* | ~$0.90 / contrat (estimé)footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0.15
+| *Theta/jour* | ~$0.04 $/jour
+| *Breakeven* | $154.10
+| *Entrée* | Immédiate si JNJ > $160
+| *Cible* | 50 % du crédit ($0.45) — clôture anticipée
+| *Stop-loss* | Racheter si JNJ < $155 en clôture
+| *Taille* | 1–2 contrats (1,5 % du portefeuille)
+|===
+
+=== Trade #4 — Iron Condor sur QQQ (range play)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (delta-neutral, theta positif)
+| *Sous-jacent* | QQQ (~$725.39)
+| *Raisonnement* | RSI 73.53 → consolidation en range probable 4–6 semaines ; VIX 18.63 → vente de volatilité attractive ; Fear & Greed 28 indique pas d'exubérance = pas de breakout soudain attendu
+| *Expiration* | 15 août 2026 (~51 DTE)
+| *Strike(s)* | Put $670 / Put $690 — Call $760 / Call $780
+| *Prime reçue* | ~$5.50 total (estimé)footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~0 (neutre)
+| *Theta/jour* | ~$0.10 $/jour
+| *Breakeven(s)* | $684.50 (bas) / $765.50 (haut)
+| *Gain max* | $5.50 si QQQ entre $690 et $760 à expiration
+| *Perte max* | $14.50 (si cassure d'un côté du condor)
+| *Entrée* | Immédiate si VIX > 16
+| *Cible* | 50 % du crédit reçu ($2.75)
+| *Stop-loss* | Racheter si QQQ < $688 ou > $762, ou débit > $11
+| *Taille* | 3–5 % du portefeuille
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo (FOMC 17 juin 2026)
+| Nouveau Chair Fed | Kevin Warsh (depuis mai 2026) — orientation hawkish probable
+| Prochain FOMC | 28–29 juillet 2026 — ton décisif sur H2 2026
+| CPI mai 2026 | +4,2 % YoY — plus haut depuis avril 2023 — choc Iran énergie
+| Core CPI mai | +2,9 % YoY — au-dessus de la cible Fed
+| Core PCE mai | +3,4 % YoY — très au-dessus cible 2 % Fed
+| Énergie | +23,5 % YoY — conflit Iran persistant
+| Put/Call ratio | [non disponible en temps réel — données CBOE à vérifier]
+| VIX | 18.63 (−4,41 %) — calme, sous 20
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 27 juin 2026 | PCE mai 2026 — mesure cible Fed | Élevé — signal inflation
+| 29 juin 2026 | Alphabet remplace Verizon dans le DJIA | Modéré — flux passifs
+| 2 juillet 2026 | NFP juin — rapport emploi | Élevé — santé macro
+| 10 juillet 2026 | CPI juin 2026 — inflation | Très élevé — pivot Fed possible
+| 14–18 juillet 2026 | Saison résultats Q2 — Mag7 (semaine Mag7) | Très élevé — direction Nasdaq
+| 28–29 juillet 2026 | FOMC Warsh — décision taux | Très élevé — hawkish / dovish
+|===
+
+'''
+
+== Signal Congrès américain
+
+WARNING: Données Capitol Trades et Quiver Quantitative indisponibles ce jour (accès réseau bloqué — HTTP 403/000). Consulter directement link:https://www.capitoltrades.com/trades[capitoltrades.com] et link:https://www.quiverquant.com/congresstrading/[quiverquant.com] pour les achats récents. Signal général (WebSearch) : achats parlementaires récents concentrés sur NVDA et AMD — à confirmer avant tout usage en signal de trading.
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment — 28 (Fear) au 25 juin 2026
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| VIX à 18.63 au 25 juin 2026 — données et futures
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-25-2026[TheStreet — 25 juin 2026]
+| Analyse séance — Apple/Microsoft haussent les prix
+
+| link:https://www.cnbc.com/2026/06/17/fed-meeting-today-live-updates.html[CNBC — FOMC 17 juin 2026]
+| Compte-rendu de la première réunion Warsh
+
+| link:https://www.cnbc.com/2026/06/25/apple-macbook-ipad-price-hike-memory.html[CNBC — Apple price hike]
+| Hausse prix MacBook/iPad — impact marché
+
+| link:https://www.investing.com/news/transcripts/earnings-call-transcript-micron-tops-q3-2026-estimates-shares-jump-146-93CH-4759504[Investing.com — Micron Q3 2026]
+| Transcript conférence résultats Micron — EPS $25.11
+
+| link:https://feargreedmeter.com/fear-and-greed-index[feargreedmeter.com]
+| Fear & Greed Index historique
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Cash-Secured Put sur valeurs de qualité]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly — Stratégie range delta-neutral]
+* xref:ROOT:strategies/leaps.adoc[LEAPS — Options longue durée sur sous-jacents de qualité]

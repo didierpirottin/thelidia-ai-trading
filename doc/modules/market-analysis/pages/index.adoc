@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-06-25.adoc[25 juin 2026]
+| Niveau 3/6 — CONSOLIDATION
+| Haussière (LT) / Rotation CT
+| Micron +17 % (IA), Apple −6 % (RAMageddon), Warsh hawkish, CPI 4,2 %
+
 | xref:market-analysis:market-analysis-2026-06-24.adoc[24 juin 2026]
 | Niveau 4/6 — PRUDENCE
 | Haussière (LT)
