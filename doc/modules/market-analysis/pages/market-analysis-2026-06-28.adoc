@@ -1,0 +1,307 @@
+= Analyse de Marché — 28 juin 2026
+:description: QQQ $706 en contact avec MA50 après -4.7 % hebdo, VIX 18.5, Fear & Greed 25 (Peur) — Baromètre Niveau 4 Prudence — rotation défensive, FOMC 29 juillet
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+NOTE: Analyse produite le dimanche 28 juin 2026. Dernière séance : vendredi 27 juin 2026. Données intrajournalières du dimanche basées sur les futures et sources disponibles.
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $706.27 (−4.7 % sem.)
+| $728.99 (−2.05 % sem.)
+| ~18.5 — légère tension
+| 25 — Peur
+| CONTACT (~$706)
+| *Niveau 4/6 — PRUDENCE*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 4/6 — PRUDENCE : QQQ teste MA50, macro incertaine, FOMC hawkish possible_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 28 juin 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 1, 0, 0]
+....
+
+NOTE: Le QQQ a enchaîné 5 séances de baisse consécutives (-4.7 % hebdomadaire) depuis l'ATH du 2 juin ($745.34), et se retrouve en contact direct avec sa MA50 (~$706). Le VIX reste modéré (~18.5) et la MA200 ($621) est largement respectée — pas de danger immédiat — mais le PCE révisé à 3.6 % et un FOMC divisé sur une éventuelle hausse de taux le 29 juillet justifient une attitude de prudence. Le niveau 4 est recommandé : favoriser les stratégies theta positives et delta-neutral, ne pas initier de nouveaux longs directionnels avant confirmation du maintien de la MA50.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Le Nasdaq a enchaîné cinq séances de baisse consécutives pour clôturer en repli de 4.7 % sur la semaine du 23 au 27 juin 2026, sa pire performance hebdomadaire depuis mars. Le QQQ a reculé de son ATH de $745.34 (2 juin) à $706.27, soit une correction de 5.2 % en moins d'un mois. Le S&P 500 (SPY) a résisté davantage (-2.05 % hebdo), tandis que le Dow Jones a sur-performé (+0.6 % sur la semaine) grâce à la rotation sectorielle vers les défensifs.
+
+L'événement phare de la semaine fut Micron Technology : +15 % après des résultats explosifs (CA Q3 $41.5 milliards vs $9.3 milliards un an plus tôt), avant de retomber de 6 % le lendemain sous la pression du narratif « AI spending concerns ». La publication d'un rapport du New York Times signalant un possible report de l'IPO OpenAI à 2027 a amplifié le mouvement de sortie des valeurs IA. La rotation sectorielle est nette : sortie de XLK (tech), entrée dans XLP (consommation de base), XLE (énergie), XLV (santé) et XLI (industriels).
+
+Le dimanche 28 juin, des informations sur une reprise des pourparlers de paix US-Iran ont fait rebondir les futures sur le S&P 500 et poussé le pétrole Brent de +1.9 %, offrant un possible rebond technique en début de semaine.
+
+=== Pourquoi (causes profondes)
+
+[cols="1,2"]
+|===
+| Facteur | Analyse
+
+| *Nouvelle direction Fed*
+| Kevin Warsh a pris la présidence de la Fed (Powell resté gouverneur). Première réunion Warsh : taux maintenu à 3.50–3.75 % pour le 4e statu quo consécutif.
+
+| *PCE inflation*
+| Révisé fortement à la hausse : 3.6 % pour 2026 (vs 2.7 % précédemment) — bien au-dessus de la cible 2 %.
+
+| *Dot plot divisé*
+| 9 membres FOMC voient au moins une hausse en 2026. 9 membres voient statu quo ou baisse. Incertitude maximale avant le 29 juillet.
+
+| *AI capex & ROI*
+| Les hyperscalers prévoient ~$725 milliards de capex IA en 2026. Les investisseurs pivotent du thème "croissance" vers "retour sur investissement" — compression des multiples.
+
+| *Sentiment*
+| Fear & Greed à 25 (Peur). Flux ETF tech négatifs. Rotation vers défensifs = signal risk-off classique.
+
+| *Géopolitique*
+| Tensions US-Iran — cessez-le-feu fragile. Pétrole volatil — risque de spike si escalade.
+|===
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours (clôture ven. 27/06) | $706.27 | —
+| MA50 QQQ | ~$706 | CONTACT CRITIQUE — support testé
+| MA200 QQQ | ~$621 | Au-dessus — tendance LT haussière préservée
+| ATH QQQ (2 juin 2026) | $745.34 | Résistance majeure (−5.2 % depuis)
+| Support clé | $702–$705 | Bas de séance 27 juin / zone MA50
+| Résistance clé | $738–$746 | Zone ATH début juin
+| RSI (estimé) | ~50–55 | Neutre (revenu de l'overbought 73+ de juin)
+| Dow relatif QQQ | Dow +0.6 % / QQQ −4.7 % | Divergence défensive — risk-off confirmé
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 55 %
+
+*Conditions nécessaires* : QQQ maintient la MA50 ($706) en clôture hebdomadaire ; FOMC du 29 juillet confirme la pause (pas de hausse) ; cessez-le-feu US-Iran tient et le pétrole se stabilise.
+
+*Cibles* : QQQ $735–$745, SPY $755.
+
+*Catalyseurs* : Résultats Mag7 Q2 au-dessus des attentes (mi-juillet) ; données PCE juillet en repli ; rebond technique depuis la MA50 sur volumes.
+
+=== Scénario baissier — Probabilité 45 %
+
+*Conditions de déclenchement* : QQQ clôture sous $702 (cassure MA50 confirmée) ; Fed hausse en juillet ou dot plot encore plus hawkish ; regain tensions géopolitiques avec VIX > 25.
+
+*Supports critiques* : QQQ *$680* (intermédiaire, ancien gap) → QQQ *$621* (MA200, filet de sécurité LT).
+
+*Risques de queue* : Escalade Iran → VIX spike > $35 / crude $120+ ; résultats Mag7 décevants sur la guidance IA → Nasdaq -10 %+ ; surprise récessive (NFP négatif inattendu).
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les prix de primes indiqués sont des estimations footnote:[Estimation basée sur VIX ~18.5 et cours QQQ ~$706 — vérifier les cours réels des options avant d'entrer en position.] — toujours vérifier les carnets d'ordres avant d'exécuter.
+
+=== Trade #1 — Iron Condor sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (stratégie theta positive, delta-neutral)
+| *Sous-jacent* | QQQ (~$706)
+| *Raisonnement* | QQQ en range $700–$738 depuis la cassure de l'ATH. VIX ~18.5 : IV suffisante pour prime vendeuse sans être en régime de spike. Stratégie idéale pour baromètre Niveau 4 : encaisser le temps sans pari directionnel.
+| *Expiration* | 21 août 2026 (~55 DTE)
+| *Strike(s)* | Vente Put $680 / Achat Put $670 + Vente Call $738 / Achat Call $748
+| *Prime reçue* | ~$1.50–$2.00 par spread (estimation)
+| *Delta total* | ~0 (delta-neutral au centre du range)
+| *Theta/jour* | ~+$0.08–$0.12 / contrat
+| *Breakeven(s)* | $678 (baisse) / $740 (hausse)
+| *Entrée* | QQQ entre $700 et $715 en séance (lundi 30 juin)
+| *Cible* | 50 % du crédit reçu encaissé (~25 DTE restants)
+| *Stop-loss* | Débit total > 2× crédit reçu / QQQ < $697 ou > $742 en clôture
+| *Taille* | 2–3 % du portefeuille
+|===
+
+._Iron Condor QQQ — P&L estimé à expiration (par spread)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ $680/$670 - $738/$748 — P&L estimé (par contrat)"
+    x-axis ["$660", "$670", "$680", "$700", "$706", "$720", "$738", "$748", "$760"]
+    y-axis "P&L ($)" -1000 --> 300
+    bar [-800, -200, 175, 175, 175, 175, 175, -200, -800]
+    line [-800, -200, 175, 175, 175, 175, 175, -200, -800]
+....
+
+NOTE: Le crédit maximum (~$175–$200 par spread) est encaissé si QQQ reste entre $680 et $738 à expiration. Les ailes à $670 et $748 plafonnent la perte maximale à ~$800 par spread. Le breakeven haussier est autour de $740 (résistance ATH juin), le breakeven baissier autour de $678 (zone de support secondaire).
+
+=== Trade #2 — Covered Call sur QQQ (si déjà long)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Vente de Call couvert (réduction de delta, génération de premium)
+| *Sous-jacent* | QQQ (~$706)
+| *Raisonnement* | Pour les détenteurs de QQQ, vendre un call OTM réduit l'exposition et génère un revenu pendant la consolidation. La résistance à $730–$738 est peu probable à franchir avant le FOMC du 29 juillet.
+| *Expiration* | 17 juillet 2026 (~20 DTE)
+| *Strike(s)* | Call $730 (OTM, ~+3.4 % au-dessus du cours)
+| *Prime reçue* | ~$3.50–$5.00 / action (estimation)
+| *Delta position nette* | ~+0.65–0.70 (delta réduit vs long QQQ pur)
+| *Theta/jour* | ~+$0.20 / action
+| *Breakeven(s)* | ~$700–$702 (protection partielle à la baisse via la prime)
+| *Entrée* | Lundi 30 juin à l'ouverture
+| *Cible* | Rachat call à 50 % du crédit (~10 DTE restants)
+| *Stop-loss* | Roll haussier si QQQ dépasse $732 en séance
+| *Taille* | Sur 100 % des actions QQQ détenues
+|===
+
+=== Trade #3 — Cash-Secured Put sur XLE (secteur Énergie — leader)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (vente de put, neutre-haussier sur XLE)
+| *Sous-jacent* | XLE — Energy Select Sector SPDR (cours à vérifier ~$90–$95)
+| *Raisonnement* | XLE est parmi les secteurs leaders depuis le 5 juin. La rotation défensive vers l'énergie est confirmée par la surperformance du Dow et la géopolitique Iran (support structurel du pétrole). Un CSP loin OTM permet de collecter une prime sans acheter le titre directement.
+| *Expiration* | 17 juillet 2026 (~20 DTE)
+| *Strike(s)* | Put ~5 % sous le cours actuel (ex. Put $86 si XLE à $91)
+| *Prime reçue* | ~$0.80–$1.20 / contrat (estimation)
+| *Delta* | ~-0.20 (put loin OTM)
+| *Breakeven(s)* | Strike − prime reçue
+| *Entrée* | Lundi 30 juin — vérifier le cours XLE et les strikes disponibles
+| *Cible* | 60 % du crédit reçu encaissé
+| *Stop-loss* | Débit > 1.5× crédit / XLE casse sous support hebdomadaire
+| *Taille* | 1–2 % du portefeuille (mise en liquidités pour acquisition potentielle)
+|===
+
+=== Trade #4 — Bear Put Spread QQQ (conditionnel — cassure MA50)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bear Put Spread (baissier conditionnel — protection asymétrique)
+| *Sous-jacent* | QQQ (~$706)
+| *Raisonnement* | Si QQQ casse la MA50 en clôture ($702), le risque de retour sur $680 est réel. Ce spread offre une protection à coût limité sans chercher à shorter agressivement le marché.
+| *Expiration* | 21 août 2026 (~55 DTE)
+| *Strike(s)* | Achat Put $700 / Vente Put $685
+| *Prime payée* | ~$3.00–$4.00 / spread (débit)
+| *Delta* | ~-0.30 (légèrement baissier)
+| *Breakeven(s)* | ~$696–$697 (QQQ doit descendre pour être profitable)
+| *P&L max* | ~$1,100–$1,200 / spread si QQQ < $685 à expiration
+| *Entrée* | UNIQUEMENT si QQQ clôture sous $702 (lundi 30 juin ou session suivante)
+| *Cible* | QQQ atteint $685 — vendre 50–75 % du spread
+| *Stop-loss* | QQQ remonte au-dessus de $715 → couper la perte (~$150–$200)
+| *Taille* | 1 % du portefeuille max (protection, pas position core)
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3.50–3.75 % — statu quo (4e consécutif sous Kevin Warsh)
+| Prochain FOMC | 28–29 juillet 2026 — 9/18 membres penchent pour une hausse
+| PCE inflation | +3.6 % YoY — fortement révisé à la hausse (vs cible 2 %)
+| CPI | [données spécifiques non confirmées — PCE +3.6 % comme proxy]
+| NFP (dernier) | Emploi "au rythme de la population active" — pas de surprise identifiée
+| Taux 10 ans | [donnée non disponible en temps réel — surveiller avant FOMC]
+| Put/Call ratio | [donnée non disponible en temps réel — surveiller pour signal sentiment]
+| Micron Q3 | CA $41.5B (+347 % YoY) — stock +15 % puis -6 % (AI spending concerns)
+| Capex IA 2026 | ~$725 milliards attendus (hyperscalers) — focus ROI > croissance
+| OpenAI IPO | Report possible à 2027 (NYT) — sentiment IA dégradé
+| Pétrole Brent | +1.9 % dim. 28 juin (espoirs paix US-Iran) — volatilité à surveiller
+|===
+
+'''
+
+== Signal Congrès américain
+
+WARNING: Les données Capitol Trades n'étaient pas accessibles (HTTP 403) lors de la production de cette analyse. Les informations ci-dessous proviennent de sources ouvertes et ne constituent pas un signal structuré confirmé.
+
+[cols="1,1,1,2"]
+|===
+| Ticker | Élus identifiés | Période | Commentaire
+
+| BRK/B | 1 (sénateur Rep. Kansas) | Juin 2026 | Achat Berkshire — signal value / défensif
+| NVDA | 2+ (achats passés) | Mai–Juin 2026 | Pelosi, MTG — positions connues, pas de signal frais confirmé
+| TSLA / AMZN | Divers | Juin 2026 | Achats divulgués, pas de consensus fort identifié
+|===
+
+NOTE: Baromètre niveau 4 — même si un signal Congrès avait été identifié sur un titre tech, le contexte de marché actuel recommande l'observation uniquement (pas de trade actif directionnel).
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 30 juin 2026 | Ouverture de semaine — test de la MA50 QQQ | Élevé
+| Mi-juillet 2026 | Début résultats Mag7 Q2 (MSFT, GOOGL, META, AAPL...) | Élevé
+| 29 juillet 2026 | Décision FOMC Kevin Warsh — dot plot | Élevé
+| Fin juillet 2026 | Résultats NVDA, AMZN (estimés fin juillet) | Élevé
+| Mi-août 2026 | Publication CPI/PCE juillet | Modéré
+| Continu | Géopolitique US-Iran — cessez-le-feu fragile | Modéré à Élevé
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (25 = Peur au 28 juin 2026)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — VIX ~18.5 au 27–28 juin 2026
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed — surveiller avant FOMC 29 juillet
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617.htm[FOMC Statement juin 2026]
+| Communiqué officiel Fed — décision de juin 2026 (Kevin Warsh)
+
+| link:https://www.cnbc.com/2026/06/25/micron-stock-3q-earnings-memory.html[Micron Q3 Earnings CNBC]
+| Résultats Micron Q3 2026 — +15 % puis -6 %
+
+| link:https://www.schwab.com/learn/story/stock-market-update-open[Schwab — Tech Malaise]
+| Analyse rotation sectorielle et AI spending concerns juin 2026
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly / Condor — stratégies delta-neutral]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — protection conditionnelle]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Covered Call et Cash-Secured Put]

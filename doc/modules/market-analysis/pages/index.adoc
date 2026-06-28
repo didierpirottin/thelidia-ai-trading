@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-06-28.adoc[28 juin 2026]
+| Niveau 4/6 — PRUDENCE
+| Haussière (LT)
+| QQQ −4.7 % hebdo, MA50 en contact ($706), FOMC 29 juil., rotation défensive
+
 | xref:market-analysis:market-analysis-2026-06-25.adoc[25 juin 2026]
 | Niveau 3/6 — CONSOLIDATION
 | Haussière (LT) / Rotation CT
