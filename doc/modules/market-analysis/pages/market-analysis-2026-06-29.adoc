@@ -1,0 +1,332 @@
+= Analyse de Marché — 29 juin 2026
+:description: QQQ $724 reclaim MA50 après rebond +2.52 %, VIX 18.41, Fear & Greed 25 (Peur), Dow record 52 000 — Baromètre Niveau 3 Consolidation — NFP jeudi, Warsh mercredi Portugal
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+NOTE: Analyse produite le lundi 29 juin 2026. Données de clôture de la séance du lundi 29 juin 2026. Indices au niveau le plus récent disponible en temps réel.
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $724 (+2.52 % séance)
+| ~$738 (+1.23 % séance)
+| 18.41 — calme
+| 25 — Peur
+| Au-dessus (~$718)
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : rebond MA50 confirmé, mais NFP et Warsh à surveiller_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 29 juin 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: Le QQQ a rebondi de +2.52 % ce lundi pour clôturer à $724, recalibrant la MA50 (~$718) après le contact critique du vendredi 27 juin ($706). Le VIX est retombé à 18.41 et le Fear & Greed reste à 25 (Peur) — niveau historiquement contrarian positif. Le niveau 3 est retenu : la tendance haussière longue durée est intacte (MA200 à $648, largement respectée), mais la macro est binaire à court terme (NFP jeudi 2 juillet, discours Warsh mercredi 1er juillet). Renforcement progressif et sélectif recommandé ; éviter les longs directionnels non couverts avant ces événements.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Le marché a vivement rebondi ce lundi 29 juin 2026 après une semaine difficile. Le Nasdaq 100 a progressé de +2.3 %, le QQQ clôturant à $724 (vs $706 vendredi), et le S&P 500 a gagné +1.18–1.23 % pour fermer à 7 440.43, le Dow Jones franchissant 52 000 pour la première fois de son histoire. Trois catalyseurs principaux ont alimenté ce rebond :
+
+Premièrement, le président Trump a annoncé dimanche la reprise des pourparlers de paix avec l'Iran dès mardi 30 juin, réduisant immédiatement la prime de risque géopolitique. Deuxièmement, Alphabet (GOOGL) a officiellement rejoint le Dow Jones Industrial Average ce matin, entraînant une hausse de +4 % de l'action à $353.56 liée aux achats mécaniques des fonds indiciels. Troisièmement, la Cour Suprême a rejeté la tentative de l'administration Trump de destituer Lisa Cook comme gouverneure de la Fed, renforçant l'indépendance de l'institution.
+
+Tesla a bondi de +8.5 %, Iridium de +22 % (acquisition Rocket Lab à $8 milliards). En revanche, Super Micro Computer (SMCI) a fortement reculé après une enquête taïwanaise sur un trafic présumé de puces. Le Russell 2000 (small caps) a sous-performé avec −1.22 %, confirmant une rotation sectorielle tech / large cap plutôt qu'un mouvement de marché large.
+
+=== Pourquoi (causes profondes)
+
+[cols="1,2"]
+|===
+| Facteur | Analyse
+
+| *Nouveau Fed Chair — Warsh*
+| Kevin Warsh (confirmé 13 mai) conduit une politique plus hawkish que Powell. Taux maintenus à 3.50–3.75 % (4e statu quo). Prochain FOMC : 28–29 juillet — incertitude maximale.
+
+| *Inflation (PCE)*
+| PCE révisé à 3.6 % YoY pour 2026 (vs cible Fed 2 %). Bien au-dessus des attentes. Pression sur les multiples tech.
+
+| *Géopolitique US-Iran*
+| Cessez-le-feu fragile. Rebond d'espoir ce lundi (pourparlers mardi). Pétrole volatil — Brent +1.9 % dimanche, se stabilise.
+
+| *SCOTUS / indépendance Fed*
+| Maintien de Lisa Cook → marchés rassuré sur l'indépendance de la Fed face à l'exécutif.
+
+| *Sentiment extrême*
+| Fear & Greed à 25 (Peur). Put/call ~1.0–1.23 = couverture maximale. Historiquement, ces niveaux précèdent des rebonds.
+
+| *Concentration Mag7*
+| Dow GOOGL + Tesla rebond = concentration continue sur la tech. Russell 2000 −1.22 % = signal d'alerte breadth.
+|===
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours (clôture 29/06) | $724 | —
+| MA50 QQQ | ~$718 | Au-dessus — reclaim technique du jour ✓
+| MA200 QQQ | ~$648 | Largement au-dessus — tendance LT haussière intacte
+| ATH QQQ (2 juin 2026) | $745.34 | Résistance principale (−2.9 % depuis ATH)
+| Support clé | $718 | MA50 — testée et tenue cette semaine
+| Résistance clé | $745–$750 | Zone ATH début juin
+| RSI (estimé) | ~55–62 | Neutre-positif (revenu d'overbought 73+ de juin)
+| Dow relatif QQQ | +0.59 % vs +2.52 % | Divergence : tech mène la hausse, pas large breadth
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 60 %
+
+*Conditions nécessaires* : QQQ tient au-dessus de la MA50 ($718) en clôture hebdomadaire ; NFP du 2 juillet ≥ +150 K (pas de surprise récessive) ; discours Warsh du 1er juillet neutre ou rassurant sur la pause.
+
+*Cibles* : QQQ $745–$760, SPY $755–$770.
+
+*Catalyseurs* : Résultats Mag7 Q2 au-dessus des attentes (mi-juillet) ; FOMC juillet confirme la pause ; accalmie géopolitique US-Iran durable.
+
+=== Scénario baissier — Probabilité 40 %
+
+*Conditions de déclenchement* : NFP décevant (< +100 K) ou hawkish (> +250 K → inflation crainte) ; Warsh signale une hausse imminente au Portugal ; QQQ recasse sous $718 en clôture.
+
+*Supports critiques* : QQQ *$718* (MA50, filet immédiat) → QQQ *$680–$685* (intermédiaire) → QQQ *$648* (MA200, plancher LT).
+
+*Risques de queue* : Paix US-Iran échoue → pétrole $110+, VIX > 30 ; résultats Mag7 décevants sur guidance IA → Nasdaq −8 %+ ; surprise récessive NFP négatif.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes indiquées sont des estimations footnote:[Estimation basée sur VIX ~18.4 et cours QQQ ~$724 — vérifier les carnets d'ordres réels avant d'entrer en position.] — toujours vérifier avant d'exécuter.
+
+=== Trade #1 — Bull Call Spread sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (directionnel modéré, débit limité)
+| *Sous-jacent* | QQQ (~$724)
+| *Raisonnement* | Reclaim de la MA50 ($718) ce lundi = signal technique haussier. Rebond Iran + Dow GOOGL = catalyseurs momentum confirmés. Fear & Greed 25 (Peur) = niveau contrarian historiquement acheteur. Le spread limite le risque à l'amont d'un NFP binaire.
+| *Expiration* | 18 juillet 2026 (~19 DTE)
+| *Strike(s)* | Achat Call $730 / Vente Call $755
+| *Prime payée* | ~$5–7 net (débit) par contrat
+| *Delta* | ~+0.35 à l'entrée
+| *Theta/jour* | Légèrement négatif (~−$0.10/j) — contenu par le short leg
+| *Breakeven* | ~$735–$737
+| *Entrée* | QQQ > $720 en clôture (confirmé aujourd'hui ✓)
+| *Cible* | QQQ ≥ $750 → fermer 80 % du gain max (~$1 800 par contrat)
+| *Stop-loss* | QQQ clôture sous $712 → couper la position (~$300–$400 perte)
+| *Taille* | 3–4 % du portefeuille
+|===
+
+._Bull Call Spread QQQ $730/$755 — P&L estimé à expiration_
+[mermaid]
+....
+xychart-beta
+    title "Bull Call Spread QQQ 730/755 — P&L estimé (par contrat)"
+    x-axis ["$700", "$715", "$730", "$735", "$742", "$748", "$755", "$765"]
+    y-axis "P&L ($)" -700 --> 2200
+    bar [-600, -600, -600, 0, 700, 1200, 1900, 1900]
+    line [-600, -600, -600, 0, 700, 1200, 1900, 1900]
+....
+
+NOTE: Perte maximum ~$600 si QQQ reste sous $730 à expiration. Gain maximum ~$1 900 si QQQ ≥ $755. Breakeven à ~$736. La résistance ATH ($745) représente une cible intermédiaire réaliste à 3 semaines.
+
+=== Trade #2 — Cash-Secured Put sur NVDA
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (theta income, neutre-haussier)
+| *Sous-jacent* | NVDA (~$194)
+| *Raisonnement* | Signal Congrès (sources ouvertes) : 2+ élus acheteurs NVDA (mai–juin). NVDA en pullback de ~15 % depuis son ATH — le CSP permet de percevoir une prime sur la faiblesse. IV post-correction élevée → prime vendeuse intéressante à ce niveau.
+| *Expiration* | 18 juillet 2026 (~19 DTE)
+| *Strike(s)* | Put $180 (~7 % OTM)
+| *Prime reçue* | ~$2.50–$3.50 par contrat (estimation)
+| *Delta* | ~−0.18
+| *Theta/jour* | ~+$0.12 par contrat
+| *Breakeven* | $177–$178
+| *Entrée* | NVDA > $190 en séance
+| *Cible* | 60 % du crédit reçu (~12 DTE restants)
+| *Stop-loss* | NVDA clôture sous $182 → racheter ou roller sur put $170 / août
+| *Taille* | 2–3 % (mettre le cash équivalent en garantie)
+|===
+
+=== Trade #3 — Covered Call sur GOOGL
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (si GOOGL détenu — monétiser l'excitation du Dow)
+| *Sous-jacent* | GOOGL (~$354)
+| *Raisonnement* | Entrée dans le Dow Jones = demande structurelle des fonds indiciels (plusieurs jours de rééquilibrage). +4 % le jour J = IV gonflée → premium élevé. Signal Congrès : achats GOOGL divulgués en juin 2026. Vendre le premium avant stabilisation.
+| *Expiration* | 18 juillet 2026 (~19 DTE)
+| *Strike(s)* | Call $370 (~4.5 % OTM)
+| *Prime reçue* | ~$5–8 par action (estimation)
+| *Delta nette* | ~+0.65 (long action, delta réduit vs position nue)
+| *Theta/jour* | ~+$0.25 par action
+| *Breakeven* | ~$346–$349 (protection partielle via prime)
+| *Entrée* | Mardi 1er juillet à l'ouverture (laisser le momentum se calmer)
+| *Cible* | Rachat call à 50 % du crédit (~10 DTE restants)
+| *Stop-loss* | Roll haussier si GOOGL > $373 en séance avant expiration
+| *Taille* | Sur 100 % des actions GOOGL détenues
+|===
+
+=== Trade #4 — Iron Condor SPY (theta / consolidation)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (delta-neutral, theta positif)
+| *Sous-jacent* | SPY (~$738)
+| *Raisonnement* | SPY en range attendu $710–$760 avant NFP + FOMC juillet. VIX 18.4 : IV suffisante pour une prime vendeuse sans être en régime de spike. Stratégie idéale niveau 3 : capter la valeur temps sans pari directionnel.
+| *Expiration* | 21 août 2026 (~53 DTE)
+| *Strike(s)* | Vente Put $715 / Achat Put $705 + Vente Call $760 / Achat Call $770
+| *Prime reçue* | ~$1.80–$2.50 crédit net (estimation)
+| *Delta total* | ~0 (delta-neutral au centre)
+| *Theta/jour* | ~+$0.10–$0.15 par spread
+| *Breakeven* | $712–$713 (baisse) / $762–$763 (hausse)
+| *Entrée* | Mardi 1er juillet après discours Warsh (stabilisation de la vol.)
+| *Cible* | 50 % du crédit reçu encaissé (~25 DTE restants)
+| *Stop-loss* | Débit total > 2× crédit / SPY < $708 ou > $765 en clôture
+| *Taille* | 2–3 % du portefeuille
+|===
+
+._Iron Condor SPY $715/$705 - $760/$770 — P&L estimé à expiration_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor SPY 705/715 - 760/770 — P&L estimé (par spread)"
+    x-axis ["$695", "$705", "$715", "$730", "$738", "$750", "$760", "$770", "$780"]
+    y-axis "P&L ($)" -1100 --> 350
+    bar [-800, -100, 225, 225, 225, 225, 225, -100, -800]
+    line [-800, -100, 225, 225, 225, 225, 225, -100, -800]
+....
+
+NOTE: Crédit maximum (~$225 par spread) encaissé si SPY reste entre $715 et $760 à expiration. Les ailes à $705 et $770 plafonnent la perte maximale à ~$800. Le range $715–$760 correspond à l'intervalle de consolidation probable autour de la MA50 SPY et du range pré-NFP.
+
+'''
+
+== Signal Congrès américain
+
+WARNING: Les données Capitol Trades n'étaient pas accessibles (HTTP 403) lors de la production de cette analyse. Les informations ci-dessous proviennent de sources ouvertes (WebSearch) et ne constituent pas un signal structuré confirmé.
+
+[cols="1,1,1,2"]
+|===
+| Ticker | Élus identifiés | Période | Commentaire
+
+| NVDA | 2+ (dont Pelosi) | Mai–juin 2026 | Achats IA infrastructure — signal acheteurs récurrents
+| AMD | Plusieurs | Juin 2026 | Achats semis IA — données Quiver Quant non structurées
+| INTC | 1 (Pelosi) | 29 mai 2026 | $1M–5M — politique semi-conducteurs US (CHIPS Act)
+| GOOGL | Divers | Juin 2026 | Achats pré-Dow addition — rotation Big Tech
+| MSFT | Divers | Juin 2026 | Achats réguliers — cloud et IA enterprise
+|===
+
+NOTE: Baromètre niveau 3 — les tickers Congrès (NVDA, GOOGL) sont intégrés dans les recommandations de trades #2 et #3 comme signal de confirmation supplémentaire, combiné aux signaux techniques.
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3.50–3.75 % — statu quo (4e consécutif sous Kevin Warsh)
+| Prochain FOMC | 28–29 juillet 2026 — 9/18 membres envisagent une hausse
+| PCE inflation | +3.6 % YoY — fortement révisé à la hausse (vs cible 2 %)
+| CPI | [donnée spécifique non disponible — PCE +3.6 % comme proxy]
+| NFP (dernier connu) | Publication attendue jeudi 2 juillet (avancée — July 4)
+| Taux 10 ans | [donnée non disponible en temps réel]
+| Put/Call ratio | CBOE Total ~0.99 / SPX ~1.23 (25 juin) — couverture élevée
+| VIX | 18.41 — calme (range journalier 18.20–20.72)
+| Fear & Greed | 25 — Peur (inchangé vs vendredi 27 juin)
+| AAII Bullish | 44.9 % (sem. 25 juin) — au-dessus moyenne historique 37.5 %
+| AAII Bearish | 36.1 % — sous la moyenne, mais divergence vs F&G 25
+| Dow Jones | Record historique > 52 000 (Alphabet inclusion)
+| Russell 2000 | −1.22 % ce lundi — breadth étroite (tech mène seul)
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 1er juillet 2026 | Discours Fed Chair Warsh — Portugal (9h30 ET) | Élevé
+| 2 juillet 2026 | NFP juin (emplois non-agricoles) — avancé d'un jour | Élevé
+| 3 juillet 2026 | Marchés US ferment tôt (July 4 eve) | Faible
+| 4 juillet 2026 | Independence Day — marchés US fermés | —
+| Mi-juillet 2026 | Début résultats Mag7 Q2 (MSFT, GOOGL, META, AAPL…) | Élevé
+| 28–29 juillet 2026 | Décision FOMC — Kevin Warsh (hausse ou pause ?) | Élevé
+| Fin juillet 2026 | Résultats NVDA, AMZN (estimés fin juillet 2026) | Élevé
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment — 25 (Peur) au 29 juin 2026
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — 18.41 au 29 juin 2026
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed — surveiller avant FOMC 29 juillet
+
+| link:https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-29-224230573.html[Yahoo Finance — Markets Today 29 juin]
+| Dow franchit 52 000, GOOGL +4 %, S&P +1.18 %
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-29-2026[TheStreet — Market Today 29 juin]
+| Détail des mouvements Nasdaq et S&P 500 du 29 juin
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm[FOMC Statement juin 2026]
+| Communiqué officiel Fed — statu quo 3.50–3.75 % (juin 2026)
+
+| link:https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar[Kiplinger — Calendrier économique semaine 29 juin–3 juillet]
+| Détail des publications macro de la semaine — NFP jeudi 2 juillet
+
+| link:https://www.aaii.com/sentimentsurvey[AAII Sentiment Survey]
+| Bullish 44.9 % / Bearish 36.1 % — semaine du 25 juin 2026
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly / Condor — stratégies delta-neutral]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Covered Call et Cash-Secured Put]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — protection conditionnelle]
