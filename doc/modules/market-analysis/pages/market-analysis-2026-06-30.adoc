@@ -1,0 +1,334 @@
+= Analyse de Marché — 30 juin 2026
+:description: QQQ $732.49 (+2.28%) — fin du meilleur T2 depuis 2020, cessez-le-feu US–Iran, VIX 17.65, Fear & Greed 27 (Peur) — Baromètre Niveau 3 Consolidation
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+NOTE: Analyse produite le mardi 30 juin 2026 (clôture de trimestre). Données de séance du 30 juin 2026 — dernier jour de cotation du T2.
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $732.49 (+2.28 %)
+| $746.79 (S&P 500 : 7 449)
+| 17.65 — calme
+| 27 — Peur
+| Au-dessus (~$710)
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : tendance haussière restaurée, approche de l'ATH, macro incertaine_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 30 juin 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: Le QQQ a rebondi vigoureusement (+3.7 % en 2 séances) depuis le bas du 27 juin ($706.27), porté par le cessez-le-feu US–Iran annoncé le week-end et la clôture du meilleur T2 depuis 2020. Il se retrouve à seulement 1.7 % de son ATH du 2 juin ($745.34) avec le VIX à 17.65 (calme). Cependant, l'inflation réaccélère (CPI mai +4.2 % YoY, bien au-dessus de la cible Fed), 9 membres du FOMC voient au moins une hausse d'ici fin 2026, et le Fear & Greed reste à 27 (Peur) malgré la performance record. Le niveau 3 est recommandé : renforcement progressif et sélectif sur les meilleurs setups, sans initier de positions directionnelles agressives à moins de 2 % de l'ATH.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Le 30 juin 2026 marque la clôture du meilleur trimestre (T2 2026) depuis 2020, avec le Dow Jones à 52 319.20 pts pour son 2e record consécutif, le Nasdaq Composite à 26 213.72 pts et le S&P 500 à 7 449.36 pts. Le QQQ clôture à $732.49 (+2.28 % sur la séance), récupérant l'essentiel de la correction hebdomadaire qui l'avait ramené à $706.27 le 27 juin (−5.2 % depuis l'ATH de $745.34 du 2 juin).
+
+Le catalyseur principal du rebond est le cessez-le-feu USA–Iran annoncé le week-end du 28–29 juin, mettant fin aux hostilités qui avaient pesé sur les semi-conducteurs depuis début juin. Les chipmakers ont affiché les plus fortes progressions sectorielles, annulant une grande partie des pertes accumulées depuis l'escalade du conflit. SpaceX a bondi de +7.2 % après l'annonce officielle de son entrée dans le Nasdaq-100 le 7 juillet 2026. En contrepartie, Concentrix (CNXC) a chuté de −22 % sur un miss BPA accompagné d'une guidance faible.
+
+=== Pourquoi (causes profondes)
+
+[cols="1,2"]
+|===
+| Facteur | Analyse
+
+| *Cessez-le-feu US–Iran*
+| Annoncé le week-end du 28–29 juin — soulagement immédiat sur les semis et l'énergie. Risque géopolitique court terme réduit, mais la fragilité du cessez-le-feu reste une variable à surveiller.
+
+| *Fed / Kevin Warsh*
+| Taux maintenu à 3.50–3.75 % (FOMC 17 juin). Warsh a supprimé le langage pro-baisse. 9/18 membres voient au moins une hausse d'ici fin 2026. Le marché price une hausse de 25 bps d'ici octobre.
+
+| *Inflation réaccélérante*
+| CPI mai +4.2 % YoY (vs +3.8 % en avril) — niveau le plus haut en 3 ans. Core PCE mai +3.4 %. CPI juin publié le 14 juillet : catalyseur binaire pour la direction du marché en Q3.
+
+| *Meilleur T2 depuis 2020*
+| La performance trimestrielle est portée par les semis/IA (rebond), l'énergie (prime géopolitique) et les industriels. REITs et Consommation de base sont les secteurs à la traîne (sensibilité taux).
+
+| *Sentiment paradoxal*
+| Fear & Greed à 27 (Peur) malgré une performance record — signal de méfiance structurelle. Les investisseurs restent crispés sur l'inflation et le risque de hausse de taux, limitant l'euphorie.
+
+| *SpaceX / Nasdaq-100*
+| Entrée officielle le 7 juillet — afflux de capitaux passifs attendu sur le titre et impact modeste positif sur QQQ (pondération initiale à définir).
+|===
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours (clôture 30/06) | $732.49 | +2.28 % sur la séance
+| MA50 QQQ (estimée) | ~$710 | Au-dessus (+3.2 %) — tendance CT haussière restaurée
+| MA200 QQQ | ~$622 | Au-dessus (+17.8 %) — tendance LT haussière solide
+| ATH QQQ (2 juin 2026) | $745.34 | Résistance principale — à 1.7 % seulement
+| Support clé | $706 | Bas du 27 juin / zone MA50 (dernier plancher)
+| Support secondaire | $680 | Ancien gap de mars 2026
+| Résistance clé | $745–$750 | Zone ATH + rond psychologique
+| RSI (estimé) | ~62 | Neutre-haussier (rebond vigoureux depuis ~50 le 27/06)
+| Structure | Higher highs | Uptrend repris depuis mi-avril 2026
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 55 %
+
+*Conditions nécessaires* : le QQQ franchit l'ATH $745 en clôture sur volumes, le CPI juin (14 juil.) ressort sous 4.0 %, et le FOMC du 28–29 juillet maintient les taux sans signaler de hausse imminente.
+
+*Cibles* : QQQ $775–$790, SPY $800.
+
+*Catalyseurs* : résultats Mag7 Q2 au-dessus des attentes (Microsoft, Alphabet, Meta en mi-juillet — Apple fin juillet) ; Nvidia guidance AI forte (fin août) ; SpaceX flux passifs Nasdaq-100 (7 juillet) ; cessez-le-feu Iran qui tient = semis sans frein géopolitique.
+
+=== Scénario baissier — Probabilité 45 %
+
+*Conditions de déclenchement* : CPI juin > 4.5 % (14 juil.) → anticipation de hausse Fed juillet ; FOMC 28–29 juil. plus hawkish que prévu ; QQQ rejette l'ATH $745 et recasse la MA50 (~$710).
+
+*Supports critiques* : QQQ *$710* (MA50, premier support) → QQQ *$680* (gap mars 2026) → QQQ *$622* (MA200, filet de sécurité LT).
+
+*Risques de queue* : reprise des hostilités US–Iran → VIX spike > $30 ; résultats Mag7 déçus sur la guidance IA → Nasdaq −10 %+ ; surprise récessive (NFP négatif inattendu) ; hausse Fed surprise en juillet.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes indiquées sont des estimations footnote:[Estimation basée sur VIX ~17.65 et cours QQQ ~$732 — vérifier les carnets d'ordres réels avant toute exécution.] — toujours vérifier les cours d'options avant d'entrer en position.
+
+=== Trade #1 — Bull Call Spread sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (haussier limité — rapport risque/rendement favorable)
+| *Sous-jacent* | QQQ (~$732)
+| *Raisonnement* | Tendance haussière restaurée au-dessus de MA50. Cessez-le-feu Iran = catalyseur positif durable à court terme. Le spread limite l'exposition si QQQ bute sur l'ATH ($745) ou si le CPI déçoit le 14 juillet. Stratégie adaptée au Niveau 3 : participer à la hausse sans prise de risque illimitée.
+| *Expiration* | 15 août 2026 (~46 DTE)
+| *Strike(s)* | Long Call $730 / Short Call $760
+| *Prime payée* | ~$8–$10 débit par contrat (estimation)
+| *Delta total* | ~+0.45 net
+| *Theta/jour* | ~−$0.10 / contrat (payer le temps)
+| *Breakeven(s)* | ~$739 (hausse)
+| *P&L max* | ~$2 000–$2 200 / contrat (si QQQ > $760 à expiration)
+| *Perte max* | ~$900 / contrat (prime payée si QQQ < $730 à expiration)
+| *Entrée* | QQQ entre $725 et $738 — éviter d'acheter sur un pic intraday
+| *Cible* | 50 % de la valeur max du spread (~$1 000–$1 100 de profit) ou QQQ > $750
+| *Stop-loss* | Cassure de $710 (MA50) en clôture → coupe la position
+| *Taille* | 3–5 % du portefeuille
+|===
+
+._Bull Call Spread QQQ $730/$760 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Bull Call Spread QQQ $730/$760 — P&L estimé (par contrat)"
+    x-axis ["$710", "$720", "$730", "$739", "$745", "$752", "$760", "$770"]
+    y-axis "P&L ($)" -1000 --> 2300
+    bar [-900, -900, -900, 0, 600, 1300, 2100, 2100]
+    line [-900, -900, -900, 0, 600, 1300, 2100, 2100]
+....
+
+NOTE: Perte maximale de $900 si QQQ reste sous $730 à expiration. Profit maximum de ~$2 100 si QQQ dépasse $760. Le breakeven est à ~$739 (cours actuel + prime payée). La zone d'ATH $745 représente un profit intermédiaire de ~$600, soit un ratio risque/rendement de 1:0.67 à ce niveau et de 1:2.3 au maximum.
+
+=== Trade #2 — Cash-Secured Put sur TSM (Signal Congrès)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (neutre-haussier — acquérir TSM à prix réduit ou encaisser la prime)
+| *Sous-jacent* | TSM — Taiwan Semiconductor (~$220–$225)footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Raisonnement* | Signal Congrès : TSM est le titre le plus acheté par les parlementaires américains (39+ achats consensuels sur 12 mois, 1ère position de la stratégie Congress de Quiver Quantitative). Le cessez-le-feu Iran réduit le risque géopolitique Taïwan à court terme. L'IV post-conflit reste élevée, rendant les primes vendeuses attractives. Position dans le cœur de l'infrastructure IA mondiale (fonderies pour NVDA, AMD, Apple).
+| *Expiration* | 18 juillet 2026 (~18 DTE)
+| *Strike(s)* | Put $210 (~4–5 % sous le cours actuel)
+| *Prime reçue* | ~$4–$5 / contrat (estimation)
+| *Delta* | ~−0.22
+| *Theta/jour* | ~+$0.25 / contrat
+| *Breakeven(s)* | ~$205–$206 (baisse)
+| *Entrée* | Vente du put si TSM > $215 en séance
+| *Cible* | 50 % du crédit reçu (~$2.00–$2.50 de profit)
+| *Stop-loss* | Rachat si perte = 2× crédit reçu / TSM casse sous $205 en clôture
+| *Taille* | 5–8 % du portefeuille (liquidités mises en garantie)
+|===
+
+=== Trade #3 — Covered Call sur NVDA (génération de revenus)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (réduction de delta sur position existante, génération de prime)
+| *Sous-jacent* | NVDA — Nvidia Corporation (~$135–$140)footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Raisonnement* | NVDA a vigoureusement rebondi depuis les bas de crise Iran. Le Congrès américain est net vendeur sur NVDA (16 ventes vs 7 achats — signal de méfiance sur le potentiel haussier à court terme). Vendre un call OTM permet de générer un revenu pendant la consolidation autour de l'ATH tout en conservant l'exposition au secteur.
+| *Expiration* | 18 juillet 2026 (~18 DTE)
+| *Strike(s)* | Call $150 (~7–10 % au-dessus du cours)
+| *Prime reçue* | ~$3–$4 / action (estimation)
+| *Delta (short call)* | ~−0.20
+| *Theta/jour* | ~+$0.20 / action
+| *Breakeven(s)* | Prix d'achat initial − prime reçue
+| *Entrée* | Vente du call en début de séance
+| *Cible* | 50 % du crédit reçu ou expiration sans valeur
+| *Stop-loss* | Rachat si NVDA dépasse $152 et call > 2× prime initiale → roll haussier
+| *Taille* | Sur 100 % des actions NVDA détenues (1 contrat par tranche de 100 actions)
+|===
+
+=== Trade #4 — Iron Condor sur SPY (theta — avant CPI)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (stratégie theta positive, delta-neutral)
+| *Sous-jacent* | SPY (~$746)
+| *Raisonnement* | VIX à 17.65 : IV suffisante pour une prime vendeuse correcte sans régime de spike. Fin du meilleur trimestre depuis 2020 = souvent suivi d'une période de range en début Q3 le temps que le marché digère les catalyseurs (CPI 14 juil., FOMC 28–29 juil.). Iron Condor idéal pour collecter le temps sur les 11 jours avant la publication CPI.
+| *Expiration* | 11 juillet 2026 (~11 DTE — à fermer avant la publication CPI du 14 juillet)
+| *Strike(s)* | Vente Put $720 / Achat Put $710 + Vente Call $770 / Achat Call $780
+| *Prime reçue* | ~$2.50–$3.00 crédit net / contrat (estimation)
+| *Delta total* | ~0 (delta-neutral)
+| *Theta/jour* | ~+$0.25 / contrat
+| *Breakeven(s)* | ~$717 (baisse) / ~$773 (hausse)
+| *Plage de profit* | SPY entre $720 et $770 à expiration
+| *Entrée* | Vendre à l'ouverture si SPY entre $740 et $752
+| *Cible* | 50 % du crédit (~$1.25–$1.50 de profit)
+| *Stop-loss* | Débit total > 2× crédit reçu / SPY < $717 ou > $773 en clôture
+| *Taille* | 2–4 % du portefeuille
+|===
+
+=== Trade #5 — Long ETF Défense : RTX / XAR (Signal géopolitique + Congrès)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Achat d'actions / ETF (directionnel moyen terme)
+| *Sous-jacent* | RTX (Raytheon Technologies, ~$115–$120) ou XAR (SPDR Aerospace & Defense ETF, ~$160)footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Raisonnement* | Le Congrès américain a massivement acheté des valeurs défense pendant la crise Iran (acheteurs nets identifiés). Un cessez-le-feu n'annule pas les contrats militaires déjà engagés ni les budgets défense pluriannuels votés. La défense représente une couverture naturelle si les tensions reprennent, tout en bénéficiant d'une demande structurelle (OTAN, Indo-Pacifique).
+| *Entrée* | Achat sur repli — RTX < $115 ou XAR < $155
+| *Cible* | RTX $130 (+8–10 %) / XAR $175 (+9 %)
+| *Stop-loss* | Clôture sous −5 % du prix d'entrée
+| *Taille* | 3–5 % du portefeuille
+|===
+
+'''
+
+== Signal Congrès américain
+
+WARNING: Capitol Trades était inaccessible directement (erreur réseau) lors de la production de cette analyse. Les informations ci-dessous proviennent de sources secondaires (Quiver Quantitative, recherches ouvertes) et ne constituent pas un signal structuré confirmé. À vérifier sur link:https://www.capitoltrades.com/trades[Capitol Trades] ou link:https://www.quiverquant.com/congresstrading/[Quiver Quantitative].
+
+[cols="1,1,1,2"]
+|===
+| Ticker | Signal | Période | Commentaire
+
+| TSM | Acheteurs nets (39+ achats / 12 mois) | Récurrent | Fonderies IA — 1ère position stratégie Congress (Quiver)
+| AMZN | Acheteurs nets | T2 2026 | Cloud + IA — nombreuses transactions déclarées
+| RTX / LMT | Acheteurs nets | Juin 2026 | Frenzy achats défense pendant crise Iran
+| NVDA | Net vendeurs | Juin 2026 | 16 ventes vs 7 achats — signal de prudence sur upside CT
+| META | Achats et ventes | T2 2026 | Pas de consensus fort identifié
+|===
+
+NOTE: Baromètre niveau 3 — signal Congrès sur TSM intégré dans le Trade #2 (CSP) comme critère de conviction. Signal défense (RTX/LMT) intégré dans le Trade #5.
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3.50–3.75 % — statu quo (FOMC 17 juin 2026, Kevin Warsh)
+| Biais Fed | Hawkish — 9/18 membres voient au moins 1 hausse d'ici fin 2026
+| Prochain FOMC | 28–29 juillet 2026 — marché price 1 hausse de 25 bps d'ici octobre
+| CPI (mai 2026) | +4.2 % YoY — au-dessus attentes (+3.8 % en avril) — niveau 3 ans
+| Core PCE (mai 2026) | +3.4 % YoY — bien au-dessus cible 2 %
+| CPI juin 2026 | Publication prévue : *14 juillet 2026* — catalyseur binaire majeur
+| NFP dernier | [Données mai — emploi solide, pas de surprise identifiée]
+| Taux 10 ans US | [Donnée non disponible en temps réel — surveiller avant FOMC]
+| Put/Call ratio | [Donnée non disponible en temps réel — surveiller pour confirmation sentiment]
+| SpaceX / Nasdaq-100 | Entrée officielle le 7 juillet 2026 — afflux de capitaux passifs attendu
+| Concentrix (CNXC) | −22 % sur miss BPA + guidance faible — signal de vigilance sur IT Services
+| Pétrole Brent | Sous pression modérée post-cessez-le-feu Iran
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 7 juillet 2026 | SpaceX entre dans le Nasdaq-100 | Modéré (flux passifs QQQ)
+| 14 juillet 2026 | CPI juin 2026 — BLS | Élevé (catalyseur binaire Fed)
+| Mi-juillet 2026 | Résultats Mag7 Q2 : MSFT, GOOGL, META (semaine du 14 juil.) | Élevé
+| Fin juillet 2026 | Résultats AAPL, AMZN, NVDA (~fin juillet – août) | Élevé
+| 28–29 juillet 2026 | FOMC — décision taux (Kevin Warsh) | Élevé (hausse ou pas ?)
+| Continu | Géopolitique US–Iran — fragilité du cessez-le-feu | Modéré à Élevé
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché — 27 (Peur) au 30 juin 2026
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — VIX 17.65 au 30 juin 2026
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed — surveiller avant FOMC 28–29 juillet
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm[FOMC Statement juin 2026]
+| Communiqué officiel Fed — décision 17 juin 2026 (Kevin Warsh)
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-30-2026[TheStreet — Market Today 30 juin]
+| Recap marché du 30 juin 2026 — meilleur T2 depuis 2020
+
+| link:https://finance.yahoo.com/markets/stocks/articles/stock-market-news-jun-30-133900372.html[Yahoo Finance — News 30 juin]
+| Actualités marchés du jour — cessez-le-feu Iran, SpaceX Nasdaq-100
+
+| link:https://www.quiverquant.com/congresstrading/[Quiver Quantitative — Congress Trades]
+| Suivi des transactions boursières déclarées par les parlementaires US
+
+| link:https://www.capitoltrades.com/trades[Capitol Trades]
+| Suivi des transactions boursières déclarées par le Congrès américain
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly / Condor — stratégies delta-neutral]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Covered Call et Cash-Secured Put]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — protection conditionnelle]
