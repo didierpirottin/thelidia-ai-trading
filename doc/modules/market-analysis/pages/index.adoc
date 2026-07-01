@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-07-01.adoc[1er juillet 2026]
+| Niveau 3/6 — CONSOLIDATION
+| Haussière
+| Meta cloud +8,81 %, semis −11 %, CPI 4,2 %, FOMC Warsh 28-29 juil., QQQ $736
+
 | xref:market-analysis:market-analysis-2026-06-30.adoc[30 juin 2026]
 | Niveau 3/6 — CONSOLIDATION
 | Haussière

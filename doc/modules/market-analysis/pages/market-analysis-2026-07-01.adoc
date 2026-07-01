@@ -1,0 +1,307 @@
+= Analyse de Marché — 1er juillet 2026
+:description: Début Q3 : Meta cloud +8.81 %, prise de profits semis, CPI 4.2 % hawkish — Baromètre Niveau 3 Consolidation, QQQ $736.40 au-dessus MA50
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $736,40 (+~13 % YTD H1)
+| ~$741 (+9,6 % H1)
+| 16,45 — calme
+| 32 — Fear
+| Au-dessus ($709,60)
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : structure haussière intacte, mais macro hawkish et attentisme pré-FOMC_
+[mermaid]
+....
+xychart-beta
+    title "Barometre - 1er juillet 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: Le marché entre en Q3 après le meilleur H1 depuis 2021 (Nasdaq +12,8 %). La structure technique reste haussière — QQQ est 3,8 % au-dessus de sa MA50 et 15,7 % au-dessus de sa MA200. Cependant, le CPI mai à +4,2 % (plus haut depuis 3 ans), le dot plot hawkish du nouveau Fed Chair Kevin Warsh et la probabilité à 80 % de zéro coupes en 2026 imposent la prudence. Le passage de Niveau 4 (Prudence, 28 juin) à Niveau 3 (Consolidation) est motivé par le rebond de Meta (+8,81 %) et la reprise du QQQ au-dessus de sa MA50 après le contact de fin juin.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Le premier jour de Q3 2026 illustre parfaitement la rotation sectorielle en cours. Meta Platforms explose de +8,81 % ($612,91) après l'annonce de son entrée dans le cloud computing — la société vendra sa capacité de calcul IA excédentaire à des tiers, transformant un centre de coûts en source de revenus. Cette annonce est le catalyseur du jour pour le secteur Communications (XLC).
+
+En parallèle, les semi-conducteurs enregistrent une prise de profits brutale : Micron −11 %, Sandisk −11 %, CoreWeave −14 %. Ces valeurs avaient surperformé de plus de +80 % en H1 2026. Les secteurs Communications et Financiers portent l'indice large, tandis que la tech pure (XLK) est en recul.
+
+Sur le H1 2026, le bilan est exceptionnel : Nasdaq +12,8 %, S&P 500 +9,6 %, Dow +8,9 % — meilleure première moitié d'année depuis 2021. Le S&P avait atteint un creux de printemps à ~6 343 en fin mars avant de rallier jusqu'à ~7 600 début juin, puis de consolider vers 7 499 fin juin.
+
+=== Pourquoi (causes profondes)
+
+La Fed reste le facteur structurant dominant. Depuis la prise de fonction de Kevin Warsh en remplacement de Powell, le ton est clairement hawkish. Le FOMC de juin (16-17) a maintenu les taux à 3,50–3,75 % et relevé le dot plot médian à 3,8 % pour fin 2026 — impliquant une possible hausse plutôt qu'une coupe. Les marchés anticipent désormais à 79,8 % de probabilité zéro coupe en 2026.
+
+Le CPI de mai à +4,2 % en glissement annuel — le niveau le plus élevé depuis 3 ans — est en partie attribuable aux chocs d'offre liés aux tensions géopolitiques au Moyen-Orient (énergie). La Fed a relevé ses prévisions d'inflation 2026 à 3,6 % (headline) et 3,3 % (core). Dans ce contexte, les multiples de valorisation restent sous pression.
+
+Le sentiment est paradoxal : le Fear & Greed Index est à 32 (Fear) malgré un marché haussier solide. Cela reflète l'anxiété macro (inflation, hawkish Fed) contrastant avec une réalité microéconomique forte (IA, Meta cloud, résultats Q1 solides).
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $736,40 | —
+| MA50 QQQ | $709,60 | Au-dessus (+3,8 %) — support dynamique clé
+| MA200 QQQ | $636,40 | Au-dessus (+15,7 %) — tendance long terme intacte
+| Support clé | $709,60 | MA50 — testé en contact fin juin, tenu
+| Résistance clé | ~$760–770 | Pic de début juin 2026 — premier obstacle
+| RSI (estimé) | ~63–65 | Neutre/légèrement haussier — pas suracheté
+| S&P MA50 | $7 378 | Au-dessus (+1,8 %) — structure haussière
+| S&P MA200 | $6 934 | Au-dessus (+8,3 %) — tendance long terme solide
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 55 %
+
+*Conditions nécessaires* : CPI juin < 4 % (publication mi-juillet) ; QQQ maintient sa MA50 ($709,60) ; FOMC Warsh le 28-29 juillet sans hausse de taux.
+
+*Cibles* : QQQ $780 (+5,9 %), SPY $770 (+3,9 %).
+
+*Catalyseurs* : Rapport CPI juin favorable en mi-juillet ; début de la saison Q3 earnings avec Tesla (~mi-juillet), puis AAPL et NVDA en août ; confirmation de la narration AI-as-service via Meta cloud et suiveurs potentiels.
+
+=== Scénario baissier — Probabilité 45 %
+
+*Conditions de déclenchement* : CPI juin > 4,5 % — relance du discours hawkish ; cassure de la MA50 QQQ ($709,60) en clôture ; annonce surprise de hausse de taux par Warsh le 28-29 juillet.
+
+*Supports critiques* : QQQ $709,60 (MA50) puis QQQ $636,40 (MA200).
+
+*Risques de queue* : hausse de taux Fed surprise → VIX spike > 25 ; escalade géopolitique Moyen-Orient → choc pétrolier → CPI 5 %+ ; récession surprise US → rotation violente vers cash.
+
+'''
+
+== Signal Congrès américain
+
+NOTE: Données Capitol Trades indisponibles en accès direct (connexion bloquée). Données partielles reconstituées via sources secondaires. Vérifier sur link:https://www.capitoltrades.com/trades[Capitol Trades] pour la liste complète.
+
+[cols="1,1,1,1"]
+|===
+| Ticker | Élus acheteurs | Date achat | Politicien
+
+| AAPL
+| 1
+| 4 juin 2026
+| Tim Walberg (R, House)
+
+| WFC
+| 1
+| 1er juin 2026
+| Dave McCormick (R, Senate)
+
+| GOOGL
+| 1
+| Fin juin 2026
+| Rep. Démocrate, Louisiane (non confirmé)
+|===
+
+Baromètre 3 → AAPL utilisé comme trade prioritaire avec signal Congrès (Trade #3).
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes et cours indiqués sont des estimations — vérifier les données réelles avant toute entrée en position.
+
+=== Trade #1 — Covered Call sur META
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (vente call OTM sur position longue)
+| *Sous-jacent* | META (~$612,91) footnote:[Cours de clôture du 1er juillet 2026 — vérifier avant entrée.]
+| *Raisonnement* | IV gonflée post-hausse +8,81 % ; support fort ~$590–595 (pré-annonce) ; potentiel de consolidation après spike ; XLC moteur du jour — maintien probable au-dessus $595 dans les 45 jours
+| *Expiration* | 15 août 2026 (45 DTE)
+| *Strike(s)* | 650 Call (OTM ~6 %)
+| *Prime reçue* | ~$18–22 / action (~$1 800–2 200 / contrat) footnote:[Estimation basée sur IV post-annonce — vérifier la chaîne d'options réelle.]
+| *Delta total* | ~0,30
+| *Theta/jour* | ~$0,35 / action / jour
+| *Breakeven* | ~$592–595 (cours META − prime reçue)
+| *Entrée* | Immédiate (IV encore élevée post-news cloud)
+| *Cible* | 50 % du crédit reçu (~$9–11 / action)
+| *Stop-loss* | META > $650 en clôture → racheter le call ; META < $590 → revoir la position
+| *Taille* | 2–4 % du portefeuille
+|===
+
+._Covered Call META 650 Août 2026 — P&L estimé par action à expiration_
+[mermaid]
+....
+xychart-beta
+    title "Covered Call META 650 Aout 2026 - P&L par action ($)"
+    x-axis ["560$", "580$", "600$", "620$", "640$", "660$", "680$"]
+    y-axis "P&L ($)" -50 --> 70
+    bar [-33, -13, 7, 27, 47, 57, 57]
+    line [-33, -13, 7, 27, 47, 57, 57]
+....
+
+NOTE: Plancher illimité si META chute sous $593 (breakeven). Plafond à ~$57/action si META ≥ $650 à expiration (stock appelé au strike). Prime reçue ~$20 protège jusqu'à ~$593. La position profite de tout mouvement latéral ou haussier modéré de META.
+
+=== Trade #2 — Bull Call Spread sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (débit — risque défini)
+| *Sous-jacent* | QQQ (~$736,40) footnote:[Cours du 1er juillet 2026.]
+| *Raisonnement* | Tendance haussière intacte (au-dessus MA50 et MA200) ; meilleur H1 depuis 2021 → momentum Q3 historiquement positif ; risque défini adapté au niveau 3 ; catalyseur potentiel FOMC dovish 28-29 juillet
+| *Expiration* | 15 août 2026 (~45 DTE)
+| *Strike(s)* | Achat 750 Call / Vente 775 Call
+| *Prime payée* | ~$8–10 / contrat footnote:[Estimation — vérifier prix réels.]
+| *Delta total* | ~0,35–0,45
+| *Theta/jour* | Légèrement négatif (~−$0,15/contrat/jour)
+| *Breakeven* | ~$758–760
+| *Entrée* | QQQ > $736 en clôture de séance
+| *Cible* | 75 % de la valeur max du spread (~$18,75)
+| *Stop-loss* | Débit > 2× coût initial / QQQ < $709 (cassure MA50)
+| *Taille* | 1–2 % du portefeuille
+|===
+
+=== Trade #3 — Cash-Secured Put sur AAPL [Signal Congrès]
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (vente put OTM — premium collection)
+| *Sous-jacent* | AAPL (~$245) footnote:[Cours estimé — vérifier le prix réel avant entrée. AAPL non confirmé indépendamment ce jour.]
+| *Raisonnement* | Signal Congrès : Tim Walberg (R, House) a acheté AAPL le 4 juin 2026 ; valeur défensive premium en environnement macro incertain ; AAPL surperforme historiquement lors des consolidations (quality stock) ; IV permet prime vendeuse correcte
+| *Expiration* | 18 juillet 2026 (~17 DTE)
+| *Strike(s)* | 230 Put (OTM ~6 %)
+| *Prime reçue* | ~$2,50–3,50 / action (~$250–350 / contrat) footnote:[Estimation.]
+| *Delta total* | ~−0,25
+| *Theta/jour* | ~$0,15 / action / jour
+| *Breakeven* | ~$226,50–227,50
+| *Entrée* | Immédiate ou sur léger pull-back AAPL < $243
+| *Cible* | 80 % du crédit reçu / expiration sans valeur
+| *Stop-loss* | AAPL < $228 → racheter le put (perte limitée)
+| *Taille* | 3–5 % (conserver le cash pour assignment éventuel à $230)
+|===
+
+=== Trade #4 — Iron Condor sur SPY
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (stratégie neutre — theta positive)
+| *Sous-jacent* | SPY (~$741) footnote:[Cours estimé d'après S&P 500 ~7 500 et ratio SPY/SPX ~0,0988.]
+| *Raisonnement* | VIX à 16,45 — volatilité modérée, prime suffisante ; niveau 3 → range de consolidation attendu ; FOMC à 4 semaines (28-29 juillet) — attentisme ; breadth neutre, pas de directionnel fort
+| *Expiration* | 18 juillet 2026 (~17 DTE, avant FOMC)
+| *Strike(s)* | Vente 720 Put / Achat 705 Put + Vente 760 Call / Achat 775 Call
+| *Prime nette reçue* | ~$3,50–4,50 / contrat footnote:[Estimation.]
+| *Delta total* | ~0 (position neutre)
+| *Theta/jour* | ~$0,30–0,40 / contrat / jour
+| *Breakeven* | ~$716,50 (baisse) / ~$764,50 (hausse)
+| *Entrée* | SPY entre $735 et $748
+| *Cible* | 50 % du crédit reçu à J−7 (avant FOMC 28-29 juil.)
+| *Stop-loss* | SPY > $755 ou < $725 → fermer le spread perdant
+| *Taille* | 2–3 % du portefeuille
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo (décision juin 17, 2026)
+| Nouveau Fed Chair | Kevin Warsh (hawkish) — remplace Powell depuis avril 2026
+| Prochain FOMC | 28–29 juillet 2026 — pas de SEP (Summary of Economic Projections)
+| CPI mai 2026 | +4,2 % YoY — plus haut depuis 3 ans — choc énergie (géopolitique)
+| Dot plot médian 2026 | 3,8 % — signal possible hausse, aucune coupe attendue
+| Coupes taux 2026 | 79,8 % de probabilité de zéro coupes en 2026 (marché)
+| NFP dernier | Non publié le 1er juillet — prochain rapport prévu début juillet
+| Taux 10 ans US | [donnée non disponible en temps réel ce jour — dernière valeur connue : ~4,3–4,5 %]
+| Put/Call ratio | [donnée non disponible en temps réel ce jour]
+| H1 2026 | Nasdaq +12,8 % / S&P 500 +9,6 % / Dow +8,9 % — meilleur H1 depuis 2021
+| Creux printemps | S&P 500 ~6 343 fin mars 2026 → rally +18 % jusqu'à fin juin
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| Mi-juillet 2026 | CPI juin 2026 (publication) | Élevé — signal clé pour FOMC juillet
+| ~15-16 juil. 2026 | Résultats Tesla Q2 2026 | Élevé — premier Mag7 du cycle Q3
+| 28–29 juil. 2026 | FOMC (décision taux Warsh) | Très élevé — hausse possible ou statu quo
+| Fin juillet 2026 | NFP juillet 2026 | Modéré — indicateur emploi pré-FOMC
+| Août 2026 | Résultats AAPL / NVDA / GOOGL / MSFT Q3 | Élevé — confirmation narrative IA
+| Ongoing | Tensions géopolitiques Moyen-Orient | Modéré à Élevé — impact énergie/CPI
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Score : 32 (Fear) au 1er juillet 2026
+
+| link:https://www.cboe.com/tradable-products/vix/[CBOE VIX]
+| VIX à 16,45 au 1er juillet 2026 (range 16,27–17,75)
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| 79,8 % de probabilité de zéro coupes Fed en 2026
+
+| link:https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm[Fed FOMC Statement juin 2026]
+| Décision taux 17 juin 2026 — taux maintenus 3,50–3,75 %
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours QQQ en temps réel — MA50 $709,60 / MA200 $636,40
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.cnbc.com/2026/07/01/metas-plan-to-launch-a-cloud-business-eases-the-biggest-overhang-on-the-stock.html[CNBC — Meta cloud]
+| Meta +8,81 % sur annonce cloud computing (1er juillet 2026)
+
+| link:https://www.gurufocus.com/news/8941337/meta-meta-shares-surge-10-on-new-cloud-computing-business-announcement[GuruFocus — Meta surge]
+| Analyse Meta +10 % sur nouveau business cloud
+
+| link:https://247wallst.com/investing/2026/07/01/stock-market-live-july-1-2026-sp-500-spy-lower-as-investors-wait-on-the-fed-and-fresh-economic-data/[24/7 Wall St. — Market Live July 1]
+| Suivi live du marché au 1er juillet 2026
+
+| link:https://www.capitoltrades.com/trades[Capitol Trades]
+| Suivi des transactions politiciennes (STOCK Act)
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — stratégie Cash-Secured Put]
+* xref:ROOT:strategies/butterfly.adoc[Butterfly — stratégies options symétriques]
+* xref:ROOT:strategies/leaps.adoc[LEAPS — options longue durée pour le Bull Call Spread]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — protection en cas de correction]
