@@ -1,0 +1,312 @@
+= Analyse de Marché — 2 juillet 2026
+:description: QQQ $712,60 (−1,73 %), rotation sectorielle vers les défensives, selloff semis étendu — Baromètre Niveau 3/6 Consolidation
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $712,60 (−1,73 %)
+| $745,76 (−0,14 %)
+| 16,59 — calme
+| 30,80 — Fear
+| Au-dessus (~$682)
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : rotation défensive, trend LT intact, momentum CT négatif_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 2 juillet 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: Le marché est en phase de *consolidation sélective*. La structure haussière long terme reste intacte (QQQ au-dessus de ses moyennes mobiles MA50 $682 et MA200 $621), mais le momentum court terme est clairement négatif : RSI à 38,8, MACD négatif à −2,25, et le selloff des semiconducteurs entame son dixième jour consécutif. La rotation vers les secteurs défensifs (santé, utilities, consommation de base) et le fait que le Dow Jones atteigne un nouveau record absolu pendant que le Nasdaq chute de −1,87 % signalent un repositionnement institutionnel classique de fin de cycle. La prudence sélective est de mise : favoriser le theta et les stratégies à risque défini.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Le 2 juillet 2026, la divergence entre grandes capitalisations s'est accentuée de manière spectaculaire. Le Dow Jones Industrial Average a progressé de +1,1 % pour atteindre un nouveau record historique, porté par la santé, les utilities et la consommation de base. À l'inverse, le Nasdaq 100 a cédé −1,87 % à 29 264 points, et le QQQ a clôturé à $712,60 (−1,73 %), après s'être ouvert à $725,58 et avoir touché un point bas à $707,56 en séance. Le S&P 500 s'est maintenu à 7 457,56 (−0,37 %), soutenu par la large breadth positive hors tech : 354 composants sur 503 ont terminé en hausse (70 % de win rate).
+
+L'événement macroéconomique majeur du jour a été la publication du rapport NFP (Non-Farm Payrolls) pour juin 2026 : seulement +57 000 emplois créés, contre 113 000 attendus par le consensus — un manque à gagner de −50 %. Le taux de chômage est ressorti à 4,2 %, légèrement en dessous des 4,3 % anticipés. Ce résultat rompt trois mois consécutifs de données solides sur l'emploi et renforce le risque d'un scénario de stagflation (inflation élevée + emploi qui fléchit).
+
+Du côté des valeurs individuelles, SanDisk (SNDK) a plongé de −13 %, passant sous le support à $1 730, dans le sillage d'un effondrement des semiconducteurs coréens : SK Hynix a cédé −14 % et Samsung Electronics −9 % sur le KOSPI. Applied Materials (AMAT) a, quant à lui, accumulé une perte de plus de −10 % depuis le 29 juin en raison des craintes d'un nouveau cycle de surcapacité de mémoire. Tesla a reculé de −7 % malgré un battement sur les livraisons Q2 2026. A contrario, Rivian a bondi de +13 % après avoir relevé sa guidance de livraisons 2026 à 65 000–70 000 unités.
+
+=== Pourquoi (causes profondes)
+
+La Fed maintient ses taux directeurs dans la fourchette 3,50–3,75 % depuis la décision du FOMC des 16–17 juin 2026. Le dot plot de juin est hawkish : 9 membres sur 19 anticipent au moins une hausse de taux supplémentaire en 2026, contre seulement 8 pour un statu quo et 1 pour une baisse. Cette configuration laisse peu de marge à la Fed : l'inflation CPI (dernière donnée disponible, mai 2026) ressortait à +4,2 % en glissement annuel — soit plus du double de l'objectif 2 % — avec un CPI core à +2,9 %. Le prochain rapport CPI (juin 2026) sera publié le 14 juillet.
+
+La combinaison d'un CPI à 4,2 % et d'un NFP à seulement +57 K constitue un scénario de quasi-stagflation : la Fed ne peut pas baisser les taux pour soutenir l'emploi sans risquer d'aggraver l'inflation, et ne peut pas monter les taux sans fragiliser davantage le marché du travail. Cette incertitude alimente la rotation vers les actifs défensifs.
+
+Le selloff des semiconducteurs s'explique par plusieurs facteurs convergents : (1) la surperformance excessive de ces valeurs ces 12 derniers mois a créé des valorisations tendues qui nécessitent peu de catalyseur négatif pour se retourner ; (2) la contagion depuis le marché coréen, où SK Hynix et Samsung subissent les craintes d'une expansion des capacités de production DRAM susceptible de provoquer un nouveau cycle de surcapacité ; (3) le resserrement réglementaire sur les produits d'investissement à effet de levier sur les semis en Asie a accéléré le dénouement de positions spéculatives.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $712,60 | −1,73 % sur la séance
+| MA50 QQQ (EMA) | ~$682 | Au-dessus — structure haussière CT intacte
+| MA200 QQQ (SMA) | ~$621 | Au-dessus — structure haussière LT intacte
+| RSI (14 j) | 38,8 | Approche survendu — signal de vente CT
+| MACD | −2,25 | Négatif — momentum baissier CT
+| Support clé | $687–705 | Zone multi-timeframe critique — à surveiller
+| Résistance clé | $738–746 | Plafond multi-timeframe — récent point de retournement
+| S&P 500 vs MA200 | 7 457 vs 7 469 | Légèrement en-dessous — signal mixte
+| S&P 500 vs MA50 | 7 457 vs 7 413 | Au-dessus — structure CT préservée
+|===
+
+WARNING: Le QQQ se rapproche de la zone de support critique $687–705. Une clôture en dessous de $700 constituerait un signal technique de détérioration et justifierait de réévaluer le baromètre à la hausse (vers le Niveau 4 Prudence).
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 45 %
+
+*Conditions nécessaires* : QQQ tient la zone support $687–705 en clôture hebdomadaire. Le CPI juin (publié le 14 juillet) surprend à la baisse sous les 4,0 %, rouvrant la porte à une pause Fed durable.
+
+*Cibles* : QQQ $745–760, SPY $775–785.
+
+*Catalyseurs* : (1) FOMC 28–29 juillet confirme le statu quo sur les taux ; (2) Résultats Q3 FY2026 d'Alphabet (22–28 juillet) supérieurs aux attentes, relançant l'appétit pour la tech ; (3) NFP miss + perspectives employment faibles → Fed abandonne le biais hawkish.
+
+=== Scénario baissier — Probabilité 55 %
+
+*Conditions de déclenchement* : Clôture du QQQ sous $700 (cassure de la zone support). CPI juin supérieur à 4,3 % le 14 juillet. Poursuite du selloff des semiconducteurs avec extension à NVDA, Intel, Broadcom.
+
+*Supports critiques* : QQQ $687 (zone multi-TF), puis $621 (MA200 — support long terme).
+
+*Risques de queue* : (1) FOMC hawkish surprise — hausse de taux le 29 juillet provoquant un spike VIX > 25 ; (2) NFP + CPI = stagflation confirmée → repricing violent des multiples tech.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes et cours mentionnés sont des estimations — vérifier les cotations réelles avant d'entrer en position. footnote:[Données au 2 juillet 2026 — clôture des marchés US (early close, marchés fermés le 3 juillet pour Independence Day).]
+
+=== Trade #1 — Covered Call sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (vente d'option d'achat sur position longue existante)
+| *Sous-jacent* | QQQ (~$712,60)
+| *Raisonnement* | Résistance forte à $738–746 peu susceptible d'être franchie en 16 DTE compte tenu du momentum négatif (MACD −2,25, RSI 38,8). Stratégie theta pure idéale pour collecter un revenu pendant la consolidation.
+| *Expiration* | 18 juillet 2026 (16 DTE)
+| *Strike* | Call $738 (borne basse de la résistance)
+| *Prime reçue* | ~$4–7 / action footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0,28
+| *Theta/jour* | ~$0,30–0,45 / action
+| *Breakeven* | $712,60 (déjà en position longue)
+| *Entrée* | Immédiat ou sur rebond à $715–720
+| *Cible* | 80 % du crédit reçu
+| *Stop-loss* | QQQ clôture > $745 (dépassement résistance)
+| *Taille* | 100 % des positions QQQ existantes
+|===
+
+=== Trade #2 — Bull Put Spread sur SPY
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Put Spread (vente de spread de puts OTM)
+| *Sous-jacent* | SPY (~$745,76)
+| *Raisonnement* | SPY plus résilient que QQQ grâce à la rotation vers les défensives. Le Dow Jones à ATH et le win rate de 70 % des composants S&P 500 soutiennent la base. Le NFP miss réduit le risque de hausse imminente des taux. La probabilité d'une cassure sous $730 en 16 DTE reste limitée (−2,1 % depuis le cours actuel).
+| *Expiration* | 18 juillet 2026 (16 DTE)
+| *Strike(s)* | Vente Put $730 / Achat Put $720
+| *Prime reçue* | ~$2,00–3,00 net crédit footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0,18 net
+| *Theta/jour* | ~$0,12–0,18 net
+| *Breakeven(s)* | ~$728 (côté baisse)
+| *Entrée* | Immédiatement
+| *Cible* | 50 % du crédit reçu
+| *Stop-loss* | Débit > 2× le crédit ou SPY clôture sous $730
+| *Taille* | 2–4 % du portefeuille
+|===
+
+=== Trade #3 — Long XLV (Healthcare ETF — rotation sectorielle)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Achat ETF (positionnement rotation sectorielle défensive)
+| *Sous-jacent* | XLV — SPDR Health Care Select Sector ETF
+| *Raisonnement* | La santé est le secteur le plus fort aujourd'hui, avec un win rate de 70 % parmi les composants S&P 500 avançant. La rotation late-cycle classique (CPI élevé → préférence pour les revenus prévisibles) favorise les défensives. Le dividende stable du XLV (~1,5 % / an) offre une protection en cas de stagnation prolongée.
+| *Expiration* | N/A (ETF — position directionnelle)
+| *Entrée* | Achat dans les 2–3 prochaines sessions
+| *Cible* | +5–8 % sur 4–6 semaines
+| *Stop-loss* | −4 % depuis l'entrée
+| *Taille* | 3–5 % du portefeuille
+|===
+
+=== Trade #4 — Iron Condor sur QQQ (theta play)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (4 jambes, premium neutre, stratégie range-bound)
+| *Sous-jacent* | QQQ (~$712,60)
+| *Raisonnement* | VIX à 16,59 permet de vendre de la prime à un niveau raisonnable. Le range attendu $690–$745 correspond précisément aux niveaux de support et résistance identifiés. La fenêtre de 23 DTE (avant FOMC du 29 juillet) optimise le theta decay avant l'événement majeur suivant. RSI approchant le survendu → rebond probable mais limité.
+| *Expiration* | 25 juillet 2026 (23 DTE — avant FOMC)
+| *Strike(s)* | Vente Put $700 / Achat Put $690 // Vente Call $740 / Achat Call $750
+| *Prime reçue* | ~$3,50–5,00 net crédit footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0,03 net (quasi-neutre)
+| *Theta/jour* | ~$0,20–0,30 net
+| *Breakeven(s)* | ~$695 (bas) / ~$744 (haut)
+| *Entrée* | Sur rebond QQQ entre $715 et $720
+| *Cible* | 50 % du crédit reçu
+| *Stop-loss* | Débit > 2× le crédit ; ou QQQ < $695 ; ou QQQ > $745
+| *Taille* | 1–2 % du portefeuille par spread (risque max = largeur spread − prime)
+|===
+
+._Iron Condor QQQ — P&L estimé à expiration (par spread)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ — P&L estimé à expiration (par spread, crédit ~$400)"
+    x-axis ["680", "690", "695", "700", "712", "725", "738", "742", "746", "750", "760"]
+    y-axis "P&L ($)" -700 --> 500
+    bar [-600, -600, -200, 400, 400, 400, 400, -200, -600, -600, -600]
+    line [-600, -600, -200, 400, 400, 400, 400, -200, -600, -600, -600]
+....
+
+NOTE: La zone de profit maximale (+$400 / spread pour un crédit de $4,00) s'étend de $700 à $740. Les seuils de rentabilité se situent à ~$695 (côté put) et ~$744 (côté call). En dehors de cette fourchette, la perte maximale atteint −$600 / spread. La stratégie est rentable tant que QQQ reste dans un range de ±4 % autour du cours actuel jusqu'au 25 juillet 2026.
+
+=== Trade #5 — Bull Call Spread sur GOOGL (signal Congrès)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (risque défini, exposition haussière directionnelle)
+| *Sous-jacent* | GOOGL — Alphabet Inc. (~$358,45)
+| *Raisonnement* | (1) Signal Congrès : 14 membres du Congrès ont acheté des actions GOOGL récemment (~mai–juin 2026), plus grand consensus parmi les achats recensés (~$3,5M cumulé). (2) Catalyst Q3 FY2026 : résultats Alphabet attendus ~22–28 juillet 2026 — vecteur de hausse potentiel. (3) GOOGL moins exposé que NVDA/AMAT/SanDisk au cycle de la mémoire — Search et Cloud affichent des revenus résilients même en contexte d'inflation élevée. (4) Pricing power fort dans Search — hedge naturel contre CPI élevé.
+| *Expiration* | 22 août 2026 (51 DTE — après earnings)
+| *Strike(s)* | Achat Call $360 / Vente Call $385
+| *Prime payée* | ~$7–10 débit net footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~+0,45
+| *Breakeven* | ~$367–370
+| *Entrée* | Dans les 3 prochains jours si GOOGL tient > $350
+| *Cible* | 100 % du débit payé (+$1 500–1 700 / spread si GOOGL ≥ $385)
+| *Stop-loss* | Perte de 50 % du débit payé ; ou GOOGL clôture < $345
+| *Taille* | 2–3 % du portefeuille
+|===
+
+NOTE: Le signal Congrès pour GOOGL est basé sur des données secondaires (Quiver Quantitative, mai 2026) en raison de l'inaccessibilité directe de Capitol Trades ce jour. Ce signal est indicatif — ne pas en faire le seul critère de décision. footnote:[Données Capitol Trades indisponibles — accès réseau bloqué lors de l'exécution de cette analyse.]
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo (décision FOMC 16–17 juin 2026)
+| Prochain FOMC | 28–29 juillet 2026 — anticipation marché : maintien probable mais dot plot hawkish
+| CPI dernier (mai 2026) | +4,2 % YoY (headline) / +2,9 % (core) — nettement au-dessus de la cible 2 %
+| CPI juin 2026 | Publication le 14 juillet 2026 — donnée clé à surveiller
+| NFP juin 2026 | +57 000 emplois — miss sévère vs 113 000 attendus — chômage 4,2 %
+| Taux 10 ans US | [donnée non disponible en temps réel — dernière valeur connue : ~4,3 %]
+| Put/Call ratio | [donnée non disponible en temps réel ce jour]
+| VIX | 16,59 — pas de stress systémique détecté
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 3 juillet 2026 | Marchés US fermés (Independence Day) | Faible — fermeture
+| 14 juillet 2026 | CPI juin 2026 (BLS) | Élevé — détermine trajectory Fed
+| 22–28 juillet 2026 | Earnings Alphabet Q3 FY2026 | Élevé — catalyseur Nasdaq
+| Fin juillet 2026 | Earnings Meta / MSFT / Amazon / Apple Q3 FY2026 | Élevé — sentiment tech
+| 28–29 juillet 2026 | Réunion FOMC (décision taux) | Élevé — pivot ou hike
+| Ongoing | Suivi du selloff semis (SanDisk, AMAT, Micron) | Modéré — contagion possible
+|===
+
+'''
+
+== Signal Congrès américain
+
+NOTE: Les données Capitol Trades n'étaient pas accessibles directement depuis l'environnement d'exécution ce jour (erreur réseau). Les informations ci-dessous proviennent de données secondaires agrégées (Quiver Quantitative) et portent sur la période mai–juin 2026.
+
+[cols="1,1,1,1"]
+|===
+| Ticker | Nb élus | Achat cumulé | Commentaire
+
+| GOOGL (Alphabet) | ~14 membres | ~$3,5M | Consensus le plus large — Search + Cloud
+| META (Meta Platforms) | ~19 membres | ~$1,1M | Résilience IA, monetisation stable
+| TSM (Taiwan Semiconductor) | >10 membres | ~$1,3M | Semi leader — à surveiller (volatilité actuelle)
+|===
+
+WARNING: TSM est à surveiller avec prudence dans le contexte du selloff actuel des semiconducteurs. Attendre la stabilisation avant tout positionnement haussier sur TSM.
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment — 30,80 (Fear) au 2 juillet 2026
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| VIX 16,59 au 2 juillet 2026
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-2-2026[TheStreet — Market Today July 2]
+| Récapitulatif de séance — Dow ATH, Nasdaq en baisse, NFP miss
+
+| link:https://finance.yahoo.com/markets/live/stock-market-today-thursday-july-2-223136955.html[Yahoo Finance — Live July 2]
+| Données de marché en direct — QQQ, SPY, Tesla, semiconducteurs
+
+| link:https://www.fxleaders.com/news/2026/07/02/sandisk-sndk-stock-dives-toward-1600-as-korean-semiconductor-stocks-lead-global-decline/[FX Leaders — SanDisk Dive]
+| Analyse du plongeon de SanDisk et contagion KOSPI
+
+| link:https://www.bls.gov/news.release/cpi.nr0.htm[BLS — CPI Summary]
+| CPI mai 2026 : +4,2 % YoY (headline), +2,9 % (core)
+
+| link:https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm[Fed — FOMC Statement juin 2026]
+| Décision FOMC 16–17 juin — statu quo à 3,50–3,75 %
+
+| link:https://www.quiverquant.com/congresstrading/[Quiver Quantitative — Congress Trading]
+| Signal Congrès — données secondaires utilisées pour l'étape 4bis
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités implicites des décisions Fed
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — si recommandé dans les trades]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — protéger le portefeuille]
+* xref:ROOT:hedging/protective-put.adoc[Protective Put — couverture directe]
