@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-07-05.adoc[5 juillet 2026]
+| Niveau 3/6 — CONSOLIDATION
+| Neutre CT / Haussière LT
+| QQQ rebond sur MA50 ($710), NFP +57 K choc, VIX 15.8, FOMC 28 juil. gate
+
 | xref:market-analysis:market-analysis-2026-07-02.adoc[2 juillet 2026]
 | Niveau 3/6 — CONSOLIDATION
 | Haussière (LT) / Correction CT

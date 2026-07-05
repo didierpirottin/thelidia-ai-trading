@@ -1,0 +1,268 @@
+= Analyse de Marché — 5 juillet 2026
+:description: QQQ 712.60 $ en consolidation sur MA50, VIX calme à 15.81, NFP choc à +57 K, FOMC 28 juil. décisif — Baromètre Niveau 3 Consolidation
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+NOTE: Dimanche 5 juillet 2026 — marchés US fermés (week-end + 4th of July). Données basées sur la clôture du *3 juillet 2026* (dernier jour de cotation avant le long week-end).
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| 712.60 $ (−4.7 % 1 mois)
+| ~744.78 $ (+1 % 1 mois)
+| 15.81 — calme
+| 32 — Fear
+| Au-dessus (~710 $)
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : QQQ rebondit sur MA50, VIX calme, gate FOMC 28 juillet_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 5 juillet 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: Le marché sort d'une période de forte volatilité en juin (recul Nasdaq −4.7 % sur 1 mois, selloff semis). QQQ a touché le fond à 706 $ le 28 juin (contact MA50) et rebondit à 712 $. Le VIX reste bas à 15.81, signalant l'absence de panique. Le NFP faible (+57 K) est une déception mais soutient l'hypothèse d'une Fed en pause. Le baromètre passe de *Niveau 4* (28 juin) à *Niveau 3* : la consolidation est en cours, mais le FOMC du 28 juillet reste le verrou décisif avant tout déploiement offensif.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+La semaine du 30 juin au 3 juillet 2026 a été marquée par une rotation sectorielle majeure : le Dow Jones a atteint un nouveau record historique (+1.1 %), tandis que le Nasdaq cédait −0.8 % sous la pression des valorisations IA. QQQ est passé de 706 $ (bas du 28 juin) à 725 $ en milieu de semaine, avant de replier à 712.60 $ en clôture du 3 juillet (−1.74 % sur la session). Sur un mois, QQQ affiche −4.7 % depuis les plus hauts de juin (~748 $). Sur trois mois, le gain est de +13 % depuis les creux d'avril liés aux craintes tarifaires.
+
+Apple a dominé l'actualité positive (+4.84 % à 308.63 $) suite à l'annonce de la production de 10 millions d'iPhones pliables. À l'inverse, le rapport NFP de juin a fortement déçu (+57 000 emplois vs ~175 000 attendus), signal d'un ralentissement de l'économie américaine. Les semi-conducteurs ont poursuivi leur correction, NVDA perdant 17.6 % depuis son ATH de mai 2026 à 236.54 $.
+
+=== Pourquoi (causes profondes)
+
+La Fed maintient ses taux à 3.50–3.75 % depuis le FOMC du 17 juin 2026. Kevin Warsh, nommé président de la Fed en mai 2026 (profil hawkish), a indiqué que 9 membres sur 18 du FOMC envisagent au moins une hausse supplémentaire cette année. Le PCE 2026 est projeté à 3.6 % YoY (bien au-dessus de la cible 2 %), et le CPI de mai était à 4.2 % (plus haut en 3 ans). Cette pression inflationniste persistante cohabite avec un marché du travail qui se refroidit (NFP +57 K en juin), créant une configuration incertaine pour la Fed.
+
+Le sentiment reste dégradé (Fear & Greed à 32, zone Fear) : les flux des ETF technologiques enregistrent leurs plus importantes sorties depuis mars 2026. Le risque principal est une concentration excessive sur les mega-caps IA, dont les valorisations restent étirées malgré la correction de juin.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | 712.60 $ | —
+| SPY cours | ~744.78 $ | —
+| MA50 QQQ | ~710 $ | Au-dessus (+0.4 %) — support testé et tenu le 28 juin
+| MA200 QQQ | ~636 $ | Au-dessus (+12 %) — tendance LT solidement haussière
+| MA50 SPY | ~741 $ | Au-dessus — S&P plus résilient que Nasdaq
+| MA200 SPY | ~747 $ | En-dessous (−0.3 %) — S&P 500 pas encore pleinement restauré
+| Support clé QQQ | 706 $ | Ex-contact MA50 du 28 juin — validé en support
+| Résistance clé QQQ | 748.65 $ | ATH 52 semaines — objectif haussier
+| RSI QQQ | ~57 | Neutre — ni suracheté ni survendu
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 55 %
+
+*Conditions nécessaires* : QQQ consolide au-dessus de 710 $ (MA50 tenue en support) ; FOMC du 28-29 juillet confirme le statu quo des taux ; CPI du 14 juillet montre une décélération de l'inflation sous 4.0 %.
+
+*Cibles* : QQQ 748–765 $, SPY 755–765 $.
+
+*Catalyseurs* : NFP faible → Fed dovish → anticipation d'une baisse de taux au second semestre 2026 ; résultats Q2 des Mag7 (fin juillet / août) supérieurs aux attentes ; rebond des semi-conducteurs post-correction.
+
+=== Scénario baissier — Probabilité 45 %
+
+*Conditions de déclenchement* : QQQ clôture sous 706 $ (cassure MA50 confirmée) ; CPI du 14 juillet > 4.5 % (surprise haussière) ; Warsh hawkish → hausse 25 bps le 29 juillet.
+
+*Supports critiques* : QQQ 700 $ (seuil psychologique), puis QQQ 636 $ (MA200 — plancher long terme).
+
+*Risques de queue* : Surprise hawkish au FOMC juillet → VIX spike → fuite des valeurs tech ; NFP juillet négatif → confirmation de récession → selloff généralisé.
+
+'''
+
+== Signal Congrès américain
+
+WARNING: Données Capitol Trades indisponibles ce jour (connexion échouée — HTTP 000). Aucun signal d'achat parlementaire n'a pu être collecté pour cette analyse.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel.
+
+=== Trade #1 — Covered Call sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (vente de call sur position QQQ existante)
+| *Sous-jacent* | QQQ (~712.60 $)
+| *Raisonnement* | QQQ en consolidation dans le range 706–748 $ ; VIX bas → theta régulier ; permet de monétiser la position pendant l'attente du FOMC 28 juillet ; strike 735 $ offre 3.1 % de marge avant cession
+| *Expiration* | 1er août 2026 (~29 DTE)
+| *Strike* | Call 735 $
+| *Prime reçue* | ~5.00 $ / contrat footnote:[Estimation basée sur IV ~16 % (VIX 15.8). Vérifier les cours réels avant d'entrer en position.]
+| *Delta* | ~0.26
+| *Theta/jour* | ~0.18 $ / jour
+| *Breakeven* | Protection de 5 $ à la baisse (prix de revient réduit de 5 $)
+| *Profit max si assigné* | 735 − 712.60 + 5.00 = *27.40 $ / action*
+| *Entrée* | Immédiate — ouverture de séance lundi 7 juillet
+| *Cible* | Rachat à 50 % du crédit (~2.50 $) dès J+10 si QQQ stable
+| *Stop-loss* | Rachat si QQQ > 742 $ (call ITM > 1 %) en intraday ; ou si QQQ < 700 $ (réévaluer)
+| *Taille* | 1 contrat par 100 actions QQQ détenues (100 % de la position existante)
+|===
+
+._Covered Call QQQ 735 — P&L estimé à expiration (par contrat, 100 actions)_
+[mermaid]
+....
+xychart-beta
+    title "Covered Call QQQ 735 — P&L estimé à expiration"
+    x-axis ["690", "700", "706", "712", "720", "730", "735", "745", "755"]
+    y-axis "P&L ($)" -2500 --> 3000
+    bar [-2260, -1260, -660, -60, 740, 1740, 2240, 2240, 2240]
+    line [-2260, -1260, -660, -60, 740, 1740, 2240, 2240, 2240]
+....
+
+NOTE: P&L calculé depuis le cours d'entrée de 712.60 $ avec la prime de 5 $ reçue. Le profit est plafonné à 2 240 $ si QQQ ≥ 735 $ à expiration (soit +27.40 $ × 100 actions − 500 $ prime déjà comptée). Le breakeven à la baisse est 707.60 $ (712.60 − 5). La prime collectée protège légèrement à la baisse.
+
+=== Trade #2 — Bull Call Spread sur AAPL
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (débit)
+| *Sous-jacent* | AAPL (~308.63 $)
+| *Raisonnement* | Momentum haussier fort après annonce iPhone pliable (+4.84 %) ; AAPL résiste à la rotation tech grâce au catalyseur produit ; le spread limite le coût dans un contexte d'IV incertaine ; rapport risque/récompense ~4:1
+| *Expiration* | 15 août 2026 (~43 DTE)
+| *Strikes* | Achat Call 310 $ / Vente Call 340 $
+| *Prime payée* | ~5.80 $ (débit net par contrat) footnote:[Estimation. Vérifier les cours réels avant d'entrer en position.]
+| *Delta net* | ~0.40
+| *Breakeven* | 315.80 $
+| *Profit max* | 24.20 $ si AAPL ≥ 340 $ à expiration (ratio 4.2:1)
+| *Entrée* | AAPL tient au-dessus de 305 $ en clôture lundi 7 juillet
+| *Cible* | 75 % du profit max (~18 $) — AAPL ≥ 332 $
+| *Stop-loss* | Perte totale du débit si AAPL clôture sous 300 $
+| *Taille* | 2–3 % du portefeuille
+|===
+
+=== Trade #3 — Cash-Secured Put sur NVDA
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (CSP)
+| *Sous-jacent* | NVDA (~193 $)
+| *Raisonnement* | NVDA corrigé de −17.6 % depuis l'ATH mai 2026 (236.54 $) → zone de valeur ; IV semis élevée → primes vendeur attractives ; support technique solide vers 175–180 $ ; si assigné, prix d'acquisition attractif (~171 $)
+| *Expiration* | 15 août 2026 (~43 DTE)
+| *Strike* | Put 175 $ (~9.3 % OTM)
+| *Prime reçue* | ~4.20 $ / contrat footnote:[Estimation basée sur IV ~28 % (semis en correction). Vérifier les cours réels avant d'entrer en position.]
+| *Delta* | ~−0.21
+| *Theta/jour* | ~0.16 $ / jour
+| *Breakeven* | 170.80 $ à expiration
+| *Entrée* | NVDA tient au-dessus de 188 $ en clôture lundi 7 juillet
+| *Cible* | 50 % du crédit (~2.10 $) dès ~J+15 si NVDA stable
+| *Stop-loss* | Rachat si NVDA < 182 $ (put ITM > 5 %) ou débit > 2× crédit (~8.40 $)
+| *Taille* | 3–5 % du portefeuille (~17 500 $ de cash réservé par contrat)
+|===
+
+._Cash-Secured Put NVDA 175 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "CSP NVDA 175 — P&L estimé à expiration"
+    x-axis ["150", "160", "170", "170.80", "175", "185", "193", "200", "210"]
+    y-axis "P&L ($)" -2600 --> 600
+    bar [-2080, -1080, -80, 0, 420, 420, 420, 420, 420]
+    line [-2080, -1080, -80, 0, 420, 420, 420, 420, 420]
+....
+
+NOTE: Prime de 4.20 $ reçue. Profit max plafonné à 420 $ (4.20 × 100) si NVDA ≥ 175 $ à expiration. Breakeven à 170.80 $. En dessous, la perte augmente de 1 $ par dollar de baisse additionnelle. Si assigné à 175 $, le coût réel d'acquisition de NVDA est de 170.80 $ — soit 11.5 % sous le cours actuel.
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3.50–3.75 % — statu quo (FOMC 17 juin 2026)
+| Président Fed | Kevin Warsh (depuis mai 2026) — profil hawkish
+| Prochain FOMC | 28–29 juillet 2026 — risque hausse : 9/18 membres pro-hausse
+| CPI dernier | +4.2 % YoY (mai 2026) — plus haut en 3 ans — au-dessus de la cible
+| PCE projeté 2026 | +3.6 % — bien au-dessus cible Fed de 2 %
+| NFP juin 2026 | +57 000 emplois — surprise baissière sévère (attentes ~175 K)
+| Taux 10 ans | [donnée non disponible en temps réel — dernière valeur connue : ~4.50 %]
+| Put/Call ratio | [donnée non disponible en temps réel]
+| Taux chômage proj. | 4.3 % en 2026 (projection Fed juin)
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 7 juillet 2026 | Reprise des marchés US après long week-end | Modéré — réaction au NFP du 3 juillet
+| 14 juillet 2026 | CPI juin 2026 (Bureau of Labor Statistics) | *Élevé* — inflation persistante vs décélération
+| 15 juillet 2026 | PPI juin 2026 | Modéré — indicateur avancé de l'inflation
+| 28–29 juillet 2026 | FOMC — Décision taux Fed | *Élevé* — statu quo ou hausse surprise
+| Fin juillet–début août | Q2 Earnings Mag7 (AAPL, MSFT, GOOGL, AMZN, META, NVDA, TSLA) | *Élevé* — rebond ou confirmation de la rotation
+| 7 août 2026 (env.) | NFP juillet 2026 | Élevé — confirmation ou non du ralentissement
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment — 32 (Fear) au 5 juillet 2026
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| VIX à 15.81 au 3 juillet 2026
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed — FOMC 28–29 juillet 2026
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours QQQ : 712.60 $ (clôture 3 juillet 2026)
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX : 15.81
+
+| link:https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm[Fed — FOMC Statement 17 juin 2026]
+| Décision FOMC juin : taux maintenus à 3.50–3.75 %
+
+| link:https://ts2.tech/en/stock-market-today-05-07-2026/[Stock Market Today 05.07.2026]
+| Actualité marché du 5 juillet 2026 — NFP, Apple, rotation sectorielle
+
+| link:https://feargreedmeter.com/[FearGreedMeter]
+| Fear & Greed Index 32 (Fear) — 5 juillet 2026
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Stratégie de revenu sur sous-jacents de qualité]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly — Stratégie neutre en range]
+* xref:ROOT:strategies/leaps.adoc[LEAPS — Options longue durée sur momentum]

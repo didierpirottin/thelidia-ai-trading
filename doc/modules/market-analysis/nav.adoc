@@ -1,4 +1,5 @@
 * xref:market-analysis:index.adoc[Analyses de Marché]
+** xref:market-analysis:market-analysis-2026-07-05.adoc[5 juillet 2026 — Niveau 3 Consolidation]
 ** xref:market-analysis:market-analysis-2026-07-02.adoc[2 juillet 2026 — Niveau 3 Consolidation]
 ** xref:market-analysis:market-analysis-2026-07-01.adoc[1er juillet 2026 — Niveau 3 Consolidation]
 ** xref:market-analysis:market-analysis-2026-06-30.adoc[30 juin 2026 — Niveau 3 Consolidation]
