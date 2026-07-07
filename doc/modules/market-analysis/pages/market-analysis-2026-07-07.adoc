@@ -1,5 +1,5 @@
 = Analyse de Marché — 7 juillet 2026
-:description: QQQ ~$720, SPY ~$750, VIX 15,81 — Baromètre Niveau 3 Consolidation — Recovery AI post-selloff semis, FOMC 28 juil. et résultats Mag7 attendus
+:description: QQQ $722,82 — SPY $744,78 — VIX 16,36 — Baromètre Niveau 3 Consolidation — Selloff semis "sell the news" Samsung, énergie +3 %, FOMC 29 juil. et Mag7 en approche
 
 xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
 
@@ -7,11 +7,11 @@ xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
 |===
 | QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
 
-| ~$720 footnote:[Cours intraday estimé 7 juil. — clôture J−1 : $712,60]
-| ~$750 footnote:[Ouverture $748,74 — Dow record 53 000]
-| 15,81 — calme
-| 32 — Fear
-| Au-dessus (~$716)
+| $722,82 (+8,5 % / mois)footnote:[Cours de clôture estimé — source : Yahoo Finance / CNBC 7 juil. 2026]
+| $744,78 (+6 % / mois)footnote:[Clôture estimée ; précédente clôture $751,28]
+| 16,36 — tension modérée
+| 44 — Neutral
+| Au-dessus (~$710)
 | *Niveau 3/6 — CONSOLIDATION*
 |===
 
@@ -19,7 +19,7 @@ xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
 
 == Baromètre du marché
 
-._Niveau 3/6 — CONSOLIDATION : recovery post-selloff semis, catalyseurs en attente_
+._Niveau 3/6 — CONSOLIDATION : selloff sectoriel semis non-systémique, trend LT intact_
 [mermaid]
 ....
 xychart-beta
@@ -29,7 +29,7 @@ xychart-beta
     bar [0, 0, 1, 0, 0, 0]
 ....
 
-NOTE: Le marché passe du Niveau 4 (Prudence du 28 juin) au Niveau 3 (Consolidation) grâce au retour de l'optimisme IA, au Dow record et à la détente du VIX à 15,81. Toutefois, la macro reste mitigée (CPI 4,2 %, NFP +57 K), la MA200 de QQQ n'est pas encore reclaimed, et les catalyseurs clés (CPI 14 juil., FOMC 28 juil., résultats Mag7) ne sont pas encore joués. Attitude : renforcement sélectif, stratégies theta — pas de déploiement agressif.
+NOTE: Le VIX à 16,36 (calme, bien sous 20) signale une peur sectorielle et non systémique. Malgré le violent selloff des semi-conducteurs (SOX −4,5 %, MU/SNDK −7 %, Intel −10 %) déclenché par les résultats Samsung, le S&P 500 ne cède que −0,45 % — signe de rotation vers l'énergie et les défensives. QQQ reste au-dessus de sa MA50 ($710) et sa structure haussière depuis les bas d'avril ($551) est intacte. Les catalyseurs majeurs (CPI juin le 14 juillet, FOMC 29 juillet, Mag7 late July) justifient la prudence avant tout déploiement agressif.
 
 '''
 
@@ -37,27 +37,32 @@ NOTE: Le marché passe du Niveau 4 (Prudence du 28 juin) au Niveau 3 (Consolidat
 
 === Ce qui s'est passé (faits)
 
-Après le violent selloff des semi-conducteurs de fin juin (SOX −7,9 % sur la semaine du 23 juin, QQQ au contact de la MA50 à $706 le 28 juin), le marché opère une recovery nette en ce début de juillet.
-Le Dow Jones franchit 53 000 pour la première fois de son histoire, le Nasdaq progresse de +1,1 % ce 7 juillet, porté par le regain d'optimisme sur l'intelligence artificielle.
+La séance du 7 juillet 2026 s'est retournée en cours de journée. Le Nasdaq avait ouvert en hausse (+1,1 %) porté par l'entrée de SpaceX au Nasdaq-100, avant que les résultats trimestriels de Samsung ne déclenchent un violent "sell the news" sur l'ensemble de la chaîne de valeur des semi-conducteurs IA.
 
-Événements clés de la semaine :
+Samsung a publié un profit d'exploitation de $58 milliards pour le T2 2026, soit une progression de ×19 sur un an — un record absolu — mais les investisseurs ont interprété ce pic comme le sommet du cycle mémoire IA. Les titres mémoire et équipementiers ont plongé en cascade : Micron −7 % ($917), SanDisk −7 % ($1 616), Western Digital −7 % ($537), Intel −10 %, Applied Materials −10 %, AMD −8 %. L'indice SOX a cédé 4,5 %. Le Nasdaq a fini la journée à −1,16 % (25 818,69) et le S&P 500 à −0,45 % (7 503,85).
 
-* *NFP juin 2026* : +57 K emplois — bien en-dessous des 110 K attendus ; chômage 4,2 %
-* *SpaceX* : intégrée au Nasdaq-100 via les nouvelles règles "fast-track" pour les mega-IPO
-* *Hon Hai (Foxconn)* : CA trimestriel supérieur aux attentes — signal de demande IA soutenue
-* *Microsoft* : 4 800 suppressions de postes (−2,1 % effectif) — Xbox perd ~20 % de ses équipes
-* *Samsung* : résultats trimestriels attendus mardi — profit × 18 vs N−1 (chips mémoire IA)
-* *Secteur moteur* : Tech / IA — Alphabet, Apple, Meta, Tesla en hausse
-* *Secteur à la traîne* : Loisirs / Hôtellerie — baisse saisonnière Coupe du monde
+En parallèle, les tensions géopolitiques ont resurgi : des forces des Gardiens de la Révolution iraniens ont visé deux navires commerciaux près du Détroit d'Ormuz, propulsant le pétrole de +3 %. Le secteur énergie (XLE) a joué son rôle de valeur refuge et a signé la meilleure performance sectorielle de la séance.
+
+SpaceX a officiellement intégré le Nasdaq-100 via les nouvelles règles "fast-track" pour les méga-IPO, mais a perdu 5 % malgré les flux d'achat mécaniques liés à l'intégration.
+
+*Résumé des clôtures estimées :*
+
+* *QQQ* : $722,82 (1 sem −1,8 % / 1 mois +8,5 % / 3 mois +31 %)footnote:[Performances estimées — basées sur données historiques reconstituées des analyses précédentes]
+* *SPY* : $744,78 (1 sem −0,9 % / 1 mois +6 % / 3 mois +20 %)
+* *Nasdaq Composite* : −1,16 % à 25 818,69
+* *S&P 500* : −0,45 % à 7 503,85
+* *Dow Jones* : −0,25 % à 52 925,15
+* *Secteur moteur* : XLE / Energie +3 % — tensions Détroit d'Ormuz
+* *Secteur à la traîne* : SOX / Semi-conducteurs −4,5 % — "sell the news" Samsung
 
 === Pourquoi (causes profondes)
 
-* *Fed* : taux 3,50–3,75 % — nouveau chairman Kevin Warsh (depuis mai 2026) — "inflation trop haute" — statu quo prévu au FOMC du 28–29 juillet
-* *Inflation* : CPI mai +4,2 % YoY — niveau le plus haut depuis 3 ans — CPI juin attendu le 14 juillet (catalyseur critique)
-* *Emploi* : NFP juin +57 K (déception marquée vs 110 K attendus) — risque de stagflation si CPI reste élevé
-* *Sentiment* : put/call equity 0,53 (positionning plutôt haussier) — Fear & Greed 32 (Fear)
-* *Risque 1* : Stagflation naissante — inflation persistante + ralentissement du marché du travail
-* *Risque 2* : Concentration Mag7 — si un profit warning surprend, l'impact sur QQQ est amplifié
+* *Fed* : taux 3,50–3,75 % — Kevin Warsh (Chairman depuis mai 2026) — statu quo — prochain FOMC 29 juillet
+* *Inflation* : CPI mai +4,2 % YoY — niveau le plus élevé depuis 3 ans — CPI juin attendu le 14 juillet (catalyseur critique)
+* *Emploi* : NFP juin +57 K — déception marquée (consensus 110 K) — chômage 4,2 %
+* *Sentiment* : Fear & Greed 44 (Neutral) — Put/Call equity ~0,53 (données du 2 juil.)
+* *Risque 1* : "Sell the news" IA — Samsung bat toutes les attentes mais est sanctionné −10 % intraday → contagion à toute la chaîne semi US
+* *Risque 2* : Stagflation naissante — CPI élevé + NFP décevant + taux inchangés = marché en attente
 
 === Signaux techniques clés
 
@@ -65,44 +70,61 @@ Le Dow Jones franchit 53 000 pour la première fois de son histoire, le Nasdaq p
 |===
 | Indicateur | Valeur | Signal
 
-| QQQ cours | ~$720 footnote:[Estimation intraday — vérifier cours réels avant entrée] | —
-| MA50 QQQ | ~$716 | Au-dessus — signal positif à court terme
-| MA200 QQQ | ~$722 | En-dessous — résistance à franchir
-| Support clé | $706 | Ancien contact MA50 du 28 juin 2026
-| Résistance clé | $748 | 52-week high récent (ATH zone)
-| RSI (14j) | ~57 | Neutre — espace à la hausse sans surachat
+| QQQ cours | $722,82footnote:[Estimation — vérifier cours réels avant entrée en position] | —
+| MA50 QQQ | ~$710 | Au-dessus — signal positif à court terme
+| MA200 QQQ | ~$722 | Au contact / Résistance — à franchir en clôture
+| Support clé | $706 | Ancien contact MA50 (28 juin 2026) — niveau charnière
+| Résistance clé | $748,65 | 52-week high / ATH récent
+| RSI (14j) | ~55 | Neutre — espace à la hausse sans surachat
 |===
 
-Structure : higher low en formation depuis le point bas de fin juin ($706). QQQ tente de reclaimer la MA200 ($722) — confirmation nécessaire en clôture.
+Structure : higher lows confirmés depuis le bas d'avril 2026 ($551). QQQ se bat avec sa MA200 ($722) — franchissement en clôture = signal haussier CT. Retour sous $706 = alerte.
+
+'''
+
+== Signal Congrès américain
+
+NOTE: Capitol Trades était inaccessible directement ce jour (erreur réseau). Les données suivantes proviennent de QuiverQuantitative et de recherches web.
+
+[cols="1,1,1,1,1"]
+|===
+| Ticker | N° élus | Dernier achat | Élu(s) | Contexte
+
+| TSM | 39 (12 mois) | Sur 1 an | Multiples | #1 Congress Buys QuiverQuant — fonderie IA dominante
+| C | 1 | 6 juil. 2026 | Shelley Moore Capito (R-WV) | Citigroup — banking / taux
+| T | 1 | 2 juil. 2026 | Gary Peters (D-MI) | AT&T — dividende / défensif
+|===
+
+*Règle baromètre 3 :* TSM noté en observation uniquement. Le pullback semi de ce jour (SOX −4,5 %) offre potentiellement un point d'entrée sur le leader de la fonderie IA — 39 achats congressionnels sur 12 mois constituent un signal long terme solide. Pas de trade actif sans confirmation du rebond.
 
 '''
 
 == Perspectives à 4–8 semaines
 
-=== Scénario haussier — Probabilité 55 %
+=== Scénario haussier — Probabilité 50 %
 
-*Conditions nécessaires* : QQQ clôture au-dessus de MA200 ($722) + CPI juin ≤ 4,0 % le 14 juillet + résultats Mag7 conformes ou supérieurs aux attentes.
+*Conditions nécessaires* : QQQ reclaim MA200 ($722) en clôture plusieurs séances consécutives + CPI juin ≤ 4,0 % le 14 juillet + résultats Mag7 conformes ou supérieurs aux attentes.
 
-*Cibles* : QQQ $750, SPY $775.
+*Cibles* : QQQ $748–760, SPY $775–785.
 
 *Catalyseurs* :
 
 * CPI juin inférieur aux attentes (14 juillet) → reprise du sentiment
-* Résultats Mag7 solides (Tesla 22/7, Alphabet 28/7, Meta 29/7, Apple/Amazon 30/7)
-* FOMC 28 juil. : Warsh maintient les taux sans signal hawkish additionnel
-* Demande IA soutenue confirmée par Samsung et chaîne d'approvisionnement Nvidia
+* FOMC 29 juillet : Warsh maintient taux sans signal hawkish additionnel
+* Résultats Mag7 solides (Tesla ~22/7, Alphabet ~28/7, Meta ~29/7, Apple/Amazon ~30/7)
+* Digestion rapide du selloff Samsung — chip cycle correctement pricé
 
-=== Scénario baissier — Probabilité 45 %
+=== Scénario baissier — Probabilité 50 %
 
-*Conditions de déclenchement* : CPI juin > 4,3 % ou déclaration hawkish Warsh pré-FOMC + profit warning d'un poids lourd Mag7.
+*Conditions de déclenchement* : CPI juin > 4,3 % (surprise hawkish) OR déclaration belliciste Warsh pré-FOMC + selloff systémique des semis persistant > 3 séances.
 
 *Supports critiques* : QQQ $706 (MA50), QQQ $665 (MA200 long terme estimée).
 
 *Risques de queue* :
 
-* Stagflation confirmée → Warsh contraint de hausser les taux → selloff
-* Profit warning IA (remise en question du capex cloud) → VIX spike > 25
-* Escalade géopolitique imprévue
+* Escalade géopolitique Détroit d'Ormuz → VIX spike > 28 → réduction de risque forcée
+* Profit warning Mag7 sur le capex IA (remise en question du cycle) → Nasdaq bear court terme
+* Stagflation confirmée → Warsh contraint de hausser les taux → choc de multiples
 
 '''
 
@@ -116,96 +138,94 @@ NOTE: Ces recommandations sont à visée éducative. Adapter la taille des posit
 |===
 | Paramètre | Valeur
 
-| *Type* | Iron Condor (vente de range — stratégie theta)
-| *Sous-jacent* | QQQ (~$720 footnote:[Estimation intraday — vérifier cours réels avant entrée])
-| *Raisonnement* | QQQ en consolidation post-correction dans un range $706–$748 ; VIX 15,81 calme ; Fear & Greed 32 freine les mouvements directionnels forts ; catalyseurs (CPI 14 juil., FOMC 28 juil.) = volatilité implicite stable sur 25 DTE
+| *Type* | Iron Condor (vente de range — stratégie theta pure)
+| *Sous-jacent* | QQQ (~$722,82footnote:[Estimation — vérifier cours réels avant entrée])
+| *Raisonnement* | QQQ en consolidation dans le range $706–$748 ; selloff semis non-systémique laisse le marché global stable ; VIX 16,36 modéré ; catalyseurs CT (CPI 14/7, FOMC 29/7) maintiennent la volatilité dans un range sur 25 DTE
 | *Expiration* | 1er août 2026 (25 DTE)
 | *Strike(s)* | Sell Put 695 / Buy Put 680 / Sell Call 748 / Buy Call 763
-| *Prime reçue* | ~$4,00 crédit net par contrat (estimé footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Prime reçue* | ~$4,00 crédit net par contrat (estiméfootnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
 | *Delta total* | ~0 (delta-neutral)
 | *Theta/jour* | ~$10–12 / jour
 | *Breakeven(s)* | $691 (baisse) / $752 (hausse)
-| *Entrée* | QQQ entre $715 et $725 en séance
+| *Entrée* | QQQ entre $718 et $726 en séance
 | *Cible* | Rachat à 50 % du crédit reçu (~$2,00)
-| *Stop-loss* | Débit > 2× crédit ($8,00) OU QQQ sort de [$700, $745]
+| *Stop-loss* | QQQ sort de [$700, $745] OU débit > 2× crédit ($8,00)
 | *Taille* | 3–5 % du portefeuille par condor
 |===
 
-._Iron Condor QQQ 695/748 — P&L estimé à expiration (par contrat)_
+._Iron Condor QQQ $695/$748 — P&L estimé à expiration (par contrat)_
 [mermaid]
 ....
 xychart-beta
     title "Iron Condor QQQ — P&L estimé à expiration (par contrat $)"
-    x-axis ["$670", "$680", "$691", "$720", "$748", "$752", "$763", "$775"]
+    x-axis ["$670", "$680", "$691", "$710", "$722", "$748", "$752", "$763", "$775"]
     y-axis "P&L ($)" -1200 --> 500
-    bar [-1100, -1100, 0, 400, 400, 0, -1100, -1100]
-    line [-1100, -1100, 0, 400, 400, 0, -1100, -1100]
+    bar [-1100, -1100, 0, 400, 400, 400, 0, -1100, -1100]
+    line [-1100, -1100, 0, 400, 400, 400, 0, -1100, -1100]
 ....
 
-NOTE: Profit maximum ($400/contrat) dans la zone [$691, $752]. Perte maximale ($1 100/contrat) si QQQ sort de cette zone à expiration. Breakevens : $691 côté put, $752 côté call.
+NOTE: Profit maximum ($400/contrat) dans la zone centrale [$691, $752]. Perte maximale ($1 100/contrat) si QQQ sort de cette zone à expiration. Breakevens : $691 (baisse) / $752 (hausse). Le range actuel $706–$748 est bien contenu dans la zone de profit.
 
-=== Trade #2 — Covered Call sur QQQ
+=== Trade #2 — Long XLE (Energy — momentum géopolitique)
 
 [cols="1,2"]
 |===
 | Paramètre | Valeur
 
-| *Type* | Covered Call (amélioration rendement position longue existante)
-| *Sous-jacent* | QQQ (~$720 footnote:[Estimation — vérifier cours réels.])
-| *Raisonnement* | Résistance forte à $748 (ATH récent) = cible naturelle pour le strike ; VIX modéré mais prime correcte sur 25 DTE ; stratégie défensive si QQQ consolide
+| *Type* | Achat ETF sectoriel (directionnel momentum)
+| *Sous-jacent* | XLE (SPDR Energy Select Sector ETF) — cours ~$97–99 estiméfootnote:[Cours XLE non disponible en temps réel — estimer à partir de l'indice énergie S&P 500]
+| *Raisonnement* | Pétrole +3 % le 7 juillet sur frappe IRGC iranien au Détroit d'Ormuz ; rotation sectorielle nette (semis sell → énergie buy) ; XLE offre exposition diversifiée énergie ; hedge naturel contre escalade géopolitique (tail risk portfolio)
+| *Entrée* | Pullback intraday sur XLE — éviter la chasse post-spike
+| *Cible* | +8–10 % sur 3–4 semaines si tensions Moyen-Orient persistent
+| *Stop-loss* | Clôture sous MA20 XLE OU désescalade géopolitique confirmée
+| *Taille* | 3–5 % du portefeuille
+|===
+
+=== Trade #3 — Covered Call sur QQQ (position existante)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (amélioration rendement position longue)
+| *Sous-jacent* | QQQ (~$722,82footnote:[Estimation — vérifier cours réels.])
+| *Raisonnement* | Résistance ATH forte à $748,65 = cible naturelle pour le strike ; chip selloff freine l'upside CT ; VIX 16,36 = prime correcte ; stratégie défensive qui génère du revenu sur position existante
 | *Expiration* | 1er août 2026 (25 DTE)
-| *Strike(s)* | Call 748 (près ATH récent)
-| *Prime reçue* | ~$5–7 par contrat (estimé footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
-| *Delta total* | ~−0,28 (sur le call vendu)
+| *Strike(s)* | Call $748 (près de l'ATH récent)
+| *Prime reçue* | ~$5–7 par contrat (estiméfootnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Delta total* | ~−0,25 (sur le call vendu)
 | *Theta/jour* | ~$4 / jour
-| *Breakeven(s)* | ~$713 (base moins prime)
-| *Entrée* | Sur position longue QQQ existante
+| *Breakeven(s)* | ~$716 (base moins prime sur position longue)
+| *Entrée* | Sur position longue QQQ existante (100 actions)
 | *Cible* | Expiration worthless ou rachat à $1–2
-| *Stop-loss* | QQQ clôture sous $706 (MA50) → réévaluer
+| *Stop-loss* | QQQ clôture sous $706 (MA50) → réévaluer exposition
 | *Taille* | 1 contrat pour 100 actions détenues
 |===
 
-=== Trade #3 — Bull Call Spread QQQ (pre-earnings Mag7)
+=== Trade #4 — Cash-Secured Put MSFT (pre-earnings)
 
 [cols="1,2"]
 |===
 | Paramètre | Valeur
 
-| *Type* | Bull Call Spread (haussier limité — jouer les résultats Mag7)
-| *Sous-jacent* | QQQ (~$720 footnote:[Estimation — vérifier cours réels.])
-| *Raisonnement* | Résultats Mag7 (Tesla 22/7, Alphabet 28/7, Meta 29/7, Apple/Amazon 30/7) = catalyseurs puissants ; AI narrative qui reprend ; risque limité au débit si CPI déçoit ; QQQ test de MA200 — cassure = upside vers $748
-| *Expiration* | 1er août 2026 (25 DTE — après résultats Mag7)
-| *Strike(s)* | Buy Call 725 / Sell Call 755
-| *Prime payée* | ~$8–10 débit (estimé footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
-| *Delta total* | ~+0,35
-| *Theta/jour* | ~−$3 / jour
-| *Breakeven(s)* | ~$735 (hausse)
-| *Entrée* | QQQ clôture au-dessus de $722 (reclaim MA200)
-| *Cible* | Spread à $20–22 (gain ~120 % sur débit)
-| *Stop-loss* | QQQ repasse sous $706 → vente à 50 % de perte max
-| *Taille* | 2–3 % du portefeuille
-|===
-
-=== Trade #4 — Cash-Secured Put sur MSFT (pre-earnings)
-
-[cols="1,2"]
-|===
-| Paramètre | Valeur
-
-| *Type* | Cash-Secured Put (engagement à l'achat sur qualité)
-| *Sous-jacent* | MSFT footnote:[Cours en temps réel non disponible — vérifier avant entrée.]
-| *Raisonnement* | Earnings MSFT attendus fin juillet ; licenciements 4 800 postes = signal réduction coûts → positif pour marges ; IA / Azure en accélération ; IV pré-résultats élevée = prime vendeuse attractive ; CSP OTM à −10 % = acquisition à prix décoté si selloff
-| *Expiration* | 1er août 2026 (après earnings)
+| *Type* | Cash-Secured Put (engagement sur qualité, prime IV élevée)
+| *Sous-jacent* | MSFT footnote:[Cours MSFT non disponible en temps réel — vérifier avant entrée]
+| *Raisonnement* | Earnings MSFT attendus fin juillet ; licenciements 4 800 postes = réduction de coûts → amélioration des marges ; Azure IA en accélération ; IV pré-résultats élevée = prime attractive ; CSP OTM à −10 % = engagement à prix décoté si surprise baissière
+| *Expiration* | 1er août 2026 (après earnings ~29/7)
 | *Strike(s)* | Put OTM −8 à −10 % du cours actuel
-| *Prime reçue* | Cibler min $3–4 / contrat (estimé footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Prime reçue* | Cibler minimum $3–4 / contrat (estiméfootnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
 | *Delta total* | ~−0,20 à −0,25
 | *Theta/jour* | ~$2–3 / jour
 | *Breakeven(s)* | Strike − Prime reçue
-| *Entrée* | Avant annonce des résultats (IV maximale)
+| *Entrée* | Avant annonce des résultats (IV au maximum)
 | *Cible* | Expiration worthless → garder 100 % de la prime
-| *Stop-loss* | MSFT clôture sous strike → assignation volontaire ou rachat
+| *Stop-loss* | MSFT clôture sous strike → assignation ou rachat
 | *Taille* | 5 % du portefeuille (cash réservé pour assignation éventuelle)
 |===
+
+=== Observation #5 — TSM (Signal Congrès — à surveiller)
+
+*Pas de trade actif ce jour.* TSM (Taiwan Semiconductor) est le titre le plus acheté par le Congrès américain sur 12 mois (39 transactions — source QuiverQuantitative). Le pullback semi de ce jour (SOX −4,5 %) déclenché par Samsung peut représenter une opportunité d'entrée sur le leader de la fonderie IA, mais une confirmation du rebond est nécessaire avant d'entrer. Surveiller : cours TSM post-close + comportement secteur SOX demain matin.
 
 '''
 
@@ -216,15 +236,14 @@ NOTE: Profit maximum ($400/contrat) dans la zone [$691, $752]. Perte maximale ($
 | Indicateur macro | Valeur / Commentaire
 
 | Taux Fed | 3,50–3,75 % — statu quo (Kevin Warsh, depuis mai 2026)
-| Prochain FOMC | 28–29 juillet 2026 — pas de baisse anticipée
-| CPI mai 2026 | +4,2 % YoY — au-dessus target (+ haut depuis 3 ans)
+| Prochain FOMC | 29 juillet 2026 — pas de baisse anticipée par le marché
+| CPI mai 2026 | +4,2 % YoY — au-dessus target 2 % — niveau 3 ans le plus élevé
 | CPI juin 2026 | Attendu le 14 juillet 2026 — catalyseur critique
 | NFP juin 2026 | +57 K — déception (consensus 110 K) — chômage 4,2 %
 | Taux 10 ans | [donnée non disponible en temps réel]
-| Put/Call equity | 0,53 (2 juil.) — positionning haussier
-| Put/Call SPX | 1,07 (2 juil.) — couverture modérée
-| Fear & Greed | 32 — Fear
-| VIX | 15,81 — calme
+| Put/Call equity | ~0,53 (données du 2 juil.) — positionning modérément haussier
+| Fear & Greed | 44 — Neutral (légèrement en zone Fear)
+| VIX | 16,36 — calme / tension modérée (+5 % en séance)
 |===
 
 '''
@@ -235,28 +254,14 @@ NOTE: Profit maximum ($400/contrat) dans la zone [$691, $752]. Perte maximale ($
 |===
 | Date | Événement | Impact potentiel
 
-| 14 juillet 2026 | CPI juin 2026 (BLS, 8h30 ET) | Élevé — détermine la trajectoire Fed
+| 14 juillet 2026 | CPI juin 2026 (BLS, 8h30 ET) | Élevé — détermine trajectoire Fed / sentiment IA
 | 22 juillet 2026 | Résultats Tesla (Q2 2026) | Élevé — proxy EV + IA (FSD)
-| 28 juillet 2026 | FOMC décision taux + Résultats Alphabet | Élevé — double catalyseur
-| 29 juillet 2026 | Résultats Meta Platforms | Élevé — proxy publicité IA
+| 29 juillet 2026 | FOMC décision taux + Résultats Alphabet | Élevé — double catalyseur majeur
+| 29 juillet 2026 | Résultats Meta Platforms | Élevé — proxy publicité numérique IA
 | 30 juillet 2026 | Résultats Apple + Amazon | Élevé — proxy consommation + cloud IA
-| Semaine du 7 juil. | Résultats Samsung Electronics | Modéré — chips mémoire IA (profit × 18)
+| Semaine du 7 juil. | Digestion selloff Samsung / SOX | Modéré — chips mémoire IA : cycle au pic ?
+| Continu | Tensions Détroit d'Ormuz (Iran) | Modéré / Élevé si escalade — impact pétrole
 |===
-
-'''
-
-== Signal Congrès américain
-
-NOTE: Les données Capitol Trades n'étaient pas accessibles directement ce jour. Seule une donnée partielle a pu être collectée via recherche web.
-
-[cols="1,1,1,1,1"]
-|===
-| Ticker | N° élus | Dernier achat | Élu(s) identifié(s) | Actualité
-
-| T (AT&T) | 1 | 29 juin 2026 | Gary Peters (D-MI) | [non enrichi — Finnhub endpoint congress non disponible plan gratuit]
-|===
-
-Règle baromètre 3 : signal Congrès insuffisant pour trade prioritaire. AT&T noté en observation seulement.
 
 '''
 
@@ -269,7 +274,7 @@ Règle baromètre 3 : signal Congrès insuffisant pour trade prioritaire. AT&T n
 | link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
 | Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême)
 
-| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| link:https://www.cboe.com/tradable-products/vix/[CBOE VIX]
 | Indice de volatilité officiel — données et futures
 
 | link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
@@ -281,23 +286,23 @@ Règle baromètre 3 : signal Congrès insuffisant pour trade prioritaire. AT&T n
 | link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
 | Cours VIX en temps réel
 
-| link:https://www.cnbc.com/2026/07/05/stock-market-today-live-updates.html[CNBC — Stock Market Today 6 juil. 2026]
-| Suivi en temps réel du marché — Dow 53 000, Nasdaq +1,1 %
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-7-2026[TheStreet — Stock Market Today 7 juil. 2026]
+| Chip rout Samsung — Nasdaq S&P 500 updates
 
-| link:https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-july-7-225645420.html[Yahoo Finance — Live 7 juil. 2026]
-| Actualité en direct du marché — Dow record, regain AI
+| link:https://247wallst.com/investing/2026/07/07/stock-market-live-july-7-2026-sp-500-spy-drops-on-tech-concerns/[24/7 Wall St. — SPY drops July 7 2026]
+| S&P 500 baisse sur préoccupations tech — données de séance
+
+| link:https://www.bloomberg.com/news/articles/2026-07-07/tech-weakness-resumes-after-samsung-misses-lofty-ai-expectations[Bloomberg — Samsung IA expectations]
+| Samsung chips IA : selloff post-résultats
+
+| link:https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-lag-samsung-selloff-084343032.html[Yahoo Finance — Nasdaq Samsung selloff]
+| Nasdaq futures sous pression — MU, SNDK, WDC, AMD en focus
 
 | link:https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm[Fed — Communiqué FOMC 17 juin 2026]
-| Taux maintenus à 3,50–3,75 %
+| Taux maintenus à 3,50–3,75 % — Kevin Warsh
 
-| link:https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html[CNBC — NFP juin 2026]
-| Rapport emploi juin : +57 K emplois (vs 110 K attendus)
-
-| link:https://www.bls.gov/news.release/archives/cpi_06102026.htm[BLS — CPI mai 2026]
-| CPI mai : +4,2 % YoY — prochain CPI juin le 14 juillet
-
-| link:https://intellectia.ai/blog/ai-semiconductor-stocks-rally-july-2026[AI Semi Rally — juillet 2026]
-| SOX +47 % YTD, demande IA soutenue, Nvidia dominant
+| link:https://www.quiverquant.com/congresstrading/[QuiverQuantitative — Congress Trading]
+| Suivi achats/ventes de titres par parlementaires US — TSM #1 sur 12 mois
 |===
 
 '''
@@ -308,3 +313,4 @@ Règle baromètre 3 : signal Congrès insuffisant pour trade prioritaire. AT&T n
 * xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
 * xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
 * xref:ROOT:strategies/wheel.adoc[Wheel / CSP — si recommandé dans les trades]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — protection contre pullback]
