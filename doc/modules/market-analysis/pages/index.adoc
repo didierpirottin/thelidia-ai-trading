@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-07-07.adoc[7 juillet 2026]
+| Niveau 3/6 — CONSOLIDATION
+| Haussière (LT)
+| Recovery AI post-selloff semis, Dow 53 000 record, QQQ teste MA200, CPI 14 juil. catalyseur
+
 | xref:market-analysis:market-analysis-2026-07-05.adoc[5 juillet 2026]
 | Niveau 3/6 — CONSOLIDATION
 | Neutre CT / Haussière LT
