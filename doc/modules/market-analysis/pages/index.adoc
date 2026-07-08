@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-07-08.adoc[8 juillet 2026]
+| Niveau 4/6 — PRUDENCE
+| Baissière CT
+| QQQ casse MA50/MA200, Iran ceasefire terminé, pétrole +5 %, CPI 14 juil. déterminant
+
 | xref:market-analysis:market-analysis-2026-07-07.adoc[7 juillet 2026]
 | Niveau 3/6 — CONSOLIDATION
 | Haussière (LT)

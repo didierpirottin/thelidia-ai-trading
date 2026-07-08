@@ -1,0 +1,442 @@
+= Analyse de Marché — 8 juillet 2026
+:description: QQQ $707 casse sous MA50/MA200, Iran ceasefire terminé (pétrole +5 %), baromètre Niveau 4 Prudence — Iron Condor et CSP SPY recommandés
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| ~$707 (-3,9 % sem.)
+| ~$744 (-0,59 %)
+| 16,8 — calme (+4,8 %)
+| 43-45 — Neutre
+| *En-dessous* ($720)
+| *Niveau 4/6 — PRUDENCE*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 4/6 — PRUDENCE : QQQ sous MA50 et MA200, choc Iran/pétrole, CPI 14 juil. déterminant_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 8 juillet 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 1, 0, 0]
+....
+
+NOTE: QQQ casse sous MA50 ($720) ET MA200 ($725) pour la première fois depuis fin juin, après la fin du cessez-le-feu US-Iran annoncée par Trump. Le pétrole bondissant de +5 % rouvre le risque inflationniste à un moment où le CPI mai était déjà à +4,17 % YoY. Le VIX reste bas (16,8), le sentiment neutre (43/100) — pas de panique structurelle — mais la dégradation technique justifie le passage de Niveau 3 (hier) à Niveau 4. Aucun achat directionnel n'est justifié avant la publication du CPI juin le 14 juillet.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+La semaine du 1^er^ juillet avait vu le QQQ culminer à $736 sur fond de cessez-le-feu US-Iran et de rebond des valeurs technologiques (Meta Cloud +8,81 %). Le contexte s'est brutalement retourné en trois jours. Le 2 juillet, les semi-conducteurs ont amorcé un repli (SanDisk −13 %). Le 7 juillet, la publication de résultats Samsung décevants a déclenché un *chip rout* global. Le 8 juillet, Trump a déclaré la fin du cessez-le-feu avec l'Iran, citant des attaques iraniennes contre trois navires commerciaux dans le Détroit d'Ormuz, et annoncé une « série de frappes puissantes » menées dans la nuit. Le pétrole WTI a bondi de +4,37 % à $73,52 et le Brent de +5,43 % à $78,19. Le Dow Jones a cédé ≈ −1 %, le S&P 500 −0,33 %, tandis que le Nasdaq résistait mieux (−0,08 % composite), les valeurs d'énergie compensant partiellement le repli technologique. XLE, l'ETF énergie, a gagné +2 % en prémarché, porté par Diamondback Energy, Occidental Petroleum et Valero Energy. Parallèlement, la Fed a publié ses minutes du FOMC du 16-17 juin, révélant que *« a few »* officiels plaidaient pour une hausse dès juin, pesant sur les anticipations pour le meeting du 28-29 juillet.
+
+=== Pourquoi (causes profondes)
+
+[cols="1,2"]
+|===
+| Facteur | Situation au 8 juillet 2026
+
+| *Taux Fed*
+| 3,50-3,75 % — statu quo maintenu en juin ; prochain FOMC 28-29 juillet
+
+| *Inflation*
+| CPI mai : +4,17 % YoY / Core CPI : +2,82 % — largement au-dessus du target 2 % ; PCE mai +4,07 %, Core PCE +3,41 %
+
+| *Emploi*
+| NFP juin : +57K (publié 2 juil.) vs +110K attendu — déception majeure ; chômage 4,2 % (U3) ; salaires +3,5 % YoY
+
+| *Géopolitique*
+| Iran : ceasefire terminé, frappes US, Strait of Hormuz à risque — pétrole sous tension structurelle
+
+| *Sentiment*
+| Fear & Greed 43-45 (Neutre) — ni panique ni euphorie ; put/call ratio non disponible en temps réel
+
+| *Risque structurel*
+| QQQ perd MA50 et MA200 le même jour — *death zone* technique ; hausse pétrole rouvre l'inflation importée
+|===
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours
+| ~$707 footnote:[Valeur de séance — vérifier la clôture officielle avant d'agir.]
+| —
+
+| MA50 QQQ
+| $720,15
+| *En-dessous* — MA50 devient résistance
+
+| MA200 QQQ
+| $725,29
+| *En-dessous* — MA200 devient résistance ; signal baissier majeur
+
+| Support clé
+| $685-690
+| Plancher du 28 juin et zone technique inférieure
+
+| Résistance clé
+| $720-725
+| Double résistance MA50/MA200
+
+| RSI (14j)
+| ~40
+| Neutre/baissier — approche survendu sans le confirmer
+
+| MACD
+| −2,97
+| Vente — divergence baissière
+
+| S&P 500
+| 7 478
+| Juste au-dessus MA50/MA200 (7 472/7 473) — contact quasi total
+|===
+
+'''
+
+== Perspectives à 4-8 semaines
+
+=== Scénario haussier — Probabilité 35 %
+
+*Conditions nécessaires* : CPI juin (14 juillet) sous 3,8 % (surprise désinflation) ; QQQ reprend MA200 ($725) en clôture hebdomadaire ; désescalade Iran avec retour pétrole < $70.
+
+*Cibles* : QQQ $745-750, SPY $765-770.
+
+*Catalyseurs* : FOMC 28-29 juillet confirme la pause (signal dovish) ; Nvidia résultats > attentes le 26 août (guidance Q2 à $91 B).
+
+=== Scénario baissier — Probabilité 65 %
+
+*Conditions de déclenchement* : CPI juin > 4,5 % → probabilité hausse juillet monte au-dessus de 50 % ; escalade Iran → Détroit d'Ormuz perturbé, pétrole > $85 ; QQQ ne reprend pas MA200 d'ici vendredi prochain.
+
+*Supports critiques* : QQQ $685 (zone technique juin) ; QQQ $655-660 (MA200 long terme).
+
+*Risques de queue* : Fed hausse surprise en juillet → VIX spike > 25 ; NFP juillet négatif confirmant récession (stagflation avérée).
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes indiquées sont des estimations — vérifier les cours réels des options avant toute entrée en position.
+
+=== Trade #1 — Iron Condor sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type*
+| Iron Condor (4 jambes — stratégie theta delta-neutre)
+
+| *Sous-jacent*
+| QQQ (~$707 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+
+| *Raisonnement*
+| QQQ bloqué sous MA50 ($720) et MA200 ($725) : résistances doubles claires. VIX modéré (16,8) → prime vendable sans surestimation. CPI 14 juil. et FOMC 28-29 juil. bornent les mouvements extrêmes ; range $685-730 vraisemblable sur 4-5 sem.
+
+| *Expiration*
+| 15 août 2026 (~38 DTE)
+
+| *Strike(s)*
+| Sell Call 730 / Buy Call 745 &#124; Sell Put 685 / Buy Put 670
+
+| *Prime reçue/payée*
+| ~$7 net reçu (estimé) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+
+| *Delta total*
+| ~0 (delta-neutre)
+
+| *Theta/jour*
+| ~$10-12 / jour
+
+| *Breakeven(s)*
+| $678 (bas) / $737 (haut)
+
+| *Entrée*
+| QQQ stable entre $700-712 en séance
+
+| *Cible*
+| 50 % du crédit reçu (~$3,50 net)
+
+| *Stop-loss*
+| Débit > 2× crédit OU clôture QQQ < $685 ou > $730
+
+| *Taille*
+| 3-5 % du portefeuille
+|===
+
+._Iron Condor QQQ — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ Aug 15 — P&L estimé (par contrat, $)"
+    x-axis ["660", "670", "678", "685", "707", "730", "737", "745", "755"]
+    y-axis "P&L ($)" -1000 --> 800
+    bar [-800, -800, 0, 700, 700, 700, 0, -800, -800]
+    line [-800, -800, 0, 700, 700, 700, 0, -800, -800]
+....
+
+NOTE: Profit maximal +$700/contrat dans la zone $685-730 (autour du cours actuel $707). Pertes maximales −$800/contrat au-delà de $737 (haut) ou en-dessous de $678 (bas). La zone de confort couvre ±3,4 % dans chaque direction depuis le cours actuel.
+
+=== Trade #2 — Cash-Secured Put SPY 710
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type*
+| Cash-Secured Put (CSP)
+
+| *Sous-jacent*
+| SPY (~$744 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+
+| *Raisonnement*
+| SPY reste au-dessus de ses MA50/MA200 (~$741) — structure long terme intacte. Strike $710 = −4,6 % OTM, niveau de support testé en juin. Si assigné : entrée sur le S&P 500 à un niveau de prix favorable.
+
+| *Expiration*
+| 15 août 2026 (~38 DTE)
+
+| *Strike(s)*
+| Put 710
+
+| *Prime reçue/payée*
+| ~$4-5 reçu (estimé) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+
+| *Delta total*
+| ~−0,18
+
+| *Theta/jour*
+| ~$5-6 / jour
+
+| *Breakeven(s)*
+| ~$705
+
+| *Entrée*
+| Immédiat ou rebond SPY vers $748-752
+
+| *Cible*
+| 50 % du crédit (~$2-2,50)
+
+| *Stop-loss*
+| SPY clôture < $720 → réexamen de la position
+
+| *Taille*
+| 5-8 % du portefeuille (sous-jacent à financer si assigné)
+|===
+
+=== Trade #3 — Covered Call QQQ 725 (pour détenteurs de QQQ)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type*
+| Covered Call
+
+| *Sous-jacent*
+| QQQ (~$707 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+
+| *Raisonnement*
+| MA50 ($720) et MA200 ($725) forment une résistance double naturelle. Court terme (10 DTE) pour monétiser la position avant le CPI binaire du 14 juillet. Si assigné à $725 : sortie avec gain.
+
+| *Expiration*
+| 18 juillet 2026 (~10 DTE)
+
+| *Strike(s)*
+| Call 725
+
+| *Prime reçue/payée*
+| ~$2-3 reçu (estimé) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+
+| *Delta total*
+| ~+0,20 côté short call
+
+| *Theta/jour*
+| ~$6-8 / jour
+
+| *Breakeven(s)*
+| Position longue améliorée du montant de la prime reçue
+
+| *Entrée*
+| Immédiat pour détenteurs de QQQ
+
+| *Cible*
+| Expiration sans valeur (Call expire OTM)
+
+| *Stop-loss*
+| Si QQQ > $725 en clôture → rouler vers Call 740 expiration août
+
+| *Taille*
+| 100 % de la position QQQ détenue
+|===
+
+=== Trade #4 — Bear Put Spread QQQ 700/680 (protection)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type*
+| Bear Put Spread (protection directionnelle)
+
+| *Sous-jacent*
+| QQQ (~$707 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+
+| *Raisonnement*
+| Couverture si escalade Iran → VIX spike et QQQ < $685. CPI juin (14 juil.) peut surprendre à la hausse (CPI mai = +4,17 % + pétrole +5 % aujourd'hui). Coût limité vs long put sec, risque défini.
+
+| *Expiration*
+| 15 août 2026 (~38 DTE)
+
+| *Strike(s)*
+| Buy Put 700 / Sell Put 680
+
+| *Prime reçue/payée*
+| ~$5-6 payé net (estimé) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+
+| *Delta total*
+| ~−0,35
+
+| *Theta/jour*
+| Légèrement négatif (position acheteuse nette)
+
+| *Breakeven(s)*
+| ~$694-695
+
+| *Entrée*
+| Sur rebond QQQ vers $712-715 (meilleure entrée)
+
+| *Cible*
+| QQQ < $680 à expiration (gain maximal ~$1 400 par spread)
+
+| *Stop-loss*
+| Perte totale de la prime si QQQ reprend durablement > $710
+
+| *Taille*
+| 2-3 % du portefeuille (assurance ponctuelle)
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| *Taux Fed*
+| 3,50-3,75 % — statu quo depuis plusieurs meetings ; 9 officiels voient au moins 1 hausse en 2026
+
+| *Prochain FOMC*
+| 28-29 juillet 2026 — 21,9 % de probabilité de hausse, 78,1 % de maintien (CME FedWatch)
+
+| *CPI mai 2026*
+| +4,17 % YoY (headline) / +2,82 % Core — très au-dessus du target 2 %
+
+| *PCE mai 2026*
+| +4,07 % YoY (headline) / +3,41 % Core PCE — révisé à la hausse pour 2026
+
+| *NFP juin 2026*
+| +57K (vs +110K attendu) — déception majeure ; U3 4,2 % ; salaires +3,5 % YoY
+
+| *Taux 10 ans*
+| En hausse (bonds dip post-Iran) — [valeur exacte non disponible en temps réel]
+
+| *Pétrole WTI*
+| $73,52 (+4,37 %) — Brent $78,19 (+5,43 %) après frappes US sur Iran
+
+| *Put/call ratio*
+| [donnée non disponible en temps réel]
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 14 juillet 2026
+| CPI juin 2026 (BLS, 8h30 ET)
+| *Élevé* — déterminant pour FOMC ; une surprise > 4,5 % = hausse juillet possible
+
+| 28-29 juillet 2026
+| FOMC — décision taux (meeting non-SEP)
+| *Élevé* — 21,9 % hausse ; ton hawkish attendu avec Iran/pétrole
+
+| 30 juillet 2026
+| PCE juin 2026 (BEA)
+| *Élevé* — mesure préférée de la Fed ; confirmation de la tendance inflation
+
+| 26 août 2026
+| Nvidia earnings Q2 FY2027 (après clôture)
+| *Élevé* — attentes $91 B de revenus ; guidance IA = catalyseur tech majeur
+
+| Continu
+| Escalade Iran / Strait of Hormuz
+| *Élevé* — perturbation possible → pétrole > $85, VIX spike
+|===
+
+'''
+
+== Signal Congrès
+
+NOTE: Données Capitol Trades indisponibles ce jour (accès HTTP 403). Signal sur 12 mois via Quiver Quantitative : GOOGL (180 achats), C — Citigroup (134 achats), META (67 achats). Baromètre Niveau 4 → observation uniquement, aucun trade actif sur ces signaux tant que le marché n'a pas confirmé un rebond au-dessus de MA200.
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême) — 43-45 le 8 juillet
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — VIX 16,8 le 8 juillet (+4,8 %)
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités Fed : 78,1 % maintien / 21,9 % hausse pour FOMC juillet
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.bls.gov/news.release/cpi.nr0.htm[BLS — CPI Release]
+| CPI mai 2026 : +4,17 % YoY ; CPI juin à paraître le 14 juillet 2026
+
+| link:https://www.cnbc.com/2026/07/07/stock-market-today-live-updates.html[CNBC Markets Live — 8 juillet]
+| Couverture en direct : Iran, pétrole, Fed minutes, chip rout
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-8-2026[TheStreet — 8 juillet 2026]
+| Analyse complète : Iran ceasefire terminé, réaction marchés, Fed commentaires
+
+| link:https://finance.yahoo.com/markets/stocks/live/stock-market-today-wednedsay-july-8-230111117.html[Yahoo Finance Live — 8 juillet]
+| Live coverage : Nasdaq +0,2 %, Dow −1 %, énergie vs tech
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Protection directionnelle à coût limité]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Générer du revenu sur les actions de qualité]
+* xref:market-analysis:market-analysis-2026-07-07.adoc[Analyse du 7 juillet 2026 — Niveau 3 Consolidation]
