@@ -1,0 +1,294 @@
+= Analyse de Marché — 9 juillet 2026
+:description: QQQ $723 entre MA50 et MA200, semis rebondissent +2.5 %, VIX 16.90 calme, Iran war escalade — Niveau 3 Consolidation, attendre CPI 14 juil.
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $723.28 (~+2 % 1 mois)
+| $751.16 (+0.81 % du jour)
+| 16.90 — calme
+| 47 — Neutre (vs Fear zone hier)
+| Au-dessus ($720.15)
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : QQQ coincé entre MA50 et MA200, VIX calme, CPI et FOMC à venir_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 9 juillet 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: Le marché est en phase de consolidation active. QQQ progresse de +1.67 % aujourd'hui, porté par un rebond des semi-conducteurs (SMH +2.5 %, Micron +4.5 %, SK Hynix IPO +5.3 %), mais demeure sous sa MA200 ($725.29) — résistance technique majeure. Le VIX bas (16.90) confirme que la panique d'hier (Dow −1 %) était liée à l'Iran et non à une détérioration fondamentale. Le CPI juin (14 juillet) et le FOMC (28–29 juillet) représentent les prochaines catalyseurs déterminants — renforcement progressif et sélectif conseillé, sans déploiement agressif avant ces publications.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Le 9 juillet 2026, le Nasdaq Composite gagne 1.30 % à 26 206.89 et le S&P 500 progresse de 0.81 % à 7 543.64 après le repli de plus de 1 % du 8 juillet. Le QQQ rebondit depuis $711.44 (clôture du 8 juil.) jusqu'à $723.28, soit +1.67 % en séance — porté par une rotation haussière dans les semi-conducteurs.
+
+La journée est marquée par deux forces antagonistes : d'un côté, une escalade militaire US–Iran (frappes américaines sur 90 cibles iraniennes, Iran contre-attaque sur pays alliés US au Moyen-Orient) ; de l'autre, une baisse du pétrole qui désamorce la pression inflationniste immédiate. Les marchés asiatiques et européens avaient également rebondi (Nikkei +1.4 %, Stoxx 600 +0.8 %), rassurant les investisseurs en pré-marché.
+
+L'IPO de SK Hynix sur les marchés US débute sur une hausse de 5.3 %, confirmant l'appétit des investisseurs pour la mémoire HBM destinée à l'IA. Micron annonce par ailleurs $250 milliards de capex aux États-Unis pour répondre à la demande IA — catalyseur structurel pour le secteur.
+
+=== Pourquoi (causes profondes)
+
+La Réserve fédérale maintient son taux directeur entre 3.50 % et 3.75 % depuis décembre 2025. Kevin Warsh a remplacé Jerome Powell (mandat expiré en mai 2026), introduisant une incertitude de doctrine. Le dernier CPI (mai 2026) s'établit à +4.17 % YoY en données brutes, très au-dessus du target 2 % — la Fed reste contrainte dans sa capacité à réduire les taux. Le CPI juin sera publié le 14 juillet 2026 (prochain événement majeur).
+
+Côté emploi, le NFP juin (publié le 2 juillet) a déçu avec seulement +57 K créations vs +110 K attendus — la plus forte déception en 4 mois. Le taux de chômage est stable à 4.2 % et les salaires accélèrent légèrement (+3.5 % AH YoY). Ce mélange CPI élevé + emploi décélère dessine un risque de stagflation que la Fed doit naviguer.
+
+Le taux à 10 ans US s'établit à 4.58 % — niveau qui maintient une pression sur les multiples de valorisation des actions de croissance (tech, semis). Le put/call ratio du 7 juillet à 0.69 (légèrement haussier) et le Fear & Greed Index à 47 (neutre, revenu de la zone Fear d'hier) reflètent un sentiment mitigé mais pas capitulé.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $723.28 | —
+| MA50 QQQ | $720.15 | Au-dessus (+$3.13) — support actif tenu
+| MA200 QQQ | $725.29 | *En-dessous (−$2.01) — résistance clé non franchie*
+| Support clé 1 | $720.15 (MA50) | Niveau critique à tenir en clôture
+| Support clé 2 | $710–715 | Zone de congestion récente (creux 8 juil.)
+| Résistance clé 1 | $725.29 (MA200) | Franchir = signal haussier décisif
+| Résistance clé 2 | $748.65 (ATH 52-sem.) | Target bull scenario
+| RSI QQQ (14j) | ~40 | Neutre-bas — rebond depuis survendu, pas encore suracheté
+| MACD QQQ | −2.97 | Baissier mais en amélioration
+| SPY cours | $751.16 | Au-dessus MA50 ($744) et MA200 ($744) — meilleure posture S&P 500
+| Taux 10 ans US | 4.58 % | Pression sur multiples growth — surveiller > 4.75 %
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 40 %
+
+*Conditions nécessaires* : QQQ clôture et consolide au-dessus de $725.29 (MA200) ; CPI juin (14 juillet) surprise haussière contenue ou inférieure aux attentes (< 3.8 %) ; VIX reste sous 20 ; escalade Iran sans choc pétrolier durable.
+
+*Cibles* : QQQ $748–760 (ATH + extension 1.5 %) ; SPY $775–785.
+
+*Catalyseurs* : Earnings Alphabet (22 juil.), Microsoft + Meta (29 juil.), Apple + Amazon (30 juil.) — guidances IA solides attendues. NVDA le 26 août en ligne de mire.
+
+=== Scénario baissier — Probabilité 60 %
+
+*Conditions de déclenchement* : CPI juin (14 juillet) > 4.5 % → Fed hawkish → taux 10 ans > 5 % ; QQQ casse sous MA50 ($720) en clôture → passage en mode Niveau 4 ou 5.
+
+*Supports critiques* : QQQ $710–715 (zone congestion récente), QQQ $690–700 (support psychologique + MA200 long terme).
+
+*Risques de queue* : Escalade Iran → choc pétrolier > $100 → CPI structurel → stagflation ; guidance Mag7 déçue (compression marges IA) → correction > −10 % du QQQ.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes et prix d'options sont des *estimations*footnote:[Estimation calculée avec VIX implicite ~17. Vérifier les cours réels sur votre broker avant d'entrer en position.] — vérifier les cours réels avant d'entrer en position.
+
+=== Trade #1 — Covered Call sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (sur position QQQ existante)
+| *Sous-jacent* | QQQ (~$723.28)
+| *Raisonnement* | QQQ coincé sous MA200 $725 — résistance naturelle pour vendre des calls OTM. VIX à 16.90 génère des primes correctes sur 9 DTE. Stratégie de consolidation pure : percevoir du theta pendant l'attente du CPI.
+| *Expiration* | 18 juillet 2026 (9 DTE — avant les earnings Mag7)
+| *Strike* | Call $735 (OTM +1.6 %)
+| *Prime reçue* | ~$2.50–3.00 / contrat (estimation footnote)
+| *Delta total* | ~−0.20
+| *Theta/jour* | ~+$0.30 / jour
+| *Breakeven* | $723.28 (position déjà détenue — pas de nouveau risque baissier)
+| *Entrée* | Immédiate (cours autour de $723)
+| *Cible* | Racheter à 50 % du crédit (~$1.25–1.50) ou laisser expirer à 0
+| *Stop-loss* | QQQ clôture sous $720 (MA50) → racheter call et réévaluer
+| *Taille* | Standard (1 contrat / 100 actions QQQ détenues)
+|===
+
+._Covered Call QQQ — P&L estimé à expiration (18 juillet 2026)_
+[mermaid]
+....
+xychart-beta
+    title "Covered Call QQQ Call $735 — P&L par contrat (prime ~$2.75)"
+    x-axis ["$705", "$710", "$715", "$720", "$725", "$730", "$735", "$740", "$745"]
+    y-axis "P&L ($)" -500 --> 500
+    bar [-1823, -1323, -823, -323, 177, 177, 275, 275, 275]
+    line [-1823, -1323, -823, -323, 177, 177, 275, 275, 275]
+....
+
+NOTE: Au-dessus de $735 à expiration, le gain est plafonné à ~$275 (prime reçue + appréciation $723→$735). En-dessous de $720 (MA50), la position commence à déprimer — clôturer le call et réévaluer. Le breakeven du titre nu est $723.28 − $2.75 = $720.53.
+
+=== Trade #2 — Cash-Secured Put sur NVDA
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (stratégie vendeuse)
+| *Sous-jacent* | NVDA (~$200 — range intraday $199–204)
+| *Raisonnement* | NVDA a corrigé −6.5 % depuis le high 1 mois ($213.99 → $200). Leader IA incontournable (market cap $4.94T). Micron +4.5 % aujourd'hui confirme la demande mémoire HBM. Vendre du Put OTM génère du revenu pendant la consolidation avant les earnings du 26 août.
+| *Expiration* | 1er août 2026 (~22 DTE — *avant* les earnings NVDA du 26 août)
+| *Strike* | Put $185 (OTM −7.5 %)
+| *Prime reçue* | ~$3.50–4.50 / contrat (estimation footnote)
+| *Delta total* | ~−0.18
+| *Theta/jour* | ~+$0.18 / jour
+| *Breakeven* | ~$180.50–181.50 (strike − prime reçue)
+| *Entrée* | Immédiate ou sur faiblesse NVDA < $198
+| *Cible* | Racheter à 50 % du crédit (~$1.75–2.25)
+| *Stop-loss* | NVDA clôture sous $190, ou débit rachat > 2× crédit reçu
+| *Taille* | 3–5 % du portefeuille (cash bloqué pour rachat éventuel des actions)
+|===
+
+=== Trade #3 — Achat QQQ sur dip (ordre limite)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Achat ETF direct (positionnement progressif)
+| *Sous-jacent* | QQQ (~$723.28)
+| *Raisonnement* | Consolidation saine au-dessus de MA50. Un dip vers $718–720 (test MA50) représente une entrée tactique à risque contrôlé. Catalyseurs positifs à court terme : Mag7 earnings 22–30 juillet, rebond des semis en cours.
+| *Entrée* | Ordre limite à $718–720 (test de la MA50 — patience requise)
+| *Cible* | $748 (ATH 52-semaines) — gain ~+3.5–4 %
+| *Stop-loss* | Clôture sous $710 (MA50 + buffer 1.5 %)
+| *Taille* | 5–8 % du portefeuille (entrée en 2 tranches espacées)
+|===
+
+=== Trade #4 — Bull Call Spread NVDA (positionnement pre-earnings)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (risque limité, directionnel haussier)
+| *Sous-jacent* | NVDA (~$200)
+| *Raisonnement* | Earnings NVDA le 26 août 2026 (Q2 FY27). Correction −6.5 % depuis le high = fenêtre d'entrée pré-earnings. Micron +4.5 % et capex $250 Md annoncé confirment l'accélération IA/HBM. Coût limité vs potentiel de rebond post-résultats.
+| *Expiration* | 5 septembre 2026 (~57 DTE — post-earnings 26 août)
+| *Strike(s)* | Acheter Call $205 / Vendre Call $220
+| *Prime (débit)* | ~$4.00–5.50 / spread (estimation footnote)
+| *Gain maximum* | ~$9.50–11.00 / contrat (si NVDA > $220 à expiration)
+| *Perte maximum* | Débit payé (~$4.00–5.50) — risque maximal connu
+| *Breakeven* | ~$209–210.50
+| *Entrée* | Immédiate ou sur test $195–198
+| *Cible* | 70 % du gain max (~$6.50–7.70) post-earnings si NVDA > $215
+| *Stop-loss* | NVDA clôture sous $190 → vendre le spread résiduel ~$2
+| *Taille* | 2–3 % du portefeuille
+|===
+
+._Bull Call Spread NVDA $205/$220 — P&L estimé à expiration (5 sept. 2026)_
+[mermaid]
+....
+xychart-beta
+    title "Bull Call Spread NVDA $205/$220 — P&L par contrat (débit ~$4.75)"
+    x-axis ["$185", "$190", "$195", "$200", "$205", "$210", "$215", "$220", "$225"]
+    y-axis "P&L ($)" -600 --> 1200
+    bar [-475, -475, -475, -475, -475, 25, 525, 1025, 1025]
+    line [-475, -475, -475, -475, -475, 25, 525, 1025, 1025]
+....
+
+NOTE: Perte maximale = −$475 (débit payé) si NVDA < $205 à expiration. Gain plafonné à +$1 025 (spread $15 − débit $4.75) si NVDA ≥ $220. Breakeven : $209.75. La fenêtre post-earnings (26 août) est capturée par l'expiration du 5 septembre.
+
+'''
+
+== Signal Congrès américain
+
+WARNING: Données Capitol Trades indisponibles ce jour — connexion réseau bloquée (HTTP 000). Le signal Congrès n'est pas utilisé dans les recommandations de cette analyse. Tendance générale 2026 observée (sources secondaires non vérifiées sur 30 j glissants) : achats fréquents sur NVDA, AMD (IA/data center) et valeurs défense (LMT, RTX) dans le contexte Iran.
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3.50–3.75 % — statu quo depuis déc. 2025
+| Prochain FOMC | 28–29 juillet 2026 — 1 baisse attendue sur l'année (marché)
+| CPI mai 2026 | +4.17 % YoY (brut) / core +2.82 % — très au-dessus target 2 %
+| CPI juin 2026 | Sortie le *14 juillet 2026* à 8h30 ET — événement décisif
+| NFP juin 2026 | +57 K (vs +110 K attendu) — grande déception, chômage 4.2 %
+| Salaires | +3.5 % AH YoY (en hausse) — pression inflationniste côté travail
+| Taux 10 ans US | 4.58 % — pression sur multiples tech
+| Kevin Warsh | Nouveau président Fed (post-Powell) — doctrine hawkish attendue
+| Conflit Iran | US frappes 90 cibles iraniennes — Iran riposte — pétrole baisse malgré tensions
+| Put/Call ratio | 0.69 (données 7 juil.) — légèrement haussier
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 14 juillet 2026 | *CPI juin 2026* (8h30 ET) | Élevé — décisif pour FOMC 28 juil.
+| 22 juillet 2026 | *Alphabet (GOOGL) résultats* Q2 | Élevé — proxy IA/cloud/adtech
+| 25 juillet 2026 | *PCE Core juin* (inflation préférée Fed) | Élevé — input FOMC
+| 28–29 juillet 2026 | *FOMC — décision taux* (annonce 29 juil. 14h ET) | Très élevé — catalyseur majeur
+| 29 juillet 2026 | *Microsoft + Meta résultats* Q2 | Élevé — IA capex, cloud, pub
+| 30 juillet 2026 | *Apple + Amazon résultats* Q2 | Élevé — consumer + AWS
+| 26 août 2026 | *NVIDIA résultats* Q2 FY27 (après clôture) | Très élevé — baromètre IA global
+| Continu | Situation militaire US–Iran — pétrole | Élevé — tail risk inflationniste
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment (0 = Peur extrême, 100 = Avidité extrême) — valeur du jour : 47 (Neutre)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — valeur du jour : 16.90
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed — FOMC 28–29 juillet 2026
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel : $723.28
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX : 16.90
+
+| link:https://finance.yahoo.com/quote/NVDA/[NVDA — Yahoo Finance]
+| Cours Nvidia : ~$200 (range $199–204)
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-9-2026[TheStreet — Market Today 9 juil.]
+| Résumé de séance — semis, Iran, SK Hynix IPO
+
+| link:https://www.bls.gov/schedule/news_release/cpi.htm[BLS — Calendrier CPI]
+| Prochain CPI : 14 juillet 2026
+
+| link:https://fedratecalc.com/fomc-meeting-schedule/july-2026/[FOMC — Calendrier juillet 2026]
+| Réunion FOMC : 28–29 juillet 2026
+
+| link:https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2026[NVIDIA Investor Relations]
+| Prochains résultats NVDA : 26 août 2026
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Covered Call et Cash-Secured Put sur qualité]
+* xref:ROOT:actions/index.adoc[Analyse d'actions — Semi-conducteurs et tech IA]
