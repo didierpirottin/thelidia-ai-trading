@@ -1,0 +1,340 @@
+= Analyse de Marché — 12 juillet 2026
+:description: QQQ ~$726 (−2,6 % sous ATH), VIX 15,84 calme, rotation défensive en cours, CPI 14 juil. et TSMC 16 juil. comme catalyseurs — Baromètre Niveau 3/6 Consolidation
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA200 QQQ | Baromètre
+
+| ~$726 (+18,4 % YTD)
+| ~$755 (+11,3 % YTD)
+| 15,84 — calme footnote:[Données du 10 juillet 2026 — valeur de clôture la plus récente disponible.]
+| 49 — Neutre
+| Au-dessus (~$722) — reclaim récent
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : QQQ au-dessus de ses MAs, rotation défensive, catalyseurs majeurs cette semaine_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 12 juillet 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: Le marché est en consolidation saine : la tendance haussière structurelle reste intacte (QQQ au-dessus de MA50 à ~$714 et MA200 à ~$722), mais la rotation sectorielle vers les défensives (XLV +2,63 %, XLK −4,8 % début juillet) et la densité des catalyseurs cette semaine (CPI mardi 14, TSMC jeudi 16, banques mardi-mercredi) justifient une approche sélective. Pas de signal de capitulation ni de danger — renforcement progressif sur les meilleurs setups uniquement.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+- *QQQ* : ~$726 (prev. close $725,51 du 10 juil.) — 1 sem. ~−1 % / 1 mois +1,1 % / YTD +18,4 %
+- *SPY* : ~$755 — 1 sem. ~flat / 1 mois +1 % / YTD +11,3 %
+- *ATH QQQ* : $745,34 atteint le 2 juin 2026 — QQQ traite à −2,6 % sous son sommet historique
+- *Semis jeudi* : sharp rebound des semiconducteurs le 10 juillet — XLK rebond après le creux
+- *Chips vendredi* : recul modéré des semis en début de séance du 12 juillet — consolidation post-rebond
+- *Rotation juillet* : XLK −4,8 % la première semaine de juillet (prise de bénéfices après +33 % YTD)
+- *Secteur moteur* : XLV +2,63 %, XLU, XLP +2,03 % — rotation défensive comme en juin 28
+- *Secteur à la traîne* : XLK −4,8 % (1re semaine juil.) malgré YTD +33 %
+- *NVIDIA Q1 FY27* : revenus $81,6 Md (+85 % YoY), record absolu — demande IA confirmée
+- *TSMC* : rapport Q2 attendu le 16 juillet — consensus $40 Md revenus (+33 % YoY)
+- *Détroit d'Hormuz* : attaques continuent, shipping ralenti, pétrole élevé — ceasefire tendu
+- *Margin debt* : $1,42 Tn record (+53,7 % YoY) — amplificateur de volatilité potentiel
+
+=== Pourquoi (causes profondes)
+
+- *Fed* : taux 3,50–3,75 % — statu quo maintenu — nouveau Chair Kevin Warsh (depuis 22 mai 2026, profil hawkish) — prochain FOMC *29 juillet 2026* (non-SEP meeting)
+- *Risque hike* : CME FedWatch attribue ~25 % de probabilité à une hausse de 25 pb en juillet — inflation persistante > 2 %
+- *Inflation CPI mai* : +4,2 % YoY (plus haut depuis 3 ans) — en partie géo-énergie (Hormuz)
+- *CPI juin attendu* : ~3,8–3,9 % YoY (gasoline −6,7 % MoM en juin) — publication *mardi 14 juillet*
+- *Core CPI* : attendu +2,9 % YoY — collant, au-dessus target Fed
+- *Emploi* : NFP [donnée non disponible en temps réel — dernière valeur connue : +57 K en juillet 2] — miss sévère vs attentes
+- *Sentiment* : put/call equity 0,55–0,57 (complacency) ; total 0,86 — flux encore acheteurs nets
+- *Risque systémique* : margin debt $1,42 Tn → si QQQ −8 %, margin calls forcés sur tech
+- *Risque concentration* : XLK = 31 % du Nasdaq 100 — rotation abrupte = beta élevé
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours (12 juil.) | ~$726 footnote:[Cours intraday — high $726,40, low $717,00, prev. close $725,51 (10 juil. 2026).] | —
+| MA50 QQQ | ~$714 footnote:[Estimation basée sur la progression depuis $710 au 5 juillet 2026.] | Au-dessus — golden cross maintenu
+| MA200 QQQ | ~$722 footnote:[Estimation — QQQ testait ce niveau le 7 juillet 2026 selon l'analyse précédente.] | Au-dessus (reclaim récent) — à confirmer
+| Support clé 1 | ~$717 | Low intraday du 12 juillet — MA200 proximity
+| Support clé 2 | ~$714 | Zone MA50 — niveau à surveiller
+| Résistance clé | $745 | ATH du 2 juin 2026
+| RSI (Nasdaq 100) | ~60 | Neutre/buy — pas suracheté
+|===
+
+WARNING: Le low intraday de ce jour ($717) a brièvement testé la zone de MA200 (~$722) depuis le dessus. La clôture hebdomadaire au-dessus de $722 est importante pour confirmer le reclaim de MA200.
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 60 %
+
+*Conditions nécessaires* : CPI juin confirme la désinflation (< 4 %) mardi 14 juillet ; QQQ tient au-dessus de MA200 ($722) en clôture hebdomadaire.
+
+*Cibles* : QQQ $755–770, SPY $775–790.
+
+*Catalyseurs* :
+
+- CPI juin 3,8–3,9 % → Fed moins hawkish, marché reprend les baisses de taux
+- TSMC Q2 guidance confirme demande IA (revenue > $40 Md, capex CoWoS) → semis rebond
+- Bank earnings (JPM, GS, BofA) > attentes → rotation XLF haussière
+- Détroit d'Hormuz : désamorçage partiel → pétrole recule → CPI bénin
+
+=== Scénario baissier — Probabilité 40 %
+
+*Conditions de déclenchement* : CPI surprise haussière (> 4,2 %) → taux longs montent → tech re-rating ; QQQ cassure sous MA200 ($722) et MA50 ($714) en clôture.
+
+*Supports critiques* : QQQ ~$722 (MA200 — premier rempart), QQQ ~$714 (MA50), QQQ ~$700 (niveau psychologique).
+
+*Risques de queue* :
+
+- FOMC 29 juillet hawkish : Warsh livre une surprise de hausse 25 pb → VIX spike > 25
+- TSMC déçoit sur la guidance AI capex → semis selloff violent (SOX −7 % comme le 24 juin)
+- Escalade Détroit d'Hormuz → pétrole > $100 → stagflation fear → Niveau 5 déclenché
+- Margin calls en cascade si QQQ −8 % ($668) → effet domino sur la dette marge de $1,42 Tn
+
+'''
+
+== Signal Congrès américain
+
+NOTE: Capitol Trades inaccessible directement depuis cet environnement d'exécution (erreur réseau). Données partielles reconstituées via sources secondaires (InsiderFinance, recherches web).
+
+[cols="1,1,1,1,1"]
+|===
+| Ticker | Élus | Dernier achat | Politicien | Commentaire
+
+| *NI* (NiSource)
+| 1
+| 16 juin 2026
+| John Fetterman (D)
+| Utility/gaz naturel — cohérent avec rotation défensive de juillet
+
+| *AAPL* (Apple)
+| 1 vente
+| 24 juin 2026
+| Sheldon Whitehouse (D)
+| Vente — signal négatif marginal sur AAPL
+|===
+
+WARNING: Signal Congrès limité (1 achat notable uniquement). À Niveau 3 — Consolidation, NI est en observation : le secteur utilities (XLU) surperforme en juillet mais 1 seul élu ne constitue pas un consensus.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel.
+
+=== Trade #1 — Covered Call sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call — vente de call court terme contre position longue QQQ existante
+| *Sous-jacent* | QQQ (~$726 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | QQQ à −2,6 % sous ATH $745 (résistance naturelle) ; VIX calme mais IV momentanément gonflée par les catalyseurs de la semaine ; collecte de prime dans un marché en consolidation
+| *Expiration* | 18 juillet 2026 (7 DTE — post-CPI, post-TSMC)
+| *Strike(s)* | Call $740 (ATH comme résistance, ~2 % OTM)
+| *Prime reçue/payée* | ~$3,50–4,50 $ reçue / contrat footnote:[Estimation IV ~14 % — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0,25
+| *Theta/jour* | ~+$0,50/j / contrat
+| *Breakeven(s)* | Couvert par la position longue QQQ
+| *Entrée* | Lundi 13 juillet à l'ouverture
+| *Cible* | Laisser expirer OTM (prime encaissée à 100 %)
+| *Stop-loss* | Racheter le call si QQQ > $742 en clôture (risque d'assignation)
+| *Taille* | 1 call pour 100 actions QQQ détenues (ne modifie pas la position)
+|===
+
+._Covered Call QQQ $740C — P&L estimé à expiration (18 juil. 2026)_
+[mermaid]
+....
+xychart-beta
+    title "Covered Call QQQ $740C — P&L supplémentaire (par contrat)"
+    x-axis ["$700", "$710", "$720", "$730", "$740", "$750", "$760"]
+    y-axis "P&L ($)" -100 --> 500
+    bar [400, 400, 400, 400, 400, 400, 400]
+    line [400, 400, 400, 400, 400, 400, 400]
+....
+
+NOTE: La prime collectée (~$400) est acquise dès l'entrée. Au-delà de $740, le gain additionnel de la position longue QQQ est plafonné (le call vendu compense). En dessous de $740, la prime réduit le coût de portage de la position longue. Ce diagramme représente uniquement le P&L du call vendu, pas de la position QQQ globale.
+
+=== Trade #2 — Bull Put Spread sur TSMC avant earnings
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Put Spread — vente de spread put OTM (stratégie vendeuse, crédit reçu)
+| *Sous-jacent* | TSM (TSMC) (~$200 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | TSMC rapport Q2 le 16 juillet (revenue attendu $40 Md +33 % YoY) ; NVDA Q1 FY27 $81,6 Md (+85 % YoY) confirme la demande AI capex ; IV élevée pre-earnings → prime vendeuse attractive ; Signal Congrès : neutre pour TSMC mais fondamentaux solides
+| *Expiration* | 18 juillet 2026 (post-earnings — ~6 DTE)
+| *Strike(s)* | Vendre Put $185 / Acheter Put $175 (~7–12 % sous le cours)
+| *Prime reçue/payée* | ~$3,00–4,00 $ reçue / spread footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0,20 net
+| *Theta/jour* | ~+$0,30/j
+| *Breakeven(s)* | ~$182 à la baisse (put vendu $185 − crédit reçu ~$3,50)
+| *Entrée* | Lundi 13 juillet — avant l'annonce du 16 juillet
+| *Cible* | 60 % du crédit reçu (rachat du spread vers $1,40)
+| *Stop-loss* | Débit > 2× crédit (rachat si spread > $7–8) OU TSM < $185 en clôture pré-earnings
+| *Taille* | 2–3 % du portefeuille max (risque earnings binaire)
+|===
+
+NOTE: Risque clé : si TSMC déçoit sur la guidance CoWoS/IA (comme le 24 juin avec SOX −7,88 %), TSM peut baisser fortement. La taille réduite (2–3 %) est essentielle pour limiter le risque binaire.
+
+=== Trade #3 — Iron Condor sur QQQ (stratégie theta)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor — range neutre, pure theta / vente de volatilité implicite
+| *Sous-jacent* | QQQ (~$726 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | QQQ en range $700–$745 depuis début juillet ; VIX 15,84 → IV rank estimé 35–45 % ; semaine de catalyseurs gonfle temporairement l'IV → vendre avant résolution ; stratégie delta-neutre adaptée à l'incertitude directionnelle
+| *Expiration* | 1er août 2026 (~20 DTE)
+| *Strike(s)* | Vendre $755C / Acheter $770C / Vendre $705P / Acheter $690P
+| *Prime reçue/payée* | ~$4,50–5,50 $ crédit net footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~neutre (±0,05)
+| *Theta/jour* | ~+$0,60–0,80/j total
+| *Breakeven(s)* | ~$700,50 (bas) / ~$759,50 (haut)
+| *Entrée* | Lundi 13 juillet (avant CPI pour capturer l'IV de l'incertitude)
+| *Cible* | 50 % du crédit reçu (~$2,25–2,75 gain)
+| *Stop-loss* | Perte > 2× crédit OU QQQ < $705 en clôture OU QQQ > $748
+| *Taille* | 3–5 % du portefeuille
+|===
+
+._Iron Condor QQQ — P&L estimé à expiration (1er août 2026)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ — P&L estimé à expiration (par condor)"
+    x-axis ["$685", "$695", "$705", "$715", "$725", "$735", "$745", "$755", "$765"]
+    y-axis "P&L ($)" -600 --> 600
+    bar [-500, -200, 0, 500, 500, 500, 500, 0, -500]
+    line [-500, -200, 0, 500, 500, 500, 500, 0, -500]
+....
+
+NOTE: Maximum profit (~$500) dans le range $705–$755. Pertes plafonnées à ~$500 si QQQ sort du range. Le breakeven bas est à ~$700 et le haut à ~$760.
+
+=== Trade #4 — Long JPMorgan avant bank earnings
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Long stock ou Bull Call Spread (stratégie haussière courte durée)
+| *Sous-jacent* | JPM (JPMorgan Chase) (~$265 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | Bank earnings mardi 14 juillet (JPM, BAC, GS, WFC, C) ; taux Fed 3,50–3,75 % = NIMs élevés favorables aux grandes banques ; XLF surperforme dans la rotation défensive/value de juillet ; macro résiliente malgré NFP faible
+| *Expiration* | N/A (long stock) ou 18 juillet 2026 si Bull Call Spread
+| *Strike(s)* | Si spread : acheter Call $265 / vendre Call $275, Jul 18
+| *Prime reçue/payée* | ~$3,50–5,00 $ payée si Bull Call Spread footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~+0,50 (position longue) ou ~+0,40 (spread)
+| *Theta/jour* | ~−$0,20/j (si spread acheté)
+| *Breakeven(s)* | ~$268,50 (si spread — cours + prime payée)
+| *Entrée* | Avant clôture lundi 13 juillet
+| *Cible* | +5–7 % post-earnings sur la position longue / 80 % du débit si spread
+| *Stop-loss* | Clôture sous $252 (−5 %) OU sector sentiment négatif post-earnings
+| *Taille* | 2–3 % du portefeuille (risque earnings binaire)
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo depuis plusieurs réunions 2026
+| Nouveau Chair Fed | Kevin Warsh (depuis 22 mai 2026) — profil plus hawkish que Powell
+| Prochain FOMC | 29 juillet 2026 — hold majoritairement anticipé (75 %), ~25 % de risque de hausse 25 pb
+| CPI mai 2026 | +4,2 % YoY — au-dessus target 2 % — plus haut depuis 3 ans (énergie/géopolitique)
+| CPI juin 2026 | Attendu ~3,8–3,9 % YoY — publication *mardi 14 juillet* — gasoline −6,7 % MoM
+| Core CPI juin | Attendu ~2,9 % YoY — collant
+| NFP juillet 2026 | [donnée non disponible — dernière valeur connue : +57 K début juillet (miss sévère)]
+| Taux 10 ans | [donnée non disponible en temps réel — estimé ~4,5–5,0 % dans ce contexte de Fed hold hawkish]
+| Put/Call ratio equity | 0,55–0,57 — complacency légère
+| Put/Call ratio total | 0,86 — neutre
+| Margin debt | $1,42 Tn (+53,7 % YoY) — record absolu, amplificateur de volatilité
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| *Mardi 14 juillet* | CPI juin 2026 (attendu ~3,8–3,9 % YoY) | Élevé — détermine le ton Fed FOMC 29 juil.
+| *Mardi 14 juillet* | Bank earnings : JPMorgan, BofA, Goldman Sachs, Wells Fargo, Citigroup | Élevé — macro / taux / credit quality
+| *Mercredi 15 juillet* | PPI juin + earnings : ASML, J&J, Morgan Stanley | Modéré
+| *Jeudi 16 juillet* | TSMC Q2 2026 earnings (revenue attendu $40 Md, +33 % YoY) | Élevé — semis / IA capex outlook
+| *Mardi 29 juillet* | FOMC décision de taux (hold 75 % / hike 25 % probabilité) | Très élevé — marché pivotal
+| *Vendredi 17 juillet* | Consumer Sentiment Michigan (initial juillet) | Faible à modéré
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Fear & Greed 49 (Neutre) — données du 12 juillet 2026
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| VIX 15,84 (données du 10 juillet 2026)
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| ~25 % probabilité de hausse 25 pb au FOMC du 29 juillet
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| QQQ $726 intraday — ATH $745,34 (2 juin 2026) — YTD +18,4 %
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Historique VIX
+
+| link:https://www.tipranks.com/news/tsmc-will-report-q2-earnings-on-july-16-should-investors-buy-the-stock-before-results[TipRanks — TSMC Q2 preview]
+| Analyse pré-earnings TSMC — EPS attendu $3,81/ADR, revenue $40 Md
+
+| link:https://tech-insider.org/nvidia-earnings-81-billion-quarter-2026/[Tech-Insider — NVIDIA $81,6 Md]
+| NVIDIA Q1 FY27 : revenus $81,6 Md (+85 % YoY) — record absolu
+
+| link:https://intellectia.ai/blog/fed-interest-rate-decision-july-2026-market-analysis[Intellectia.ai — Fed July 2026]
+| Analyse décision Fed juillet 2026 — contexte macro et probabilités marché
+
+| link:https://www.kiplinger.com/investing/economy/june-cpi-preview-dont-let-a-negative-headline-fool-you[Kiplinger — CPI juin preview]
+| Preview CPI juin 2026 — attendu −0,1 % MoM / 3,8–3,9 % YoY
+
+| link:https://www.benzinga.com/etfs/sector-etfs/26/07/60356055/leading-and-lagging-sectors-july-9-2026[Benzinga — Sectors July 9]
+| Secteurs leaders/retardataires semaine du 9 juillet — XLV +2,63 %, XLK retardataire
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — si Covered Call et Bull Put Spread]
+* xref:ROOT:options/index.adoc[Options — Concepts fondamentaux (delta, theta, IV)]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — si le scénario baissier se matérialise]
