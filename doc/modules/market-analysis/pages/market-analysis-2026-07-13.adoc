@@ -1,0 +1,305 @@
+= Analyse de Marché — 13 juillet 2026
+:description: QQQ $712,55 (−1,8 %) — double cassure MA50/MA200 sur tensions US-Iran et effondrement semis (SOX −4,78 %) — Baromètre Niveau 4 Prudence — VIX 17,16 calme mais risques CPI + bank earnings mardi.
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| ~$712,55 footnote:[Cours intraday — clôture J−1 (vendredi 10 juil.) : $725,51]
+| ~$754,95 footnote:[S&P 500 à 7 546 pts (−0,39 %)]
+| 17,16 — calme
+| 44 — Fear
+| En-dessous (~$720) — résistance
+| *Niveau 4/6 — PRUDENCE*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 4/6 — PRUDENCE : double cassure MA50/MA200, choc Iran, risques binaires imminents_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 13 juillet 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 1, 0, 0]
+....
+
+NOTE: Le marché est en zone de *prudence* (Niveau 4/6). QQQ est passé sous sa MA50 (~$720) et sa MA200 (~$725) en une seule séance, sous l'effet d'un double choc : escalade militaire US-Iran (pétrole +4,6 %) et effondrement du secteur semiconducteurs (SOX −4,78 %, SK Hynix −15 %). Le VIX à 17,16 reste calme, signalant l'absence de panique systémique — mais les risques binaires imminents (CPI mardi 14 juillet, résultats des grandes banques, audition Warsh) imposent une attitude delta-neutre. Aucun nouveau déploiement long avant confirmation d'une reprise au-dessus des moyennes mobiles.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+La semaine s'ouvre sur une double pression inédite depuis plusieurs mois. Après une clôture à $725,51 vendredi 10 juillet (au-dessus des deux principales moyennes mobiles), le QQQ abandonne −1,8 % en séance pour tomber à $712,55, en dessous de sa MA50 (~$720) et de sa MA200 (~$725). Le Nasdaq Composite recule de 0,92 % à 26 039 points, le S&P 500 cède 0,39 % à 7 546 points, et le Dow ne perd que 0,21 % à 52 528 points, amorti par ses composantes énergie et financières.
+
+Événements déclencheurs :
+
+* *Tensions US-Iran* : échanges de frappes — contrôle du Détroit d'Ormuz disputé — Trump annonce un nouveau blocus iranien à compter du 14 juillet
+* *SK Hynix* : −15 % à Séoul (record historique) puis −9,7 % aux États-Unis — KIS Brokerage publie des estimations Q2 inférieures de 8 % au consensus (livraisons HBM4 lentes)
+* *Pétrole WTI* : +4,6 % à ~$74–75/baril — Brent +4,5 % à ~$79
+* *Semis US* : Nvidia −3,52 %, AMD −4 %, Intel −7 %, Micron −5 %, Sandisk −13 % — SOX −4,78 %
+* *Secteur moteur* : XLE (énergie) +~1 %, XLF (financières) +0,65 %, XLP (conso défensive) +1,03 %
+* *Secteur à la traîne* : Semi-conducteurs (SOX −4,78 %), healthcare (XLV −1,08 %)
+
+=== Pourquoi (causes profondes)
+
+* *Fed* : taux 3,50–3,75 % — président Kevin Warsh (nouveau) — auditions Congrès 14–15 juillet
+* *Inflation* : CPI juin attendu mardi 14 juillet — consensus −0,1 % m/m / Core +0,2 % — choc pétrolier Iran risque de réaccélérer l'inflation importée
+* *Emploi* : NFP juin +57 K (déception — données du 2 juillet) — fragilité du marché du travail
+* *Prochain FOMC* : 28–29 juillet 2026 — statu quo attendu mais probabilité de hausse estimée 25–30 %
+* *Iran / Pétrole* : Détroit d'Ormuz = ~20 % du commerce mondial de pétrole — perturbation structurelle si prolongée
+* *Semis* : SK Hynix HBM4 en retard — met en doute la capacité de livraison en IA → compression des multiples Nvidia/AMD
+* *Risque 1* : Iran escalade → WTI > $85 → CPI rechute → hausse Fed → krach obligataire
+* *Risque 2* : Concentration Mag7 — si Nvidia déçoit en août, impact amplifié sur QQQ (~35 % exposition tech IA)
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | ~$712,55 footnote:[Cours intraday — vérifier la clôture finale sur Yahoo Finance.] | —
+| MA50 QQQ | ~$720 | En-dessous (−1,0 %) — signal VENTE
+| MA200 QQQ | ~$725 | En-dessous (−1,7 %) — signal VENTE
+| Support clé 1 | ~$706–$708 | Zone de la semaine du 28 juin — test probable si Iran s'aggrave
+| Support clé 2 | ~$695 | Deuxième rempart — bas de consolidation juin
+| Résistance clé | $720–$725 | MA50 + MA200 clustered — double résistance dynamique
+| RSI (14j) | ~44 | Neutre — espace à la baisse sans signal survendu
+| Structure | Lower low vs. vendredi 10 juillet ($725,51) | Pression baissière court terme — cassure des deux MAs à confirmer en clôture
+|===
+
+WARNING: La double cassure MA50/MA200 en une séance est un signal technique négatif. Elle doit être confirmée par une clôture hebdomadaire sous $720 pour valider un changement de tendance. À ce stade, il s'agit d'une réaction à un choc géopolitique externe — non d'une dégradation fondamentale des bénéfices.
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 55 %
+
+*Conditions nécessaires* : CPI du 14 juillet conforme ou inférieur aux attentes (≤ −0,1 % m/m) ; résultats bancaires (JPMorgan, Goldman Sachs, BofA, Wells Fargo, Citi) supérieurs au consensus ; QQQ reclaim de la MA50 ($720) et MA200 ($725) avant fin de semaine ; désescalade Iran permettant au pétrole de refluer sous $75.
+
+*Cibles* : QQQ $740–$748 (retest ATH), SPY $770–$780.
+
+*Catalyseurs* : FOMC 28-29 juillet confirme le statu quo ; Warsh adopte un ton équilibré au Congrès ; Tesla Q2 (22 juillet) et Mag7 fin juillet dépassent les attentes ; stabilisation du secteur semis post-SK Hynix.
+
+=== Scénario baissier — Probabilité 45 %
+
+*Conditions de déclenchement* : CPI mardi > attentes → probabilité de hausse Fed dépasse 50 % ; escalade Iran → WTI > $85 → VIX > 25 ; clôture hebdomadaire QQQ sous $706 ; résultats bancaires décevants sur les marges nettes d'intérêt (NIM < 2,7 %).
+
+*Supports critiques* : QQQ $706–$708 (support semaine du 28 juin), QQQ $695 (bas de consolidation juin).
+
+*Risques de queue* : Fermeture totale du Détroit d'Ormuz → spike d'inflation → urgence de hausse de taux Fed ; profit warning Nvidia en août → correction structurelle QQQ −15 % ; bank earnings déclenchent rotation défensive brutale.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes indiquées sont des estimations — vérifier les cours réels des options avant d'entrer en position.
+
+=== Trade #1 — Iron Condor sur QQQ (theta, delta-neutre)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (vente de volatilité, theta positif)
+| *Sous-jacent* | QQQ (~$712,55 footnote:[Estimation intraday — vérifier le cours réel.])
+| *Raisonnement* | VIX à 17 permet de vendre de la prime sur les ailes. QQQ devrait consolider dans un range $690–$725 en attendant CPI et earnings. Le theta quotidien positif finance l'attente. Les ailes du condor absorbent les chocs binaires.
+| *Expiration* | 15 août 2026 (~33 DTE)
+| *Strike(s)* | Short Put 690 / Long Put 675 + Short Call 725 / Long Call 740
+| *Prime reçue* | ~$3,50 net (crédit) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0,05 (quasi-neutre)
+| *Theta/jour* | ~+$0,45/j
+| *Breakeven(s)* | $686,50 (bas) / $728,50 (haut)
+| *Entrée* | QQQ entre $708 et $715, après confirmation d'un plancher intraday
+| *Cible* | 50 % du crédit (~$1,75) — 15 à 20 jours
+| *Stop-loss* | Débit ≥ 2× crédit ($7,00) OU QQQ < $680 / > $730
+| *Taille* | 2–4 % du portefeuille (risque max ~$1 150/contrat)
+|===
+
+._Iron Condor QQQ 675/690/725/740 — P&L estimé à expiration (15 août 2026)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ 675/690/725/740 — P&L par contrat ($)"
+    x-axis ["660$", "675$", "690$", "707$", "725$", "728$", "740$", "752$"]
+    y-axis "P&L ($)" -1500 --> 600
+    bar [-1150, -1150, 350, 350, 350, 0, -1150, -1150]
+    line [-1150, -1150, 350, 350, 350, 0, -1150, -1150]
+....
+
+NOTE: Profit maximum de $350/contrat dans la zone $690–$725. Perte maximale de $1 150/contrat si QQQ sort du range aux ailes. Breakevens à $686,50 et $728,50. Les MAs ($720–$725) constituent le plafond naturel de l'aile call.
+
+=== Trade #2 — Covered Call sur QQQ (position existante)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call
+| *Sous-jacent* | QQQ (~$712,55) — si déjà détenu en portefeuille
+| *Raisonnement* | Les MAs ($720–$725) constituent désormais des résistances fortes. Vendre un call au-dessus de ces résistances réduit le coût de base sans sacrifier la position longue en cas de rebond.
+| *Expiration* | 15 août 2026 (~33 DTE)
+| *Strike(s)* | Call 730 (OTM ~+2,4 % vs. résistance MA200 $725)
+| *Prime reçue* | ~$5,00 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta* | Position nette réduite de ~0,35
+| *Theta/jour* | ~+$0,20/j supplémentaire
+| *Breakeven(s)* | $707,55 (coût de base réduit)
+| *Entrée* | Immédiat si QQQ entre $710 et $718
+| *Cible* | Rachat à 50 % ($2,50) ou laisser expirer si QQQ < $730
+| *Stop-loss* | Roll vers Call 745 si QQQ clôture au-dessus de $732 deux jours consécutifs
+| *Taille* | 100 % de la position QQQ existante (1 contrat par 100 actions)
+|===
+
+=== Trade #3 — Bear Put Spread sur NVDA (hedge secteur semis)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bear Put Spread (directionnel baissier, risque limité)
+| *Sous-jacent* | NVDA (~$131 estimé footnote:[Estimé à partir d'un cours récent ~$135 et d'une baisse intraday de 3,5 %. Vérifier le cours réel.])
+| *Raisonnement* | SOX −4,78 % en séance. SK Hynix contamine la chaîne HBM/AI. CPI demain = risque de compression des multiples. L'Iran tension = risk-off sur actifs tech à haut bêta. Setup baissier à risque limité et défini.
+| *Expiration* | 15 août 2026 (~33 DTE)
+| *Strike(s)* | Buy Put 130 / Sell Put 115
+| *Prime payée* | ~$3,20 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta* | ~−0,35 (baissier modéré)
+| *Theta/jour* | Négatif (~−$0,08/j) — position à durée limitée
+| *Breakeven(s)* | $126,80 (130 − 3,20)
+| *Entrée* | Si NVDA consolide sous $133 et SOX reste sous sa MA50
+| *Cible* | Fermer si gain > 75 % du profit max (~$8,85 sur $11,80 max)
+| *Stop-loss* | Fermer si NVDA reprend > $138 sur 2 clôtures consécutives
+| *Taille* | 1–2 % du portefeuille
+|===
+
+=== Trade #4 — Cash-Secured Put sur XLE (énergie — momentum Iran)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (OTM, générateur de revenu)
+| *Sous-jacent* | XLE (Energy Select Sector SPDR ETF) (~$92 estimé footnote:[Estimation — XLE en hausse ~1 % ce jour. Vérifier le cours réel.])
+| *Raisonnement* | Iran conflit → WTI +4,6 %. XLE bénéficiaire direct du choc pétrolier. ExxonMobil, ConocoPhillips, Chevron en hausse. Le put OTM à −7,6 % offre un coussin substantiel si les tensions retombent. Si assigné, XLE est un ETF de qualité avec ~3,5 % de dividende annuel.
+| *Expiration* | 15 août 2026 (~33 DTE)
+| *Strike(s)* | Put 85 (OTM ~−7,6 %)
+| *Prime reçue* | ~$1,20 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta* | ~−0,15 (faible exposition directionnelle)
+| *Theta/jour* | ~+$0,05/j
+| *Breakeven(s)* | $83,80
+| *Entrée* | Si XLE entre $90 et $94 (confirmation du momentum énergétique)
+| *Cible* | 50 % du crédit ($0,60) ou expiration OTM
+| *Stop-loss* | Fermer si XLE < $87 sur 2 clôtures consécutives
+| *Taille* | 3–5 % du portefeuille (cash réservé : ~$8 500/contrat)
+|===
+
+'''
+
+== Signal Congrès — Achats récents (30 derniers jours)
+
+WARNING: Les données Capitol Trades n'ont pas pu être récupérées directement (connexion bloquée — HTTP 000). Les informations ci-dessous sont issues d'une recherche web secondaire et ne sont pas vérifiées individuellement.
+
+[cols="1,1,1,1"]
+|===
+| Ticker | Signal estimé | Contexte | Utilisation
+
+| NVDA | Achats multiples élus identifiés | Secteur AI infrastructure | Observation uniquement (Baromètre 4)
+| AMD | Achats multi-élus identifiés | Secteur AI infrastructure | Observation uniquement
+| LMT / RTX / NOC | Achats post-Iran identifiés | Défense — tensions géopolitiques juillet 2026 | Observation uniquement
+|===
+
+NOTE: Baromètre au niveau 4 → les signaux haussiers du Congrès sont mis en observation uniquement. Aucun trade actif n'est initié sur ces signaux dans ce contexte de consolidation sous les moyennes mobiles.
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed (fourchette) | 3,50–3,75 % — statu quo (4 réunions consécutives sans changement depuis mars 2026)
+| Président Fed | Kevin Warsh (nouveau) — audition Chambre 14 juillet / Sénat 15 juillet 2026
+| Prochain FOMC | 28–29 juillet 2026 — statu quo attendu (probabilité de hausse 25–30 %)
+| CPI (publication) | Mardi 14 juillet 2026 — consensus : −0,1 % m/m / Core +0,2 % m/m (7h30 ET)
+| Inflation projetée | 3,6 % pour l'année 2026 — révisé à la hausse par la Fed (Iran = risque additionnel)
+| NFP dernier | +57 K emplois en juin 2026 (déception vs. 110 K attendus)
+| Pétrole WTI | ~$74–75/baril (+4,6 % le 13 juillet 2026) — Iran tensions
+| Put/Call ratio | ~0,81 (légèrement élevé — hedging actif en séance)
+| Taux 10 ans | [donnée non disponible en temps réel — consulter H.15 Federal Reserve]
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| Mardi 14 juillet 2026 | CPI + Core CPI (7h30 ET) — catalyseur critique | Très élevé
+| Mardi 14 juillet 2026 | Résultats Q2 : JPMorgan, Goldman Sachs, BofA, Wells Fargo, Citi (avant ouverture) | Très élevé
+| Mardi 14 juillet 2026 | Audition Warsh — Chambre des représentants (10h ET) | Élevé
+| Mercredi 15 juillet 2026 | Audition Warsh — Sénat (10h ET) | Élevé
+| Jeudi 17 juillet 2026 | Résultats Netflix Q2 (après clôture) | Modéré
+| Vendredi 18 juillet 2026 | Sentiment consommateurs (estimation préliminaire juillet) | Modéré
+| Mardi 22 juillet 2026 | Résultats Tesla Q2 (après clôture, 17h30 CT) | Élevé
+| Fin juillet 2026 | Résultats Microsoft, Alphabet, Meta, Amazon (dates TBC) | Très élevé
+| 28–29 juillet 2026 | FOMC — décision taux Fed | Très élevé
+| Fin août 2026 | Résultats Nvidia Q2 | Élevé
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment (44 — Fear au 13 juillet 2026)
+
+| link:https://www.cboe.com/tradable-products/vix/[CBOE VIX]
+| Indice de volatilité officiel — VIX 17,16 au 13 juillet 2026
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités FOMC implicites — 25–30 % hike le 29 juillet 2026
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/markets/live/stock-market-today-monday-july-13-dow-sp-nasdaq-113249278.html[Yahoo Finance — Market Today 13 juillet 2026]
+| Résumé de séance : indices, semis, Iran, secteurs
+
+| link:https://www.fool.com/coverage/stock-market-today/2026/07/13/stock-market-today-july-13-energy-stocks-cushion-dow-as-tech-slides-on-geopolitical-tensions/[Motley Fool — Market Today 13 juillet 2026]
+| Analyse : semis vs. énergie, tensions géopolitiques
+
+| link:https://www.tipranks.com/news/stock-market-news-today-7-13-26-futures-waver-as-u-s-iran-tensions-rise-earnings-and-cpi-in-focus[TipRanks — Market News 13 juillet 2026]
+| Contexte macro : Iran, CPI, earnings en focus
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-july-13-2026-trump-resumes-iran-blockade-as-ceasefire-mou-fall-apart[TheStreet — 13 juillet 2026]
+| Trump foreshadows Iran blockade — analyse géopolitique
+
+| link:https://invezz.com/news/2026/07/13/dow-falls-138-points-as-iran-tensions-hit-chip-stocks-lift-oil-prices[Invezz — 13 juillet 2026]
+| Dow −138 pts : semis, Iran, pétrole — détail de séance
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Hedge directionnel NVDA]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly / Iron Condor — Stratégies theta delta-neutre]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Génération de revenus sur position existante]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Cash-Secured Put sur XLE]
