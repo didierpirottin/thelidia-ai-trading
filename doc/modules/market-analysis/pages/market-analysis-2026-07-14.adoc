@@ -1,0 +1,346 @@
+= Analyse de Marché — 14 juillet 2026
+:description: QQQ $721 au contact MA200, CPI juin +3,5 % positif, VIX 17 spike Iran, banques Q2 solides — Baromètre Niveau 3 Consolidation
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA200 QQQ | Baromètre
+
+| $721,30 (+1,0 % séance)
+| $749,17 (+0,4 % séance)
+| 17,09 (+13,7 %) — tension
+| ~44 — Fear footnote:[Source feargreedmeter.com — une seconde source indique 62 (Greed) ; discordance probablement due à l'heure de collecte. Valeur conservatrice retenue : 44.]
+| Contact (~$722) — reclaim en cours
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : CPI positif + banques fortes, mais Iran et test MA200 imposent la sélectivité_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 14 juillet 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: CPI juin +3,5 % (sous les 3,8 % attendus) et résultats bancaires robustes (JPM, BAC, C, GS, WF) soutiennent le marché. QQQ teste la MA200 (~$722) pour la première fois depuis le début du conflit Iran — une clôture au-dessus serait haussière. Toutefois, le VIX bondit de +13,7 % (15 → 17) sur la reprise des tensions Iran–USA, la breadth est faible (déclineurs 2:1 sur Nasdaq) et les Mag7 earnings (TSLA/GOOGL 22 juil., META/MSFT 29 juil.) constituent le prochain catalyseur binaire. Attitude : renforcement sélectif sur les meilleurs setups — pas de déploiement agressif avant confirmation de la MA200.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Le 14 juillet 2026, le marché américain se reprend nettement en séance sur un CPI de juin très positif (+3,5 % YoY vs +3,8 % attendu), après une semaine de pression liée à la reprise du conflit Iran–USA début juillet. Le Nasdaq progresse de +0,9 %, le S&P 500 de +0,4 %, tandis que le Dow reste quasi stable — lesté par l'effondrement d'IBM (−25 %).
+
+Événements clés du jour :
+
+* *CPI juin 2026* : +3,5 % YoY — nettement sous les attentes de 3,8 % — chute mensuelle de −0,4 % (essence en baisse)
+* *Kevin Warsh (Fed)* : premier témoignage devant le Congrès — « zéro tolérance pour l'inflation » — aucun signal sur le prochain mouvement
+* *Q2 banques* : JPM, Bank of America, Wells Fargo, Citigroup, Goldman Sachs — tous au-dessus des attentes — trading, actions et profits robustes
+* *IBM* : −25 % — profit warning — clients enterprise migrent leurs budgets IT vers l'infrastructure IA (capex cloud et GPU)
+* *Semi-conducteurs* : Micron, SK Hynix en forte hausse — demande mémoire IA soutenue
+* *Iran* : ceasefire rompu début juillet — WTI +1,82 % à $79,56 / Brent +1,98 % à $84,95 — VIX spike
+* *Secteur moteur* : Financières + Semis (IA) — résultats Q2 > attentes
+* *Secteur à la traîne* : Software entreprise / grandes capitalisations Dow (IBM)
+
+=== Pourquoi (causes profondes)
+
+* *Fed* : Taux 3,50–3,75 % — Kevin Warsh (nouveau président depuis 22 mai 2026, remplace Powell) — comité divisé (moitié pro-hausse, moitié neutre/baisse)
+* *Inflation* : CPI juin +3,5 % YoY — EN-DESSOUS des attentes — tendance désinflationniste qui reprend après le pic de 4,2 % en mai
+* *Proba FOMC juillet* : 17 % seulement (était 42 % lundi) — proba septembre ~60 %
+* *Taux 10 ans* : 4,583 % (−2 bps post-CPI) — léger recul favorable aux valorisations growth
+* *NFP* : [donnée non disponible en temps réel — dernier chiffre connu : +57 K en juin]
+* *Sentiment* : Put/Call equity 0,67 (13 juil.) — Fear & Greed ~44 (Fear) — positionnement prudent
+* *VIX* : 17,09 (+13,7 %) — spike intraday sur Iran — pas de capitulation, mais risque premium accru
+* *Risque 1* : Conflit US–Iran — Détroit d'Ormuz (27 % du commerce pétrolier maritime mondial) — pression inflationniste si escalade
+* *Risque 2* : Marché étroit — déclineurs > avanceurs 2:1 sur Nasdaq, 1,63:1 sur NYSE — hausse concentrée sur les gros caps
+* *Risque 3* : IBM profit warning = signe de basculement des budgets IT entreprise — risque de contagion aux éditeurs logiciels
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $721,30 (intraday high $722,71) | —
+| MA50 QQQ | ~$720 footnote:[Source Barchart — MA50 $720,15 au 14 juil.] | Au-dessus (+$1,15) — contact
+| MA200 QQQ | ~$722–725 footnote:[Estimation — vérifier sur TradingView. Cohérent avec la cible mentionnée le 7 juil. ($722)] | En-dessous ou contact — reclaim tenté
+| NQ Futures | 29 576 | En-dessous MA50 (29 801) — légère divergence baissière
+| Support clé 1 | ~$706 | Bas du 28 juin 2026 / ancien contact MA50
+| Support clé 2 | ~$636 | MA200 long terme — coussin de sécurité
+| Résistance clé | ~$746 | ATH zone récente
+| RSI (S&P 500) | 66,17 | Proche suracheté — espace limité à la hausse sans consolidation
+|===
+
+Structure : QQQ tente de franchir sa MA200 pour la première fois depuis le pic Iran du 10 juin — clôture au-dessus serait un signal haussier majeur.
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 55 %
+
+*Conditions nécessaires* : QQQ clôture au-dessus de MA200 (~$722) cette semaine + Mag7 earnings TSLA/GOOGL (22 juil.) ≥ attentes + FOMC juillet sans hausse (proba 83 %) + Iran tensions ne s'aggravent pas.
+
+*Cibles* : QQQ $760–780, SPY $780–800.
+
+*Catalyseurs* :
+
+* CPI désinflationniste confirmé → reproba de hike juillet chute → soulagement des marchés
+* Résultats Mag7 solides (TSLA 22/7, GOOGL 22/7, META 29/7, MSFT 29/7) → réaccélération momentum
+* VIX revient sous 15 — Iran tensions se stabilisent
+* NVDA guidance robuste fin août → regain narrative IA
+
+=== Scénario baissier — Probabilité 45 %
+
+*Conditions de déclenchement* : QQQ échoue à clôturer au-dessus de MA200 ($722) — Iran escalade (fermeture Détroit d'Ormuz) → WTI > $90 — profit warning Mag7 (contagion de l'effet IBM).
+
+*Supports critiques* : QQQ $706 (MA50 / plancher juin), QQQ $636 (MA200 long terme).
+
+*Risques de queue* :
+
+* WTI > $100 → stagflation → Warsh contraint de hausser → selloff obligataire + actions
+* Résultats Mag7 déçoivent → réversion brusque du marché étroit (décliners déjà 2:1)
+* Warsh annonce hawkish surprise en conférence de presse FOMC juillet
+
+'''
+
+== Signal Congrès américain
+
+NOTE: Les données Capitol Trades n'étaient pas accessibles ce jour (timeout réseau). Le endpoint Finnhub congressional trading requiert un plan payant. Données Congrès indisponibles pour cette analyse.
+
+[cols="1,1,1,1,1"]
+|===
+| Ticker | N° élus | Dernier achat | Élu(s) | Actualité
+
+| [Données Congrès indisponibles]
+| —
+| —
+| —
+| —
+|===
+
+NOTE: Historiquement, les tickers les plus tradés par les membres du Congrès sont MSFT, NVDA, AAPL, AMZN, GOOGL. Conformément à la règle baromètre 3, si ces données étaient disponibles et cohérentes avec le contexte technique, ils constitueraient des trades prioritaires.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes et niveaux techniques sont des estimations — vérifier les cours réels avant d'entrer en position.
+
+=== Trade #1 — Bull Call Spread sur XLF (Financières)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (débit — haussier limité)
+| *Sous-jacent* | XLF ~$52 footnote:[Estimation — vérifier cours réels avant entrée. Basé sur S&P 500 ~7 515 et ratio historique XLF/SPX.]
+| *Raisonnement* | Q2 bancaire record : JPM, BAC, C, GS, WF tous au-dessus des attentes ; momentum sectoriel financières leader de la séance ; taux 10 ans 4,58 % = spread d'intérêt favorable aux marges bancaires ; CPI positif réduit le risque de stress crédit
+| *Expiration* | 15 août 2026 (~32 DTE)
+| *Strike(s)* | Achat Call $51 / Vente Call $56
+| *Prime payée* | ~$1,50 par contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~+0,35
+| *Theta/jour* | ~−$0,05 / contrat
+| *Breakeven* | ~$52,50
+| *Entrée* | XLF au-dessus de $51,50 en séance (momentum post-earnings)
+| *Cible* | $3,25 (75 % du gain max $3,50) → +$1,75 par contrat
+| *Stop-loss* | Perte > 50 % du débit ($0,75) OU cassure XLF sous $50
+| *Taille* | 3–5 % du portefeuille
+|===
+
+._Bull Call Spread XLF $51/$56 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Bull Call Spread XLF $51/$56 — P&L estimé (par contrat)"
+    x-axis ["$48", "$51", "$52.50", "$53", "$54", "$55", "$56", "$58"]
+    y-axis "P&L ($)" -200 --> 400
+    bar [-150, -150, 0, 50, 150, 250, 350, 350]
+    line [-150, -150, 0, 50, 150, 250, 350, 350]
+....
+
+NOTE: Perte maximum ($150/contrat) en-dessous de $51. Breakeven à $52,50. Gain maximum ($350/contrat) au-dessus de $56. Ratio risque/récompense : 1:2,3. La prime payée ($1,50) est le risque total — pas d'effet de levier destructeur.
+
+=== Trade #2 — Covered Call sur QQQ (theta / résistance ATH)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (collecte de prime sur position longue existante)
+| *Sous-jacent* | QQQ — cours $721,30
+| *Raisonnement* | QQQ au contact MA200 ($722) et résistance ATH zone ($746) — momentum haussier ralenti par Iran et IBM ; VIX 17 = IV correcte → prime attractive sur 18 DTE ; collecte theta pendant attente du catalyseur Mag7 (22 juil.)
+| *Expiration* | 1er août 2026 (~18 DTE)
+| *Strike(s)* | Vente Call $745 (OTM +3,3 % — résistance ATH)
+| *Prime reçue* | ~$4,50 / action footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0,25 (sur le call vendu)
+| *Theta/jour* | ~$0,25 / action
+| *Breakeven* | $721,30 (protégé par possession du sous-jacent)
+| *Entrée* | Sur position longue QQQ existante — immédiat
+| *Cible* | Rachat du call à 50 % de la prime ($2,25) ou expiration sans valeur
+| *Stop-loss* | QQQ > $748 en clôture → risque d'assignation (rouler le strike ou fermer)
+| *Taille* | 1 contrat pour 100 actions QQQ détenues
+|===
+
+=== Trade #3 — Cash-Secured Put sur NVDA (pré-earnings août)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (engagement à l'achat à prix décoté)
+| *Sous-jacent* | NVDA footnote:[Cours en temps réel non disponible ce jour — vérifier avant entrée. Leader IA incontesté — support structurel fort.]
+| *Raisonnement* | IV NVDA élevée pré-earnings fin août → prime vendeuse attractive ; expiration AVANT les résultats (fin août) = pas de risque binaire directement ; support structurel IA solide ; IBM warning = rotation des budgets vers GPU/infrastructure IA → NVDA bénéficiaire indirect
+| *Expiration* | 15 août 2026 (avant earnings ~fin août)
+| *Strike(s)* | Put OTM −15 % du cours actuel footnote:[À calculer sur le cours réel de NVDA le jour de l'entrée.]
+| *Prime reçue* | [À vérifier sur chaîne d'options live] footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0,18 à −0,22
+| *Theta/jour* | ~$2–4 / jour (estimé)
+| *Breakeven* | Strike − Prime reçue
+| *Entrée* | IV Rank > 40 % (privilégier entrée en début de séance)
+| *Cible* | 50 % du crédit reçu → clôture anticipée
+| *Stop-loss* | NVDA casse son support technique (−20 % du cours actuel) → rachat du put
+| *Taille* | 4–6 % du portefeuille (cash intégralement réservé pour assignation éventuelle)
+|===
+
+=== Trade #4 — Iron Condor sur SPY (range consolidation pre-FOMC)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (vente de range — stratégie theta delta-neutre)
+| *Sous-jacent* | SPY — cours $749,17
+| *Raisonnement* | SPY en consolidation ; FOMC 28–29 juil. = proba hike 17 % (marché stabilisé) → range attendu avant l'événement ; VIX 17 → IV suffisante pour générer un crédit décent sur ~15 DTE ; breadth faible = peu probable une cassure directionnelle violente avant les earnings Mag7
+| *Expiration* | 29 juillet 2026 (~15 DTE — jour FOMC)
+| *Strike(s)* | Vente Call $775 / Achat Call $785 (haut +3,5 %) +  Vente Put $720 / Achat Put $710 (bas −3,9 %)
+| *Prime reçue* | ~$2,00 crédit net / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta net* | ~0 (delta-neutre)
+| *Theta/jour* | ~$0,13 / contrat
+| *Breakeven(s)* | $718,00 (bas) / $777,00 (haut)
+| *Entrée* | SPY entre $745 et $755 en séance (zone de neutralité)
+| *Cible* | 50 % du crédit reçu ($1,00)
+| *Stop-loss* | Débit > 2× crédit ($4,00) OU SPY sort de [$715, $780] en clôture
+| *Taille* | 3–5 % du portefeuille
+|===
+
+._Iron Condor SPY $710/$720/$775/$785 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor SPY $720/$775 — P&L estimé à expiration (par contrat)"
+    x-axis ["$705", "$710", "$718", "$740", "$749", "$777", "$783", "$790"]
+    y-axis "P&L ($)" -900 --> 300
+    bar [-800, -800, 0, 200, 200, 0, -800, -800]
+    line [-800, -800, 0, 200, 200, 0, -800, -800]
+....
+
+NOTE: Profit maximum ($200/contrat) dans la zone [$718, $777]. Perte maximum ($800/contrat) si SPY sort de cette zone à expiration. Breakevens : $718 côté put, $777 côté call. Ratio risque/récompense : 1:4 (défavorable en valeur nominale, mais probabilité de profit élevée ~70 % sur 15 DTE).
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo (Kevin Warsh, président depuis 22 mai 2026)
+| Proba hike FOMC juillet | 17 % (était 42 % lundi 13 juil.) — effet CPI positif
+| Proba hike FOMC septembre | ~60 % — Warsh hawkish mais données-dépendant
+| Prochain FOMC | 28–29 juillet 2026
+| CPI juin 2026 | +3,5 % YoY — EN-DESSOUS attentes (3,8 %) — mensuel −0,4 %
+| CPI mai 2026 | +4,2 % YoY (pic récent — désormais en repli)
+| NFP juin 2026 | +57 K (dernière donnée connue — miss vs 110 K attendus)
+| Taux 10 ans | 4,583 % (−2 bps post-CPI)
+| WTI Crude Oil | $79,56 (+1,82 %) — pressions Iran
+| Brent Crude | $84,95 (+1,98 %)
+| Put/Call CBOE equity | 0,67 (13 juil.) — positionnement légèrement défensif
+| Fear & Greed | ~44 — Fear (estimation conservatrice)
+| VIX | 17,09 (+13,7 %) — tension ; prev. close 15,03
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 22 juillet 2026 | Tesla Q2 2026 earnings (AH) | Élevé — proxy EV, FSD, IA embarquée
+| 22 juillet 2026 | Alphabet (GOOGL) Q2 2026 earnings | Élevé — proxy publicité + cloud IA (Gemini)
+| 28–29 juillet 2026 | FOMC décision taux (Warsh) | Élevé — clé de voûte de l'orientation des marchés
+| 29 juillet 2026 | Meta Platforms Q2 2026 earnings | Élevé — publicité IA, capex datacenter
+| ~29 juillet 2026 | Microsoft Q2 2026 earnings | Élevé — Azure, Copilot IA, licenciements marges
+| Début août 2026 | Apple + Amazon earnings | Élevé — consommation + AWS cloud
+| Fin août 2026 | NVDA Q2 FY2027 earnings | Très élevé — guidance semis IA, capex cloud
+| Quotidien | Iran–USA tensions / Détroit d'Ormuz | Élevé — choc pétrolier potentiel si escalade
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — données et futures
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-14-2026[TheStreet — Market Today 14 juil. 2026]
+| QQQ, SPY, Nasdaq, S&P 500 — résumé de séance du 14 juillet 2026
+
+| link:https://finance.yahoo.com/markets/live/stock-market-today-tuesday-july-14-070833816.html[Yahoo Finance Live — 14 juil. 2026]
+| Suivi en direct : CPI, Fed, banques, IBM, semis
+
+| link:https://www.usnews.com/news/national-news/articles/2026-07-14/fed-chairman-warsh-vows-to-solve-inflation[US News — Warsh témoignage 14 juil. 2026]
+| Témoignage Warsh devant le Congrès — « zéro tolérance pour l'inflation »
+
+| link:https://www.cnbc.com/2026/07/14/treasury-yields-rise-as-fed-rate-hike-expectations-grow.html[CNBC — Treasury yields 14 juil. 2026]
+| Taux 10 ans 4,583 % — baisse post-CPI
+
+| link:https://discoveryalert.com.au/oil-surges-iran-us-cpi-earnings-markets-2026/[Discovery Alert — Oil & Iran 2026]
+| WTI $79,56, Brent $84,95 — pressions géopolitiques Iran
+
+| link:https://www.fool.com/coverage/stock-market-today/2026/07/14/stock-market-today-july-14-ibm-slides-after-profit-warning-weighs-on-dow/[Motley Fool — IBM profit warning 14 juil.]
+| IBM −25 % — bascule budgets IT vers IA
+
+| link:https://www.stocktitan.net/news/META/meta-to-announce-second-quarter-2026-sdasry9e3xzw.html[StockTitan — Meta earnings date]
+| META : résultats Q2 le 29 juillet 2026
+
+| link:https://www.mexc.com/news/1196267[MEXC — Tesla Q2 earnings date]
+| TSLA : résultats Q2 le 22 juillet 2026 (AH)
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Cash-Secured Put et Covered Call]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Protection directionnelle baissière]
+* xref:ROOT:strategies/butterfly.adoc[Iron Condor — Stratégie theta de range]
