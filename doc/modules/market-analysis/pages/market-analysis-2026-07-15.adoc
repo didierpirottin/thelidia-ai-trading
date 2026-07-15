@@ -1,0 +1,272 @@
+= Analyse de Marché — 15 juillet 2026
+:description: CPI juin -0,4 % MoM (surprise majeure) + PPI -0,3 % → désinflation accélérée, AAPL ATH, QQQ franchit MA200 — Baromètre Niveau 2 BUY THE DIP
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $719,69 (+1,12 %)
+| $751,83 (+0,38 %)
+| ~16,5 — calme
+| ~43–46 — Fear/Neutral
+| Au-dessus (~$715)
+| *Niveau 2/6 — BUY THE DIP*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 2/6 — BUY THE DIP : désinflation accélérée + breakout MA200 QQQ_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 15 juillet 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 1, 0, 0, 0, 0]
+....
+
+NOTE: Premier passage en Niveau 2 depuis la reprise d'avril 2026. Le double catalyseur CPI (-0,4 % MoM) + PPI (-0,3 % MoM) valide la désinflation et renforce les anticipations de baisse Fed au FOMC du 28–29 juillet. Le VIX à 16,5 (calme) et AAPL à son ATH historique confirment que la tendance haussière longue durée est intacte. Le sentiment Fear & Greed à 43 (Fear) constitue un signal contrarian positif : les investisseurs ne sont pas euphoriques, laissant de la marge à la hausse.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+La séance du 15 juillet 2026 est portée par un double catalyseur macro exceptionnel. Le CPI de juin, publié la veille (14 juillet), est ressorti en forte baisse : -0,4 % en rythme mensuel (consensus -0,2 %) et +3,5 % sur un an (consensus +3,8 %, après +4,2 % en mai). Le PPI de juin, publié ce matin même, affiche -0,3 % MoM contre 0,0 % attendu. Ces deux publications signalent une désinflation plus rapide que prévu, alimentant les anticipations de pivot Fed.
+
+Les grandes capitalisations technologiques mènent la hausse : Apple gagne +4 % et touche un nouveau record historique. Amazon, Alphabet et Microsoft progressent chacun d'environ +3 %. À l'inverse, les semi-conducteurs mémoire corrigent : Micron chute de -8 %, Lam Research et AMD reculent de -3 %. BlackRock publie des résultats T2 supérieurs aux attentes (+5 %).
+
+Les performances récentes estimées : QQQ ~$720 (+1,12 % le jour, +3,6 % sur 1 semaine, +5,9 % sur 1 mois, +20 % sur 3 mois footnote:[Estimations calculées sur la base des niveaux historiques des analyses précédentes — vérifier les cours exacts sur Yahoo Finance.]). SPY ~$752 (+0,38 % le jour, +5,2 % sur 1 mois, +15 % sur 3 mois).
+
+=== Pourquoi (causes profondes)
+
+Le marché est dans une phase de reprise depuis le creux d'avril 2026 (QQQ à ~$551, correction de -26 % depuis l'ATH), alimentée par trois dynamiques simultanées. Premièrement, la désinflation s'accélère : le CPI YoY est passé de +4,2 % en mai à +3,5 % en juin, dont la plus grande part liée à la chute du pétrole (-5,7 % en juin). Deuxièmement, l'emploi faiblit : le NFP de juin n'affiche que +57 K (contre +115 K attendus), interprété par le marché comme un argument pour une baisse Fed imminente. Troisièmement, la qualité des résultats d'entreprises surprend positivement dans les secteurs bancaires et technologiques (BlackRock T2 beat).
+
+Le risque géopolitique (conflit Moyen-Orient / US-Iran) reste présent — rappelé par le spike VIX du 13 juillet — mais est temporairement mis de côté. Le sentiment (Fear & Greed ~43) indique que les investisseurs restent méfiants, créant un potentiel de surprise haussière si les prochains catalyseurs déçoivent.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $719,69 | Tendance haussière
+| MA50 QQQ | ~$715 footnote:[Valeur estimée — sources divergentes entre $714 et $720. Cohérente avec la dynamique observée dans les analyses précédentes.] | Au-dessus — signal positif
+| MA200 QQQ | ~$718–722 footnote:[Zone de test — QQQ en breakout potentiel au-dessus de MA200. Confirmation attendue en clôture.] | Contact / léger breakout — niveau critique
+| Support clé | ~$700 | Ancien pivot MA50 — testé et tenu le 13 juil.
+| Résistance clé | ~$748 | ATH 52 semaines (mars 2026)
+| RSI | ~60–65 | Neutre-haussier, pas suracheté
+| S&P 500 MA50 | $7 509 | S&P 500 clairement au-dessus — bullish
+| S&P 500 MA200 | $7 472 | S&P 500 clairement au-dessus — bullish
+|===
+
+Structure : Higher highs / Higher lows depuis le creux d'avril 2026. Le Nasdaq Composite dépasse MA50 ($26 184) et MA200 ($25 069) de façon nette. Le QQQ (Nasdaq 100) est plus concentré sur les méga-caps et présente une dynamique légèrement différente, en breakout de MA200 aujourd'hui.
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 60 %
+
+*Conditions nécessaires* : QQQ clôture au-dessus de $725 (MA200 validée) sur plusieurs séances ; résultats NFLX (16 juil.) et TSLA (22 juil.) en ligne ou supérieurs aux attentes.
+
+*Cibles* : QQQ $748 (ATH historique), SPY $775.
+
+*Catalyseurs* : FOMC 28–29 juillet — signal de baisse des taux ou baisse directe de 25 pb ; résultats Q2 Mag7 (AAPL, MSFT, AMZN, META, GOOGL) supérieurs aux attentes ; CPI juillet (publication août) en poursuite de désinflation.
+
+=== Scénario baissier — Probabilité 40 %
+
+*Conditions de déclenchement* : QQQ repasse sous MA50 ($715) suite à une déception sur les earnings (NFLX demain, TSLA le 22) ; FOMC 28–29 juillet adopte un ton hawkish surprise (inflation services résiliente, tarifs).
+
+*Supports critiques* : QQQ $715 (MA50), QQQ $700 (pivot juillet).
+
+*Risques de queue* : Escalade géopolitique Moyen-Orient — spike VIX > 28 ; NFP faible (-57 K) alerte sur la santé économique → re-pricing recession risk.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Vérifier les cours des options en temps réel avant toute exécution.
+
+=== Trade #1 — Cash-Secured Put sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (vente de put couvert en cash)
+| *Sous-jacent* | QQQ (~$719,69)
+| *Raisonnement* | QQQ au-dessus MA50 ($715), breakout MA200 en cours post-CPI. Strike en-dessous de MA50 — assignation peu probable en scénario central. Désinflation accélérée crée un floor macro sur le marché.
+| *Expiration* | 15 août 2026 (31 DTE)
+| *Strike* | Put $705 (OTM -2,0 %)
+| *Prime reçue* | ~$5,50 / contrat (~$550 / contrat) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta* | ~-0,25
+| *Theta/jour* | ~+$0,12 / jour
+| *Breakeven* | ~$699,50
+| *Entrée* | Immédiat ou sur légère hausse intraday (limiter à $6 reçu max)
+| *Cible* | 50 % du crédit reçu (~$275)
+| *Stop-loss* | Rachat si QQQ clôture < $715 (MA50) / débit > $11 (2× crédit)
+| *Taille* | 8–10 % du portefeuille (cash bloqué = ~$70 500 / contrat)
+|===
+
+._Cash-Secured Put QQQ $705 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "CSP QQQ Put $705 exp. 15 août — P&L estimé (par contrat)"
+    x-axis ["680 $", "690 $", "695 $", "700 $", "705 $", "710 $", "720 $"]
+    y-axis "P&L ($)" -2000 --> 700
+    bar [-1950, -950, -450, 50, 550, 550, 550]
+    line [-1950, -950, -450, 50, 550, 550, 550]
+....
+
+NOTE: Profit maximum de +$550 si QQQ ≥ $705 à expiration. Breakeven à $699,50. En-dessous de $705, chaque dollar coûte $100 supplémentaires net de prime. Plancher à l'assignation à $705 si QQQ s'effondre.
+
+=== Trade #2 — Bull Call Spread QQQ (breakout MA200)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (débit)
+| *Sous-jacent* | QQQ (~$719,69)
+| *Raisonnement* | Breakout MA200 en cours post-CPI. Cible naturelle $748 (ATH) dans le scénario haussier. Risque limité au débit — adapté au binaire earnings / FOMC à venir. FOMC 28–29 juil = catalyseur potentiel d'accélération.
+| *Expiration* | 22 août 2026 (38 DTE)
+| *Strike(s)* | Buy Call $725 / Sell Call $750
+| *Prime payée* | ~$9 / contrat (~$900 / contrat) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta* | ~+0,45
+| *Breakeven* | ~$734
+| *Entrée* | QQQ > $720 en clôture (confirmation breakout MA200)
+| *Cible* | 70–80 % de la valeur max (~$1 750–$2 000 vs max $2 500)
+| *Stop-loss* | Perte > $450 (50 % du débit) / QQQ < $710
+| *Taille* | 3–5 % du portefeuille
+|===
+
+._Bull Call Spread QQQ $725/$750 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Bull Call Spread QQQ $725/$750 exp. 22 août — P&L estimé (par contrat)"
+    x-axis ["710 $", "720 $", "725 $", "734 $", "740 $", "750 $", "760 $"]
+    y-axis "P&L ($)" -1000 --> 2000
+    bar [-900, -900, -900, 0, 600, 1600, 1600]
+    line [-900, -900, -900, 0, 600, 1600, 1600]
+....
+
+NOTE: Perte maximale limitée à -$900 (débit payé) si QQQ < $725 à expiration. Profit maximum de +$1 600 si QQQ ≥ $750. Breakeven à $734 (+2,0 % depuis le cours actuel).
+
+=== Trade #3 — Achat direct SPY (ETF large)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Achat ETF (position longue directe)
+| *Sous-jacent* | SPY (~$751,83)
+| *Raisonnement* | S&P 500 clairement au-dessus MA50 ($7 509) ET MA200 ($7 472) — double confirmation. Moins de concentration Nasdaq 100 = diversification. Rotation équilibrée tech + financières + santé.
+| *Entrée* | Immédiat ou sur repli vers $740–$745 (zone MA50)
+| *Cible* | $775 (+3,1 %)
+| *Stop-loss* | Clôture < $735 (sous MA50)
+| *Taille* | 10–15 % du portefeuille
+|===
+
+=== Trade #4 — Iron Condor SPY (stratégie theta, pré-FOMC)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (neutre, vente de volatilité)
+| *Sous-jacent* | SPY (~$751,83)
+| *Raisonnement* | VIX à 16,5 — prime vendeuse modérée mais correcte. Range naturel $735–$775 attendu pendant les 3 semaines pré-FOMC. Contrebalance le trade directionnel #2. Theta positif pendant l'attente des catalyseurs.
+| *Expiration* | 15 août 2026 (31 DTE)
+| *Strike(s)* | Sell Put $738 / Buy Put $728 — Sell Call $770 / Buy Call $780
+| *Prime reçue* | ~$3,50 crédit net (~$350 / contrat) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~0 (neutre)
+| *Theta/jour* | ~+$0,08 / jour
+| *Breakeven(s)* | $734,50 (baisse) / $773,50 (hausse)
+| *Entrée* | Immédiat si SPY entre $748 et $758
+| *Cible* | 50 % du crédit (~$175)
+| *Stop-loss* | Débit > 2× crédit ($7) / SPY clôture hors de [$735–$775]
+| *Taille* | 5–7 % du portefeuille
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50 %–3,75 % — statu quo depuis juin 2026
+| Prochain FOMC | 28–29 juillet 2026 — marché anticipe signal de baisse (voire -25 pb)
+| CPI juin | -0,4 % MoM / +3,5 % YoY — forte surprise baissière (positif pour les actions)
+| PPI juin | -0,3 % MoM — surprise baissière, pressions prix producteurs en recul
+| NFP juin | +57 K (attendu +115 K) — soft labor market → argument Fed dovish
+| Taux 10 ans | Non disponible en temps réel ce jour — surveiller le seuil 4,3 %
+| Put/Call total | 0,93 — neutre ; equity put/call 0,62 — signal haussier
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 16 juillet 2026 | NFLX earnings Q2 2026 | Élevé — premier Mag-adjacent à reporter
+| 22 juillet 2026 | TSLA earnings Q2 2026 | Élevé — marges Cybercab, livraisons 480 K
+| 28–29 juillet 2026 | FOMC — décision taux Fed | Élevé — pivot ou statu quo décisif
+| Fin juillet–août | AAPL, MSFT, AMZN, META, GOOGL earnings | Élevé — Mag7 core
+| Août 2026 | CPI juillet, NFP juillet | Modéré — confirmation désinflation
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — données et futures
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.bls.gov/news.release/archives/cpi_07142026.htm[BLS — CPI juin 2026]
+| Rapport officiel CPI juin 2026 (publié le 14 juillet 2026)
+
+| link:https://www.cnbc.com/2026/07/15/stock-market-today-live-updates.html[CNBC — Market live updates 15 juil.]
+| Flux en temps réel de la séance du 15 juillet 2026
+
+| link:https://finance.yahoo.com/markets/live/stock-market-today-wednesday-july-15-dow-sp-nasdaq-091813320.html[Yahoo Finance — Market today 15 juil.]
+| Résumé de séance : Dow, S&P 500, Nasdaq — 15 juillet 2026
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — si recommandé dans les trades]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — pour hedging si baromètre passe à 5]
