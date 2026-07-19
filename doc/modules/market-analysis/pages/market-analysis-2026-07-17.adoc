@@ -1,0 +1,269 @@
+= Analyse de Marché — 17 juillet 2026
+:description: QQQ $717,74 rechute sous MA200 après le breakout du 15 juil. — TSMC capex +15 %, Netflix AH −8 %, Iran/pétrole +11 % — Baromètre Niveau 4 Prudence
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $717,74 (−0,27 %)
+| $752,53 (−0,30 %) footnote:[Clôture du 16 juillet 2026 — cours du 17 juillet en cours de séance.]
+| ~16,5–17,2 — légère tension
+| ~42–46 — Fear/Neutral
+| Au-dessus (~$715)
+| *Niveau 4/6 — PRUDENCE*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 4/6 — PRUDENCE : breakout MA200 QQQ invalidé, Netflix AH −8 %, FOMC 29 juil. binaire_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 17 juillet 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 1, 0, 0]
+....
+
+NOTE: Retour au Niveau 4 après le bref passage en Niveau 2 le 15 juillet 2026 (post-CPI). Le breakout de la MA200 QQQ (~$718–720) tenté le 15 juil. est invalidé ce jour : QQQ à $717,74 est légèrement en-dessous de sa MA200. Deux catalyseurs négatifs pèsent sur la séance : Netflix AH −8 % (guidance croissance ralentie) et la révision à la hausse du capex TSMC ($60–64 Mds vs $52–56 Mds prévus), qui alimente les doutes sur le retour sur investissement de l'IA. Le FOMC du 28–29 juillet représente un événement binaire : Kevin Warsh (nouveau chairman) a un profil hawkish, avec 9 membres du FOMC voyant au moins une hausse de taux en 2026. Dans ce contexte, les stratégies delta-neutres et theta positives sont préférables aux longs directionnels.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+La semaine du 14–17 juillet 2026 illustre la volatilité liée aux résultats et aux tensions géopolitiques. Le 14 juillet, la publication d'un CPI de juin à +3,5 % YoY (sous le consensus de +3,8 %) avait ouvert la voie à un fort rebond. Le 15 juillet, le QQQ avait franchi sa MA200 (~$718–720) à $719,69, portant le baromètre au Niveau 2. Mais dès le 16 juillet, deux mauvaises nouvelles ont renversé le momentum : TSMC a publié des résultats T2 exceptionnels (+77 % de bénéfice) tout en relevant son enveloppe annuelle d'investissements de $8–10 Mds, soulevant des interrogations sur la rentabilité des dépenses IA des hyperscalers. En séance étendue le 16 juillet, Netflix a chuté de 8 % après avoir prévu un deuxième trimestre consécutif de ralentissement de la croissance des ventes. Le Nasdaq Composite a perdu −1,47 % le 16 juillet ; le S&P 500 −0,51 % ; le Dow −0,20 %. Le 17 juillet, la pression se poursuit avec QQQ à $717,74 (−0,27 %) et le catalogue de résultats du jour limité aux bancaires régionaux (Travelers, Truist, Fifth Third).
+
+Les performances récentes estimées : QQQ ~$717,74 (−1,1 % sur 1 semaine, +0 % sur 1 mois footnote:[Estimations calculées sur la base des niveaux historiques des analyses précédentes — vérifier les cours exacts sur Yahoo Finance.], +18 % sur 3 mois). SPY ~$752,53 (−0,6 % sur 1 semaine, +1,5 % sur 1 mois, +14 % sur 3 mois).
+
+=== Pourquoi (causes profondes)
+
+Le marché navigue dans une phase de transition depuis le creux d'avril 2026 (QQQ à ~$551, correction de −26 % depuis l'ATH). La reprise structurelle (+30 % depuis le creux) se heurte désormais à trois vents contraires simultanés. Premièrement, le cycle de résultats Mag7 qui commence expose les valorisations IA à un test de réalité : si TSMC dépense plus pour l'IA mais que Netflix — qui en est un des principaux bénéficiaires — ralentit, le narratif de croissance soutenue par l'IA est questionné. Deuxièmement, la situation géopolitique reste fragile : les tensions US-Iran ont provoqué une fermeture du Détroit d'Ormuz début juillet, faisant bondir le pétrole (WTI +11 % en une semaine à $78/baril, Brent ~$84,50). Le choc pétrolier constitue un risque réinflationniste qui complique la décision de la Fed. Troisièmement, le FOMC du 28–29 juillet est un événement binaire : Kevin Warsh, nouveau chairman, a un profil plus hawkish que Powell, et 9 des 19 membres du FOMC anticipent au moins une hausse des taux cette année.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $717,74 | Tendance LT haussière, CT fragilisée
+| MA50 QQQ | ~$715–716 footnote:[Valeur estimée sur la base des analyses précédentes — sources divergentes entre $715 et $720.] | Au-dessus — signal positif CT
+| MA200 QQQ | ~$718–720 footnote:[Zone de test critique — QQQ a franchi cette zone le 15 juil. et la repasse légèrement en-dessous le 17 juil.] | En-dessous / Contact — breakout invalidé
+| Support clé | ~$700–$706 | Pivot MA50 testé le 13 juillet — zone forte
+| Résistance QQQ | ~$748 | ATH 52 semaines (mars 2026) — loin
+| RSI QQQ | ~55–60 | Neutre — ni suracheté ni survendu
+| SPY cours | $752,53 | Au-dessus MA50 ($750,92) ET MA200 ($747,26) ✓
+| S&P 500 MA50 | $7 509 | Au-dessus — signal positif
+| S&P 500 MA200 | $7 472 | Au-dessus — structure haussière LT intacte
+| Nasdaq Composite | 25 881 | En-dessous MA50 ($26 184) — faiblesse CT confirmée
+|===
+
+Structure : Higher highs / Higher lows depuis le creux d'avril 2026. La MA200 QQQ (~$718–720) constitue désormais le niveau pivot critique à surveiller. Le SPY reste structurellement plus solide que le QQQ, soutenu par des secteurs défensifs (bancaires, santé, énergie).
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 45 %
+
+*Conditions nécessaires* : QQQ reclame et clôture au-dessus de $720 (MA200 validée) sur 2+ séances consécutives ; résultats Mag7 (MSFT, GOOGL, META, AAPL, AMZN — fin juillet) supérieurs aux attentes, notamment sur les revenus cloud et IA ; FOMC 29 juillet adopte un ton neutre à dovish (statu quo + guidance accommodante).
+
+*Cibles* : QQQ $748 (ATH), SPY $775.
+
+*Catalyseurs* : Résultats Mag7 en ligne ou supérieurs (tour de table fin juillet) ; désescalade diplomatique US-Iran → pétrole recule sous $75/baril ; NFP août faible → confirmation soft landing → argument baisse Fed en septembre.
+
+=== Scénario baissier — Probabilité 55 %
+
+*Conditions de déclenchement* : QQQ clôture sous MA50 ($715) après l'onde de choc Netflix/TSMC ; FOMC 29 juillet hawkish surprise (signal de hausse 25 pb ou ton restrictif) ; déception sur les résultats MSFT ou GOOGL cloud.
+
+*Supports critiques* : QQQ $715 (MA50 — premier support), QQQ $700 (support fort — gap-up zone, testé 13 juillet), QQQ $680 (MA200 long terme).
+
+*Risques de queue* : Escalade militaire Iran — spike VIX > 28, pétrole > $90 ; résultats Mag7 décevants → re-pricing de la prime IA → correction −10 à −15 % QQQ.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Vérifier les cours des options en temps réel avant toute exécution.
+
+=== Trade #1 — Iron Condor sur SPY (delta-neutre, pré-FOMC)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (vente de volatilité, delta-neutre)
+| *Sous-jacent* | SPY (~$752,53)
+| *Raisonnement* | SPY dans un range $735–$775 naturel avant le FOMC du 29 juillet. VIX ~16–17 : prime vendeuse modérée mais correcte pour 15 DTE. Stratégie pure theta pendant l'attente de l'événement binaire. SPY au-dessus MA50 ET MA200 = base structurelle solide, les wings baissiers sont bien protégés.
+| *Expiration* | 1 août 2026 (15 DTE — avant résolution FOMC)
+| *Strike(s)* | Sell Put $738 / Buy Put $728 — Sell Call $768 / Buy Call $778
+| *Prime reçue* | ~$3,00 crédit net par contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~0 (neutre)
+| *Theta/jour* | ~+$0,12/j
+| *Breakeven(s)* | $735 (baisse) / $771 (hausse)
+| *Entrée* | Immédiat si SPY entre $748–$758 (milieu du range)
+| *Cible* | 50 % du crédit reçu (~$150)
+| *Stop-loss* | SPY clôture hors de [$738–$768] — racheter le spread touché
+| *Taille* | 6–8 % du portefeuille
+|===
+
+._Iron Condor SPY $728/$738/$768/$778 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor SPY $728/$738/$768/$778 exp. 1er août — P&L estimé (par contrat)"
+    x-axis ["720 $", "728 $", "735 $", "742 $", "752 $", "760 $", "768 $", "771 $", "778 $", "784 $"]
+    y-axis "P&L ($)" -800 --> 400
+    bar [-700, -700, 0, 300, 300, 300, 300, 0, -700, -700]
+    line [-700, -700, 0, 300, 300, 300, 300, 0, -700, -700]
+....
+
+NOTE: Profit maximum de +$300 si SPY reste entre $738 et $768 à expiration. Deux breakevens : $735 (baisse) et $771 (hausse). Perte maximale de −$700 par wing si SPY dépasse les strikes longs. Sortir la position dès que SPY teste un des strikes courts ($738 ou $768).
+
+=== Trade #2 — Covered Call sur QQQ (positions existantes)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (génération de revenus sur position longue)
+| *Sous-jacent* | QQQ (~$717,74)
+| *Raisonnement* | MA200 QQQ (~$718–720) agit en résistance après l'échec du breakout. Netflix AH −8 % pèse sur l'ouverture. Vendre un call légèrement OTM permet de générer une prime pendant la consolidation sans abandonner la position longue. Adapté uniquement si on détient déjà 100 actions QQQ.
+| *Expiration* | 1 août 2026 (15 DTE)
+| *Strike* | Call $728 (OTM +1,4 %)
+| *Prime reçue* | ~$3,80 par contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta court* | ~−0,30
+| *Breakeven* | Coût d'acquisition des actions QQQ − $3,80
+| *Entrée* | Vendre le call si QQQ ouvre entre $715 et $720
+| *Cible* | 60 % du crédit reçu (~$228)
+| *Stop-loss* | Racheter le call si QQQ clôture > $730 (risque d'assignation)
+| *Taille* | 1 contrat pour 100 actions QQQ détenues
+|===
+
+=== Trade #3 — Protective Put QQQ (hedge portefeuille)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Long Put (protection baissière asymétrique)
+| *Sous-jacent* | QQQ (~$717,74)
+| *Raisonnement* | Echec du breakout MA200 = risque de retest MA50 ($715) ou zone $700. Le FOMC du 29 juillet est un événement binaire : un ton hawkish Warsh peut déclencher −3 à −5 % sur le QQQ. Un put $705 offre une protection asymétrique bon marché à 43 DTE.
+| *Expiration* | 29 août 2026 (43 DTE)
+| *Strike* | Put $705 (OTM −1,8 %)
+| *Prime payée* | ~$6,50 par contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta* | ~−0,30
+| *Breakeven* | QQQ sous $698,50 à expiration
+| *Entrée* | Achat sur rebond intraday de QQQ vers $720 (prime plus basse)
+| *Cible* | +100 % si QQQ < $698 (double la prime = $1 300)
+| *Stop-loss* | Perte de 50 % de la prime ($3,25) si QQQ reste > $715 après FOMC
+| *Taille* | 2–3 % du portefeuille (coût d'assurance pur)
+|===
+
+=== Trade #4 — Cash-Secured Put OTM SPY (theta pur)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (vente put couverte en cash)
+| *Sous-jacent* | SPY (~$752,53)
+| *Raisonnement* | SPY structure solide (MA50 + MA200 respectées). Strike 4 % sous cours = en-dessous de la MA200 (~$747) → assignation très improbable sauf FOMC hawkish majeur. Génération de prime pendant la période d'incertitude pré-FOMC.
+| *Expiration* | 15 août 2026 (29 DTE)
+| *Strike* | Put $725 (OTM −3,7 %)
+| *Prime reçue* | ~$4,20 par contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta* | ~−0,18
+| *Theta/jour* | ~+$0,10/j
+| *Breakeven* | ~$720,80
+| *Entrée* | Immédiat ou sur repli SPY vers $748–$752
+| *Cible* | 50 % du crédit reçu (~$210)
+| *Stop-loss* | SPY clôture sous MA200 ($747) → racheter le put
+| *Taille* | 8–10 % du portefeuille (cash bloqué ~$72 500/contrat)
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50 %–3,75 % — statu quo depuis juin 2026 (décision 17 juin, K. Warsh)
+| Prochain FOMC | 28–29 juillet 2026 — marché divisé (9 membres voient hausse, 8 statu quo, 1 baisse)
+| CPI juin | +3,5 % YoY / −0,4 % MoM — surprise baissière (consensus +3,8 %)
+| PPI juin | −0,3 % MoM — désinflation prix producteurs
+| NFP juin | +57 K (attendu +115 K) — ralentissement marché du travail
+| Pétrole WTI | ~$78/baril (+11 % en 1 semaine — tensions US-Iran, Détroit d'Ormuz)
+| Pétrole Brent | ~$84,50/baril (+9,6 % sur la semaine)
+| Put/Call equity | ~0,57 (données 9 juil.) — put/call total ~0,86–0,92
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 17 juillet 2026 | Résultats Travelers (TRV), Truist (TFC), Fifth Third (FITB) | Modéré — secteur bancaire
+| 17 juillet 2026 | Données logement US juin (housing starts, building permits) | Modéré — immobilier
+| 17 juillet 2026 | Production industrielle juin, sentiment U. Michigan juillet | Modéré — macro
+| 22 juillet 2026 | Résultats TSLA Q2 2026 (estimé) | Élevé — Cybercab, marges auto
+| Fin juillet 2026 | Résultats MSFT, GOOGL, META, AAPL, AMZN (Q2 2026) | Élevé — Mag7 core, IA revenues
+| 28–29 juillet 2026 | FOMC — décision taux Fed (Warsh) | Élevé — hawkish ou statu quo : binaire
+| 7 août 2026 | NFP juillet 2026 | Modéré — confirmation soft landing ou récession
+| 12 août 2026 | CPI juillet 2026 | Élevé — confirmation désinflation ou rebond énergie
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — données et futures
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures sur fonds fédéraux
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm[Fed — Calendrier FOMC]
+| Dates officielles des réunions du Federal Open Market Committee
+
+| link:https://finance.yahoo.com/markets/stocks/live/stock-market-today-tuesday-july-14-231302282.html[Yahoo Finance — Market 14–16 juil.]
+| Résumés de séance : contexte Iran, CPI, TSMC, Netflix
+
+| link:https://www.cnbc.com/2026/07/15/stock-market-today-live-updates.html[CNBC — Market live 15–17 juil.]
+| Flux en temps réel des séances de la semaine du 14 juillet 2026
+
+| link:https://moderndiplomacy.eu/2026/07/16/asian-stocks-fall-as-chip-selloff-overshadows-tsmc-earnings/[TSMC Earnings & Chip Selloff — Modern Diplomacy]
+| Analyse de l'impact de la hausse du capex TSMC sur les semi-conducteurs
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — protection si baromètre passe à 5]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Cash-Secured Put et Covered Call]

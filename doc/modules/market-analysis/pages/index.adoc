@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-07-17.adoc[17 juillet 2026]
+| Niveau 4/6 — PRUDENCE
+| Haussière LT / Fragilisée CT
+| QQQ $717,74 rechute sous MA200, Netflix AH −8 %, TSMC capex +$10 Mds, Iran/pétrole +11 %
+
 | xref:market-analysis:market-analysis-2026-07-15.adoc[15 juillet 2026]
 | Niveau 2/6 — BUY THE DIP
 | Haussière
