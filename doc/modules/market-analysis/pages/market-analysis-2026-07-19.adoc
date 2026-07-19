@@ -1,0 +1,313 @@
+= Analyse de Marché — 19 juillet 2026
+:description: SOX bear market (-20 %), QQQ sous MA50, SPX effleure MA200 — Broadcom miss + Iran escalade — Baromètre Niveau 4 PRUDENCE — Earnings GOOGL/TSLA/INTC semaine 22 juil.
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $695,33 (~-3,4 % vs 15 juil.)
+| $743,29 (-0,99 % ven.)
+| 18,77 — tension (+12 % ven.)
+| ~50 — Neutral
+| En-dessous (~$717)
+| *Niveau 4/6 — PRUDENCE*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 4/6 — PRUDENCE : QQQ sous MA50, SPX effleure MA200, VIX en hausse_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 19 juillet 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 1, 0, 0]
+....
+
+NOTE: Retour au Niveau 4 après le passage en Niveau 2 du 15 juillet. En seulement deux séances (jeudi-vendredi 17 juil.), le marché a effacé la progression de la semaine précédente. Le double choc Broadcom (guidance AI chip $16 Mrd vs $17,2 Mrd attendu) et la re-escalade US-Iran ont provoqué un selloff sectoriel violent — le SOX semiconducteurs perd 10 % sur la semaine et entre en bear market (-20,2 % depuis le pic de juin). QQQ retombe sous sa MA50 ($717) à $695. Le S&P 500 (7 457) effleure sa MA200 (7 464) par le bas — signal d'alerte critique. VIX à 18,77 : la volatilité monte mais ne panique pas encore (< 20). La semaine du 21 juillet est un événement binaire majeur : Alphabet + Tesla (22 juil.) et Intel (23 juil.) peuvent inverser ou valider la tendance baissière.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+La semaine du 14–18 juillet 2026 se termine dans le rouge vif après un début encourageant. Le 15 juillet, le double catalyseur CPI (-0,4 % MoM) + PPI (-0,3 % MoM) avait propulsé QQQ à $719,69 et déclenché un signal Niveau 2 (Buy the Dip). Mais dès le 17 juillet, tout s'est inversé.
+
+Le détonateur principal est la guidance d'AMD publiée jeudi soir (16 juil.) : les ventes de puces IA Q3 en dessous des attentes, amplifiant les inquiétudes suite au miss de Broadcom (AI chip guidance $16 Mrd vs $17,2 Mrd estimate). L'indice SOX semiconducteurs perd 10 % sur la semaine seule, entrant officiellement en territoire bear market à -20,2 % depuis son pic de juin. AMD clôture à $495,76 (-11,1 % hebdo), effaçant environ $101 milliards de market cap. La semaine se conclut : QQQ -2,9 %, SPY -1,6 %.
+
+Simultanément, les tensions géopolitiques se réenflamment : les États-Unis ont mené 8 nuits consécutives de frappes sur l'Iran, avec des représailles et des pertes américaines. Le pétrole WTI bondit de +2 % au-dessus de $84 (Brent > $90), ravivant les craintes inflationnistes sur les coûts d'énergie et les supply chains.
+
+*Performances hebdomadaires (17 juillet 2026) :*
+
+- *QQQ* : $695,33 — 1 sem : -2,9 % / depuis 15 juil. : -3,4 % / depuis mi-juin : ~-8 %
+- *SPY* : $743,29 — 1 sem : -1,6 % / depuis mi-juin : ~-3 %
+- *SOX* : -10 % hebdomadaire / -20,2 % depuis le pic de juin → bear market
+- *AMD* : $495,76 (-11,1 % sem.) — $101 Mrd de capitalisation détruite
+- *Secteur moteur* : Énergie (WTI > $84, Brent > $90, tensions Iran)
+- *Secteur à la traîne* : Semi-conducteurs (SOX -10 % / -20 % depuis pic)
+
+=== Pourquoi (causes profondes)
+
+La correction est double : sectorielle (semis) et macroéconomique (emploi + géopolitique).
+
+Côté semis, le selloff est une correction de valorisation extrême, pas un effondrement fondamental. Le SOX avait progressé de ~65 % en six mois jusqu'en juin — un positionnement devenu extrêmement surchargé (crowded trade). Le miss de Broadcom sur la guidance AI chip ($16 Mrd vs $17,2 Mrd) + le downgrade des estimations SK Hynix par un broker coréen (HBM fixed-price contracts) ont fourni le déclencheur d'un désengagement rapide. C'est une correction de valorisation dans un bull market IA structurel, non une rupture du thème IA.
+
+Côté macro, le marché doit intégrer deux signaux contradictoires : un NFP décevant (+57K en juin vs 110K attendu — le plus faible depuis 4 mois) qui milite pour une baisse de taux, mais un CPI +3,5 % YoY encore éloigné du target 2 % Fed. La Fed (nouveau Président Kevin Warsh, hawkish) maintient les taux à 3,5–3,75 % et ne prévoit qu'une seule baisse en 2026. Le FOMC du 29 juillet sera décisif.
+
+- *Fed* : taux *3,50–3,75 %* (Warsh, hawkish) — statu quo attendu — prochain FOMC *29 juillet 2026*
+- *Inflation* : CPI *+3,5 % YoY* — au-dessus du target 2 % / core +2,6 % YoY
+- *Emploi* : NFP *+57K* — déception forte (vs 110K attendu) — 4e mois sous les attentes
+- *Sentiment* : put/call index 1,17 → institutions en mode protection ; equity P/C 0,82
+- *Risque 1* : Semis IA — crowded trade correction — SOX -20 % en bear market
+- *Risque 2* : Iran — 8 nuits de frappes US → pétrole > $84 → coûts inputs + aversion risque
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $695,33 footnote:[Clôture vendredi 17 juillet 2026 — dimanche 19 juillet, pas de séance.] | —
+| SMA50 QQQ | ~$717 footnote:[Estimation convergente de plusieurs sources techniques au 16–17 juillet 2026.] | *En-dessous* — signal baissier CT
+| EMA50 QQQ | ~$707 | En-dessous — signal baissier
+| SMA200 QQQ | ~$638 footnote:[Estimation — sources divergentes ; valeur cohérente avec la progression depuis le creux d'avril 2026 (~$551).] | *Au-dessus* — support LT intact
+| Support clé 1 | ~$695–700 | Zone psychologique + EMA50 précédente
+| Support clé 2 | ~$638 | MA200 — dernier rempart LT
+| Résistance clé 1 | ~$707 | EMA50 — à reprendre pour signal haussier
+| Résistance clé 2 | ~$717 | SMA50 — reclaim pour invalider le breakdown
+| RSI (14j) | ~35 footnote:[Source : AltIndex / Investing.com — 16 juillet 2026. Approche de la zone survendue < 30.] | Approche survendu — neutre/baissier
+| S&P 500 | 7 457 | *Juste sous MA200* (7 464) — signal d'alerte
+| S&P 500 MA50 | 7 534 | S&P 500 en-dessous — baissier CT
+| S&P 500 MA200 | 7 464 | S&P 500 en-dessous (marginal) — niveau critique
+| VIX | 18,77 (+12 % ven.) | Tension montante — pas encore panique
+|===
+
+*Structure* : Lower highs / lower lows depuis le pic de mi-juin 2026. Nasdaq 100 en formation de descending triangle — pattern potentiellement baissier. Cassure attendue sous $690 pour confirmer. QQQ reste au-dessus de sa MA200 ($638) — la tendance haussière longue durée (depuis creux avril 2026) est fragilisée mais pas invalidée.
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 35 %
+
+*Conditions nécessaires* : QQQ tient la zone $690–695 et reprend au-dessus de l'EMA50 ($707). Alphabet + Tesla battent largement les attentes le 22 juillet (Alphabet : 13e beat consécutif attendu, croissance >20 % — consensus Strong Buy). VIX redescend sous 17 après les résultats.
+
+*Cibles* : QQQ *$730–$740*, SPY *$768–$775*.
+
+*Catalyseurs* : Résultats Alphabet Q2 (22 juil.) — croissance >20 % attendue par LSEG ; signal de modération de la Fed au FOMC du 29 juillet ; désescalade diplomatique Iran.
+
+=== Scénario baissier — Probabilité 65 %
+
+*Conditions de déclenchement* : QQQ clôture sous $688 → validation du triangle baissier descending → target $670 puis $638. Intel ou Alphabet déçoivent le 22–23 juillet. FOMC Warsh hawkish le 29 juillet (pas de signal de baisse).
+
+*Supports critiques* : QQQ *$670* (support intermédiaire), QQQ *$638* (MA200 — support LT majeur).
+
+*Risques de queue* : Escalade Iran → VIX > 30, pétrole > $100, choc inflationniste ; NFP juillet < 0 → récession confirmée → dérating P/E brutal.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Vérifier tous les cours et primes en temps réel avant d'entrer en position.
+
+=== Trade #1 — Iron Condor sur QQQ (stratégie theta — delta-neutral)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (4 jambes — vente de volatilité)
+| *Sous-jacent* | QQQ (~$695 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | QQQ coincé entre support $638 (MA200) et résistance $717 (MA50) ; VIX à 18,77 gonfle les primes options ; semaine d'earnings (GOOGL/TSLA/INTC) = range probable $660–$725 ; stratégie adaptée au Niveau 4 Prudence
+| *Expiration* | 15 août 2026 (~27 DTE)
+| *Strike(s)* | Sell Put 665 / Buy Put 645 / Sell Call 720 / Buy Call 740
+| *Prime reçue* | ~$4,50–5,50 net / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~0 (delta-neutral à l'initiation)
+| *Theta/jour* | ~+$12–15 / jour / contrat
+| *Breakeven(s)* | $659,50 (baisse) / $725,50 (hausse)
+| *Entrée* | Lundi 21 juil. — QQQ ouvre entre $685 et $705
+| *Cible* | 50 % du crédit reçu (~$2,25)
+| *Stop-loss* | Débit > 2× crédit / clôture QQQ < $665 ou > $725
+| *Taille* | 3–5 % du portefeuille
+|===
+
+._Iron Condor QQQ (août 2026) — P&L estimé à expiration_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ 645/665 - 720/740 — P&L estimé (par contrat)"
+    x-axis ["$645", "$655", "$660", "$670", "$680", "$695", "$710", "$720", "$725", "$735", "$740"]
+    y-axis "P&L ($)" -1600 --> 600
+    bar [-1500, -500, 0, 500, 500, 500, 500, 500, 0, -500, -1500]
+    line [-1500, -500, 0, 500, 500, 500, 500, 500, 0, -500, -1500]
+....
+
+NOTE: Profit maximum de ~$500/contrat (crédit reçu) si QQQ expire entre $665 et $720. Perte maximale de ~$1 500/contrat si QQQ sort de la fourchette $645–$740. Les deux breakevens sont à $659,50 (baisse) et $725,50 (hausse), offrant un coussin de $35 côté baisse et $30 côté hausse depuis le prix actuel de $695.
+
+=== Trade #2 — Cash-Secured Put sur GOOGL (vente de prime pré-earnings)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (CSP) — vente OTM loin
+| *Sous-jacent* | GOOGL (~$346,77 footnote:[Clôture 17 juillet 2026. Vérifier le cours réel avant d'entrer en position.] — -2,17 % ven.)
+| *Raisonnement* | Alphabet : 13 trimestres consécutifs de beats ; croissance >20 % attendue (LSEG) ; consensus Strong Buy (64 analystes, cible $433) ; IV rank élevé pré-earnings → prime vendeuse attractive ; strike $300 = -13 % de coussin
+| *Expiration* | 15 août 2026 (~27 DTE)
+| *Strike(s)* | Put 300 vendu
+| *Prime reçue* | ~$1,80–2,50 / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta* | ~-0,10 à -0,12 (très OTM)
+| *Theta/jour* | ~+$5 / jour / contrat
+| *Breakeven* | ~$297,50 (baisse)
+| *Entrée* | Avant le 22 juil. (avant earnings) — capturer la prime IV élevée
+| *Cible* | 50 % du crédit reçu / ou laisser expirer sans valeur
+| *Stop-loss* | GOOGL clôture sous $310 après earnings
+| *Taille* | 2–3 % du portefeuille (cash garanti requis : ~$30 000/contrat)
+|===
+
+=== Trade #3 — Covered Call sur SPY (réduction du delta existant)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (sur position longue existante)
+| *Sous-jacent* | SPY (~$743,29 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | SPY sous MA50 → résistance $760 forte (ancien support devenu résistance) ; theta income sur position existante ; réduit le delta net et le coût de base
+| *Expiration* | 1er août 2026 (~13 DTE)
+| *Strike(s)* | Call 758 vendu (+2 % OTM)
+| *Prime reçue* | ~$3,50–4,50 / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta call* | ~-0,30 (réduit le delta net de la position)
+| *Theta/jour* | ~+$15 / jour
+| *Breakeven* | N/A (position couverte par actions longues)
+| *Entrée* | Immédiat — lundi ouverture
+| *Cible* | Expiration sans valeur / rachat à 20–25 % du crédit
+| *Stop-loss* | Racheter le call si SPY > $760 en clôture (risque d'assignation)
+| *Taille* | Sur 25–50 % des actions SPY détenues
+|===
+
+=== Trade #4 — Bear Put Spread QQQ (protection court terme)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bear Put Spread (protection / directionnelle baissière limitée)
+| *Sous-jacent* | QQQ (~$695 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | Descending triangle Nasdaq 100 → potentiel de cassure sous $690 ; SOX en bear market (-20 %) contamine QQQ ; FOMC Warsh hawkish 29 juil. + risque Iran = tail risk ; RSI ~35 → rebond possible mais tendance baissière dominante
+| *Expiration* | 1er août 2026 (~13 DTE)
+| *Strike(s)* | Buy Put 690 / Sell Put 670
+| *Prime payée* | ~$3,50–4,50 débitée / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta* | ~-0,35 (directionnel modéré)
+| *Breakeven* | ~$685,50 (à la baisse)
+| *Profit max* | ~$15,50 / contrat (si QQQ < $670 à expiration)
+| *Entrée* | Si QQQ ouvre sous $698 lundi matin
+| *Cible* | QQQ < $675 → vendre à 70–80 % du profit max
+| *Stop-loss* | QQQ reprend et clôture > $710 (rebond confirmé — invalide le setup)
+| *Taille* | 1–2 % du portefeuille (protection, pas spéculation)
+|===
+
+'''
+
+== Signaux de trading du Congrès américain
+
+[cols="1,1,1,1"]
+|===
+| Ticker | Nb élus (achat) | Dernier achat | Commentaire
+
+| *NVDA*
+| 2+ (estimation)
+| 26 juin 2026
+| Cleo Fields (D-LA) — achats $1K–$15K. Historique : $11,6 Mrd d'achats cumulés Congrès. SOX en correction -20 % → signal en *observation seulement* (Baromètre 4 — pas de trade actif)
+|===
+
+WARNING: Données Capitol Trades en temps réel indisponibles ce jour (site inaccessible). Signal NVDA basé sur sources secondaires (recherche web). À vérifier sur capitoltrades.com avant toute décision.
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed (FFR) | 3,50–3,75 % — statu quo (Kevin Warsh, hawkish)
+| Prochain FOMC | *29 juillet 2026* — statu quo attendu ; ton Warsh déterminant
+| CPI juin (YoY) | *+3,5 %* YoY / mensuel -0,4 % (énergie -5,7 %) — au-dessus target 2 %
+| Core CPI juin | +2,6 % YoY — en progression vers target
+| NFP juin | *+57K emplois* — déception forte (vs 110K attendu) — signal récession ?
+| Pétrole WTI | > $84 / Brent > $90 — tensions Iran (8 nuits de frappes US)
+| Put/Call ratio | Equity : 0,82 / Index : 1,17 → institutions en mode protection
+| Fear & Greed | ~50 — Neutral (17 juil.) — pas encore en territory Fear
+| Taux 10 ans US | [donnée non disponible en temps réel — estimé > 4,5 % compte tenu du contexte Warsh hawkish]
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| *22 juil. 2026* | Alphabet (GOOGL) earnings — après clôture | *Élevé* — 13e beat attendu, test du bull case IA
+| *22 juil. 2026* | Tesla (TSLA) earnings — après clôture | *Élevé* — demande EV + marges en question
+| *23 juil. 2026* | Intel (INTC) earnings — après clôture | *Élevé* — croissance 12 % YoY attendue (LSEG) ; outlook H2 murkier
+| *23 juil. 2026* | AMD AI Day (San Francisco) — keynote Lisa Su | *Modéré* — narrative chips IA post-selloff
+| *25 juil. 2026* | Publication résultats Mag7 additionnels | *Élevé* — MSFT, META attendus en fin de semaine
+| *29 juil. 2026* | FOMC décision + conférence de presse Warsh | *Élevé* — déterminant pour la tendance août
+| *Continu* | Situation US-Iran — frappes / représailles | *Élevé* — pétrole + aversion risque géopolitique
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — données et futures
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.cnbc.com/2026/07/19/stock-market-today-live-updates.html[CNBC — Live Updates 19 juil. 2026]
+| Actualité marché du jour — résumé hebdomadaire
+
+| link:https://www.cnbc.com/2026/07/17/stock-market-next-week-outlook-for-july-20-24-2026.html[CNBC — Outlook semaine 20–24 juil. 2026]
+| Preview earnings Alphabet, Tesla, Intel + catalyseurs
+
+| link:https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm[Fed — Communiqué FOMC juin 2026]
+| Décision officielle taux — statu quo 3,50–3,75 %
+
+| link:https://www.bls.gov/news.release/cpi.nr0.htm[BLS — CPI juin 2026]
+| Rapport officiel inflation juin 2026
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — si recommandé dans les trades]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Protection baissière]
+* xref:market-analysis:market-analysis-2026-07-15.adoc[15 juillet 2026 — Niveau 2 Buy the Dip (analyse précédente)]
