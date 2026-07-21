@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-07-21.adoc[21 juillet 2026]
+| Niveau 4/6 — PRUDENCE
+| Baissière CT / Haussière LT
+| Micron +12 %, semis +5,2 %, QQQ ~700$ sous MA50/MA200 (~720$), FOMC dans 7 jours, VIX 17
+
 | xref:market-analysis:market-analysis-2026-07-20.adoc[20 juillet 2026]
 | Niveau 4/6 — PRUDENCE
 | Haussière LT / Fragilisée CT
