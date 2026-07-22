@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-07-22.adoc[22 juillet 2026]
+| Niveau 3/6 — CONSOLIDATION
+| Neutre-Haussière (LT)
+| QQQ $708,97 rechute sous MA200, GOOGL+TSLA earnings, Iran oil +3,4 %, FOMC Warsh 28 juil.
+
 | xref:market-analysis:market-analysis-2026-07-21.adoc[21 juillet 2026]
 | Niveau 4/6 — PRUDENCE
 | Baissière CT / Haussière LT
