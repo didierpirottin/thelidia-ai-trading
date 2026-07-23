@@ -1,0 +1,275 @@
+= Analyse de Marché — 23 juillet 2026
+:description: QQQ ~$705 au niveau MA50, VIX 16,64, pétrole $100, FOMC 28–29 juil. — Baromètre Niveau 4 Prudence
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| ~$705 (N/D YTD)
+| $736,97 (-1,40 % jour)
+| 16,64 — calme (trompeur)
+| 43 — Fear
+| Contact (~$707) — test critique
+| *Niveau 4/6 — PRUDENCE*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 4/6 — PRUDENCE : FOMC dans 5 jours, NDX sous MA200, pétrole $100_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 23 juillet 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 1, 0, 0]
+....
+
+NOTE: Le FOMC de Kevin Warsh (28–29 juillet) concentre tous les risques : 1 chance sur 3 que les taux soient relevés, dans un contexte où le pétrole Brent franchit $100/baril et le 10 ans US atteint 4,71 % (plus haut depuis janvier 2025). Le NDX (Nasdaq 100 index) est désormais sous sa MA50 (29 373) et sous sa MA200 (29 538), ce qui invalide la tendance haussière à court terme. Le VIX à 16,64 reste bas — il est temps d'acheter de la protection pas chère, pas d'ajouter des deltas longs.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+La séance du 23 juillet 2026 a été marquée par une large vague de vente sur les valeurs technologiques. Le Nasdaq Composite a perdu 2,15 % à 25 137, le S&P 500 a reculé de 1,21 % à 7 408 et le Dow a cédé 0,97 % à 51 711.
+
+Les deux détonateurs principaux ont été les résultats trimestriels d'Alphabet (GOOGL, −7 %) et de Tesla (TSLA, −14 %). Alphabet a annoncé un capex 2026 compris entre $195 et $205 milliards, avec une promesse d'augmentation "significative" en 2027. Le marché a interprété ce chiffre comme un signal que le retour sur investissement de l'IA reste incertain et que les dépenses de la Big Tech pourraient comprimer les marges durablement.
+
+En parallèle, les tensions géopolitiques au Moyen-Orient se sont intensifiées : des attaques Houthis sur des pétroliers au large de l'Arabie Saoudite ont propulsé le Brent au-dessus de $100/baril, alimentant des craintes d'inflation et faisant bondir le rendement du 10 ans US à 4,71 %, son plus haut depuis janvier 2025. L'Union Européenne a par ailleurs infligé à Google une amende de 890 millions d'euros au titre du Digital Markets Act.
+
+Seul point positif notable : Norfolk Southern (NSC) a progressé de 5,11 % après des résultats Q2 supérieurs aux attentes, illustrant que les valeurs industrielles résistent mieux que la tech dans ce contexte.
+
+=== Pourquoi (causes profondes)
+
+La toile de fond macro est complexe. Le nouveau président de la Fed, Kevin Warsh (nommé par Trump pour remplacer Jerome Powell), préside son deuxième FOMC les 28–29 juillet. Les marchés lui attribuent environ 1 chance sur 3 de relever les taux (actuellement 3,50–3,75 %) face à la remontée des prix de l'énergie. Ce risque de hausse surprise est le principal catalyseur baissier de la semaine.
+
+Le CPI de juin (+3,5 % en glissement annuel) avait pourtant apporté un soulagement relatif : la baisse était supérieure aux attentes (3,8 %), portée par le recul des prix de l'énergie ce mois-là. Mais ce bénéfice est désormais effacé par le choc pétrolier de juillet, qui rouvre le dossier inflationniste. Les NFP de juin (+57 K, vs +110 K attendu) confirment un ralentissement du marché du travail, mais pas encore au niveau d'une récession déclarée.
+
+Le rendement du 10 ans à 4,71 % est le signal le plus préoccupant à court terme : à ce niveau, il comprime mécaniquement les ratios P/E des valeurs de croissance, en particulier les Mag7 dont les valorisations restent élevées. La combinaison pétrole $100 + taux longs hauts + FOMC incertain constitue un cocktail défavorable aux positions longues tech.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | ~$705 | —
+| MA50 QQQ | ~$707 | Contact — zone critique (test non encore conclu)
+| MA200 QQQ | ~$649 | Au-dessus — support long terme intact
+| NDX (Nasdaq 100 index) MA50 | 29 373 | En-dessous — signal vendeur
+| NDX MA200 | 29 538 | En-dessous — signal baissier confirmé sur l'index
+| RSI QQQ (14j) | ~40 | Territoire vendeur — approche survendu (<30)
+| MACD S&P 500 | -20,34 | Signal de vente — momentum négatif
+| Support clé 1 | $700 | Niveau psychologique — round number
+| Support clé 2 | $649 | MA200 QQQ — défense long terme
+| Résistance clé | $712–715 | Zone de résistance récente
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 35 %
+
+*Conditions nécessaires* : FOMC maintient les taux le 29 juillet (statu quo) et Warsh adopte un ton neutre à accommodant. QQQ tient sa MA50 à ~$707 en clôture hebdomadaire. Les résultats de MSFT, META, AAPL et AMZN (29–30 juillet) surprennent positivement, dissipant les craintes sur le ROI de l'IA.
+
+*Cibles* : QQQ $730, SPY $760.
+
+*Catalyseurs* : Désescalade géopolitique au Moyen-Orient ramenant le Brent sous $90 ; signal de la Fed qu'elle maîtrise l'inflation sans nouvel resserrement.
+
+=== Scénario baissier — Probabilité 65 %
+
+*Conditions de déclenchement* : FOMC hausse les taux le 29 juillet (surprise) ; QQQ clôture sous $700 et valide une cassure de MA50 ; résultats MSFT/META déçoivent sur les marges IA comme GOOGL.
+
+*Supports critiques* : QQQ $680 (support intermédiaire), QQQ $649 (MA200 — ligne de défense long terme).
+
+*Risques de queue* : Pétrole > $110 (escalade régionale) déclenchant un nouveau spike CPI et forçant la Fed à une hausse d'urgence ; NFP d'août négatif signalant une récession et provoquant un sell-off brutal des actifs risqués ; VIX spike > 30 si plusieurs de ces scénarios se concrétisent simultanément.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes et cours sont des estimations — vérifier les données réelles avant d'entrer en position.
+
+=== Trade #1 — Iron Condor sur QQQ (collecte theta pre-FOMC)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (delta-neutral, collecte theta)
+| *Sous-jacent* | QQQ (~$705footnote:[Estimation — vérifier le cours réel avant d'entrer en position.])
+| *Raisonnement* | VIX bas (16,64) = ailes bon marché ; event risk FOMC compris dans l'IV implicite ; range $677–$723 probable si statu quo ; stratégie parfaite pour baromètre Niveau 4
+| *Expiration* | 8 août 2026 (~16 DTE)
+| *Strike(s)* | Sell Put $680 / Buy Put $670 / Sell Call $720 / Buy Call $730
+| *Prime reçue* | ~$2,50 crédit total (~$250/contrat)
+| *Delta total* | ~0 (delta-neutral)
+| *Theta/jour* | ~+$8 / jour / contrat
+| *Breakeven(s)* | $677,50 (baisse) / $722,50 (hausse)
+| *Entrée* | Dès aujourd'hui si QQQ entre $695 et $710
+| *Cible* | 50 % du crédit reçu (~$125) — fermer avant le FOMC si atteint
+| *Stop-loss* | Débit > 2× crédit ($500) ou QQQ < $680 / > $720 en clôture
+| *Taille* | 3–5 % du portefeuille (max 2 contrats pour compte < $50K)
+|===
+
+._Iron Condor QQQ — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ $670/$680-$720/$730 — P&L/contrat"
+    x-axis ["660$", "670$", "678$", "685$", "700$", "710$", "720$", "723$", "730$", "740$"]
+    y-axis "P&L ($)" -800 --> 300
+    bar [-750, -750, 0, 250, 250, 250, 250, 0, -750, -750]
+    line [-750, -750, 0, 250, 250, 250, 250, 0, -750, -750]
+....
+
+NOTE: Profit maximum de $250/contrat si QQQ reste entre $677,50 et $722,50 à expiration. Perte maximale de $750 si QQQ sort de la fourchette. Zone de profit = 46 $ de large (6,6 % du cours actuel). Le risque FOMC justifie de fermer avant le 29 juillet si 50 % du profit est atteint.
+
+=== Trade #2 — Bear Put Spread sur QQQ (hedge directionnel FOMC)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bear Put Spread (achat directionnel baissier)
+| *Sous-jacent* | QQQ (~$705footnote:[Estimation — vérifier le cours réel avant d'entrer en position.])
+| *Raisonnement* | 1/3 chance de hausse surprise Warsh le 29 juil → cassure MA50 probable ; QQQ teste MA50 à $707 — signal vendeur si clôture sous $700 ; asymétrie favorable : risque limité $5 / gain max $15 si QQQ chute
+| *Expiration* | 1er août 2026 (~9 DTE)
+| *Strike(s)* | Buy Put $700 / Sell Put $680
+| *Prime payée* | ~$5 débit (~$500/contrat)
+| *Delta total* | ~-0,35 (directionnel baissier modéré)
+| *Theta/jour* | -$10/j (position acheteuse — temps contre nous)
+| *Breakeven(s)* | $695 (QQQ doit baisser ~1,4 % pour être profitable)
+| *Entrée* | Si QQQ clôture sous MA50 ($707) ou avant FOMC le 28 juil
+| *Cible* | QQQ à $680 = gain max ~$1 500/contrat
+| *Stop-loss* | QQQ remonte > $715 et MA50 confirmée = sortir à perte (~$250)
+| *Taille* | 2–3 % du portefeuille (hedge = protection, pas spéculation)
+|===
+
+=== Trade #3 — Covered Call sur SPY (réduire l'exposition delta)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (sur position longue existante)
+| *Sous-jacent* | SPY (~$737)
+| *Raisonnement* | Réduit le coût base et limite l'exposition si le marché continue de baisser ; collecte de prime dans un environnement VIX modéré ; si SPY rallye au-dessus de $755, position cédée avec +2,4 % de gain
+| *Expiration* | 8 août 2026 (~16 DTE)
+| *Strike(s)* | Sell Call $755 (2,4 % OTM)
+| *Prime reçue* | ~$2,50 crédit (~$250/contrat)
+| *Delta total* | -0,20 (réduit le delta de la position longue)
+| *Theta/jour* | ~+$7 / jour / contrat
+| *Breakeven(s)* | N/A (position combinée — le call réduit le point mort de $2,50)
+| *Entrée* | Uniquement si position longue SPY existante en portefeuille
+| *Cible* | 50 % du crédit (~$125) ou expiration sans valeur
+| *Stop-loss* | SPY > $758 → racheter le call (risque d'assignation)
+| *Taille* | 1 call pour 100 actions SPY détenues
+|===
+
+=== Trade #4 — Cash-Secured Put sur Microsoft (MSFT)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (vendeuse, qualité)
+| *Sous-jacent* | MSFT (~$510footnote:[Estimation — vérifier le cours réel avant d'entrer en position.])
+| *Raisonnement* | Résultats MSFT le 29 juil — titre de haute qualité avec Azure/IA solide ; strike $460 = 10 % OTM, zone d'entrée attractive si déception post-résultats ; collecte theta même si MSFT reste en range post-FOMC
+| *Expiration* | 8 août 2026 (~16 DTE)
+| *Strike(s)* | Sell Put $460 (~10 % OTM)
+| *Prime reçue* | ~$2,00 crédit (~$200/contrat)
+| *Delta total* | ~-0,08 (très conservateur)
+| *Theta/jour* | ~+$4 / jour / contrat
+| *Breakeven(s)* | $458
+| *Entrée* | Avant les résultats MSFT (29 juil) — ouvrir le 25 juil au plus tard
+| *Cible* | Expiration sans valeur (garder 100 % du crédit)
+| *Stop-loss* | MSFT clôture sous $480 → racheter (défense avant assignation)
+| *Taille* | Assurer la couverture cash ($46 000 par contrat) — 5 % du portefeuille
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo (juin 2026) — hausse possible le 29 juil
+| Président Fed | Kevin Warsh (remplace Jerome Powell, nommé par Trump)
+| Prochain FOMC | 28–29 juillet 2026 — décision haute importance (~1/3 chance de hausse)
+| CPI dernier | +3,5 % YoY (juin 2026) — en-dessous attentes 3,8 % — mais pétrole $100 relance le risque
+| NFP dernier | +57 K (juin 2026) — déception sévère vs +110 K attendu — plus bas en 4 mois
+| Taux 10 ans | 4,71 % — plus haut depuis janvier 2025 — compression des multiples
+| Brent brut | ~$100/baril — spike géopolitique (attaques Houthis en mer Rouge)
+| Put/Call ratio | 0,94 — sentiment globalement neutre
+| Fear & Greed | 43 — Fear zone
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 28–29 juillet 2026 | FOMC — Décision taux Warsh | Élevé — 1/3 chance de hausse surprise
+| 29 juillet 2026 (AH) | Résultats Microsoft (MSFT) | Élevé — Azure/IA, guidance capex
+| 29 juillet 2026 (AH) | Résultats Meta (META) | Élevé — dépenses IA Llama, pub
+| 30 juillet 2026 (AH) | Résultats Apple (AAPL) | Élevé — iPhone 17, services
+| 30 juillet 2026 (AH) | Résultats Amazon (AMZN) | Élevé — AWS, consommation
+| 26 août 2026 | Résultats Nvidia (NVDA) | Élevé — semis IA, datacenter guidance
+| Continu juillet | Évolution pétrole Brent / Moyen-Orient | Élevé — inflation, taux longs
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême) — valeur 43 le 23 juillet
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — 16,64 le 23 juillet 2026
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed — ~1/3 chance de hausse au FOMC du 29 juil
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://finance.yahoo.com/markets/stocks/articles/stock-market-today-july-23-211524125.html[Yahoo Finance — Market Today July 23]
+| Source principale des cours et événements du jour
+
+| link:https://www.cnbc.com/2026/07/23/treasury-yields-oil-prices-jobless-claims.html[CNBC — Treasury Yields & Oil July 23]
+| Taux 10 ans à 4,71 %, pétrole $100, contexte macro
+
+| link:https://www.bls.gov/opub/ted/2026/consumer-prices-up-3-5-percent-over-the-year-ended-june-2026.htm[BLS — CPI June 2026]
+| CPI officiel juin 2026 : +3,5 % YoY
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/butterfly.adoc[Butterfly / Condor — Stratégie theta range-bound]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Hedge directionnel baissier]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Cash-Secured Put sur qualité]
