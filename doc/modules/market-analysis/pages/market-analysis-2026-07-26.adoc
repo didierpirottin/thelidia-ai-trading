@@ -1,0 +1,289 @@
+= Analyse de Marché — 26 juillet 2026
+:description: QQQ $684 sous MA50/MA200 ($720), S&P 500 sous ses deux moyennes mobiles, VIX 18,58, Fear & Greed 37 — Baromètre Niveau 4 Prudence avant FOMC + 4 Mag7 cette semaine
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $684 (−2,9 % / sem.)
+| $739 (+8,94 % YTD)
+| 18,58 — calme footnote:[Dernière valeur disponible : clôture du 24 juillet 2026]
+| 37 — Fear
+| En-dessous (~$718)
+| *Niveau 4/6 — PRUDENCE*
+|===
+
+NOTE: Analyse du dimanche 26 juillet 2026 — les marchés sont fermés. Les données de cours sont les clôtures du vendredi 25 juillet 2026. Les futures du dimanche soir indiquent un gap haussier à l'ouverture lundi (+1,2 % Nasdaq, +0,6 % S&P) sur le retrait des hostilités US-Iran.
+
+'''
+
+== Baromètre du marché
+
+._Niveau 4/6 — PRUDENCE : double cassure MA50/MA200 QQQ, semaine binaire FOMC + Mag7_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 26 juillet 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 1, 0, 0]
+....
+
+NOTE: Niveau 4 maintenu malgré la double cassure MA50/MA200 (signal Level 5), car le VIX à 18,58 ne confirme pas la panique. Le relief rally des futures (+1,2 % Nasdaq) sur le ceasefire Iran et les primes d'options élevées liées au FOMC + 4 Mag7 restent compatibles avec une stratégie theta/delta-neutre. Escalade vers le Niveau 5 si FOMC hawkish ou earnings Mag7 décevants.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+La semaine du 21–25 juillet 2026 a été marquée par une forte dégradation. Le Nasdaq a reculé de 2,9 % et le S&P 500 de 1,6 %, tandis que le Dow Jones clôturait vendredi à 52 146 (−406 pts, −0,77 %). La cause principale : le secteur des semi-conducteurs (SMH) a enregistré son 3ème déclin hebdomadaire en 4 semaines, avec une chute de 9 % sur la semaine et de 20 % depuis le sommet de juin 2026. Les inquiétudes sur la durabilité du supercycle IA et les valorisations excessives du secteur pèsent. Parallèlement, la guerre US-Iran qui dure depuis deux semaines a maintenu un climat de risk-off, le pétrole Brent restant sous pression (avant d'un coup de théâtre ce weekend : cessez-le-feu signé, Brent −5 % à ~$92). Les résultats d'Alphabet (−7 %) et Tesla (−14 %) publiés plus tôt dans la semaine ont également pesé sur le sentiment. Le Fear & Greed Index est passé de 41,2 à 37,1 (zone Fear), et les futures du dimanche soir montrent un rebond de soulagement (+1,2 % Nasdaq, +0,6 % S&P 500).
+
+=== Pourquoi (causes profondes)
+
+La Fed (présidée par Kevin Warsh depuis 2026) maintient ses taux à 3,50–3,75 %, mais le ton reste clairement hawkish : 25 % de probabilité de hausse lors du FOMC du 29 juillet, et 63 % pour septembre selon CME FedWatch. Le CPI de juin 2026 (+3,5 % YoY) est venu en-dessous des attentes (3,8 %), ce qui est une bonne surprise, mais reste bien loin de la cible Fed de 2 %. Le marché du travail s'est fragilisé avec un NFP de +57 K en juillet (miss sévère). La conjonction de FOMC + 4 résultats Mag7 (MSFT, META mercredi soir — AAPL, AMZN jeudi soir) crée une incertitude binaire maximale pour la semaine à venir. Le put/call ratio de 0,86 (données au 9 juillet) reflète des achats de protection, mais pas encore la capitulation. Le taux 10 ans reste élevé (~4,71 % selon l'analyse du 23 juillet), compressant les multiples de valorisation.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $684 | —
+| MA50 QQQ | ~$718 | En-dessous — signal baissier CT
+| MA200 QQQ | ~$720 | En-dessous — cassure baissière significative footnote:[MA50 et MA200 très proches ($718–$720), confirmant que QQQ a évolué autour de ce pivot pendant plusieurs semaines avant le repli brutal.]
+| Support clé 1 | ~$650 | Zone psychologique, ex-support de juin
+| Support clé 2 | ~$630–$641 | MA200 long terme structurel
+| Résistance clé | $718–$720 | Zone MA50/MA200 (ex-support → résistance)
+| RSI QQQ | ~42 | Neutre, tendant oversold
+| RSI S&P 500 | ~33 | Approche zone de survente (<30)
+| S&P 500 cours | ~7 389 | —
+| MA50 S&P 500 | 7 497 | En-dessous — baissier
+| MA200 S&P 500 | 7 479 | En-dessous — baissier
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 45 %
+
+*Conditions nécessaires* : Mag7 earnings battent les attentes sur MSFT, META, AAPL, AMZN — FOMC hold + ton dovish de Warsh — QQQ reprend la zone MA50/MA200 $718–$720 en clôture hebdomadaire.
+
+*Cibles* : QQQ $750–$760, SPY $775–$790.
+
+*Catalyseurs* : Ceasefire Iran tient (Brent < $90) — PCE + GDP (30 juillet) confirment désinflation — Guidance dépenses IA robuste de MSFT ou AAPL.
+
+=== Scénario baissier — Probabilité 55 %
+
+*Conditions de déclenchement* : Guidance Mag7 décevante sur les revenus cloud ou les dépenses IA — FOMC hawkish (hausse surprise ou ton agressif de Warsh) — Reprise des hostilités Iran (Brent > $100).
+
+*Supports critiques* : QQQ $650 (zone psychologique), QQQ $630–$641 (MA200 LT structurel).
+
+*Risques de queue* : Escalade Iran → VIX spike > 30, capitulation tech — GDP Q2 2026 négatif = récession officielle confirmée.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. footnote:[Cours des options estimés. Vérifier les prix réels sur votre broker avant d'entrer en position.]
+
+=== Trade #1 — Iron Condor sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (vente de volatilité, delta-neutre)
+| *Sous-jacent* | QQQ (~$684)
+| *Raisonnement* | IV très élevée en semaine FOMC + 4 Mag7 → primes vendables importantes. QQQ encadré entre support $650–$641 et résistance MA50/MA200 $718–$720. Stratégie idéale au Baromètre Niveau 4.
+| *Expiration* | 1ᵉʳ août 2026 (6 DTE — post-FOMC et earnings)
+| *Strike(s)* | Sell Put $650 / Buy Put $640 + Sell Call $720 / Buy Call $730
+| *Prime reçue* | ~$5/action (~$500/contrat) footnote:[Estimation basée sur l'IV implicite pre-FOMC. Vérifier avant exécution.]
+| *Delta total* | ~0 (delta-neutre)
+| *Theta/jour* | ~$60–80/jour par contrat
+| *Breakeven(s)* | $645 (baisse) / $725 (hausse)
+| *Entrée* | Lundi matin — IV encore élevée post-weekend
+| *Cible* | 50 % du crédit reçu (~$250/contrat)
+| *Stop-loss* | Rachat si débit total > 2× crédit ($1 000)
+| *Taille* | 3–5 % du portefeuille
+|===
+
+._Iron Condor QQQ — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ $640/$650/$720/$730 — P&L estimé (par contrat)"
+    x-axis ["$620", "$640", "$645", "$650", "$680", "$720", "$725", "$730", "$750"]
+    y-axis "P&L ($)" -600 --> 600
+    bar [-500, -500, 0, 500, 500, 500, 0, -500, -500]
+    line [-500, -500, 0, 500, 500, 500, 0, -500, -500]
+....
+
+NOTE: Profit maximal de $500/contrat si QQQ reste entre $650 et $720 jusqu'au 1ᵉʳ août. Pertes maximales plafonnées à $500/contrat en dehors des wings ($640 ou $730). Zone de profit : $645–$725 (breakevens). Un gap haussier fort post-earnings MSFT/AAPL > $725 déclencherait le stop-loss.
+
+=== Trade #2 — Cash-Secured Put sur SPY (accumulation progressive)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (vendeuse)
+| *Sous-jacent* | SPY (~$739)
+| *Raisonnement* | SPY près de sa zone MA200 — support structurel. CPI juin sous les attentes → désinflation progressive. Permet d'accumuler SPY à prix réduit si la correction continue, avec prime encaissée immédiatement.
+| *Expiration* | 21 août 2026 (~26 DTE)
+| *Strike(s)* | Put $700 (OTM de ~5,3 %)
+| *Prime reçue* | ~$4/action (~$400/contrat) footnote:[Estimation. Vérifier le cours réel avant exécution.]
+| *Delta total* | ~−0,15
+| *Theta/jour* | ~$8/jour par contrat
+| *Breakeven(s)* | $696
+| *Entrée* | Lundi ouverture — IV résiduelle encore élevée
+| *Cible* | 50 % du crédit (~$200/contrat)
+| *Stop-loss* | Rachat si SPY clôture sous $675 (rupture du support majeur)
+| *Taille* | 3–5 % du portefeuille (cash 100 % en couverture obligatoire)
+|===
+
+=== Trade #3 — Bear Put Spread sur SMH (hedge sectoriel semis)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bear Put Spread (directionnel baissier, risque limité)
+| *Sous-jacent* | SMH (~$537) footnote:[Estimation : SMH à ~$590 mi-juillet, −9 % cette semaine ≈ $537. Vérifier cours réel.]
+| *Raisonnement* | SMH −9 % cette semaine, −20 % depuis sommet juin 2026. Structure technique dégradée (sous MA50, momentum baissier persistant). Hedge idéal si exposition longue aux semiconducteurs (NVDA, AMD, AVGO). Prochain risque : guidance Nvidia en août.
+| *Expiration* | 15 août 2026 (~21 DTE)
+| *Strike(s)* | Buy Put $525 / Sell Put $505 (spread $20 wide)
+| *Prime payée* | ~$8–9/action (~$850/contrat) footnote:[Estimation. Vérifier le débit réel avant exécution.]
+| *Delta total* | ~−0,40
+| *Theta/jour* | Theta négatif (position longue net)
+| *Breakeven(s)* | $517
+| *Entrée* | Si SMH rebondit vers $555–$560 (meilleur ratio risque/reward)
+| *Cible* | SMH < $505 → valeur maximale du spread (~$1 150/contrat)
+| *Stop-loss* | Perte > 50 % du débit payé (~$425)
+| *Taille* | 1–3 % du portefeuille (position de couverture)
+|===
+
+=== Trade #4 — Covered Call sur AAPL (si position longue existante)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (réduction du coût de base)
+| *Sous-jacent* | AAPL (~$205) footnote:[Estimation basée sur la performance YTD +22,8 % du leader Mag7. Vérifier le cours réel.]
+| *Raisonnement* | AAPL rapporte jeudi soir (30 juillet) — IV pre-earnings au maximum. Vendre un Covered Call collecte une prime élevée et offre une protection partielle sur la position longue. AAPL est le leader YTD du Mag7, mais la correction des semis peut contaminer.
+| *Expiration* | 1ᵉʳ août 2026 (2 DTE post-résultats)
+| *Strike(s)* | Call $215 (OTM ~5 %)
+| *Prime reçue* | ~$4–5/action (~$450/contrat) footnote:[IV élevée pre-earnings. Estimation — vérifier avant exécution.]
+| *Delta total* | ~0,25
+| *Theta/jour* | ~$30/jour par contrat
+| *Breakeven(s)* | ~$201 (coût de base réduit de la prime reçue)
+| *Entrée* | Lundi — avant nouvelle montée de l'IV
+| *Cible* | Call expire sans valeur, prime intégralement conservée
+| *Stop-loss* | Roll up du Call si AAPL > $215 avant résultats
+| *Taille* | Position longue existante uniquement — ne pas initier de nouveau long
+|===
+
+'''
+
+== Signal Congrès américain
+
+WARNING: Données Capitol Trades indisponibles ce jour (accès bloqué). Signal basé sur sources secondaires uniquement.
+
+[cols="1,1,1,1"]
+|===
+| Ticker | Signal | Dernières données connues | Utilisation
+
+| NVDA
+| Mixte
+| ~6 achats vs 13 ventes sur 6 mois (Quiver Quantitative, mi-juillet 2026)
+| Observation uniquement au Baromètre 4 — aucun trade actif sur ce signal
+|===
+
+NOTE: Au Baromètre Niveau 4, les signaux haussiers du Congrès sont mentionnés en *observation uniquement*. Aucun trade actif n'est recommandé sur cette base dans le contexte de marché actuel.
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo (hold attendu le 29 juillet)
+| Président Fed | Kevin Warsh (depuis début 2026)
+| Prochain FOMC | 29 juillet 2026 — 25 % probabilité de hausse, 63 % pour septembre
+| CPI juin 2026 | +3,5 % YoY — EN-DESSOUS des attentes (3,8 %) — MoM −0,4 %
+| NFP juillet | +57 K emplois — miss sévère vs. attentes
+| Taux 10 ans | ~4,71 % (référence analyse 23 juillet — données du jour non disponibles)
+| Pétrole Brent | ~$92/baril (−5 % sur ceasefire Iran — weekend 26 juil.)
+| Put/Call ratio | ~0,86 (données du 9 juillet — tendance fear mais pas extrême)
+| Fear & Greed | 37,1 — Fear (en baisse de 41,2 la semaine précédente)
+| SMH semis | ~$537 (−9 % semaine, −20 % depuis sommet juin 2026)
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 28 juillet 2026 | Consumer Confidence | Modéré
+| 29 juillet 2026 | Décision FOMC (14h ET) + conférence Warsh (14h30) | Élevé
+| 29 juillet 2026 (AH) | Résultats Microsoft (MSFT) + Meta (META) | Élevé
+| 30 juillet 2026 (AH) | Résultats Apple (AAPL) + Amazon (AMZN) | Élevé
+| 30 juillet 2026 | GDP Q2 2026 (1ᵉʳ estimate) + PCE + Initial Claims | Élevé
+| Août 2026 | Guidance Nvidia (NVDA) — date non confirmée | Élevé (semis)
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême)
+
+| link:https://www.cboe.com/tradable-products/vix/[CBOE VIX]
+| Indice de volatilité officiel — données et futures
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.benzinga.com/markets/market-summary/26/07/60544009/dow-tumbles-over-400-points-records-weekly-loss-investor-sentiment-declines-greed-index-in-fear-zone[Benzinga — Dow −400 pts semaine du 25 juillet]
+| Résumé hebdomadaire, Fear & Greed 37,1, SMH −9 %
+
+| link:https://www.financecalendar.com/event/fomc-rate-decision-july-2026/[Finance Calendar — FOMC juillet 2026]
+| Date, heure et anticipations FOMC du 29 juillet 2026
+
+| link:https://www.cnbc.com/2026/07/26/stock-market-today-live-updates.html[CNBC — Market live updates 26 juillet]
+| Données futures et contexte geopolitique ceasefire Iran
+
+| link:https://www.quiverquant.com/congresstrading/stock/NVDA[Quiver Quantitative — NVDA Congress trades]
+| Suivi des transactions NVDA par les membres du Congrès
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Cash-Secured Put et Covered Call]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Hedge directionnel baissier]
+* xref:market-analysis:market-analysis-2026-07-23.adoc[Analyse précédente — 23 juillet 2026 (Niveau 4)]
