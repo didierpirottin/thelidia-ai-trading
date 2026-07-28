@@ -1,0 +1,263 @@
+= Analyse de Marché — 28 juillet 2026
+:description: QQQ ~670$ cassure MA50/MA200, Kospi -10,84% circuit-breaker (DUV Chine), SOX -23% juillet, FOMC demain — Baromètre Niveau 5 Couverture
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| ~670 $ (-10 % juil.)
+| ~741 $ (-0,9 % 1M)
+| 18,25 — calme / complacent
+| 37-38 — Fear
+| En-dessous (696 $)
+| *Niveau 5/6 — COUVERTURE*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 5/6 — COUVERTURE : QQQ sous MA50 et MA200, disruption semis Chine, FOMC + earnings binaires_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 28 juillet 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 0, 1, 0]
+....
+
+NOTE: Le QQQ (-10 % en juillet) a cassé à la fois la MA50 (696 $) et la MA200 (715 $) — double cassure caractéristique d'une tendance baissière court terme confirmée. La Corée (Kospi -10,84 %, circuit-breaker) et les semi-conducteurs (SOX -23 % en juillet) subissent une disruption structurelle liée à la production de masse d'outils DUV par la Chine, qui menace le monopole occidental. Le VIX à 18,25 suggère une complacence dangereuse face à une semaine chargée en risques binaires : décision FOMC demain et quatre earnings Mag7 (MSFT, META, AAPL, AMZN).
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Le Nasdaq subit sa pire semaine de juillet avec le QQQ en baisse de 4,3 % sur 5 jours, terminant autour de 670 $ — soit -10 % depuis le début du mois et bien en dessous de son pic de 748,65 $ (52 semaines). La journée du 28 juillet est marquée par une contagion asiatique massive : le Kospi coréen s'effondre de 10,84 % (à 6 023), déclenchant un circuit-breaker, Samsung perd 13,4 % et SK Hynix 14,7 % (passant sous son prix d'IPO à 143 $). Le Nikkei cède 3,95 %, Taïwan 4,7 %. Pendant ce temps, le S&P 500 termine quasi-stable (+0,02 % à 7 413) et le Dow progresse de 0,5 % (à 52 210) grâce à la rotation défensive — communication, consommation de base et discrétionnaire compensent la faiblesse tech. Le pétrole chute de 7,5 à 8,7 % (WTI à 82,61 $, Brent à 88,36 $) après des déclarations de Trump sur un possible accord avec l'Iran. Apple frôle brièvement les 5 000 Mds $ de capitalisation, la veille de ses résultats.
+
+=== Pourquoi (causes profondes)
+
+Le catalyseur principal est un article de *The Information* révélant la production de masse par la Chine d'outils de lithographie DUV (Deep Ultraviolet) — jusque-là quasi-monopole d'ASML et de l'Occident. Cette information remet en question les valorisations de l'ensemble de la chaîne semi (ASML, AMAT, LRCX, KLAC, NVDA, AMD), amplifiant une correction qui couvait depuis mi-juillet sur fond de préoccupations autour des dépenses capex IA (Alphabet avait déjà refroidi les investisseurs avec ses projections). La Fed maintient ses taux à 3,50–3,75 % depuis décembre 2025, mais le dot-plot de juin relevait la médiane 2026 à 3,8 % avec un CPI à 4,2 % YoY — nettement au-dessus de la cible. La chute du pétrole (-8 %) pourrait cependant améliorer le prochain CPI et donner à la Fed un prétexte dovish. Le sentiment est clairement en territoire de peur (Fear & Greed 37-38), le breadth négatif (1 539 hausse / 2 543 baisse) et le put/call ratio à 0,91 confirment un positionnement défensif.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | ~670 $ | En baisse, session range 669–677 $
+| MA50 QQQ | 696,34 $ | En-dessous — signal de vente confirmé
+| MA200 QQQ | 715,33 $ | En-dessous — double cassure baissière
+| Support clé | 660 $ | Put Wall + 38,2 % Fibonacci
+| Résistance clé | 696 $ (MA50) | Première résistance à reconquérir
+| Résistance 2 | 715 $ (MA200) | Résistance principale
+| RSI (14j) | 38,6 | Approche oversold — Stochastic en zone oversold depuis 4 jours
+| Structure | Lower highs / Lower lows | Depuis ATH 748,65 $ (mi-juillet)
+| 52S High / Low | 748,65 $ / 551,68 $ | Distance du high : -10,5 %
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 35 %
+
+*Conditions nécessaires* : FOMC demain confirme pause avec ton dovish (mention de la baisse du pétrole), et au moins deux des quatre Mag7 (MSFT, META, AAPL, AMZN) battent les attentes sur le chiffre d'affaires et la guidance IA. QQQ tient le support 660 $ et rebondit au-dessus de 685 $.
+
+*Cibles* : QQQ 710–720 $ (retour MA200), SPY 760–770 $.
+
+*Catalyseurs* : Pétrole -8,7 % → amélioration du CPI attendu → Fed dovish possible. Apple $5T + guidance supérieure aux attentes → rerating des Mag7. Stabilisation des marchés asiatiques après le choc DUV.
+
+=== Scénario baissier — Probabilité 65 %
+
+*Conditions de déclenchement* : FOMC hawkish (insistance sur inflation 4,2 % persistante). Earnings déçoivent sur les dépenses capex IA (comme Alphabet). Nouvelles négatives sur la disruption DUV Chine touchant NVDA/AMD.
+
+*Supports critiques* : QQQ 660 $ (Put Wall / 38,2 % Fib), QQQ 630–640 $ (MA200 long terme étendue).
+
+*Risques de queue* : contagion Kospi → NVDA/AMD -15 %+ en chaîne sur le marché US. FOMC surprise hawkish simultané à des earnings Mag7 décevants → VIX > 28 et selloff généralisé.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel.
+
+=== Trade #1 — Bear Put Spread sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bear Put Spread (débit) — stratégie baissière à risque limité
+| *Sous-jacent* | QQQ (~670 $)
+| *Raisonnement* | Double cassure MA50 (696 $) et MA200 (715 $) ; SOX -23 % juillet ; Kospi circuit-breaker ; pression semi DUV Chine structurelle
+| *Expiration* | 21 août 2026 (~24 DTE)
+| *Strike(s)* | Buy Put 660 / Sell Put 640
+| *Prime payée* | ~7 $ net débit footnote:[Estimation — vérifier les cours réels des options avant d'entrer en position.]
+| *Max profit* | 1 300 $ / contrat si QQQ ≤ 640 $ à expiration
+| *Max perte* | 700 $ / contrat (débit payé)
+| *Delta total* | ~-0,30
+| *Breakeven* | 653 $ (baisse)
+| *Entrée* | QQQ clôture sous 670 $ confirmé post-FOMC (29 juil.)
+| *Cible* | 50 % du max profit atteint (~640–650 $)
+| *Stop-loss* | QQQ clôture > 685 $ (retour au-dessus MA50 probable)
+| *Taille* | 5–8 % du portefeuille (~5 000–8 000 $)
+|===
+
+._Bear Put Spread QQQ 660/640 — P&L estimé à expiration (21 août 2026)_
+[mermaid]
+....
+xychart-beta
+    title "Bear Put Spread QQQ 660/640 — P&L estimé (par contrat)"
+    x-axis ["620$", "630$", "640$", "645$", "650$", "653$", "660$", "670$", "680$"]
+    y-axis "P&L ($)" -1000 --> 1500
+    bar [1300, 1300, 1300, 800, 300, 0, -700, -700, -700]
+    line [1300, 1300, 1300, 800, 300, 0, -700, -700, -700]
+....
+
+NOTE: Plafond à +1 300 $ si QQQ ≤ 640 $. Plancher (perte max) à -700 $ si QQQ ≥ 660 $. Breakeven à 653 $. Stratégie idéale quand on anticipe une baisse modérée sans vouloir s'exposer au risque d'un rebond fort (ex. FOMC dovish surprenant).
+
+=== Trade #2 — Long VIX Call (hedge volatilité)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Achat call VIX — directionnel sur la volatilité
+| *Sous-jacent* | VIX (~18,25)
+| *Raisonnement* | VIX à 18 = complacence ; FOMC demain + 4 earnings Mag7 = risques binaires ; Kospi -10,84 % préfigure potentiellement un spike VIX sur le marché US
+| *Expiration* | 19 août 2026 (~22 DTE)
+| *Strike(s)* | Call VIX 22
+| *Prime payée* | ~0,80 $ / contrat (80 $ / contrat) footnote:[Estimation — vérifier les cours réels des options VIX avant d'entrer en position.]
+| *Delta* | ~0,25
+| *Breakeven* | VIX > 22,80
+| *Entrée* | Immédiat — protection pré-FOMC
+| *Cible* | VIX > 26 (doublement prime, ~160 $/contrat)
+| *Stop-loss* | Perte totale de la prime (max 80 $/contrat) — position de couverture pure
+| *Taille* | 1–2 % du portefeuille
+|===
+
+=== Trade #3 — Collar de protection sur SPY
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Collar (Vente Call + Achat Put) sur positions longues SPY existantes
+| *Sous-jacent* | SPY (~741 $)
+| *Raisonnement* | SPY résiste mieux que QQQ (rotation défensive), mais FOMC + earnings créent un risque binaire — le collar protège sans liquider les positions
+| *Expiration* | 8 août 2026 (11 DTE — post FOMC + earnings Big Tech)
+| *Strike(s)* | Vente Call 755 / Achat Put 725
+| *Prime nette* | ~-0,20 $ / action footnote:[Estimation — prime du call (~1,80 $) quasi-couvre le put (~2,00 $).]
+| *Delta net* | ~-0,10 (quasi neutre)
+| *Protection* | Effective en dessous de 725 $
+| *Plafond* | 755 $ (hausse plafonnée)
+| *Entrée* | Avant clôture du 28 juil. (pré-FOMC)
+| *Cible* | Clôturer après FOMC + earnings (8 août), réévaluer
+| *Stop-loss* | Exercice automatique du put si SPY < 725 $
+| *Taille* | 100 % des positions SPY longues existantes
+|===
+
+=== Trade #4 — SQQQ position tactique baissière
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Achat ETF inverse Nasdaq 3× (SQQQ)
+| *Sous-jacent* | SQQQ — ProShares UltraPro Short QQQ
+| *Raisonnement* | Si QQQ clôture sous 665 $ post-FOMC → confirmation continuation baissière ; SOX bear market -23 % / Kospi circuit-breaker → pression externe persistante
+| *Entrée* | Conditionnelle : QQQ clôture < 665 $ le 29 juil. (après FOMC)
+| *Cible* | QQQ atteint 640–650 $ → SQQQ +9–14 % environ
+| *Stop-loss* | QQQ remonte > 685 $ en clôture → couper immédiatement
+| *Taille* | 3–5 % du portefeuille MAX — ETF 3× à decay quotidien élevé
+|===
+
+WARNING: SQQQ est un ETF à levier 3× inverse. Il n'est pas conçu pour être détenu plus de quelques jours en raison du "volatility decay" (effet de compression des rendements cumulés). L'utiliser uniquement comme position tactique court terme avec stop strict.
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — inchangé depuis décembre 2025
+| Prochain FOMC | 29 juillet 2026 (demain) — hold quasi-certain, ton dovish espéré
+| CPI dernier | +4,2 % YoY — au-dessus de la cible de 2 %
+| Dot plot médian 2026 | 3,8 % — relevé en juin (vs 3,4 % en mars)
+| NFP dernier | +57 K (miss sévère, début juillet) — marché de l'emploi en ralentissement
+| Taux 10 ans US | ~4,71 % (données du 23 juil. — dernier connu)
+| Put/call ratio | 0,91 — positionnement défensif
+| Brent crude | 88,36 $ (-8,7 %) — Iran peace deal news
+| WTI | 82,61 $ (-7,5 %) — potentiel désinflationiste si durable
+| Kospi (Corée) | 6 023,66 (-10,84 %) — circuit-breaker déclenché
+| SOX (semis US) | -23 % en juillet — bear market officiel
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 29 juillet 2026 | FOMC décision 14h ET + conférence de presse Powell 14h30 | Élevé
+| 29 juillet 2026 | Earnings Microsoft (MSFT) + Meta (META) après clôture | Élevé
+| 30 juillet 2026 | Earnings Apple (AAPL) après clôture | Élevé
+| 31 juillet 2026 | Earnings Amazon (AMZN) + données macro (PCE?) | Élevé
+| Début août 2026 | NFP / rapport emploi mensuel | Modéré-Élevé
+| En continu | Nouvelles disruption DUV Chine — semis | Élevé (structurel)
+| En continu | Négociations US-Iran / prix du pétrole | Modéré
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (37–38 = Fear ce jour)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — VIX 18,25 au 28 juil. 2026
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités FOMC — hold quasi-certain pour le 29 juil.
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel QQQ — ~670 $ au 28 juil. 2026
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| VIX en temps réel
+
+| link:https://wolfstreet.com/2026/07/28/korean-kospi-crashes-10-8-today-34-in-25-days-after-300-spike-as-consensual-hallucination-fades/[Wolf Street — KOSPI Crash]
+| Analyse du crash coréen -10,84 % et contexte DUV Chine
+
+| link:https://historicaloptiondata.com/[Historical Option Data]
+| Données d'options intraday — VIX, QQQ, SPY
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-28-2026[TheStreet — Market Today]
+| Couverture en direct du marché du 28 juillet 2026
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Stratégie recommandée (Trade #1)]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:hedging/collar.adoc[Collar — Protection des positions longues (Trade #3)]
+* xref:ROOT:hedging/protective-put.adoc[Protective Put — Alternative au collar]
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Niveau 5 : Couverture]
