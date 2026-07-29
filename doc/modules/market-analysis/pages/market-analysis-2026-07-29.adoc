@@ -1,0 +1,307 @@
+= Analyse de Marché — 29 juillet 2026
+:description: QQQ $667 sous MA50, Nasdaq -11 % depuis juin, FOMC hawkish (3 dissidents), VIX 20,66 — Baromètre Niveau 5 Couverture
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $667,15 (-9,3 % / mois)
+| $740,86 (~-5 % / mois)
+| 20,66 — tension (+13,4 % ce jour)
+| 37-38 — Fear
+| En-dessous (~$722)
+| *Niveau 5/6 — COUVERTURE*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 5/6 — COUVERTURE : Nasdaq en correction, MA50 cassée, FOMC hawkish_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 29 juillet 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 0, 1, 0]
+....
+
+NOTE: Le niveau 5 (Couverture) est déclenché par la combinaison de trois signaux simultanés : (1) cassure franche du QQQ sous la MA50 (~$722), le Nasdaq 100 entrant officiellement en territoire de correction (-11 % depuis le pic de juin) ; (2) un FOMC hawkish surprise avec trois dissidents votant pour une hausse de 25 bps, ce qui réactive le risque d'une hausse en septembre ; (3) une escalade géopolitique au Moyen-Orient conjuguée à l'effondrement du FCF de Meta (-91 %). Le VIX à 20,66 reste sous le seuil de 28, mais son spike de +13,4 % sur la séance et la détérioration rapide du tableau technique justifient une posture de protection immédiate plutôt qu'une simple prudence de niveau 4.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Le 29 juillet 2026, les marchés américains ont subi un repli sévère lors de la journée FOMC. Le Dow Jones a clôturé à 51 594 points (-2,19 %), le Nasdaq Composite à 24 443 (-1,74 %) et le S&P 500 à environ 7 316 (-1,52 %). Le QQQ a terminé à $667,15, soit -1,24 % sur la séance, après avoir atteint $675,49 la veille. En cumulé sur un mois, le QQQ recule de -9,3 % depuis les $736 du 1er juillet, confirmant l'entrée du Nasdaq 100 en territoire de correction officielle (-11 % depuis le pic de juin). Les semi-conducteurs ont mené le repli ; le KOSPI sud-coréen a chuté de 6 %. Meta Platforms a pesé sur le secteur technologique avec une chute de -5 % après avoir révélé un effondrement de son free cash flow de -91 % à $0,78 Mds malgré des revenus record de $60,80 Mds. Seul point positif isolé : Ford a battu les estimations et relevé son guidance, portant le titre à la hausse. L'énergie (Exxon, Chevron) a résisté grâce à l'escalade des tensions au Moyen-Orient.
+
+=== Pourquoi (causes profondes)
+
+La cause principale de la séance est la décision hawkish de la Fed. Le FOMC a maintenu les taux à 3,50–3,75 % (5e hold consécutif) par 9 voix contre 3, les trois dissidents (Beth M. Hammack, Neel Kashkari, Lorie K. Logan) ayant voté pour une hausse de 25 bps — signal inhabituellement fort du camp hawkish. Le président Kevin Warsh a promis d'agir si l'inflation l'exige, ce qui a immédiatement rouvert le scénario d'une hausse en septembre. En arrière-plan, l'inflation reste au-dessus de la cible (CPI +4,2 % YoY), les taux longs montent (10 ans à 4,70 % +9 bps), et le NFP du 2 juillet (+57 K) avait déjà signalé un ralentissement du marché de l'emploi. La concentration des risques sur les Magnificent 7 reste structurelle, avec Meta qui illustre ce jour la fragilité des multiples élevés face aux résultats réels. Le sentiment Fear & Greed à 37-38 traduit une nervosité généralisée des investisseurs.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $667,15 | —
+| MA50 QQQ | ~$722 (NDX MA50 : 29 418) | En-dessous — signal baissier confirmé
+| MA200 QQQ | ~$649 (NDX MA200 : 26 471) | Au-dessus — support critique à ~$18
+| Support clé 1 | $649 | MA200 — ligne de vie long terme
+| Support clé 2 | $630 | Support psychologique + zone gap
+| Résistance 1 | $700 | Ancien support devenu résistance
+| Résistance 2 | $722 | MA50 — recouvrement nécessaire pour la tendance
+| RSI (estimé) | ~38 | Approche survendu (<30) — rebond technique possible
+|===
+
+Structure : Lower highs + Lower lows depuis le pic du 1er juillet ($736). Tendance baissière court terme clairement établie.
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 35 %
+
+*Conditions nécessaires* : QQQ maintient la MA200 à ~$649 et forme un plancher technique ; les earnings de MSFT et AMZN (AH ce soir) battent les estimations avec un guidance positif ; le discours de la Fed évolue pour écarter une hausse en septembre.
+
+*Cibles* : QQQ $720, SPY $780.
+
+*Catalyseurs* : (1) Désescalade Moyen-Orient — pétrole recule, tech rebondit ; (2) GDP Q2 (30 juil.) solide > +2 % annualisé ; (3) Compression du VIX sous 18 — retour de l'appétit pour le risque.
+
+=== Scénario baissier — Probabilité 65 %
+
+*Conditions de déclenchement* : QQQ casse la MA200 (~$649) en clôture hebdomadaire ; GDP Q2 déçoit ou révèle une stagnation ; la Fed signale une hausse pour septembre.
+
+*Supports critiques* : QQQ $649 (MA200), QQQ $610 (gap technique + support structurel 2025).
+
+*Risques de queue* : (1) Fed relève les taux en septembre — VIX spike > 30, compression des multiples ; (2) Escalade militaire majeure au Moyen-Orient — choc pétrolier +20 %, récession importée.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Au niveau 5 (Couverture), l'objectif prioritaire est la protection du capital — aucun nouveau long directionnel.
+
+=== Trade #1 — Bear Put Spread sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bear Put Spread (débit)
+| *Sous-jacent* | QQQ (~$667 $) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Raisonnement* | QQQ clairement sous MA50 (~$722), Nasdaq 100 en correction -11 %, FOMC hawkish (3 dissidents) — jambe de baisse vers MA200 ($649) probable à 4-6 semaines
+| *Expiration* | 19 septembre 2026 (~51 DTE)
+| *Strike(s)* | Long Put $660 / Short Put $630
+| *Prime reçue/payée* | ~$10 débit net ($1 000/contrat)
+| *Delta total* | ~-0,28
+| *Theta/jour* | ~-$0,20/jour (débit — theta travaille contre nous)
+| *Breakeven(s)* | $650 à expiration
+| *Max profit* | $2 000/contrat (QQQ ≤ $630)
+| *Max perte* | $1 000/contrat (prime payée)
+| *Entrée* | Sur confirmation baissière — QQQ < $670 en séance
+| *Cible* | 50 % du spread atteint ($1 000 profit) ou QQQ → $640
+| *Stop-loss* | QQQ remonte et clôture > $695 (pression baissière réduite)
+| *Taille* | 3–5 % du portefeuille
+|===
+
+._Bear Put Spread QQQ $660/$630 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Bear Put Spread QQQ $660/$630 — P&L par contrat ($)"
+    x-axis ["$605", "$620", "$630", "$640", "$650", "$660", "$670", "$680"]
+    y-axis "P&L ($)" -1500 --> 2500
+    bar [2000, 2000, 2000, 1000, 0, -1000, -1000, -1000]
+    line [2000, 2000, 2000, 1000, 0, -1000, -1000, -1000]
+....
+
+NOTE: Profit maximum de $2 000 si QQQ ≤ $630 à expiration. Breakeven à $650. Perte maximale limitée à $1 000 (la prime payée) si QQQ ≥ $660. Le spread offre un rapport risque/récompense de 1:2 avec une probabilité de gain élevée si la tendance baissière se poursuit vers la MA200.
+
+=== Trade #2 — Long VIX Calls (couverture volatilité)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Achat Call VIX
+| *Sous-jacent* | VIX (~20,66)
+| *Raisonnement* | VIX spike +13,4 % ce jour — structure haussière naissante ; FOMC hawkish + Middle East = double catalyseur d'une volatilité accrue ; si QQQ casse MA200 → VIX probable > 28-30
+| *Expiration* | 19 août 2026 (~21 DTE)
+| *Strike(s)* | Call VIX $22 (légèrement OTM)
+| *Prime reçue/payée* | ~$1,80 payée (~$180/contrat) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~+0,38
+| *Theta/jour* | ~-$0,05/jour
+| *Breakeven(s)* | VIX 23,80 à expiration
+| *Cible* | VIX > 26 → vente de 50 % de la position
+| *Stop-loss* | Perte totale de la prime (position sizing < 1 % du portefeuille)
+| *Taille* | 0,5–1 % du portefeuille (assurance pure)
+|===
+
+=== Trade #3 — Collar défensif sur SPY
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Collar (sur position longue SPY existante)
+| *Sous-jacent* | SPY (~$740,86) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Raisonnement* | Protéger une position core SPY contre une baisse vers $700-720 ; financer le put par la vente d'un call — coût quasi nul ; S&P 500 -1,52 % ce jour, NFP (7 août) et GDP (30 juil.) = risques macro imminents
+| *Expiration* | 15 août 2026 (~17 DTE)
+| *Strike(s)* | Achat Put $715 / Vente Call $760
+| *Prime reçue/payée* | Débit net ~$1,00/action ($100/contrat)
+| *Perte maximale* | $26,86/action (si SPY < $715)
+| *Gain maximum* | $18,14/action (si SPY > $760 — capping volontaire)
+| *Breakeven(s)* | SPY $739,86
+| *Entrée* | Immédiat — contexte de baisse en cours
+| *Cible* | Laisser expirer si SPY stabilise > $730
+| *Stop-loss* | Fermeture du collar si VIX redescend < 16 (danger dissipé)
+| *Taille* | Sur 30–50 % de la position SPY détenue
+|===
+
+=== Trade #4 — SQQQ (couverture directionnelle inverse)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Achat ETF inverse (ProShares UltraPro Short QQQ ×3)
+| *Sous-jacent* | SQQQ (~$82 estimé) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Raisonnement* | QQQ en correction -11 % — momentum baissier fort ; couverture directionnelle simple sans gestion d'options ; FOMC hawkish → risque de continuation ; SQQQ cible ~$95-100 si QQQ → MA200 ($649)
+| *Expiration* | N/A — ETF sans expiration
+| *Horizon* | 1–3 semaines
+| *Cible* | QQQ → $640-$649 → SQQQ ~$95-$100 → vente 50 %
+| *Stop-loss* | QQQ clôture > $695 → sortie immédiate
+| *Taille* | 2–3 % du portefeuille MAX (levier ×3 — risque élevé)
+|===
+
+WARNING: SQQQ est un ETF à levier triple. La dégradation du levier (~0,15-0,25 % /jour) érode la position sur le long terme. À utiliser uniquement comme couverture court terme — jamais comme position de fond de portefeuille.
+
+'''
+
+== Signal Congrès américain
+
+._Données Capitol Trades — TOP achats (30 derniers jours)_
+
+[cols="1,1,1,2,2"]
+|===
+| Ticker | Nb élus | Dernier achat | Élus | Contexte
+
+| SPCX (SpaceX)
+| 6
+| 18 juin 2026
+| Timmons (R-SC), Meuser (R-PA), McGuire (R-VA), James (R-MI), Moskowitz (D-FL), Cisneros (D-CA)
+| IPO 12 juin — conflits d'intérêts flaggés (comités militaires) — CNBC alerte
+
+| NVDA
+| 5+
+| Janv. 2026 (disclosures en cours)
+| Pelosi (20 calls $100 strike ~$5M notionnel), membres démocrates Louisiane, Ro Khanna
+| Volume net achat +$7,0 M (vs. $4,6 M ventes) — le plus élevé au Congrès
+
+| MU (Micron)
+| 128 transactions (cumul)
+| Récent
+| Multiples membres
+| Semis + IA — achats réguliers depuis 2025
+
+| GOOGL
+| 180 transactions (cumul)
+| Récent
+| Pelosi + membres Dem
+| Alphabet — achats diversifiés
+
+| TSM
+| 39 transactions (cumul)
+| Récent
+| Multiples membres
+| Taiwan Semiconductor — stratégique
+|===
+
+NOTE: Baromètre au niveau 5 — les signaux haussiers du Congrès sont ignorés pour les trades actifs. Ces tickers sont en *observation uniquement* : NVDA, SPCX, MU, GOOGL, TSM pourront être réévalués si le baromètre repasse à 3 ou moins. La législation *Stop Insider Trading Act* a été votée à la Chambre le 22 juillet 2026 (232-198) — en attente du Sénat.
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — 5e hold consécutif, MAIS 3 dissidents pro-hausse (signal fort)
+| Prochain FOMC | Septembre 2026 — marché intègre ~25 % de probabilité de hausse
+| CPI dernier | +4,2 % YoY — au-dessus de la cible Fed (2 %)
+| NFP dernier | +57 K (2 juil. 2026) — déception sévère, ralentissement emploi
+| GDP Q2 | Publication attendue 30 juillet 2026 — marché scrute le chiffre
+| Taux 10 ans | 4,70 % (+9 bps ce jour) — pression sur les multiples croissance
+| Put/Call ratio | 0,66 (Equity PCR CBOE — donnée du 27 juil.) — légèrement prudent
+| Or | $4 048,99 (+0,27 %) — valeur refuge en hausse
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 29 juil. 2026 (AH) | MSFT + AMZN earnings after hours | Élevé — ton du secteur tech
+| 30 juil. 2026 | GDP Q2 2026 (1re estimation) | Élevé — signal récession ou résilience
+| 30 juil. 2026 | QCOM + ARM earnings | Modéré — semis, sentiment secteur
+| 7 août 2026 | NFP juillet 2026 | Élevé — décision Fed septembre
+| Septembre 2026 | Prochain FOMC | Élevé — risque de hausse réactivé (3 dissidents)
+| En cours | Escalade Moyen-Orient | Élevé — pétrole, choc d'offre, VIX
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Sentiment de marché — 37-38 (Fear) ce 29 juil.
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| VIX 20,66 (+13,4 %) — données officielles CBOE
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités décision Fed — surveiller le % de hausse septembre
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours QQQ temps réel — $667,15 ce 29 juil.
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm[Fed — Communiqué FOMC 29 juil.]
+| Communiqué officiel — hold 3,50-3,75 %, 3 dissidents
+
+| link:https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html[CNBC — Fed Meeting Live]
+| Couverture en temps réel de la décision FOMC
+
+| link:https://historicaloptiondata.com/market-analysis-07-29-2026-0203-pm-et/[Historical Option Data — Analyse séance]
+| Analyse technique intraday — NDX MA50/MA200
+
+| link:https://www.quiverquant.com/congresstrading/[Quiver Quantitative — Congress Trading]
+| Suivi des trades du Congrès en temps réel
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Protection directionnelle]
+* xref:ROOT:hedging/protective-put.adoc[Protective Put — Assurance sur position existante]
+* xref:ROOT:hedging/collar.adoc[Collar — Couverture à coût limité]
