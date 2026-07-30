@@ -1,0 +1,271 @@
+= Analyse de Marché — 30 juillet 2026
+:description: QQQ $681,64 rebond +3 % post-FOMC (hold 3,50–3,75 %, 3 dissidents), MSFT +16 % Azure, VIX 18,01 — Baromètre Niveau 3 Consolidation
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $681,64 (+3,01 % séance)
+| ~$741,90 (S&P 7 437,63)
+| 18,01 — calme (−12,83 % jour)
+| ~35 — Fear
+| En-dessous ($716,37)
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : Rebond post-FOMC sur earnings, MA200 intacte, MA50 non recapturée_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 30 juillet 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: Le FOMC du 29 juillet a livré son verdict : statu quo à 3,50–3,75 %, mais avec 3 dissidents souhaitant une hausse — le marché a d'abord paniquer (Dow −1 153 pts le 29 juil., pire jour depuis avril 2025), puis rebondi fortement le 30 juillet sur des résultats tech exceptionnels : Microsoft +16 % (Azure record) et Lam Research +14 % (CA trimestriel record). La MA200 QQQ à $642 reste intacte (+6 % de coussin), le VIX recule de 20,66 à 18,01 signalant l'absorption du choc. Le passage de Niveau 4 (Prudence — pré-FOMC) à Niveau 3 (Consolidation) reflète la levée du risque FOMC et la solidité des fondamentaux tech. La MA50 ($716) n'est pas encore recapturée — le renforcement reste sélectif, pas agressif.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+La séance du 30 juillet 2026 marque la fin d'une série de six séances consécutives de baisse sur le Nasdaq, avec un rebond de +2,8 % à 25 122 (indice Composite), +1,7 % sur le S&P 500 (7 437,63) et +1,2 % sur le Dow (52 208,06). Le QQQ a clôturé à $681,64, en hausse de $19,91 (+3,01 %) par rapport à son plus bas de clôture de $661,73 la veille.
+
+Le catalyseur principal est double : Microsoft a annoncé des résultats Q2 FY2026 avec une croissance accélérée d'Azure, propulsant le titre de +16 % en séance et ajoutant environ $450 milliards à sa capitalisation — la plus forte contribution positive d'une seule action dans une séance pour le Nasdaq depuis des mois. Lam Research (LRCX) a de son côté rapporté un chiffre d'affaires trimestriel record, bondissant de +14,1 %. MarketAxess (MKTX) a également surgi de +30 % en pré-market après l'annonce de son acquisition par ICE pour $5,7 milliards.
+
+À l'inverse, Teladoc Health (TDOC) a chuté de −18,4 % après un miss sur les revenus Q2 et un abaissement du guidance annuel, illustrant la dichotomie croissante entre gagnants et perdants dans l'économie post-IA.
+
+La veille (29 juillet), le Dow avait enregistré sa pire journée depuis avril 2025, perdant 1 153 points (−2,2 %), après la décision du FOMC de maintenir les taux à 3,50–3,75 % avec le vote surprenant de 3 dissidents en faveur d'une hausse immédiate — interprété comme un signal hawkish résiduel par les marchés.
+
+=== Pourquoi (causes profondes)
+
+La toile de fond macro reste complexe. La Fed, sous la présidence de Kevin Warsh, a livré son cinquième hold consécutif, mais la division interne (9 pour / 3 contre, les dissidents souhaitant une hausse) a alimenté l'incertitude sur la trajectoire future des taux. Les projections médianes des officiels prévoient désormais un taux entre 3,60 % et 4,10 % fin 2026, contre 3,25–3,75 % auparavant — un glissement hawkish.
+
+Le CPI de juin (+3,5 % YoY, core +2,6 %) reste au-dessus du target de 2 %, même si la tendance désinflationniste est intacte. Les NFP de juillet (+187 K, sous les 200 K attendus) confirment un ralentissement graduel du marché du travail sans signal de récession, mais les salaires (+4,4 % YoY, au-dessus des 4,2 % attendus) maintiennent la pression sur l'inflation des services.
+
+Le taux 10 ans américain à 4,66 % reste élevé et comprime mécaniquement les ratios P/E des valeurs de croissance. Cependant, la force des résultats MSFT et LRCX a démontré que les fondamentaux tech justifient encore des valorisations élevées — dissipant en partie les craintes nées des résultats d'Alphabet la semaine précédente.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $681,64 | Rebond +3 % — intraday range $673,30–$683,71
+| MA50 QQQ | $716,37 | En-dessous (−4,9 %) — résistance court terme
+| MA200 QQQ | $642,64 | Au-dessus (+6,0 %) — plancher structurel intact
+| Support clé 1 | $642 | MA200 — défense long terme
+| Support clé 2 | $660 | Plus bas de clôture récent (29 juil.) — zone demand
+| Résistance clé | $716 | MA50 — cible de récupération à court terme
+| RSI (14j) | ~45 | Neutre — rebond depuis zone oversold
+| VIX | 18,01 | En baisse depuis 20,66 — détente, pas de panique
+| Put/Call SPX | 1,23 | Élevé — sentiment encore défensif
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 55 %
+
+*Conditions nécessaires* : QQQ recapture et tient sa MA50 à $716 en clôture hebdomadaire. Le CPI d'août (12 août) confirme la désinflation avec une lecture < 3,3 % YoY. Les résultats NVDA (26 août) battent les attentes sur les revenus datacenter et le guidance.
+
+*Cibles* : QQQ $730–$748 (retour vers ATH), SPY $760–$770.
+
+*Catalyseurs* : NVDA earnings beat le 26 août ; Fed tone neutre dans les minutes du FOMC ; stabilisation du taux 10 ans sous 4,50 % ; désescalade géopolitique réduisant la pression pétrolière.
+
+=== Scénario baissier — Probabilité 45 %
+
+*Conditions de déclenchement* : Cassure de la MA200 QQQ sous $642 en clôture ; CPI août > 3,8 % rouvrant le dossier d'une hausse de taux en septembre ; un ou plusieurs membres Fed supplémentaires rejoignent le camp hawkish.
+
+*Supports critiques* : QQQ $642 (MA200 — ligne de défense absolue), QQQ $551–560 (bas 52 semaines — scénario extrême).
+
+*Risques de queue* : Escalade géopolitique au Moyen-Orient poussant le Brent au-dessus de $110 avec un nouveau spike CPI ; récession surprise avec NFP d'août négatif déclenchant un sell-off brutal ; VIX > 30 si plusieurs risques se matérialisent simultanément.
+
+'''
+
+== Signal Congrès — Top achats (30 derniers jours)
+
+NOTE: Capitol Trades inaccessible en scraping réseau ce jour. Données issues de la presse financière (Benzinga, AltIndex). Données incomplètes — à compléter manuellement si nécessaire.
+
+[cols="1,1,1,2,2"]
+|===
+| Ticker | Nb élus | Dernier achat | Élu(s) | Actualité récente
+
+| NVDA | 1+ | 26 juil. 2026 | Nancy Pelosi (10 000 actions, $1M–$5M) | Earnings 26 août ; domination IA datacenter
+| AMZN | Divers | Juil. 2026 | Acheteurs nets agrégés (données partielles) | AWS Q2 croissance ; cloud solide
+|===
+
+*Observation clé* : Pelosi a vendu MSFT le 26 juillet (avant les résultats) et acheté NVDA — rotation explicite de l'IA software vers l'IA hardware. NVDA est classé en trade prioritaire (Baromètre 3) avec le signal Congrès comme confirmation.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes et cours marqués d'une note de bas de page sont des estimations — vérifier les données réelles avant d'entrer en position.
+
+=== Trade #1 — Cash-Secured Put sur NVDA (Signal Congrès — Prioritaire)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (vendeuse, qualité)
+| *Sous-jacent* | NVDAfoot:[Estimation cours ~$155 — vérifier le cours réel avant d'entrer en position.] (~$155)
+| *Raisonnement* | Pelosi achat 10 000 NVDA le 26 juil. ($1M–$5M) — signal Congrès fort / NVDA earnings 26 août — catalyseur positif imminent / semis rebondissent (+14 % LRCX) — contexte IA hardware favorable / VIX en baisse → IV réduite → primes encore attractives
+| *Expiration* | 19 sept. 2026 (~50 DTE)
+| *Strike(s)* | Put $135 (~13 % OTM)
+| *Prime reçue* | ~$3,50 (~$350 / contrat)
+| *Delta total* | ~−0,15 (conservateur)
+| *Theta/jour* | ~+$5 / j / contrat
+| *Breakeven* | $131,50
+| *Entrée* | NVDA maintient au-dessus de $148 — ouvrir en début de séance
+| *Cible* | 50 % du crédit reçu (~$175) — fermer avant earnings du 26 août si atteint
+| *Stop-loss* | NVDA clôture sous $140 → racheter le put → perte limitée ~$200
+| *Taille* | 5 % du portefeuille (assurer couverture cash : ~$13 500 / contrat)
+|===
+
+._Cash-Secured Put NVDA $135 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "CSP NVDA Put $135 (prime $3,50) — P&L/contrat à expiration"
+    x-axis ["115 $", "120 $", "125 $", "131,5 $", "135 $", "140 $", "145 $", "150 $"]
+    y-axis "P&L ($)" -2000 --> 500
+    bar [-1650, -1150, -650, 0, 350, 350, 350, 350]
+    line [-1650, -1150, -650, 0, 350, 350, 350, 350]
+....
+
+NOTE: Profit maximum de $350/contrat si NVDA reste au-dessus de $135 à expiration (cours estimé ~$155, soit 13 % de coussin). Breakeven à $131,50 (15,2 % sous le cours estimé). Risque maximal théorique : assignation à $135 et NVDA tombe à $0 — peu probable dans un contexte IA bull. Fermer le trade avant les earnings du 26 août si 50 % du profit est atteint pour éviter la volatilité de l'événement.
+
+=== Trade #2 — Covered Call sur QQQ (theta pur)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (sur position longue existante)
+| *Sous-jacent* | QQQ ($681,64)
+| *Raisonnement* | QQQ sous MA50 $716 — range $660–$716 probable à 3 semaines / collecte theta pure en attendant la recapture de MA50 / réduit le coût base d'une position longue existante
+| *Expiration* | 22 août 2026 (~23 DTE)
+| *Strike(s)* | Call $710 (4,2 % OTM — résistance MA50)
+| *Prime reçue* | ~$4,50 (~$450 / contrat)
+| *Delta total* | −0,22 (réduit l'exposition delta de la position longue)
+| *Theta/jour* | ~+$10 / j / contrat
+| *Breakeven* | Position longue protégée jusqu'à $677,14
+| *Entrée* | QQQ entre $675 et $690 en ouverture de séance
+| *Cible* | 50 % du crédit (~$225) ou expiration sans valeur
+| *Stop-loss* | QQQ > $712 → racheter le call (risque d'assignation imminente)
+| *Taille* | 1 call pour 100 actions QQQ détenues (pas de position nue)
+|===
+
+=== Trade #3 — Bull Call Spread sur MSFT (momentum post-earnings)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (achat directionnel haussier à risque défini)
+| *Sous-jacent* | MSFTfoot:[Estimation cours ~$592 post gap +16 % du 30 juil. depuis ~$510 — vérifier le cours réel avant d'entrer en position.] (~$592)
+| *Raisonnement* | Azure guidance record — momentum validé par +16 % en séance / gaps earnings > 10 % se maintiennent historiquement > 80 % du temps à 30 j / risque défini au débit payé — protection contre "sell the news" retardé
+| *Expiration* | 19 sept. 2026 (~50 DTE)
+| *Strike(s)* | Buy Call $600 / Sell Call $640
+| *Prime payée* | ~$10 débit (~$1 000 / contrat)
+| *Delta total* | ~+0,38 (net — exposition haussière modérée)
+| *Theta/jour* | ~−$3 / j (position acheteuse — temps contre nous)
+| *Breakeven* | $610 (MSFT doit monter +3,0 % supplémentaires)
+| *Entrée* | Si MSFT consolide entre $580 et $600 dans les 2 prochaines séances
+| *Cible* | MSFT ≥ $635 → gain max ~$3 000 / contrat
+| *Stop-loss* | MSFT < $565 → sortir → perte ~$500
+| *Taille* | 2–3 % du portefeuille
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo (5e hold consécutif, juil. 2026) — 3 dissidents hawkish
+| Président Fed | Kevin Warsh (remplace Jerome Powell)
+| Prochain FOMC | Fin septembre 2026 — statu quo probable si CPI se normalise
+| CPI dernier | +3,5 % YoY (juin 2026) — core +2,6 % — prochain : 12 août 2026
+| NFP dernier | +187 K (juil. 2026) — léger miss vs 200 K — chômage 3,5 % — salaires +4,4 %
+| Taux 10 ans | 4,66 % — élevé — compression des multiples de croissance
+| Put/Call SPX | 1,23 — élevé — sentiment défensif résiduel
+| Fear & Greed | ~35 — Fear zone (contrarian haussier potentiel)
+| Brent brut | ~$95–100 / baril (contexte géopolitique Moyen-Orient)
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 30 juil. 2026 (AH) | Résultats Apple (AAPL) | Élevé — iPhone 17, services, guidance
+| 30 juil. 2026 (AH) | Résultats Amazon (AMZN) | Élevé — AWS, consommation Q2
+| 12 août 2026 | CPI juillet 2026 (BLS) | Élevé — déterminant pour la trajectoire Fed
+| 26 août 2026 | Résultats Nvidia (NVDA) | Élevé — semis IA, datacenter guidance, signal Congrès
+| Fin sept. 2026 | Prochain FOMC | Modéré — statu quo attendu si CPI < 3,3 %
+| Continu | Évolution Brent / Moyen-Orient | Modéré — risque inflationniste résiduel
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché — ~35 (Fear) le 30 juillet 2026
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité — 18,01 le 30 juillet 2026 (−12,83 % sur la séance)
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed — statu quo tenu, 3 dissidents hawkish
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ — $681,64 le 30 juil.
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.cnbc.com/2026/07/29/fed-rate-decision-july-2026.html[CNBC — FOMC juillet 2026]
+| Fed hold 3,50–3,75 %, 3 dissidents, décision et contexte complets
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-30-2026[TheStreet — Market Today July 30]
+| Dow +613 pts, MSFT +16 %, Nasdaq clôture +2,8 % — bilan séance complet
+
+| link:https://www.benzinga.com/markets/market-summary/26/07/60788305/sp500-july-30-open-up-or-down-polymarket-fed-bond-yields-big-tech-earnings-oil[Benzinga — Signal Congrès NVDA]
+| Pelosi achat NVDA 10 000 actions 26 juil., vente MSFT — signal Congrès
+
+| link:https://www.bls.gov/news.release/archives/cpi_07142026.htm[BLS — CPI juin 2026]
+| CPI officiel juin 2026 : +3,5 % YoY, core +2,6 %
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Cash-Secured Put sur qualité]
+* xref:ROOT:strategies/butterfly.adoc[Butterfly / Condor — Stratégie theta range-bound]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Hedge directionnel baissier]
