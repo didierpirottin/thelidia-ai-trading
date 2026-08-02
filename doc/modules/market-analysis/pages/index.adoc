@@ -14,12 +14,16 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
-<<<<<<< HEAD
+| xref:market-analysis:market-analysis-2026-08-02.adoc[2 août 2026]
+| Niveau 4/6 — PRUDENCE
+| Baissière CT / Haussière LT
+| AMZN +15 % / AAPL −7 % post-earnings, FOMC 3 dissidents hawkish, QQQ sous MA50
+
 | xref:market-analysis:market-analysis-2026-07-30.adoc[30 juillet 2026]
 | Niveau 3/6 — CONSOLIDATION
 | Haussière LT / Baissière CT
 | FOMC hold 3 dissidents, MSFT +16 % Azure, LRCX +14 %, QQQ $681 rebond post sell-off
-=======
+
 | xref:market-analysis:market-analysis-2026-07-29.adoc[29 juillet 2026]
 | Niveau 5/6 — COUVERTURE
 | Baissière CT / Fragilisée LT
@@ -39,7 +43,6 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 | Niveau 4/6 — PRUDENCE
 | Baissière CT / Haussière LT
 | QQQ $684 sous MA50/MA200 ($720), Nasdaq −2,9 %, SMH −9 %, ceasefire Iran, FOMC + 4 Mag7 cette semaine
->>>>>>> origin/main
 
 | xref:market-analysis:market-analysis-2026-07-23.adoc[23 juillet 2026]
 | Niveau 4/6 — PRUDENCE

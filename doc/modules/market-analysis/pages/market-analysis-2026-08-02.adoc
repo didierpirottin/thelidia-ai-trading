@@ -1,0 +1,265 @@
+= Analyse de Marché — 2 août 2026
+:description: QQQ $687,99 sous MA50 ($716), AMZN +15 % / AAPL −7 % post-earnings, FOMC 3 dissidents hawkish — Baromètre Niveau 4 Prudence
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $687,99 (+0,65 % session)
+| $747,03 (+0,72 % session)
+| ~19 — tension modérée
+| 57 — Neutre (31 juil.)
+| En-dessous (~$716)
+| *Niveau 4/6 — PRUDENCE*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 4/6 — PRUDENCE : FOMC divisé (3 dissidents hawkish), QQQ sous MA50, signal macro ambigu_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 2 août 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 1, 0, 0]
+....
+
+NOTE: La semaine des résultats Big Tech a livré un verdict binaire : AMZN et GOOGL ont explosé les attentes (AWS +37 %, EPS AMZN $5,75 vs $1,82 estimé), mais Apple a déçu sur la guidance Q4 et les contraintes mémoire, perdant 7 %. Le FOMC du 29 juillet a maintenu les taux à 3,50–3,75 % mais avec 3 dissidents voulant une hausse — une configuration inédite depuis 2016. QQQ reste sous sa MA50 ($716) malgré le rebond du jour (+0,65 %). Le niveau 4 s'impose : pas de déploiement agressif, priorité aux stratégies theta/delta-neutre et à la surveillance du NFP du 7 août.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+La semaine du 28 juillet–1er août 2026 restera comme l'une des plus chargées en catalyseurs de l'année. Le FOMC du 28–29 juillet a maintenu les taux directeurs à 3,50–3,75 % (cinquième hold consécutif), mais avec trois membres dissidents souhaitant une hausse de 25 pb — une situation de dissidence hawkish tripartite sans précédent depuis septembre 2016. Le président de la Fed, Kevin Warsh, a raccourci son communiqué de politique monétaire par rapport à ses prédécesseurs, tout en reconnaissant que l'économie « progresse à un rythme solide malgré une incertitude élevée ».
+
+Sur le front des résultats, Amazon a réalisé l'une des meilleures publications trimestrielles de son histoire : EPS de $5,75 (vs $1,82 estimé, soit +216 % de surprise), revenus de $200,6 milliards (+20 % en glissement annuel), et AWS à $42 milliards de revenus (+37 %) — son rythme le plus rapide depuis 18 trimestres. Le stock a bondi de +15,63 %. Alphabet a également dépassé les attentes, progressant de +7,12 %. Nvidia a signé +3,46 % dans le sillage de la dynamique IA, en amont de ses propres résultats prévus le 26 août.
+
+À l'inverse, Apple a été le grand perdant de la semaine. Malgré un BPA de $2,02 (vs $1,89 attendu) et des revenus de $109,4 milliards (+16 %), le marché a sanctionné une guidance Q4 en croissance de seulement 9–11 % (vs 12 % de consensus), des contraintes sur l'approvisionnement en mémoire (le « RAM shortage ») et un ralentissement de la croissance des Services, notamment sur les jeux mobiles et dans certains marchés asiatiques. AAPL a perdu 7,13 % le 31 juillet, effaçant plus de 300 milliards de dollars de capitalisation.
+
+=== Pourquoi (causes profondes)
+
+La dynamique de fond reflète une bifurcation nette au sein de la tech : les bénéficiaires purs de l'IA (cloud hyperscalers, semiconducteurs) continuent de surperformer, tandis que les acteurs dépendants de l'hardware grand public (Apple) subissent les contraintes d'approvisionnement et la prudence des consommateurs. Le CPI de juin (+3,5 % en glissement annuel) confirmait la tendance désinflation — en dessous des 3,8 % attendus et en net repli depuis 4,2 % en mai — mais le marché de l'emploi inquiète : le NFP de juin n'a montré qu'une création de +57 K postes (vs 110–130 K attendu), avec un recul du taux de participation plutôt qu'une véritable amélioration du marché du travail.
+
+Le principal risque structurel demeure la division au sein de la Fed. Trois dissidents hawkish au FOMC signalent que le prochain resserrement monétaire n'est pas exclu si l'inflation ne continue pas sa trajectoire baissière. Le taux à 10 ans, bien qu'en léger repli depuis son pic de 4,71 % du 23 juillet, reste à des niveaux compressant les multiples de valorisation des valeurs de croissance. La résolution du conflit au Moyen-Orient reste également incertaine, même si le choc pétrolier s'est partiellement dissipé.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $687,99 | Rebond +0,65 % mais sous MA50
+| MA50 QQQ | ~$716footnote:[Source TipRanks, données au 29 juillet 2026.] | *En-dessous* — résistance court terme
+| MA200 QQQ | ~$642footnote:[Source TipRanks, données au 29 juillet 2026.] | *Au-dessus* — support long terme intact
+| S&P 500 cours | 7 524 pts | Au-dessus MA50 (7 469) et MA200 (7 480)
+| RSI Nasdaq composite | ~42 | Neutre/légèrement baissier — pas en zone extrême
+| MACD Nasdaq | Négatif | Momentum baissier — divergence haussière absente
+| Support clé 1 | $680 | Plancher intraday du 2 août (testé en séance)
+| Support clé 2 | $642 | MA200 QQQ — ligne de défense long terme
+| Résistance clé 1 | $716 | MA50 QQQ — à franchir pour valider le rebond
+| Résistance clé 2 | $748 | ATH 52 semaines — objectif scénario haussier
+| Structure | Série de Lower Highs depuis $748 | Correction en cours depuis l'ATH
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 40 %
+
+*Conditions nécessaires* : Le CPI de juillet (12 août) ressort en dessous de 3,2 %, confirmant la tendance désinflation et rouvrant la porte à une éventuelle baisse de taux en novembre. Le NFP du 7 août dépasse 120 K, rassurant sur un éventuel ralentissement économique. QQQ clôture en semaine au-dessus de sa MA50 à ~$716, validant la reprise du trend haussier.
+
+*Cibles* : QQQ $745–750, SPY $775.
+
+*Catalyseurs* : Résultats Nvidia Q2 FY27 le 26 août supérieurs aux attentes (consensus EPS ~$0,87) déclenchant un rally de l'ensemble du secteur IA. Signal dovish de Kevin Warsh à Jackson Hole (26 août). Résolution partielle de la pénurie de mémoire, levant la pression sur Apple et les fabricants de dispositifs.
+
+=== Scénario baissier — Probabilité 60 %
+
+*Conditions de déclenchement* : NFP juillet (7 août) inférieur à 80 K, amplifiant les craintes de récession. La Fed surprend avec une hausse de taux en septembre sous la pression des trois dissidents hawkish. QQQ casse les $660 et se dirige vers la MA200.
+
+*Supports critiques* : QQQ $660 (support intermédiaire), QQQ $642 (MA200 — plancher technique majeur), QQQ $620 (zone de support historique).
+
+*Risques de queue* : Déception de Nvidia le 26 août (inventaires data centers, concurrence AMD/Intel) déclenchant un effacement du rally IA. Résurgence de l'inflation via choc pétrolier. NFP négatif forçant un repricing brutal des actifs risqués.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes et cours sont des estimations — vérifier les données réelles avant d'entrer en position.
+
+=== Trade #1 — Iron Condor sur QQQ (stratégie theta, delta-neutre)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (collecte theta, delta-neutre)
+| *Sous-jacent* | QQQ (~$688footnote:[Estimation — vérifier le cours réel avant d'entrer en position.])
+| *Raisonnement* | QQQ en range post-earnings : AAPL tire en bas, AMZN/GOOGL tirent en haut — équilibre directionnel favorable au condor. VIX ~19 offre une prime implicite correcte sans être extrême. Support $680 / résistance $716 bien définis. Cohérent avec Baromètre 4 : stratégie theta sans directionnalité.
+| *Expiration* | 19 septembre 2026 (48 DTE)
+| *Strike(s)* | Vendre Put $655 / Acheter Put $635 · Vendre Call $725 / Acheter Call $745
+| *Prime reçue* | ~$5,50 total (~$550/contrat)
+| *Delta total* | ~0 (delta-neutre à l'entrée)
+| *Theta/jour* | ~$0,25/jour (~$25/contrat)
+| *Breakeven(s)* | $649,50 (baisse) / $730,50 (hausse)
+| *Entrée* | Immédiate ou sur léger rebond vers $692–695
+| *Cible* | 50 % du crédit reçu (~$275 de profit/contrat)
+| *Stop-loss* | Débit > 2× crédit ($11) ou QQQ < $660 / > $720 en clôture
+| *Taille* | 3–5 % du portefeuille (~$3 000–5 000 de marge par contrat)
+|===
+
+._Iron Condor QQQ $635/$655-$725/$745 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ — P&L/contrat à expiration (19 sept. 2026)"
+    x-axis ["625$", "635$", "649$", "660$", "688$", "715$", "730$", "735$", "745$", "755$"]
+    y-axis "P&L ($)" -1500 --> 700
+    bar [-1450, -1450, 0, 550, 550, 550, 550, 0, -1450, -1450]
+    line [-1450, -1450, 0, 550, 550, 550, 550, 0, -1450, -1450]
+....
+
+NOTE: Profit maximum de $550/contrat si QQQ reste entre $649,50 et $730,50 à expiration (fourchette de $81 soit ±5,9 % du cours actuel). Perte maximale de $1 450 si QQQ sort des ailes ($635 ou $745). Le NFP du 7 août et le CPI du 12 août sont les deux événements à surveiller : fermer si l'un des shorts est testé avant 50 % du crédit.
+
+=== Trade #2 — Long Straddle sur NVDA (pré-résultats 26 août)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Long Straddle (spéculation sur mouvement violent pré-earnings)
+| *Sous-jacent* | NVDA (~$165footnote:[Estimation basée sur la progression de +3,46 % le 2 août — vérifier le cours réel.])
+| *Raisonnement* | Résultats Nvidia le 26 août — mouvement historique de ±12–20 % post-earnings. AWS +37 % chez Amazon confirme l'appétit IA des hyperscalers, bénéfique à Nvidia. Straddle ATM profite de l'expansion de la volatilité implicite dans les 3 semaines précédant les résultats. Neutre directionnellement — cohérent avec Baromètre 4.
+| *Expiration* | 29 août 2026 (3 jours post-résultats)
+| *Strike(s)* | Achat Call $165 ATM + Achat Put $165 ATM
+| *Prime payée* | ~$14–16 (~$1 400–1 600/contrat)
+| *Delta total* | ~0 à l'entrée (évolue selon direction)
+| *Theta/jour* | -$15 à -$20/jour (position acheteuse — temps contre nous)
+| *Breakeven(s)* | ~$149 (baisse) / ~$181 (hausse) si NVDA bouge ±10 %
+| *Entrée* | 3–4 semaines avant résultats (fenêtre : 5–20 août)
+| *Cible* | +80–120 % sur la prime si NVDA bouge > ±12 % post-résultats
+| *Stop-loss* | -50 % de la prime payée (~$700–800/contrat)
+| *Taille* | 1–2 % du portefeuille (1 contrat maximum — position spéculative)
+|===
+
+=== Trade #3 — Cash-Secured Put (loin OTM) sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (stratégie theta, achat conditionnel)
+| *Sous-jacent* | QQQ (~$688footnote:[Estimation — vérifier le cours réel avant d'entrer en position.])
+| *Raisonnement* | Strike $640 = MA200 QQQ (zone de support majeur). Si on est prêt à acheter QQQ à ~7 % sous le cours actuel, la prime est rémunérée pendant que la position attend. Cohérent Baromètre 4 : pas de long spot direct, mais collecte theta avec entrée conditionnelle au support le plus fort.
+| *Expiration* | 19 septembre 2026 (48 DTE)
+| *Strike* | Vendre Put $640 (~7 % OTM)
+| *Prime reçue* | ~$2,50–3,00 (~$250–300/contrat)
+| *Delta* | ~-0,15 (faible exposition directionnelle)
+| *Theta/jour* | ~$0,10/jour (~$10/contrat)
+| *Breakeven(s)* | ~$637–637,50
+| *Entrée* | Immédiate
+| *Cible* | Expiration sans valeur (garder 100 % de la prime)
+| *Stop-loss* | QQQ clôture sous $650 → racheter la position
+| *Taille* | 1 contrat max (collatéral : $64 000/contrat — réservé aux comptes bien capitalisés)
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo (5ème hold consécutif, FOMC 29 juil. 2026)
+| Président Fed | Kevin Warsh (remplace Jerome Powell, nommé par Trump)
+| Dissenters FOMC | 3 membres voulaient une hausse de 25 pb — première fois depuis sept. 2016
+| Prochain FOMC | Septembre 2026 — risque de hausse surprise si inflation remonte
+| CPI dernier | +3,5 % YoY (juin 2026) — en-dessous attentes 3,8 % — désinflation confirmée
+| CPI suivant | 12 août 2026 — données de juillet (catalyseur majeur)
+| NFP dernier | +57 K (juin 2026) — déception sévère vs 110–130 K attendu
+| NFP suivant | 7 août 2026 — données de juillet (catalyseur prioritaire)
+| Taux 10 ans | En légère détente vs pic 4,71 % (23 juil.) — encore élevé
+| Put/Call ratio | Non disponible en temps réel ce jour
+| Amazon Q2 2026 | EPS $5,75 vs $1,82 est. · AWS $42 Mds (+37 %) · Capex prévu $220 Mds 2026
+| Apple Q3 FY26 | EPS $2,02 vs $1,89 est. · Rev. $109,4 Mds (+16 %) · Guidance Q4 : 9–11 %
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 7 août 2026 | NFP juillet (emploi US) | Élevé — récession vs soft landing
+| 12 août 2026 | CPI juillet (inflation) | Élevé — trend désinflation confirmé ou non
+| 26 août 2026 | Résultats Nvidia (NVDA) | Élevé — catalyseur principal du secteur IA
+| 26 août 2026 | Jackson Hole — discours Warsh | Élevé — signal sur la trajectoire des taux
+| Septembre 2026 | Prochain FOMC | Élevé — hausse possible si inflation remonte
+| Continu | Approvisionnement mémoire (DRAM/HBM) | Modéré — impact Apple, cycle IA hardware
+|===
+
+'''
+
+== Signal Congrès américain
+
+NOTE: Les données Capitol Trades sont indisponibles ce jour (site inaccessible). Signaux alternatifs issus de sources d'actualité : Sen. Whitehouse a *vendu* AAPL ($46K–165K, juin 2026) ; Rep. Liccardo a *vendu* NVDA ($20K, juillet 2026). Pelosi a *acheté* AMZN et NVDA (calls) en janvier 2026. Aucun signal d'achat congressionnel récent (30 jours) sur des tickers spécifiques — les élus semblent prendre des bénéfices plutôt qu'initier de nouvelles positions.
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment — 57 (Neutre) au 31 juillet 2026
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — ~19 (juillet 29–30, 2026)
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed — risque de hausse en septembre 2026
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours QQQ : $687,99 le 2 août 2026
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm[Federal Reserve — Communiqué FOMC 29 juil. 2026]
+| Décision officielle de maintien des taux + 3 dissidents hawkish
+
+| link:https://www.cnbc.com/2026/07/29/fed-rate-decision-july-2026.html[CNBC — Fed Rate Decision July 2026]
+| Analyse du vote divisé 9-3 et premières réactions de marché
+
+| link:https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html[CNBC — Amazon Q2 2026 Earnings]
+| Détail des résultats AMZN : EPS, AWS, capex IA
+
+| link:https://9to5mac.com/2026/07/31/apple-stock-opens-down-roughly-10-following-mixed-q3-2026-results/[9to5Mac — Apple Q3 FY26 Results]
+| AAPL : beat EPS mais guidance faible et supply chain mémoire
+
+| link:https://www.bls.gov/opub/ted/2026/consumer-prices-up-3-5-percent-over-the-year-ended-june-2026.htm[BLS — CPI June 2026]
+| CPI officiel juin 2026 : +3,5 % YoY (sous attentes 3,8 %)
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/butterfly.adoc[Butterfly / Condor — Stratégie theta range-bound]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Cash-Secured Put sur qualité]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Hedge directionnel baissier]

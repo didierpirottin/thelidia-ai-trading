@@ -1,12 +1,10 @@
 * xref:market-analysis:index.adoc[Analyses de Marché]
-<<<<<<< HEAD
+** xref:market-analysis:market-analysis-2026-08-02.adoc[2 août 2026 — Niveau 4 Prudence]
 ** xref:market-analysis:market-analysis-2026-07-30.adoc[30 juillet 2026 — Niveau 3 Consolidation]
-=======
 ** xref:market-analysis:market-analysis-2026-07-29.adoc[29 juillet 2026 — Niveau 5 Couverture]
 ** xref:market-analysis:market-analysis-2026-07-28.adoc[28 juillet 2026 — Niveau 5 Couverture]
 ** xref:market-analysis:market-analysis-2026-07-27.adoc[27 juillet 2026 — Niveau 4 Prudence]
 ** xref:market-analysis:market-analysis-2026-07-26.adoc[26 juillet 2026 — Niveau 4 Prudence]
->>>>>>> origin/main
 ** xref:market-analysis:market-analysis-2026-07-23.adoc[23 juillet 2026 — Niveau 4 Prudence]
 ** xref:market-analysis:market-analysis-2026-07-22.adoc[22 juillet 2026 — Niveau 3 Consolidation]
 ** xref:market-analysis:market-analysis-2026-07-21.adoc[21 juillet 2026 — Niveau 4 Prudence]
