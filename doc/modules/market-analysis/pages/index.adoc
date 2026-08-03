@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-08-03.adoc[3 août 2026]
+| Niveau 3/6 — CONSOLIDATION
+| Neutre → Haussière CT / Haussière LT
+| AMZN $3 000 Md, PLTR +93 % Rev, Iran-pétrole $79, VIX 15,6, Nasdaq +2,1 %
+
 | xref:market-analysis:market-analysis-2026-08-02.adoc[2 août 2026]
 | Niveau 4/6 — PRUDENCE
 | Baissière CT / Haussière LT

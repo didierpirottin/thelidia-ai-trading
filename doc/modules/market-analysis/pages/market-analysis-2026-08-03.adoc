@@ -1,0 +1,329 @@
+= Analyse de Marché — 3 août 2026
+:description: QQQ ~$691 rebond sur catalyseurs IA et Iran, AMZN $3 000 Md / PLTR +93 % Rev / VIX 15,6 — Baromètre Niveau 3 Consolidation
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| ~$691 (+~1 % session)
+| ~$755 (+~1,1 % session)
+| ~15,6 — calme
+| 43 — Fear (zone de peur)
+| En-dessous (~$714)
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : rebond fort sur earnings et Iran, VIX chute à 15,6 — MA50 encore résistance_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 3 août 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: La journée du 3 août marque un pivot tactique : Amazon confirme le $3 000 milliards de capitalisation (AWS +37 % sur le trimestre), Palantir explose ses estimations AH (+93 % de croissance), et la reprise des négociations américano-iraniennes fait chuter le pétrole — libérant la pression inflationniste. Le VIX passe de ~19 (hier) à ~15,6 aujourd'hui, signe que la prime de risque se contracte rapidement. Cependant, QQQ (~$691) reste sous sa MA50 (~$714) : le rebond ne devient structurellement haussier qu'après franchissement de cette résistance. Le Niveau 3 s'impose — renforcement sélectif sur les noms à momentum, pas encore de déploiement large en levier.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+La séance du 3 août 2026 a effacé une bonne partie de la correction hebdomadaire (QQQ -3,45 % sur 5 jours), portée par une confluence de catalyseurs positifs rares. En premier lieu, Amazon a franchi le cap symbolique des 3 000 milliards de dollars de capitalisation boursière dans le sillage de ses résultats trimestriels publiés le 31 juillet : revenus de $200,6 milliards (+20 % en glissement annuel), dont AWS à $42,2 milliards (+37 %). La semaine en cours s'annonce encore chargée avec les résultats de SpaceX (premier rapport historique, mardi 4 août, revenu estimé $6,81 Md), Uber (mercredi 5 août, EPS $0,83 attendu), AMD et Airbnb.
+
+Palantir a de son côté publié ses résultats Q2 2026 après clôture du 3 août : EPS GAAP $0,41 (contre $0,33 estimé, +24 % de surprise), revenus de $1,935 milliard (+93 % en glissement annuel) avec 220 nouveaux contrats supérieurs à $1 million. PLTR bondit de +12 % en after-hours. CoreWeave (CRWV) a progressé de +19,55 % intraday, porté par les upgrades d'analystes (Truist, Oppenheimer) qui soulignent un ratio offre/demande de compute IA de 1:4.
+
+Sur le plan géopolitique, le président Trump a annoncé la reprise de négociations directes avec l'Iran, provoquant un repli significatif des cours du pétrole (autour de $79/baril) et réduisant le risque inflationniste à court terme. Le Dow Jones a atteint un nouveau record absolu (+600 pts, +1,3 %), l'indice S&P 500 a progressé de +1,5 % et le Nasdaq composite de +2,1 %.
+
+=== Pourquoi (causes profondes)
+
+La dynamique sous-jacente reste celle d'une bifurcation IA : les fournisseurs d'infrastructure cloud et de compute IA (Amazon AWS, CoreWeave, Palantir) affichent des taux de croissance à trois chiffres, validant les multiples élevés. La chute du pétrole sur les espoirs de diplomatie iranienne est un catalyseur macro bienvenu : elle desserre la pression sur le CPI (dernier à +3,5 % YoY en juin, déjà sous les 3,8 % attendus) et réduit les craintes d'un FOMC hawkish en septembre.
+
+Le président de la Fed, Kevin Warsh (en poste depuis mai 2026, nommé par Trump en remplacement de Powell), maintient les taux à 3,50-3,75 % depuis le FOMC du 29 juillet. Toutefois, trois dissidents au sein du comité souhaitaient une hausse de 25 pb — une situation de tension interne au FOMC qui maintient un risque haussier sur les taux si le NFP de vendredi (+85 K en consensus) venait à surprendre fortement à la hausse. Le marché reste sensible à toute lecture supérieure à +150 K qui rouvrirait le débat sur une hausse en septembre.
+
+La baisse du put/call ratio de la veille (2,3 calls/put hier vs niveaux normaux à ~1,0) signale un appétit spéculatif élevé sur les options d'achat — ce qui peut constituer un signal de complaisance à surveiller.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | ~$691footnote:[Estimation intraday — la clôture définitive peut différer.] | Rebond +~1 % depuis hier ($688)
+| MA50 QQQ | ~$714footnote:[Source TipRanks / données cohérentes avec l'analyse du 2 août 2026.] | *En-dessous* — résistance court terme clé
+| MA200 QQQ | ~$641-642footnote:[Source TipRanks / données au 2 août 2026.] | *Au-dessus* — support long terme intact
+| S&P 500 | ~7 530 pts | Au-dessus MA50 (7 469) et MA200 (7 480)
+| RSI Nasdaq composite | ~42-45 | Neutre — recovering sans suracchat
+| MACD Nasdaq | Négatif | Momentum baissier mais en amélioration
+| Support clé | $683-688 | Plancher hebdomadaire / pivot bas de la correction
+| Résistance clé | $714-716 | MA50 QQQ — franchissement = signal haussier fort
+| Structure | Rebond depuis lower lows hebdo | Inflexion positive — à confirmer en clôture semaine
+| VIX | ~15,6 | Calme (vs ~19 hier) — retour appétit risque
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 55 %
+
+*Conditions nécessaires* : QQQ clôture en semaine au-dessus de sa MA50 (~$714). NFP vendredi 7 août ressort entre +60 K et +120 K (zone idéale ni récession, ni surchauffe). Warsh à Jackson Hole le 26 août adopte un ton dovish ou neutre, réduisant la prime de risque sur le taux terminal.
+
+*Cibles* : QQQ $740–$748 (ATH 52S à $748), SPY $785–$795.
+
+*Catalyseurs* :
+- SpaceX Q2 (mardi 4 août) — premier rapport historique, revenu estimé $6,81 Md — signal d'approbation du marché des capitaux pour la tech spatiale et l'économie de la nouvelle frontière.
+- Uber et AMD (cette semaine) — si les beats continuent, confirme la robustesse des bénéfices.
+- CPI juillet (12 août) : si inférieur à 3,2 % (vs 3,5 % en juin) → désinflation confirmée → repricing hawkish improbable en septembre.
+- Nvidia Q2 FY27 (26 août) — Data Center +92 % au trimestre précédent ; si la tendance se maintient → nouveau rally semis.
+
+=== Scénario baissier — Probabilité 45 %
+
+*Conditions de déclenchement* : NFP vendredi 7 août supérieur à +180 K ou inférieur à +30 K. QQQ rechute sous $683 (plancher de la correction). Négociations Iran échouent → pétrole repasse $90-95 → reflation trade → hawkish.
+
+*Supports critiques* : QQQ $683 (plancher hebdomadaire), QQQ $641 (MA200 — ligne de défense long terme).
+
+*Risques de queue* :
+- NVDA : $250 Md backstop OpenAI — si le financement ne se matérialise pas ou crée un risque de crédit → selloff semis.
+- Warsh à Jackson Hole surprend par un ton hawkish ou annonce une hausse de 25 pb en septembre → liquidation immédiate des longs.
+- Diplomatie Iran s'effondre → pétrole spike → VIX > 25 → passage en Baromètre 5.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes et cours sont des estimations — vérifier les données réelles avant d'entrer en position.
+
+=== Trade #1 — Bull Call Spread sur AMZN
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (momentum post-earnings)
+| *Sous-jacent* | AMZN (~$290footnote:[Estimation basée sur $3 000 Md de market cap et ~10,35 Md d'actions — vérifier le cours réel avant d'entrer en position.])
+| *Raisonnement* | Amazon franchise le cap symbolique des $3 000 milliards de market cap ce jour. AWS +37 % YoY à $42,2 Md valide la thèse IA-cloud long terme. Revenue +20 % à $200,6 Md dépasse les attentes. Risque défini via spread (cohérent Baromètre 3). Fenêtre d'entrée : 48 DTE, avant NFP et CPI.
+| *Expiration* | 19 septembre 2026 (~47 DTE)
+| *Strike(s)* | Achat Call $300 / Vente Call $320
+| *Prime payée* | ~$7-8 débit net (~$700-800/contrat)
+| *Delta total* | ~+0,35 à l'entrée
+| *Theta/jour* | Position acheteuse nette — theta légèrement négatif (~-$3/j)
+| *Breakeven(s)* | ~$307-308 à expiration
+| *Entrée* | Dès ouverture mardi ou sur repli vers $283-287
+| *Cible* | 50-60 % de la valeur du spread (~$6-7 de crédit sur $20 de largeur)
+| *Stop-loss* | Clôture AMZN sous $280 / perte > 50 % du débit payé
+| *Taille* | 3-5 % du portefeuille
+|===
+
+._Bull Call Spread AMZN $300/$320 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Bull Call Spread AMZN $300/$320 — P&L/contrat (19 sept. 2026)"
+    x-axis ["270$", "280$", "290$", "300$", "307$", "310$", "315$", "320$", "330$", "340$"]
+    y-axis "P&L ($)" -900 --> 1400
+    bar [-750, -750, -750, -750, 0, 300, 750, 1250, 1250, 1250]
+    line [-750, -750, -750, -750, 0, 300, 750, 1250, 1250, 1250]
+....
+
+NOTE: Perte maximale $750/contrat (débit payé) si AMZN < $300 à expiration. Gain maximum ~$1 250/contrat si AMZN ≥ $320. Breakeven à ~$307-308. Le strike $300 est psychologiquement fort — une nouvelle ATH d'AMZN avant expiration valide la position.
+
+=== Trade #2 — Covered Call sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (collecte theta, consolidation)
+| *Sous-jacent* | QQQ (~$691footnote:[Estimation intraday — vérifier le cours réel avant d'entrer en position.])
+| *Raisonnement* | QQQ en phase de consolidation entre $683 (support) et $714 (MA50 résistance). VIX à 15,6 = IV suffisante pour prime correcte à 47 DTE. Covered call sur positions QQQ existantes génère du revenu theta sans coût d'entrée supplémentaire. Plafonne l'exposition si QQQ bute sur MA50 ($714). Cohérent Baromètre 3 : pas de levier haussier direct, mais amélioration du rendement.
+| *Expiration* | 19 septembre 2026 (~47 DTE)
+| *Strike(s)* | Vente Call $720 (~OTM +4,2 %)
+| *Prime reçue* | ~$7-9 (~$700-900/contrat)
+| *Delta total* | ~-0,22 (short call)
+| *Theta/jour* | ~+$0,15-0,20/jour (~$15-20/contrat) en faveur du vendeur
+| *Breakeven(s)* | N/A (couvre position longue QQQ)
+| *Entrée* | Vendre le call si QQQ > $688 en séance (confirme le rebond)
+| *Cible* | Rachat à 50 % du crédit reçu (~$3,5-4,5)
+| *Stop-loss* | Racheter si QQQ dépasse $715 en clôture → risque d'assignation
+| *Taille* | 1 contrat par tranche de 100 actions QQQ détenues
+|===
+
+=== Trade #3 — Cash-Secured Put sur NVDA (Signal Congrès)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (achat conditionnel au support, theta)
+| *Sous-jacent* | NVDA (~$200,75)
+| *Raisonnement* | Signal Congrès : accumulation nette de $7 M+ (Rep. McCaul $1,1 M, plusieurs autres membres) sur NVDA. Data Center Nvidia +92 % au dernier trimestre. NVDA défend le niveau psychologique $200 (support fort). Risque identifié : $250 Md backstop OpenAI potentiellement dilutif — le strike OTM à $175 intègre une marge de sécurité de 12,8 %. Si assigné, on achète NVDA à $175 avec la prime déduite (~$170-172 de coût effectif).
+| *Expiration* | 19 septembre 2026 (~47 DTE)
+| *Strike* | Vente Put $175 (~12,8 % OTM)
+| *Prime reçue* | ~$3,5-5 (~$350-500/contrat)
+| *Delta* | ~-0,18 (faible exposition directionnelle)
+| *Theta/jour* | ~+$0,08-0,12/jour (~$8-12/contrat)
+| *Breakeven(s)* | ~$170-172 (si assigné = coût effectif des actions)
+| *Entrée* | Immédiate si NVDA > $198 en séance
+| *Cible* | Expiration sans valeur — garder 100 % de la prime
+| *Stop-loss* | Racheter si NVDA clôture sous $190 (seuil de révision du risque)
+| *Taille* | 3-4 % du portefeuille ($17 500 de collatéral par contrat au strike $175)
+|===
+
+=== Trade #4 — Iron Condor sur SPY (semaine NFP)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (range trade, theta, delta-neutre)
+| *Sous-jacent* | SPY (~$755footnote:[Estimation intraday — vérifier le cours réel avant d'entrer en position.])
+| *Raisonnement* | VIX à 15,6 = IV faible mais prime correcte à 19 DTE. Après le rally de +1,1 % aujourd'hui, SPY peut consolider en range avant le NFP vendredi (consensus +85 K — ni surchauffe, ni récession). Le spread $720/$785 offre un tampon de ±4,6 % de chaque côté. Jackson Hole le 26 août est hors de la fenêtre d'expiration → pas de double risque binaire.
+| *Expiration* | 22 août 2026 (~19 DTE)
+| *Strike(s)* | Vente Call $785 / Achat Call $795 · Vente Put $720 / Achat Put $710
+| *Prime reçue* | ~$2,0-3,0 crédit net total (~$200-300/spread)
+| *Delta total* | ~0 (delta-neutre à l'entrée)
+| *Theta/jour* | ~+$0,12-0,18/jour (~$12-18/contrat)
+| *Breakeven(s)* | ~$717-723 (bas) / ~$787-793 (haut)
+| *Entrée* | Mardi 4 août, ouverture de séance
+| *Cible* | 50 % du crédit reçu (~$100-150/spread)
+| *Stop-loss* | Si SPY < $728 ou > $778 → racheter le wing touché (perte ≤ 2× crédit)
+| *Taille* | 3-5 % du portefeuille (~$2 000-3 000 de marge par spread)
+|===
+
+._Iron Condor SPY $710/$720-$785/$795 — P&L estimé à expiration (par spread)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor SPY — P&L/contrat à expiration (22 août 2026)"
+    x-axis ["705$", "710$", "720$", "730$", "755$", "775$", "785$", "795$", "800$", "810$"]
+    y-axis "P&L ($)" -1000 --> 350
+    bar [-800, -800, 250, 250, 250, 250, 250, -800, -800, -800]
+    line [-800, -800, 250, 250, 250, 250, 250, -800, -800, -800]
+....
+
+NOTE: Profit maximum ~$250/spread si SPY reste entre $720 et $785 à expiration (fourchette de $65 = ±4,3 % du cours actuel). Perte maximale ~$800 si SPY sort des ailes ($710 ou $795). Le NFP vendredi 7 août est le principal risque binaire : fermer si SPY approche des shorts avant le NFP.
+
+'''
+
+== Signal Congrès américain
+
+NOTE: Le scraping direct de Capitol Trades est indisponible ce jour (proxy réseau bloqué). Les données ci-dessous sont issues de recherches web sur les divulgations STOCK Act récentes.
+
+- *NVDA* : accumulation nette Congress $7 M+ (achats $11,6 M vs ventes $4,6 M) · Rep. McCaul $1,1 M (Co-Chair Semiconductor Caucus) · Actualité : NVDA ~$200,75, Data Center +92 % dernier trimestre
+- *AMZN* : 260 trades totaux (mix achats/ventes) · AWS +37 % YoY · $3 000 Md market cap aujourd'hui
+- *META* : 218 trades totaux · Llama IA, publicité dominante
+- *Note législative* : La House a voté en juillet 2026 pour interdire les trades Congress (232-198, partisan) — signaux futurs pourraient se réduire si le Sénat adopte la loi
+
+*Application au Baromètre 3* : NVDA est présenté en Trade #3 (CSP) avec le signal Congrès comme argument complémentaire. Pas de trade directif congressionnel pur — le contexte technique prime.
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo (FOMC 29 juil. 2026, 5ème hold consécutif)
+| Président Fed | Kevin Warsh (remplace J. Powell depuis mai 2026, nommé par Trump)
+| Dissenters FOMC | 3 membres dissidents hawkish (hausse de 25 pb souhaitée) — pression latente
+| Prochain FOMC | Septembre 2026 — hausse conditionnelle si NFP > 150 K ou CPI > 3,8 %
+| CPI dernier | +3,5 % YoY (juin 2026) — sous attentes 3,8 % — désinflation confirmée
+| CPI suivant | 12 août 2026 — données de juillet (catalyseur majeur pour Sept. FOMC)
+| NFP prochain | 7 août 2026 — consensus +85 K (modéré — ni récession, ni surchauffe)
+| JOLTS | 4 août 2026 — données juin (aperçu du marché de l'emploi)
+| Pétrole WTI | ~$79/baril (forte baisse sur annonce négociations Iran) — favorable CPI
+| Taux 10 ans | En détente vs pic 4,71 % (23 juil.) — reste compressif sur les multiples
+| Put/Call ratio | 2,3 calls/put (sentiment bullish marqué — surveiller la complaisance)
+| Amazon Q2 2026 | EPS $5,75 · Rev $200,6 Md (+20 %) · AWS $42,2 Md (+37 %) · $220 Md capex 2026
+| Palantir Q2 2026 | EPS $0,41 (est. $0,33) · Rev $1,935 Md (+93 %) · Guidance relevée $8,15-8,16 Md
+| CoreWeave (CRWV) | +19,55 % aujourd'hui · Résultats Q2 le 11 août · Ratio offre/demande IA 1:4
+| NVDA | ~$200,75 · Data Center +92 % · $4,9 000 Md market cap · $250 Md financement IA OpenAI (risque)
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 4 août 2026 | JOLTS juin — offres d'emploi US | Modéré — indicateur avancé marché du travail
+| 4 août 2026 | SpaceX Q2 2026 — premier rapport historique (est. $6,81 Md) | Élevé — signal de validation marché pour SPCX
+| 5 août 2026 | Uber Q2 2026 (est. EPS $0,83, Rev $14,27 Md +12,7 %) | Modéré — santé conso/mobilité
+| 5 août 2026 | AMD — résultats trimestriels | Élevé — baromètre semis AI/GPU
+| 7 août 2026 | NFP juillet 2026 (consensus +85 K) | Élevé — déterminant pour FOMC septembre
+| 11 août 2026 | CoreWeave (CRWV) Q2 — conference call | Modéré-Élevé — IA compute demand
+| 12 août 2026 | CPI juillet 2026 | Élevé — déterminant pour trajectoire taux
+| 26 août 2026 | Résultats Nvidia Q2 FY27 | Élevé — catalyseur majeur secteur IA
+| 26 août 2026 | Jackson Hole — discours Kevin Warsh | Élevé — signal taux septembre
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment — ~43 (Fear) au 3 août 2026
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — ~15,6 (3 août 2026)
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed — risque de hausse en septembre 2026
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours QQQ en temps réel
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://finance.yahoo.com/markets/live/stock-market-today-monday-august-3-dow-sp-500-nasdaq-big-tech-oil-092516872.html[Yahoo Finance — Marché 3 août 2026]
+| Actualités live : Dow record, AMZN $3T, pétrole, Big Tech
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-aug-3-2026-dow-futures-climb-as-oil-slides-on-renewed-iran-talks[TheStreet — 3 août 2026]
+| S&P 500 surges — oil slides on Iran talks
+
+| link:https://finance.yahoo.com/markets/stocks/articles/amazon-q2-2026-earnings-aws-204411872.html[Yahoo Finance — Amazon Q2 2026]
+| Amazon Q2 : AWS +37 %, Rev $200,6 Md, $3 000 Md market cap
+
+| link:https://www.gurufocus.com/news/8999291/palantir-technologies-inc-pltr-q2-earnings-report-gaap-eps-of-041-exceeds-estimates-revenue-hits-1935-billion[GuruFocus — Palantir Q2 2026]
+| PLTR Q2 : EPS $0,41, Rev $1,935 Md (+93 %), guidance relevée
+
+| link:https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Post-Second-Quarter-2026-Results-and-Host-Webcast-on-August-4-2026-2026-g8layJlbFm/default.aspx[SpaceX IR — Q2 2026]
+| SpaceX premier rapport historique — résultats 4 août AH
+
+| link:https://www.benzinga.com/markets/market-summary/26/08/60863538/nasdaq-jumps-1-as-amazon-shares-surge-investor-sentiment-improves-but-greed-index-remains-in-fear-zone[Benzinga — 3 août 2026]
+| Nasdaq +1 %, Amazon surge, Fear & Greed reste en zone peur
+
+| link:https://www.fxleaders.com/news/2026/08/03/nvidia-stock-forecast-today-nvda-holds-200-as-250b-ai-financing-risk-tests-bulls/[FX Leaders — NVDA 3 août 2026]
+| NVDA $200,75 — risque financement OpenAI $250 Md
+
+| link:https://www.capitoltrades.com/[Capitol Trades]
+| Signaux achats Congrès (indisponible ce jour — proxy bloqué)
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/butterfly.adoc[Butterfly / Condor — Stratégie theta range-bound]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Cash-Secured Put sur qualité]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Hedge directionnel baissier]
