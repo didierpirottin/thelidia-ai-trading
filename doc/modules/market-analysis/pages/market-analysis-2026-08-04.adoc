@@ -1,0 +1,270 @@
+= Analyse de Marché — 4 août 2026
+:description: S&P 500 et Dow à ATH (7 737 / 54 085), QQQ ~$707 sous MA50/MA200, Palantir +29 %, Amazon $3T — Baromètre Niveau 3 Consolidation
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| ~$707 (−3,9 % / 1 mois)
+| ~$771 (+1,4 % / 1 mois)
+| 16,34 — calme
+| 70 — Avidité (Greed)
+| En-dessous (~$715)
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : récupération post-correction non encore confirmée_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 4 août 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: QQQ est à ~$707, en dessous de ses deux moyennes mobiles clés (MA50 ~$715 et MA200 ~$718), malgré le fort rebond de +6 % depuis le creux du 29 juillet. Le S&P 500 et le Dow affichent des records absolus (7 737 et 54 085), mais cette force est portée par la rotation large cap / valeur plus que par la tech. Trois événements binaires se profilent en 30 jours (NVDA le 26/08, Jackson Hole 27–29/08, FOMC 15–16/09), ce qui justifie un renforcement *sélectif* sans déploiement agressif.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Le 4 août 2026, les marchés américains inscrivent de nouveaux records historiques pour le S&P 500 (7 737 pts, +1,79 %) et le Dow Jones (54 085 pts, +1,71 %), une première depuis mi-juin pour l'indice large. Palantir Technologies (PLTR) a explosé à +29 % après des résultats Q2 spectaculaires (chiffre d'affaires $2 Mds, +93 % YoY, EPS $0,41 vs $0,28 attendu — 9e surprise positive consécutive). Amazon a simultanément franchi le seuil historique des $3 000 milliards de capitalisation. Le moteur de la journée est double : d'un côté les résultats IA (PLTR, AMZN), de l'autre les progrès diplomatiques US-Iran avec la perspective de réouverture du Détroit d'Ormuz, faisant baisser les prix du pétrole et réduisant les pressions inflationnistes. La tech/IA (XLK +4 %) domine, tandis que les secteurs défensifs et énergie reculent dans le cadre d'une rotation vers la croissance. QQQ termine à environ $707, en hausse de +4,7 % sur la semaine mais toujours −3,9 % sur le mois, restant en dessous de ses moyennes mobiles clés.
+
+=== Pourquoi (causes profondes)
+
+La Réserve Fédérale, désormais dirigée par Kevin Warsh, a maintenu ses taux à 3,50–3,75 % lors du FOMC du 29 juillet 2026, avec trois membres dissidents souhaitant une hausse de taux — signal hawkish structurel. L'inflation progresse dans la bonne direction : le CPI de juin est ressorti à +3,5 % YoY (en dessous des 3,8 % attendus) avec un core à +2,6 %, alimentant l'espoir d'une première baisse en septembre. Le put/call ratio à 1,11 (élevé) révèle que les gérants restent sur leurs gardes malgré la hausse, positionnés en couverture — signal d'un sentiment sous-jacent prudent. Les principaux risques demeurent : NVDA résultats le 26 août (marché anticipe ±7,86 % de mouvement), discours de Warsh à Jackson Hole (27–29 août) pouvant durcir le ton, et FOMC septembre (15–16) avec publication du dot plot.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | ~$707 | Rebond +6 % depuis creux du 29 juil.
+| MA50 QQQ | ~$715 | En-dessous — résistance à franchir
+| MA200 QQQ | ~$718 | En-dessous — zone de convergence MA50/MA200
+| Support clé | $667 | Creux post-FOMC du 29 juillet (double fond)
+| Résistance clé | $715–$720 | Zone MA50/MA200 — obstacle décisif
+| RSI | ~58 | Neutre — pas suracheté, momentum de reprise
+| S&P 500 cours | 7 737 | ATH absolu — force macro confirmée
+| S&P 500 MA50 | ~7 465 | Au-dessus — bullish
+| S&P 500 MA200 | ~7 476 | Au-dessus — bullish
+| VIX | 16,34 | Calme — loin des niveaux de stress
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 55 %
+
+*Conditions nécessaires* : QQQ recapture sa zone MA50/MA200 ($715–$720) en clôture ET résultats NVDA du 26 août conformes ou supérieurs aux attentes.
+
+*Cibles* : QQQ $745, SPY $795.
+
+*Catalyseurs* : Jackson Hole dovish de Warsh (ouverture d'une baisse de taux en septembre) ; accord US-Iran formalisé faisant baisser le pétrole sous $65 ; CPI août ≤ 3,2 % confirmant la désinflation ; résultats AMD et SpaceX positifs ce soir.
+
+=== Scénario baissier — Probabilité 45 %
+
+*Conditions de déclenchement* : QQQ échoue à recapturer $715–$720 (résistance MA50/MA200) → retour sur $680, puis rechute sur $667 si NVDA miss le 26 août.
+
+*Supports critiques* : QQQ $680 (zone intermédiaire), QQQ $667 (creux absolu post-FOMC).
+
+*Risques de queue* : Warsh hawkish à Jackson Hole → taux 10 ans remonte > 4,5 % → compression des multiples tech ; Échec des négociations Iran → spike pétrole → CPI août surprend à la hausse → Fed redevient encore plus hawkish.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Vérifier les cours et primes réels avant d'entrer en position.
+
+=== Trade #1 — Covered Call sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (stratégie theta)
+| *Sous-jacent* | QQQ (~$707 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | QQQ sous MA50 ($715) — range probable à CT. Prime intéressante à VIX 16,34. Niveau 3 : couvrir les longs existants plutôt qu'acheter agressivement.
+| *Expiration* | 19 sept. 2026 (45 DTE)
+| *Strike* | Call $720 (OTM +1,8 %, au-dessus MA50)
+| *Prime reçue* | ~$8,00 par action footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0,30
+| *Theta/jour* | ~+$0,22 / jour
+| *Breakeven* | $699 (à la baisse)
+| *Entrée* | Immédiate si QQQ ≥ $703
+| *Cible* | 50 % du crédit reçu = $4,00 (~3–4 semaines)
+| *Stop-loss* | Racheter si prima > $16 (2× crédit) OU si QQQ > $730
+| *Taille* | 3–5 % du portefeuille
+|===
+
+=== Trade #2 — Iron Condor sur SPY
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (delta-neutral / theta pur)
+| *Sous-jacent* | SPY (~$771 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | S&P 500 à ATH — range probable 4–6 semaines avant FOMC. VIX 16,34 calme. Niveau 3 : stratégie theta sans pari directionnel.
+| *Expiration* | 19 sept. 2026 (45 DTE)
+| *Strike(s)* | Vendre Call $795 / Acheter Call $810 (call spread) + Vendre Put $745 / Acheter Put $730 (put spread)
+| *Prime reçue* | ~$4,50 crédit net footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~0 (delta-neutral)
+| *Theta/jour* | ~+$0,28 / jour
+| *Breakeven(s)* | $740,50 (bas) / $799,50 (haut)
+| *Max profit* | $450 / contrat (si SPY dans $745–$795 à expiration)
+| *Max perte* | −$1 050 / contrat
+| *Entrée* | SPY dans la zone $760–$780
+| *Cible* | 50 % du crédit = $2,25
+| *Stop-loss* | Perte > $9 (2× crédit) OU SPY sort de $738–$805
+| *Taille* | 3–4 % du portefeuille
+|===
+
+._Iron Condor SPY — P&L estimé à expiration (par spread 2 pattes)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor SPY (745/795) — P&L estimé par contrat"
+    x-axis ["720", "730", "741", "760", "771", "795", "800", "810"]
+    y-axis "P&L ($)" -1200 --> 600
+    bar [-1050, -1050, 0, 450, 450, 450, 0, -1050]
+    line [-1050, -1050, 0, 450, 450, 450, 0, -1050]
+....
+
+NOTE: Profit maximum de $450/contrat atteint entre $741 et $800 (breakevens). Perte maximum de −$1 050 si SPY sort du corridor $730–$810 à expiration. Fermer à 50 % du crédit ($2,25) pour réaliser le profit sans attendre l'expiration.
+
+=== Trade #3 — Bull Call Spread sur NVDA
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (débit)
+| *Sous-jacent* | NVDA (~$200,26 — résultats le 26 août 2026)
+| *Raisonnement* | Infrastructure IA en accélération (PLTR +93 % rev., AMZN $3T). NVDA résultats du 26 août : marché prix ±7,86 % de mouvement. Signal historique Congrès : NVDA top 3 achats parlementaires. Bull spread = levier contrôlé, perte bornée.
+| *Expiration* | 19 sept. 2026 (45 DTE — *après* résultats du 26 août)
+| *Strike(s)* | Acheter Call $200 / Vendre Call $220
+| *Prime payée* | ~$8,00 débit net footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~+0,35
+| *Breakeven* | $208,00 (à expiration)
+| *Entrée* | NVDA > $198 ET QQQ > $705 en clôture
+| *Cible* | NVDA > $215 → fermer à 70 % du max profit ($8,40)
+| *Stop-loss* | NVDA < $188 en clôture OU 50 % du débit perdu ($4)
+| *Taille* | 2–3 % du portefeuille
+|===
+
+=== Trade #4 — Long SPY partiel (confirmation ATH)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Achat ETF direct ou Long Call SPY
+| *Sous-jacent* | SPY (~$771 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | 1er ATH S&P 500 depuis 2 mois — force macro confirmée. CPI juin 3,5 % (< 3,8 % att.) — désinflation en cours. Dow 54 000 — breadth large.
+| *Alternative options* | Long Call SPY $775, 17 oct. 2026 (75 DTE) — prima ~$14, delta ~+0,45, breakeven $789
+| *Expiration* | 17 oct. 2026 (si via calls)
+| *Strike(s)* | $775 Call (si via options)
+| *Entrée* | SPY > $765 en clôture (2 jours consécutifs)
+| *Cible* | $790–$800 (+2,5–3,5 %) d'ici fin septembre 2026
+| *Stop-loss* | SPY < $755 en clôture
+| *Taille* | 5–8 % (ETF direct) ou 1–2 % (via calls)
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo (FOMC 29 juil. 2026)
+| Fed Chair | Kevin Warsh (a succédé à Powell) — posture hawkish
+| Prochains FOMC | 15–16 sept. 2026 (dot plot — pivotal) ; 28–29 oct. ; 9–10 déc.
+| CPI dernier | Juin 2026 : +3,5 % YoY — en-dessous 3,8 % attendu
+| CPI Core | Juin 2026 : +2,6 % YoY — trajectoire positive
+| NFP dernier | Juillet 2026 : données non publiées au 4 août
+| Taux 10 ans | ~4,1–4,3 % (estimé — surveillance clé)
+| Put/Call ratio | 1,11 (élevé) — couverture défensive malgré la hausse
+| Pétrole | En baisse sur espoir Iran — catalyseur désinflationniste
+| Jackson Hole | 27–29 août 2026 — Warsh speech (signal politique clé)
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 4 août 2026 (AH) | AMD résultats Q2 2026 | Élevé — baromètre semis IA
+| 4 août 2026 (AH) | SpaceX 1ers résultats cotation | Élevé — signal croissance
+| ~7 août 2026 | Résultats Apple (à confirmer) | Élevé — CEO transition Tim Cook
+| 26 août 2026 | NVDA résultats Q2 2026 (AH) | *Très élevé* — ±7,86 % attendu
+| 27–29 août 2026 | Jackson Hole — discours Warsh | *Très élevé* — signal taux sept.
+| 1er sept. 2026 | Apple CEO : Tim Cook → John Ternus | Modéré — transition leadership
+| ~5 sept. 2026 | NFP août 2026 | Élevé — données emploi Fed
+| ~10 sept. 2026 | CPI août 2026 | *Très élevé* — décision FOMC sept.
+| 15–16 sept. 2026 | FOMC — dot plot | *Très élevé* — pivot ou hawkish ?
+| ~Sept. 2026 | Lancement iPhone 18 (Apple Event) | Modéré — catalyseur AAPL
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — données et futures
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.fool.com/coverage/stock-market-today/2026/08/04/stock-market-today-aug-4-s-and-p-500-and-dow-set-new-highs-on-easing-geopolitical-tensions/[Motley Fool — 4 août 2026]
+| S&P 500 et Dow à ATH — détail de la séance du 4 août
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-4-2026[TheStreet — 4 août 2026]
+| Couverture live de la séance — SpaceX, AMD, PLTR earnings
+
+| link:https://www.quiverquant.com/congresstrading/[Quiver Quantitative — Congress Trading]
+| Tracker des achats/ventes des parlementaires américains
+
+| link:https://convextrade.com/metrics/put-call-ratio[ConvexTrade — Put/Call Ratio]
+| Ratio put/call equity en temps réel (1,11 au 4 août 2026)
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly — Stratégie delta-neutral en range]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Stratégie theta sur qualité]
+* xref:market-analysis:market-analysis-2026-08-02.adoc[← Analyse précédente : 2 août 2026 — Niveau 4 Prudence]

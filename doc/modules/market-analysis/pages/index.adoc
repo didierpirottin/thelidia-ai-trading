@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-08-04.adoc[4 août 2026]
+| Niveau 3/6 — CONSOLIDATION
+| Récupération / Haussière LT
+| PLTR +29 % (rev. +93 %), AMZN $3T, S&P 500 ATH, QQQ $707 sous MA50/MA200, NVDA résultats 26/08
+
 | xref:market-analysis:market-analysis-2026-08-03.adoc[3 août 2026]
 | Niveau 3/6 — CONSOLIDATION
 | Neutre → Haussière CT / Haussière LT
