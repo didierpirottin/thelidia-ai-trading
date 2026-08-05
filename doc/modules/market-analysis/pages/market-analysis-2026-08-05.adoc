@@ -1,0 +1,285 @@
+= Analyse de Marché — 5 août 2026
+:description: QQQ $723,85 repasse au-dessus de MA50 ($709,6), Dow ATH 54 085 pts, PLTR +29,5 % post-earnings — Baromètre Niveau 3 Consolidation
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $723,85 (+6,3 % / 1 sem)
+| $774,50 (+3,8 % / 1 sem)
+| 16,5 — calme (hausse +4 % en séance)
+| ~62 — Greed modéré
+| Au-dessus ($723 > $709,6)
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : QQQ repasse au-dessus de MA50, mais NFP vendredi + CPI 12 août freinent tout déploiement agressif_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 5 août 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: Le rebond en V depuis le plus bas de $667 (29 juillet) se confirme : QQQ clôture à $723,85, au-dessus de sa MA50 ($709,6) pour la première fois depuis le sell-off de fin juillet. Le Dow Jones inscrit un nouvel ATH historique à 54 085 pts, propulsé par la publication trimestrielle record de Caterpillar (+30,7 % de surprise EPS). PLTR flambe de +29,5 % après avoir battu le consensus pour le 8ᵉ trimestre consécutif. Deux événements binaires majeurs (NFP vendredi 7 août, CPI mercredi 12 août) imposent une approche prudente : renforcement sélectif sur les meilleurs setups, avec une couverture court terme en place.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+La semaine du 29 juillet au 5 août aura été celle du rebond. Depuis le point bas du 29 juillet ($667 sur QQQ, niveau 5 — Couverture), le Nasdaq 100 a progressé de +8,5 % en 7 jours de bourse, effaçant l'essentiel de la correction liée au FOMC hawkish du 28–29 juillet. Le 5 août, le Dow Jones inscrit un nouvel ATH historique à 54 085,88 points (+1,7 %, +907 pts), tiré par Caterpillar dont les résultats trimestriels ont défié les attentes avec un EPS de $8,17 (vs $6,25 estimé, surprise de +30,7 %) et des revenus de $20,54 milliards (+6,4 % au-dessus du consensus).
+
+Palantir Technologies a publié ses résultats Q2 le 5 août : EPS ajusté de $0,41 (vs $0,35 estimé, 8ᵉ beat consécutif), revenus de $1,94 milliard surpassant les estimations de 7,2 %. Le titre bondit de +29,5 % en séance, tirant QQQ à la hausse malgré un Nasdaq Composite en léger recul de −0,83 % (divergence Nasdaq 100 vs Composite). Sur le plan macro, le pétrole recule pour le deuxième jour consécutif sur des avancées diplomatiques au Moyen-Orient — un signal positif pour l'inflation.
+
+=== Pourquoi (causes profondes)
+
+Le rebond reflète plusieurs forces convergentes : (1) la publication de résultats IA robustes — AMZN (+15,6 % le 31 juil.), GOOGL (+7 %), PLTR (+29,5 %) — confirme que la thèse structurelle de l'IA demeure intacte malgré les turbulences de valorisation. (2) La baisse du pétrole allège les pressions inflationnistes, réduisant la probabilité d'une hausse surprenante de la Fed en septembre. (3) Le maintien des taux à 3,50–3,75 % par Kevin Warsh (5ᵉ hold consécutif), malgré trois dissidents hawkish, est interprété comme une victoire des dovishes à moyen terme.
+
+Deux risques structurels subsistent : d'abord, le marché du travail montre des signes de fragilité (NFP juin : +57 K, très en-dessous du consensus de 110–130 K), et le NFP de juillet (attendu le 7 août) représente un catalyseur binaire majeur. Ensuite, le RSI du S&P 500 atteint 84 (zone suracheté), signalant un risque de compression des multiples si un chiffre macro décevant survient.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $723,85 | Rebond en V — hausse +8,5 % depuis $667 (29 juil.)
+| MA50 QQQ | $709,6 footnote:[Source : AltIndex / Altindex.com, données au 5 août 2026.] | *Au-dessus* — rupture haussière confirmée en séance
+| MA200 QQQ | $636,4 footnote:[Source : AltIndex, données au 5 août 2026.] | *Au-dessus* — support long terme intact
+| S&P 500 (SPX) cours | ~7 745 pts | Au-dessus MA50 (7 465) et MA200 (7 476)
+| RSI S&P 500 | 84 | *Suracheté* — zone de vigilance
+| RSI QQQ | ~63,5 | Neutre-haussier — marge avant suracheté
+| Support clé 1 | $709,6 | MA50 QQQ — pivot de la séance du 5 août
+| Support clé 2 | $636,4 | MA200 QQQ — plancher long terme
+| Résistance clé | $748,65 | ATH 52 semaines — à ~3,4 % du cours actuel
+| Structure | Higher Highs depuis $667 | Rebond en V — momentum haussier
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 50 %
+
+*Conditions nécessaires* : NFP juillet (7 août) > 100 K — marché de l'emploi résilient, écartant le risque récessif. CPI juillet (12 août) < 3,2 % YoY — poursuite de la désinflation, permettant à la Fed de rester en statu quo ou de signaler une baisse. QQQ tient au-dessus de MA50 ($709,6) en clôture hebdomadaire.
+
+*Cibles* : QQQ $748–$755 (ATH et au-delà), SPY $790–$800.
+
+*Catalyseurs* : Résultats Nvidia Q2 le 26 août supérieurs aux attentes (consensus ~$0,87 EPS) déclenchant un nouveau rally de l'ensemble du secteur IA. Signal dovish de Kevin Warsh à Jackson Hole (fin août). Continuation de la baisse du pétrole (+15 $ à +20 $ depuis le pic de juillet) soulagent les pressions inflationnistes.
+
+=== Scénario baissier — Probabilité 50 %
+
+*Conditions de déclenchement* : NFP juillet < 50 K — choc sur le marché du travail forçant un repricing des actifs risqués. Ou CPI juillet > 3,8 % — résurgence de l'inflation donnant l'ascendant aux 3 dissidents hawkish de la Fed. QQQ casse sa MA50 ($709,6) en clôture.
+
+*Supports critiques* : QQQ $709,6 (MA50 — premier rempart), QQQ $636,4 (MA200 — plancher technique majeur).
+
+*Risques de queue* : Déception de Nvidia le 26 août (inventaires data centers excédentaires, concurrence AMD/Intel) déclenchant un purge du rally IA. Résurgence géopolitique au Moyen-Orient — spike du pétrole réintroduisant l'inflation. NFP négatif couplé à CPI > 3,8 % : scénario stagflationniste forçant la Fed à agir.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes et cours sont des estimations — vérifier les données réelles avant d'entrer en position. footnote:[Estimation au 5 août 2026 — les primes d'options varient en fonction de l'IV implicite et du carnet d'ordres au moment de l'exécution.]
+
+=== Trade #1 — Bull Call Spread sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (débit) — directionnel haussier à risque défini
+| *Sous-jacent* | QQQ (~$723,85 footnote:[Cours estimé au 5 août 2026 — vérifier le cours réel avant exécution.])
+| *Raisonnement* | QQQ repasse au-dessus de MA50 ($709,6) — signal haussier validé. Rebond en V depuis $667 (29 juil.) — momentum fort. Spread à risque défini — adapté aux binaires NFP/CPI.
+| *Expiration* | 18 septembre 2026 (~43 DTE)
+| *Strike(s)* | Buy Call 720 / Sell Call 745
+| *Prime* | ~$10 débitée (~$1 000 par contrat)
+| *Delta total* | ~0,50 net (long delta modéré)
+| *Breakeven* | $730 (720 + prime)
+| *Entrée* | Marché — QQQ tient > $720 en clôture
+| *Cible* | +$1 500/contrat si QQQ > $745 à expiration (ATH 52S)
+| *Stop-loss* | Clôture QQQ < MA50 ($709) → couper (perte max $1 000)
+| *Taille* | 4–6 % du portefeuille
+|===
+
+._Bull Call Spread QQQ 720/745 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Bull Call Spread QQQ 720/745 — P&L estimé (par contrat)"
+    x-axis ["700$", "710$", "720$", "725$", "730$", "737$", "745$", "755$"]
+    y-axis "P&L ($)" -1200 --> 1800
+    bar [-1000, -1000, -1000, -500, 0, 700, 1500, 1500]
+    line [-1000, -1000, -1000, -500, 0, 700, 1500, 1500]
+....
+
+NOTE: Perte maximale : $1 000/contrat (QQQ < $720 à expiration). Profit maximal : $1 500/contrat (QQQ > $745). Breakeven : $730. Ratio risque/rendement : 1,5.
+
+=== Trade #2 — Cash-Secured Put sur PLTR (IV élevée post-earnings)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (vendeuse de premium — stratégie theta)
+| *Sous-jacent* | PLTR (~$150 footnote:[Estimation post-earnings +29,5 % — vérifier le cours exact.])
+| *Raisonnement* | IV explosive post-résultats — prime record à vendre. 8 trimestres de beats consécutifs — qualité fondamentale solide. Deutsche Bank target $200 → fondamentaux solides.
+| *Expiration* | 18 septembre 2026 (~43 DTE)
+| *Strike(s)* | Put 125 (OTM ~17 %)
+| *Prime reçue* | ~$8 (~$800 par contrat)
+| *Delta total* | ~−0,20 (confortablement OTM)
+| *Theta/jour* | ~+$0,60/jour
+| *Breakeven* | $117 (−22 % nécessaire pour une perte)
+| *Entrée* | Début de séance — vendre pendant que l'IV reste élevée
+| *Cible* | 50 % du crédit reçu ($400) — environ 15–20 jours
+| *Stop-loss* | Rachat si débit > 2× crédit ($1 600) ou PLTR < $130
+| *Taille* | 3–5 % du portefeuille (cash réservé : $12 500/contrat)
+|===
+
+=== Trade #3 — Cash-Secured Put sur AMD (Signal Congrès + IA)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (vendeuse de premium) — ou renforcement long
+| *Sous-jacent* | AMD (~$165 footnote:[Estimation — vérifier le cours réel avant exécution.])
+| *Raisonnement* | Signal Congrès : Gottheimer + Cisneros (×2) ont acheté en avr.–mai 2026. Q2 EPS $1,66, revenus $11,5 Mds — résultats solides. Bénéficiaire structurel de la demande data center IA.
+| *Expiration* | 18 septembre 2026 (~43 DTE)
+| *Strike(s)* | Put 145 (OTM ~12 %)
+| *Prime reçue* | ~$5 (~$500 par contrat)
+| *Delta total* | ~−0,22
+| *Theta/jour* | ~+$0,45/jour
+| *Breakeven* | $140
+| *Entrée* | AMD tient au-dessus de sa MA50 en clôture
+| *Cible* | 50 % du crédit ($250) en 15–20 jours
+| *Stop-loss* | AMD clôture < MA200 ou débit > 2× crédit
+| *Taille* | 3–4 % du portefeuille (cash réservé : $14 500/contrat)
+|===
+
+=== Trade #4 — Protective Put (couverture binaire NFP + CPI)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Long Put (assurance court terme)
+| *Sous-jacent* | QQQ (~$723,85)
+| *Raisonnement* | NFP vendredi 7 août — event binaire (juin : +57 K déception). CPI 12 août — risque de résurgence. VIX 16,5 — puts bon marché (coût faible de la couverture).
+| *Expiration* | 14 août 2026 (~9 DTE — couvre NFP + CPI)
+| *Strike(s)* | Put 700 (OTM ~3,3 %)
+| *Prime payée* | ~$4 (~$400 par contrat)
+| *Delta* | ~−0,20
+| *Breakeven* | $696 (QQQ baisse −3,8 % depuis $723)
+| *Entrée* | Avant clôture du 6 août (avant NFP vendredi matin)
+| *Cible* | Vente si QQQ < $710 (prime ×2–3 en cas de choc)
+| *Stop-loss* | Laisser expirer sans valeur ($400 max) si NFP/CPI OK
+| *Taille* | 1–2 % du portefeuille (assurance pure)
+|===
+
+'''
+
+== Signal Congrès américain
+
+NOTE: Données Capitol Trades indisponibles ce jour (connexion réseau bloquée). Signal reconstitué depuis sources web secondaires.
+
+[cols="1,1,1,1,1"]
+|===
+| Ticker | Nb élus | Dernière date connue | Élus | Contexte
+
+| AMD | 6 achats (période récente) | Avr.–mai 2026 | Gottheimer, Cisneros (×2) | Data center IA, résultats Q2 solides
+| NVDA | 10 achats / 15 ventes (6 mois) | Juil. 2026 | Whitehouse (ventes), Newhouse (vente) | Ratio ventes > achats — signal mixte
+|===
+
+*Règle d'application (Baromètre 3)* : AMD mentionné en trade sélectif (Trade #3) avec référence explicite au signal Congrès. NVDA non recommandé en achat direct (ratio ventes/achats défavorable).
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo (5ᵉ hold consécutif — juillet 2026)
+| Prochain FOMC | 15–16 septembre 2026 — marché anticipe statu quo (conditionnel aux données)
+| CPI dernier | +3,5 % YoY (juin 2026) — en-dessous des 3,8 % attendus — tendance désinflation
+| NFP dernier | +57 K (juin 2026) — déception (consensus 110–130 K) — NFP juillet : 7 août
+| Taux 10 ans | ~4,5 % (après pic à 4,71 % le 23 juil.)
+| Put/Call equity | 0,63 (données au 31 juil.) — optimisme modéré des options
+| CBOE total P/C | ~0,91 (données au 31 juil. — 89ᵉ percentile récent)
+| Président Fed | Kevin Warsh (remplace Powell) — communication concise, hawkish prudent
+| Pétrole | En baisse 2 jours consécutifs — avancées diplomatiques Moyen-Orient
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 7 août 2026 | NFP juillet (emplois créés) — 8h30 ET | *Élevé* — binaire marché du travail
+| 12 août 2026 | CPI juillet (inflation) — 8h30 ET | *Élevé* — pivot Fed possible si surprise
+| 26 août 2026 | Résultats Nvidia Q2 FY27 (consensus ~$0,87 EPS) | *Élevé* — catalyseur IA / semis
+| 26 août 2026 | Jackson Hole — discours Kevin Warsh (Fed) | *Élevé* — signal politique monétaire
+| 26 août 2026 | GDP Q2 2026 (deuxième estimation) | *Modéré* — confirmation ou révision
+| 15–16 sept. 2026 | FOMC n°6 2026 | *Élevé* — décision taux conditionnelle aux données
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment — 62 (Greed modéré) au 5 août 2026
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| VIX 16,5 au 5 août 2026 — données et futures
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours QQQ en temps réel, historique, options
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-5-2026[TheStreet — 5 août 2026]
+| Résumé de séance : Dow ATH, PLTR +29,5 %, CAT beat
+
+| link:https://www.benzinga.com/markets/market-summary/26/08/60938156/dow-jumps-over-900-points-as-crude-oil-falls-investor-sentiment-improves-further-fear-index-moves-to-greed-zone[Benzinga — Fear Index Greed 5 août]
+| Dow +907 pts, pétrole en baisse, sentiment Greed
+
+| link:https://altindex.com/ticker/qqq/technical-analysis[AltIndex — QQQ Technical Analysis]
+| MA50 $709,6 / MA200 $636,4 / RSI 63,5 au 5 août 2026
+
+| link:https://www.quiverquant.com/congresstrading/stock/NVDA[Quiver Quantitative — Congress Trades]
+| Suivi des transactions congressionnelles (NVDA, AMD)
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — si recommandé dans les trades]
+* xref:ROOT:hedging/protective-put.adoc[Protective Put — couverture court terme NFP/CPI]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — si scénario baissier se matérialise]
