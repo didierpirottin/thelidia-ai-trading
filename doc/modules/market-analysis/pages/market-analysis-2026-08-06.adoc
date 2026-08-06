@@ -1,0 +1,281 @@
+= Analyse de Marché — 6 août 2026
+:description: QQQ ~$717 reclaim MA50 ($716) après rebond +7,5 % post-FOMC, NFP juillet +187 K, VIX 15,48, oil +4 % (Ormuz), CPI 12 août — Baromètre Niveau 3 Consolidation
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| ~$717 (1 mois -2,6 %)
+| ~$770 (1 mois +1,5 %)
+| 15,48 — calme (retour pré-juillet)
+| 60 — Greed modérée
+| Contact (~$716) — reclaim récent
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : QQQ reclaim MA50, rebond post-selloff validé mais CPI 12 août = gate obligatoire_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 6 août 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: QQQ vient de reclaimer sa MA50 ($716) après un rebond de +7,5 % en six séances depuis le creux du 29 juillet ($667). Le VIX retombe à 15,48 (niveaux pré-crise juillet), et le Fear & Greed remonte à 60 (Greed modérée), signalant une normalisation du sentiment. Cependant, le CPI de juillet publié le 12 août constitue un gate obligatoire : un chiffre supérieur à 3,5 % rouvrirait la pression hawkish sur la Fed (3 dissidents au FOMC du 29 juillet) et menacerait le reclaim de MA50. En attendant, l'attitude recommandée est un renforcement sélectif et progressif — pas de déploiement agressif avant le 12 août.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+La semaine du 4–6 août 2026 marque la poursuite du rebond post-FOMC amorcé le 30 juillet. Depuis le creux intrajournalier à $667 du 29 juillet, QQQ a progressé de +7,5 % en six séances pour toucher $717, franchissant sa MA50 (~$716) pour la première fois depuis le 13 juillet. Cette reprise est portée par la normalisation du sentiment après le choc de la semaine du 21–29 juillet (selloff semis, spike VIX à 20+, FOMC hawkish avec 3 dissidents).
+
+Ce jeudi 6 août, les marchés américains marquent une légère pause : le Dow Jones cède -0,9 % (Brent +4,12 % à $82,72 — tensions au Détroit d'Ormuz), le S&P 500 perd -0,2 %, et le Nasdaq Composite recule -0,1 %. Le catalyseur négatif du jour est la montée du rendement du T10 à 4,67 % (+6 bp) après les données d'emploi de juillet (NFP +187 K, légèrement sous les attentes de +200 K). Nvidia résiste et progresse de +1,1 % à $219,07 en anticipation de ses résultats trimestriels prévus le 26 août. Salesforce cède -3 % après l'annonce d'un changement de direction exécutif.
+
+=== Pourquoi (causes profondes)
+
+La dynamique de fond reste celle d'un marché en traction IA/cloud mais bridé par des incertitudes macro. La Fed Warsh maintient les taux à 3,50–3,75 % (5ème hold consécutif), mais avec trois dissidents hawkish — une configuration de risque asymétrique : tout signe de réaccélération inflationniste (oil, CPI) pourrait déclencher un vote de hausse en septembre. Le CPI de juin (+3,5 % en glissement annuel, +2,6 % hors énergie/alimentation) confirme une tendance désinflation, mais reste au-dessus du target de 2 % de la Fed.
+
+L'emploi montre des signaux mitigés : le NFP de juillet (+187 K, chômage à 3,5 %) témoigne d'un marché du travail solide mais en ralentissement (vs +57 K surprenant de juin). Les salaires horaires progressent encore à +4,4 % YoY — au-dessus des attentes (+4,2 %) — ce qui maintient une pression modérée sur les prix à la consommation. Le spike pétrolier du jour (+4 % Brent à $82,72 suite à une menace iranienne de restriction au Détroit d'Ormuz) ajoute un risque inflationniste énergétique immédiat à surveiller avant le CPI du 12 août.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | ~$717footnote:[Cours estimé en séance du 6 août 2026 — vérifier les cours réels avant d'entrer en position.] | Reprise +7,5 % depuis le creux du 29 juil.
+| MA50 QQQ | ~$716footnote:[Source : Investing.com, données 6 août 2026.] | *Au contact / reclaim* — signal haussier CT si tenu
+| MA200 QQQ | ~$642footnote:[Source : Investing.com, données 6 août 2026.] | *Au-dessus* (+11,7 %) — tendance LT haussière intacte
+| S&P 500 cours | ~7 680 pts | Au-dessus MA50 (7 465) et MA200 (7 476)
+| SPY cours | ~$770 | Au-dessus MA50 (~$745) et MA200 (~$745)
+| RSI QQQ (14j) | ~60–65 | Neutre — pas en zone suracheté malgré le rebond
+| Taux 10 ans | 4,67 % | Hausse +6 bp ce jour — pression sur multiples croissance
+| Support clé 1 | $716 | MA50 QQQ — résistance devenue support (à tenir)
+| Support clé 2 | $683 | Plancher du 30 juillet (zone de rebond récente)
+| Support clé 3 | $642 | MA200 QQQ — défense long terme
+| Résistance clé 1 | $730–735 | Ancien range pré-selloff (17–22 juillet)
+| Résistance clé 2 | $748 | ATH 52 semaines — objectif scénario haussier
+| Breadth | McClellan Summation sous MA10 | Confirmation interne absente — prudence sur la durabilité
+| Structure | Recovery bounce depuis $667 (29 juil.) | Higher lows en formation — rebond CT validé
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 55 %
+
+*Conditions nécessaires* : QQQ clôture en semaine au-dessus de sa MA50 ($716), confirmant le reclaim après 3 semaines en-dessous. Le CPI de juillet (12 août) ressort à ≤ 3,2 % — confirmant la poursuite de la désinflation et écartant le risque d'une hausse Fed en septembre. NVIDIA publie des résultats supérieurs aux attentes le 26 août, relançant la dynamique IA.
+
+*Cibles* : QQQ $748 (ATH 52 semaines), SPY $800.
+
+*Catalyseurs* : CPI juillet < 3,2 % (12 août), résultats NVDA > attentes (26 août), Fed confirm "on hold" à Jackson Hole (22–24 août).
+
+=== Scénario baissier — Probabilité 45 %
+
+*Conditions de déclenchement* : QQQ rechute sous MA50 ($716) en clôture — faux breakout, retour en Niveau 4. CPI juillet > 3,5 % (surprise haussière) — pression hawkish sur la Fed. Oil Brent passe > $90 suite à escalade au Détroit d'Ormuz — choc inflationniste de deuxième ordre.
+
+*Supports critiques* : QQQ $683 (plancher rebond récent), QQQ $642 (MA200).
+
+*Risques de queue* : Escalade militaire Iran/Détroit d'Ormuz → VIX spike > 25 ; Fed hike surprise en septembre si CPI déraille → rotation obligataire massive.
+
+'''
+
+== Signal Congrès américain
+
+NOTE: Les données Capitol Trades sont indisponibles ce jour (timeout réseau — serveur inaccessible). Source alternative (Trendlyne) également inaccessible (403 Forbidden). Aucun signal Congrès ne peut être intégré aux recommandations ce jour. À noter : la Chambre des représentants a voté le *Stop Insider Trading Act* le 22 juillet 2026 (interdiction de nouveaux achats d'actions pour les membres du Congrès), ce qui pourrait réduire progressivement la valeur du signal Congrès dans les prochains mois.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes indiquées sont des estimations — vérifier les cours réels des options avant d'entrer en position.
+
+=== Trade #1 — Covered Call sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (Long 100 QQQ + Short 1 Call QQQ)
+| *Sous-jacent* | QQQ (~$717footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | QQQ vient de reclaimer MA50 ($716) — tendance CT validée. VIX à 15,48 → IV contractée mais prime avec 44 DTE reste correcte. La stratégie génère du theta quotidien pendant la période d'incertitude pré-CPI (12 août). Capping du gain limité à $735 acceptable en Niveau 3.
+| *Expiration* | 19 sept 2026 (~44 DTE)
+| *Strike* | Call $735 (OTM +2,5 %)
+| *Prime reçue* | ~$10/action (~$1 000/contrat)footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~+0,55
+| *Theta/jour* | ~+$9/jour
+| *Breakeven* | $707 (baisse)
+| *Entrée* | QQQ > $716 en clôture (MA50 tenue)
+| *Cible* | 50 % du crédit reçu (~$5/action) ou expiration si QQQ < $730
+| *Stop-loss* | QQQ < $707 en clôture / racheter le call si débit > $18
+| *Taille* | 3–5 % du portefeuille (nécessite 100 actions QQQ)
+|===
+
+._Covered Call QQQ $735 sept 2026 — P&L estimé à expiration (par contrat, 100 actions)_
+[mermaid]
+....
+xychart-beta
+    title "Covered Call QQQ $735 — P&L par contrat (100 actions)"
+    x-axis ["680 $", "690 $", "700 $", "707 $", "715 $", "725 $", "735 $", "745 $"]
+    y-axis "P&L ($)" -3000 --> 3000
+    bar [-2700, -1700, -700, 0, 800, 1800, 2800, 2800]
+    line [-2700, -1700, -700, 0, 800, 1800, 2800, 2800]
+....
+
+NOTE: Breakeven à $707. Profit maximal de $2 800 par contrat plafonné à $735 (gain capped par la vente du call). En-dessous de $707, perte linéaire comme sur une position long QQQ simple mais amortie de $10 par action (prime reçue). Stratégie adaptée au scénario de consolidation au-dessus de MA50.
+
+=== Trade #2 — Bull Call Spread NVDA (catalyseur earnings 26 août)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (débit)
+| *Sous-jacent* | NVDA (~$219footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | NVDA résultats Q2 annoncés le 26 août — historique de 6 trimestres consécutifs de surprise haussière. Momentum IA intact (+1,1 % ce jour). Risk/reward asymétrique : risque limité au débit payé, gain potentiel de 150 %. Signal technique : NVDA au-dessus de ses MAs court terme.
+| *Expiration* | 29 août 2026 (3 j post-earnings)
+| *Strike(s)* | Buy Call $220 / Sell Call $240
+| *Prime payée* | ~$8/action (~$800/contrat)footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~+0,45
+| *Theta/jour* | ~-$4/jour (acheteur net de temps)
+| *Breakeven* | $228 (+4,1 % depuis $219)
+| *Max profit* | $12/action (~$1 200/contrat) si NVDA > $240 à expiration
+| *Entrée* | Avant le 22 août (limiter l'exposition au passage du temps)
+| *Cible* | 75 % du max profit (~$9/action) — vente partielle avant earnings si gain
+| *Stop-loss* | Débit total > $12 (perte > $400/contrat) / NVDA < $210 en clôture
+| *Taille* | 1–2 % du portefeuille
+|===
+
+=== Trade #3 — Cash-Secured Put sur SPY (theta pur)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (stratégie vendeuse)
+| *Sous-jacent* | SPY (~$770footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | SPY au-dessus de MA50 (~$745) et MA200 (~$745) — double support technique. VIX 15,48 → IV moyenne sur SPY. Put $750 = -2,6 % OTM → marge de sécurité confortable pour absorber une correction pré-CPI. Stratégie theta pure adaptée au Niveau 3.
+| *Expiration* | 19 sept 2026 (~44 DTE)
+| *Strike* | Put $750 (OTM -2,6 %)
+| *Prime reçue* | ~$6–8/action (~$600–800/contrat)footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~-0,18
+| *Theta/jour* | ~+$6/jour
+| *Breakeven* | ~$742–744
+| *Entrée* | Maintenant ou sur repli SPY < $768
+| *Cible* | 50 % du crédit reçu (~$3–4/action)
+| *Stop-loss* | SPY < $750 en clôture / débit > 2× crédit reçu
+| *Taille* | Nécessite ~$75 000 en cash garanti, ou 5 % du portefeuille en margin
+|===
+
+=== Trade #4 — Bear Put Spread SPY (hedge pré-CPI 12 août)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bear Put Spread (protection partielle)
+| *Sous-jacent* | SPY (~$770footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | CPI juillet (12 août) = event risk majeur. Oil Brent +4,12 % ce jour → risque de réaccélération inflationniste. Hedge asymétrique : coût limité (~$350/contrat), protection si SPY chute -2 à -4 %. À coupler avec le Trade #3 pour neutraliser le risque CPI sur la position CSP.
+| *Expiration* | 22 août 2026 (~16 DTE, 10 j post-CPI)
+| *Strike(s)* | Buy Put $768 / Sell Put $755
+| *Prime payée* | ~$3,50/action (~$350/contrat)footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~-0,30
+| *Breakeven* | $764,50
+| *Max profit* | $9,50/action (~$950/contrat) si SPY < $755 à expiration
+| *Entrée* | Avant le 11 août (veille du CPI)
+| *Cible* | CPI > 3,5 % → garder jusqu'à expiration (max profit) / CPI normal → vendre à 50 %
+| *Stop-loss / annulation* | CPI ≤ 3,2 % → vendre le spread immédiatement (déboucler le hedge)
+| *Taille* | 1 % du portefeuille (assurance pure — ne pas sur-hedger)
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo (5ème hold consécutif, 3 dissidents hawkish)
+| Prochain FOMC | 16 septembre 2026 — marché anticipe "on hold" mais risque de hike si CPI déraille
+| Nouveau chairman Fed | Kevin Warsh (succède à Jerome Powell) — ton plus hawkish
+| CPI juin 2026 | +3,5 % YoY (-0,4 % MoM) — en-dessous de 3,8 % attendu, trend baissier
+| Core CPI juin | +2,6 % YoY — en baisse mais au-dessus du target 2 %
+| CPI juillet (attendu) | Publication 12 août 2026 — cible marché : ≤ 3,2 %
+| NFP juillet 2026 | +187 K (vs +200 K attendu) — chômage 3,5 %, salaires +4,4 % YoY
+| Taux 10 ans | 4,67 % (+6 bp ce jour) — niveau compressant les multiples croissance
+| Oil Brent | $82,72 (+4,12 %) — tensions Détroit d'Ormuz (Iran)
+| Put/Call ratio | ~0,80 — constructif, appétit pour le risque présent
+| Breadth Nasdaq | Positive (McClellan Oscillator +17) mais Summation sous MA10 — signal mixte
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 12 août 2026 | CPI juillet 2026 (8h30 ET) | Élevé — gate décisionnel pour la Fed et les marchés
+| 13 août 2026 | PPI juillet 2026 | Modéré — confirmation ou infirmation du trend désinflationniste
+| 15 août 2026 | Ventes au détail / Jobless Claims | Modéré — santé du consommateur américain
+| 22–24 août 2026 | Jackson Hole Symposium (Fed Warsh) | Élevé — forward guidance Fed sur septembre
+| 26 août 2026 | Résultats NVDA Q2 FY2027 | Élevé — catalyseur majeur pour la tech et les semis
+| 16 sept 2026 | FOMC — Décision des taux | Très élevé — risque de hausse si CPI déraille
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché — 60 (Greed) au 6 août 2026
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| VIX à 15,48 le 6 août 2026 (-6,18 %)
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites — prochain FOMC 16 sept.
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel et historique QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-6-2026[TheStreet — Market Today Aug 6]
+| Résumé de la séance du 6 août 2026
+
+| link:https://www.cnbc.com/2026/08/05/stock-market-today-live-updates.html[CNBC — Market News Aug 6]
+| Actualité marché du 6 août 2026
+
+| link:https://www.bls.gov/news.release/archives/cpi_07142026.htm[BLS — CPI juin 2026]
+| Données CPI juin 2026 publiées le 14 juillet 2026
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Détail de la stratégie hedge (Trade #4)]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Cash-Secured Put (Trade #3)]
+* xref:ROOT:options/index.adoc[Options — Concepts fondamentaux]
