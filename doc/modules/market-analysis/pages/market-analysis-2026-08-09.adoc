@@ -1,0 +1,267 @@
+= Analyse de Marché — 9 août 2026
+:description: QQQ 723 $ au-dessus MA50/MA200, NFP −23 K (récession), Fed hawkish Warsh. Baromètre Niveau 4 — Prudence. CPI 12 août = pivot majeur.
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| 723 $ (YTD +17,98 %)
+| 773 $ (YTD +14,00 %)
+| 14,9 — calme (complaisant)
+| 64-66 — Greed
+| Au-dessus (~683 $)
+| *Niveau 4/6 — PRUDENCE*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 4/6 — PRUDENCE : NFP récession + Fed hawkish + CPI pivot 12 août_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 9 août 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0,0,0,1,0,0]
+....
+
+NOTE: Le marché est dans un régime de *prudence avancée*. Les technicals restent intacts (QQQ au-dessus des deux moyennes mobiles clés), mais le contexte macro s'est fortement dégradé : NFP juillet à −23 000 (premier négatif en des années), Fed hawkish avec 3 dissidents pour une *hausse* des taux, et un CPI publiable le 12 août qui constitue un événement pivot binaire. Initier de nouveaux longs directionnels avant cette publication serait un pari hasardeux. Le VIX à 14,9 signe une complacence du marché qui rend l'assurance bon marché.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+QQQ clôture le vendredi 8 août 2026 à 723 $, YTD +17,98 %, après une reprise en V depuis le creux du 29 juillet à 667 $ (+8,4 % en 8 séances). L'ATH reste à 745,34 $ (2 juin 2026), soit −3 % d'écart. SPY clôture à 773 $, YTD +14 %. La semaine du 4 au 8 août a été marquée par la publication du rapport NFP juillet (−23 000 emplois), qui a paradoxalement propulsé les marchés à la hausse : le Nasdaq a bondi sur l'espoir d'une coupe de taux Fed. Sur le mois écoulé, les indices affichent une performance quasi-nulle (sell-off brutal juillet puis rebond), masquant une extrême volatilité. Coté résultats, Amazon a surpris avec +15 % en après-marché, tandis qu'Apple a déçu à −7 %. Le secteur technologie (XLK) continue de mener la performance 2026 avec +33 % YTD, porté par l'IA et les semi-conducteurs.
+
+=== Pourquoi (causes profondes)
+
+Le 29 juillet, le FOMC présidé par Kevin Warsh a maintenu les taux entre 3,50 % et 3,75 % — mais *trois membres ont voté pour une hausse*, signalant un biais hawkish significatif. Warsh lui-même a rejeté l'idée de "mission accomplie" malgré la détente de l'inflation : le CPI juin est tombé à 3,5 % YoY (vs 4,2 % en mai et attentes à 3,8 %), et le CPI core à 2,6 %. Malgré ce progrès, la Fed ne coupera pas les taux en l'état. L'emploi a subi un choc majeur : le NFP juillet à −23 000 est la première valeur négative depuis des années, avec des révisions à la baisse de 103 000 emplois sur mai-juin. Le taux de chômage s'est légèrement amélioré à 4,1 % (4,2 % précédemment), mais la participation au marché du travail recule à 61,4 %, niveau sur 5 ans. Le taux 10 ans reste à 4,68-4,69 %, maintenant une pression sur les valorisations tech. La dynamique "bad news = good news" (mauvaises données économiques → espoir de coupe → hausse des actions) crée une fragilité : ce trade peut s'inverser rapidement si le marché passe à un mode "récession" pur.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | 723 $ | —
+| MA50 QQQ | ~683 $ | Au-dessus (+5,9 %) — bullish
+| MA200 QQQ | ~707 $ | Au-dessus (+2,3 %) — bullish, mais marge étroite
+| Support clé 1 | 707 $ | MA200 — doit tenir en cas de CPI chaud
+| Support clé 2 | 667 $ | Creux juillet 2026 — support de rebond
+| Résistance clé | 745 $ | ATH juin 2026 — objectif haussier
+| RSI | 63,5 | Neutre — tendance vers suracheté
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 40 %
+
+*Conditions nécessaires* : CPI juillet (publié le 12 août) < 3,2 % YoY, permettant d'espérer des coupes Fed en septembre ou novembre ; QQQ maintient sa position au-dessus de MA200 (707 $).
+
+*Cibles* : QQQ 745 $ (retour à l'ATH de juin 2026), SPY 795 $.
+
+*Catalyseurs* : Warsh ouvre la porte à une première baisse de taux à l'automne ; NFP août (publié début septembre) repart en territoire positif, dissipant la peur de récession.
+
+=== Scénario baissier — Probabilité 60 %
+
+*Conditions de déclenchement* : CPI juillet > 3,8 % (surprise haussière) forçant Warsh à envisager une hausse en septembre ; ou deuxième NFP négatif consécutif confirmant la récession.
+
+*Supports critiques* : QQQ 707 $ (MA200) — premier test ; QQQ 650–660 $ (zone de consolidation juin).
+
+*Risques de queue* : (1) Fed monte les taux en urgence en septembre → crash de valorisation tech ; (2) Escalade géopolitique au Moyen-Orient → pétrole spike → résurgence de l'inflation.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Vérifier les cours réels des options avant d'entrer en position.
+
+=== Trade #1 — Iron Condor sur QQQ (stratégie theta — range CPI)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (vente de range, delta-neutre)
+| *Sous-jacent* | QQQ (~723 $) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Raisonnement* | QQQ est encadré entre MA200 (707 $) et ATH (745 $). Le CPI du 12 août va faire monter la IV → prime vendeuse attractive. Stratégie adaptée au Niveau 4 (theta sans directionnel).
+| *Expiration* | 19 septembre 2026 (~40 DTE)
+| *Strike(s)* | Vendre Put 695 / Acheter Put 680 — Vendre Call 750 / Acheter Call 765
+| *Prime reçue* | ~5,00 $ / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~0 (delta-neutre)
+| *Theta/jour* | ~12–15 $ / jour
+| *Breakeven(s)* | 690 $ (baisse) / 755 $ (hausse)
+| *Entrée* | Vendre avant le CPI du 12 août (IV élevée = prime maximale)
+| *Cible* | 50 % du crédit reçu (~2,50 $) — fermer à J+15 si atteint
+| *Stop-loss* | Débit > 10 $ (2× crédit) ou clôture QQQ sous 707 $ (MA200)
+| *Taille* | 3–5 % du portefeuille
+|===
+
+._Iron Condor QQQ Sep19 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ Sep19 — P&L estimé (par contrat)"
+    x-axis ["660 $","680 $","695 $","710 $","723 $","740 $","750 $","765 $","780 $"]
+    y-axis "P&L ($)" -1100 --> 600
+    bar [-1000,-1000,500,500,500,500,500,-1000,-1000]
+    line [-1000,-1000,500,500,500,500,500,-1000,-1000]
+....
+
+NOTE: Plancher de gain = +500 $ par contrat (prime nette reçue ~5 $) dans la zone 695–750 $. Perte maximale = −1 000 $ par contrat si QQQ sort de la fourchette 680–765 $ à expiration. Les breakevens sont à 690 $ et 755 $. Stratégie adaptée à un marché en range autour de 707–745 $.
+
+=== Trade #2 — Long Call VIX (assurance avant CPI du 12 août)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Long Call (protection asymétrique)
+| *Sous-jacent* | VIX (~14,9)
+| *Raisonnement* | VIX à 14,9 → assurance très bon marché. CPI 12 août = événement binaire explosif si surprise haussière. Gain x3–5 si spike VIX vers 25+.
+| *Expiration* | 17 septembre 2026
+| *Strike(s)* | Call 20 $ (OTM ~+34 %)
+| *Prime payée* | ~1,50 $ / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~+0,20
+| *Breakeven(s)* | VIX > 21,50 à expiration
+| *Entrée* | Avant le 12 août (CPI) — acheter la protection avant l'événement
+| *Cible* | VIX > 25 → P&L +200–300 % (~3–4 $ de valeur)
+| *Stop-loss* | Expiration sans valeur (perte max = 1,50 $ / contrat)
+| *Taille* | 0,5–1 % du portefeuille (hedge asymétrique pur)
+|===
+
+=== Trade #3 — Covered Call QQQ (revenu sur position existante)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (revenu sur position longue existante)
+| *Sous-jacent* | QQQ (~723 $) — pour porteurs déjà longs
+| *Raisonnement* | ATH à 745 $ constitue une résistance forte. QQQ peu probable de la franchir avant CPI. Collecte de prime sans sacrifier la position cœur.
+| *Expiration* | 19 septembre 2026 (~40 DTE)
+| *Strike(s)* | Call 745 $ (ATH résistance)
+| *Prime reçue* | ~6–8 $ / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0,25 (cède 25 % de l'upside au-dessus de 745 $)
+| *Entrée* | Lundi 11 août à l'ouverture
+| *Cible* | 50 % de la prime (~3–4 $) — rouler si QQQ approche 745 $
+| *Stop-loss* | Rachat si prime > 2× (prix > 12–16 $)
+| *Taille* | 1 contrat pour 100 actions QQQ détenues
+|===
+
+=== Trade #4 — Protective Put QQQ (hedge contre récession)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Long Put (protection directionnelle)
+| *Sous-jacent* | QQQ (~723 $)
+| *Raisonnement* | NFP −23 K = signal récession. Fed ne coupera pas (Warsh hawkish). Cassure MA200 (707 $) plausible si CPI chaud. Put 700 $ protège si retour vers les niveaux de juillet (667 $).
+| *Expiration* | 16 octobre 2026 (~65 DTE)
+| *Strike(s)* | Put 700 $ (sous MA200 à 707 $)
+| *Prime payée* | ~11–14 $ / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0,30
+| *Breakeven(s)* | 686–689 $
+| *Entrée* | Avant le CPI 12 août
+| *Cible* | QQQ < 680 $ → vente partielle du put (+50–100 %)
+| *Stop-loss* | Perte de 50 % si QQQ remonte au-dessus de 740 $
+| *Taille* | 2–3 % du portefeuille (couverture partielle du delta long)
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed (Warsh) | 3,50–3,75 % — statu quo (FOMC 29 juil.) — 3 dissidents pour hausse
+| Prochain FOMC | 15–16 septembre 2026 — hausse non exclue selon Warsh
+| CPI juin 2026 | +3,5 % YoY (core 2,6 %) — en-dessous attentes 3,8 %
+| CPI juillet 2026 | Publication : *12 août 2026* — événement pivot de la semaine
+| NFP juillet 2026 | −23 000 emplois (vs +83 000–95 000 attendus) — 1er négatif en années
+| Taux 10 ans US | 4,68–4,69 % — maintient pression sur valorisations tech
+| GDP Q2 (2e est.) | Publication : 26 août 2026
+| Fear & Greed | 64-66 — Greed — marché complaisant
+| VIX | 14,9 — faible = assurance bon marché
+|===
+
+'''
+
+== Signal Congrès américain
+
+WARNING: Données Capitol Trades indisponibles ce jour (réseau bloqué — HTTP 000). Relancer la commande `/copy-congress-trades` pour vérification manuelle si nécessaire.
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| *12 août 2026* | CPI juillet 2026 (8h30 EST) | *Élevé* — pivot Fed / marché
+| 15 août 2026 | Retail Sales juillet | Modéré — confirmation récession ou non
+| 26 août 2026 | GDP Q2 2026 (2e estimation) | Élevé — validation macro
+| 15–16 sept. 2026 | FOMC — décision taux | *Élevé* — hausse possible (Warsh)
+| 5 sept. 2026 | NFP août 2026 | Élevé — 2e négatif = récession officielle
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — données et futures
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.bls.gov/news.release/empsit.nr0.htm[BLS — Employment Situation July 2026]
+| Rapport officiel NFP juillet 2026 — Bureau of Labor Statistics
+
+| link:https://qz.com/us-payrolls-july-2026-jobs-report-080726[Quartz — NFP July 2026]
+| Analyse du choc emploi juillet 2026 (−23 000)
+
+| link:https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html[CNBC — Fed Meeting July 2026]
+| Compte-rendu FOMC 29 juillet 2026 — statu quo + 3 dissidents hawkish
+
+| link:https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html[CNBC — CPI juin 2026]
+| Rapport CPI juin 2026 : 3,5 % YoY — sous attentes
+
+| link:https://tradewithmaya.com/VixFearGauge[VIX Fear Gauge — TradeWithMaya]
+| Jauge VIX en temps réel — 14,9 Low Fear au 9 août 2026
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly — Stratégie range delta-neutre (proche de l'Iron Condor)]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Générer des revenus sur position longue]
