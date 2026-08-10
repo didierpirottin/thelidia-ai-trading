@@ -1,0 +1,273 @@
+= Analyse de Marché — 10 août 2026
+:description: QQQ $723,03 au-dessus MA50/MA200 ($707), NFP +23 K (miss –75 %), CPI juillet dû 12 août — Baromètre Niveau 3 Consolidation
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $723,03 (+6,3 % sur 1 mois)
+| ~$773 (+4,5 % sur 1 mois)
+| 15,45 — calme (range mois : 14,77–20,88)
+| 64 — Greed
+| Au-dessus ($707,59)
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : tendance haussière intacte, mais CPI mardi 12 août = événement binaire non digéré_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 10 août 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: QQQ clôture à $723,03, nettement au-dessus de sa MA50 ($707,59) et MA200 ($707,02), suite au puissant rebond post-NFP de la semaine précédente (+4,9 % hebdo). Le VIX à 15,45 confirme un marché serein. Cependant, deux signaux de vigilance tempèrent l'optimisme : (1) le sentiment est en zone Greed (64) avec un ratio calls/puts au niveau le plus haussier depuis quatre ans — signe de complaisance excessive ; (2) le CPI de juillet est publié mardi 12 août (consensus 3,4 %) et représente un événement binaire majeur qui pourrait remettre en cause la narrative dovish si le chiffre dépasse 3,5 %. Niveau 3 approprié : renforcement sélectif et stratégies theta, sans déploiement agressif avant la donnée CPI.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+La semaine du 4–8 août 2026 a été dominée par la publication du rapport sur l'emploi américain (NFP) de juillet, dont la déception sévère — +23 000 postes créés contre +83 000 attendus, avec des révisions cumulées à la baisse de –103 000 emplois pour mai et juin — a paradoxalement propulsé les marchés : le Nasdaq a progressé de +5,19 % et le S&P 500 de +3,58 % sur la semaine, les investisseurs ayant interprété le signal comme une pression dovish sur la Fed. QQQ a ainsi récupéré l'ensemble du terrain perdu lors de la correction de fin juillet (de $667 à $723), repassant nettement au-dessus de ses moyennes mobiles clés.
+
+La séance du lundi 10 août marque une pause digestive modérée : le S&P 500 recule de –0,06 % à 7 753,11 points, le Nasdaq Composite de –0,32 % à 26 605 points. Les principaux freins sont Intel (–4 % après l'annonce d'une émission de $15 Mds d'actions ordinaires), Nvidia (–2,9 % en consolidation avant résultats le 26 août) et Apple (–1,5 %). Sur le front géopolitique, les doutes croissants quant à la durabilité d'un accord entre Washington et Téhéran alimentent une légère aversion au risque, le pétrole ayant déjà progressé de plus de 20 % en un mois.
+
+=== Pourquoi (causes profondes)
+
+La Fed a maintenu ses taux directeurs à 3,50–3,75 % lors du FOMC du 28–29 juillet (cinquième statu quo consécutif), avec un vote 9–3 inédit : trois membres du FOMC ont dissenté en faveur d'une hausse immédiate de 25 pb — configuration hawkish la plus prononcée depuis 2016. Le président Kevin Warsh a souligné lors de sa conférence de presse que la Fed « n'avait pas encore réalisé les progrès espérés sur l'inflation », notamment en raison du choc pétrolier lié au conflit au Moyen-Orient. Le taux à 10 ans se maintient à ~4,65 %, niveau pénalisant pour les multiples de valorisation des valeurs de croissance.
+
+Structurellement, deux forces antagonistes dominent : d'un côté, l'intelligence artificielle continue de soutenir les résultats des hyperscalers (AWS +37 % au dernier trimestre pour Amazon) et justifie les révisions haussières des prévisions de BPA du S&P 500 (JPMorgan relève à $365 pour 2026, vs $350 précédemment) ; de l'autre, le ralentissement de l'emploi, le niveau persistant de l'inflation (CPI juin +3,5 % vs cible Fed 2 %) et la tension géopolitique au Moyen-Orient constituent des risques structurels. Le sentiment de marché flirte avec la complaisance : le ratio calls/puts sur le S&P 500 a atteint son niveau le plus haussier en quatre ans, et le Bullish Percent Index dépasse les 70 %.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $723,03 | Séance en légère consolidation — tendance haussière intacte
+| MA50 QQQ | $707,59footnote:[Source : altindex.com, données séance du 10 août 2026.] | *Au-dessus* (+2,2 %) — signal haussier
+| MA200 QQQ | $707,02footnote:[Source : altindex.com, données séance du 10 août 2026.] | *Au-dessus* (+2,3 %) — support long terme validé
+| S&P 500 MA50 | 7 630 | Au-dessus — signal haussier fort
+| S&P 500 MA200 | 7 522 | Au-dessus — tendance longue confirmée
+| RSI QQQ (14j) | ~58 | Neutre-haussier — ni suracheté ni survendu
+| Support clé 1 | $709,22 | Confluence MA50/MA200 — zone de défense critique
+| Support clé 2 | $698,45 | Support technique secondaire (pullback récent)
+| Résistance clé 1 | $740–$748 | Zone ATH 52 semaines ($748,65) — objectif haussier
+| Structure | Higher highs | Depuis fin juillet — rebond post-NFP validé
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 55 %
+
+*Conditions nécessaires* : Le CPI de juillet (12 août) ressort ≤3,4 %, confirmant la tendance désinflation et réduisant la pression hawkish interne à la Fed. QQQ maintient la clôture hebdomadaire au-dessus de $709 (MA50/MA200) malgré la sortie du CPI. Le taux à 10 ans revient sous 4,5 %, soulageant les valorisations des valeurs de croissance.
+
+*Cibles* : QQQ $748 (ATH 52 semaines), puis $760 si la dynamique se confirme. SPY $790.
+
+*Catalyseurs* : Publication du CPI favorable le 12 août → réouverture de la narrative dovish ; résultats NVDA le 26 août attendus en forte croissance (revenus TTM $159,6 Mds, +109 % en glissement annuel) → potentiel de catalyseur haussier pour le secteur technologique.
+
+=== Scénario baissier — Probabilité 45 %
+
+*Conditions de déclenchement* : Le CPI de juillet dépasse 3,5 % (choc pétrolier Moyen-Orient transmis aux données), forçant la Fed à envisager une hausse en septembre. Les trois dissidents hawkish du FOMC trouvent un quatrième allié — changement de majorité. L'accord de cessez-le-feu Iran s'effondre, le pétrole progresse de +15 % supplémentaires.
+
+*Supports critiques* : QQQ $707 (confluence MA50/MA200 — niveau décisif) ; QQQ $680 (plancher du range mensuel) ; QQQ $642 (MA200 long terme).
+
+*Risques de queue* : Surprise hawkish Fed (hausse non anticipée en septembre) → spike VIX vers 25+ ; NFP août négatif → signaux de récession ; escalade géopolitique Iran → choc pétrolier structurel.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Vérifier les cours réels et les primes d'options sur votre plateforme de courtage avant toute exécution.
+
+=== Trade #1 — Covered Call sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (vente de call couverte sur position longue)
+| *Sous-jacent* | QQQ (~$723)
+| *Raisonnement* | Tendance haussière intacte mais résistance forte à $740–748 (zone ATH 52 semaines) ; génération de revenu theta sur position existante ; VIX 15,45 offre des primes raisonnables sans IV excessive ; niveau 3 favorise les stratégies de revenu theta
+| *Expiration* | 5 sept. 2026 (26 DTE)
+| *Strike(s)* | Call $748 (zone résistance ATH — OTM +3,5 %)
+| *Prime reçue/payée* | ~$7 reçue par contrat
+| *Delta total* | –0,22 (short call)
+| *Theta/jour* | +$0,38 / jour
+| *Breakeven(s)* | $723 – $7 = $716 (protection partielle à la baisse)
+| *Entrée* | Émettre immédiatement sur 100 parts QQQ existantes
+| *Cible* | 50 % du crédit → racheter le call à $3,50
+| *Stop-loss* | QQQ clôture > $748 : rouler le call vers échéance/strike supérieur
+| *Taille* | 1 contrat pour 100 parts détenues
+|===
+
+=== Trade #2 — Bull Call Spread sur QQQ (conditionnel CPI)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (spread vertical haussier débiteur)
+| *Sous-jacent* | QQQ (~$723)
+| *Raisonnement* | Scénario haussier principal (55 %) : CPI ≤3,4 % le 12 août → rebond vers l'ATH à $748 ; risque limité au débit payé avant l'événement binaire ; support MA50/MA200 solide à $707 établit un floor clair
+| *Expiration* | 19 sept. 2026 (~40 DTE)
+| *Strike(s)* | Achat Call $730 / Vente Call $748
+| *Prime reçue/payée* | ~$8 débit net
+| *Delta total* | +0,42
+| *Theta/jour* | –$0,20 / jour (position longue — coût du temps)
+| *Breakeven(s)* | $738 (hausse)
+| *Entrée* | Uniquement après publication du CPI le 12 août si résultat ≤3,4 % ; attendre la réaction de marché (30 min après ouverture)
+| *Cible* | 75 % du gain max → vendre le spread à $15 (gain $7 sur débit $8)
+| *Stop-loss* | QQQ clôture sous $707 (MA50/MA200) → couper à –$5
+| *Taille* | 1–2 % du portefeuille
+|===
+
+=== Trade #3 — Iron Condor sur SPY (stratégie theta / range)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (stratégie delta-neutre, vente de volatilité)
+| *Sous-jacent* | SPY (~$773)
+| *Raisonnement* | SPY en consolidation étroite — marché en attente du CPI ; légère élévation d'IV avant le CPI augmente les primes ; niveau 3 = stratégie theta/delta-neutral adaptée ; breakeven wide ($747–797) absorbant un mouvement post-CPI de ±3,3 %
+| *Expiration* | 5 sept. 2026 (26 DTE)
+| *Strike(s)* | Sell Put $752 / Buy Put $740 — Sell Call $792 / Buy Call $804
+| *Prime reçue/payée* | ~$4,50 crédit net reçu par contrat
+| *Delta total* | ~neutre (légèrement positif +0,05)
+| *Theta/jour* | +$0,45 / jour
+| *Breakeven(s)* | $747,50 (bas) / $796,50 (haut) — range de $49 de sécurité
+| *Entrée* | Aujourd'hui ou mardi matin avant l'ouverture (IV encore élevée pré-CPI)
+| *Cible* | 50 % du crédit → racheter l'ensemble à $2,25
+| *Stop-loss* | SPY clôture < $752 ou > $792 → fermer la jambe déficitaire et évaluer l'ajustement
+| *Taille* | 2–3 % du portefeuille
+|===
+
+._Iron Condor SPY 752/740–792/804 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor SPY 752/740-792/804 — P&L estimé (par contrat)"
+    x-axis ["$735", "$740", "$748", "$760", "$773", "$785", "$792", "$798", "$804"]
+    y-axis "P&L ($)" -900 --> 600
+    bar [-750, -750, 50, 450, 450, 450, 450, -150, -750]
+    line [-750, -750, 50, 450, 450, 450, 450, -150, -750]
+....
+
+NOTE: Plancher de perte : –$750 par contrat (si SPY < $740 ou > $804). Profit maximum : +$450 par contrat (zone $752–$792, largeur $40). Breakeven inférieur : $747,50 ; supérieur : $796,50. SPY actuel à $773 se trouve en plein cœur de la zone de profit maximale. Graphique estimatif — footnote:[Estimation basée sur un crédit net de $4,50 par spread. Vérifier les primes réelles sur votre plateforme avant exécution.]
+
+=== Trade #4 — Cash-Secured Put sur NVDA (signal Congrès — observation)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (vente de put sécurisée par du cash)
+| *Sous-jacent* | NVDA (~$170footnote:[Estimation — vérifier le cours réel avant d'entrer en position.])
+| *Raisonnement* | Signal Congrès : NVDA figure parmi les achats congressionnels récents dans le thème IA (données web, Capitol Trades inaccessible ce jour) ; IV très élevée avant résultats le 26 août → prime vendeuse intéressante ; revenus TTM $159,6 Mds (+109 % YoY) → fondamentaux solides ; strike OTM –10 % intègre un tampon de sécurité earnings
+| *Expiration* | 5 sept. 2026 (10 jours post-earnings)
+| *Strike(s)* | Put $152 (OTM –10,6 % au cours estimé)
+| *Prime reçue/payée* | ~$6 reçue par contrat footnote:[Estimation haute IV pré-earnings. Vérifier sur votre plateforme.]
+| *Delta total* | –0,18
+| *Theta/jour* | +$0,55 / jour (accéléré pré-earnings)
+| *Breakeven(s)* | $146 (soit –14 % du cours estimé)
+| *Entrée* | Après confirmation du CPI mardi 12 août ≤3,4 % ; conditions macro favorables requises
+| *Cible* | 80 % du crédit → rachat à $1,20 (collapse IV post-earnings attendu)
+| *Stop-loss* | NVDA clôture < $152 après résultats → rouler vers échéance suivante à strike inférieur
+| *Taille* | 1 % du portefeuille (position de conviction modérée — risque binaire earnings intégré)
+|===
+
+WARNING: Ce trade inclut un risque binaire lié aux résultats NVDA du 26 août. Ne pas dépasser 1 % du portefeuille. L'IV collapse post-earnings peut être favorable (vente de put) mais un résultat négatif pourrait entraîner une perte dépassant le crédit reçu si le titre corrige fortement.
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo (5ème hold consécutif, vote 9–3 hawkish)
+| Prochain FOMC | Septembre 2026 — marché : aucune baisse anticipée avant novembre
+| CPI juin | +3,5 % YoY — au-dessus target 2 % Fed — trend baissier (4,2 % mai → 3,5 % juin)
+| CPI juillet (à venir) | Publication mardi 12 août 2026 à 14h30 (heure Paris) — consensus 3,4 %
+| NFP juillet | +23 000 vs +83 000 attendus — déception sévère — révisions mai/juin : –103 000
+| Taux 10 ans | ~4,65 % — légère baisse après NFP (était 4,71 % le 23 juillet) — niveau compressant les multiples
+| Put/Call ratio | Calls/Puts S&P 0,9 — plus haussier en 4 ans → signal de complaisance (contrarian risk)
+| Bullish % Index | >70 % — avance de marché concentrée sur peu de titres large-cap
+| Pétrole | +20 % en 1 mois — conflit Moyen-Orient (Iran) — risque inflationniste structurel
+| JPMorgan BPA S&P | Relevé à $365 pour 2026 (vs $350) et $420 pour 2027 — signal fondamental positif
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| *Mardi 12 août 2026* | CPI juillet 2026 — publication BLS 14h30 (Paris) | *Élevé* — événement binaire déclencheur du baromètre
+| *Jeudi 14 août 2026* | PPI juillet 2026 — prix producteurs | Modéré — confirmation ou infirmation du CPI
+| *Mercredi 26 août 2026* | NVDA Q3 FY2027 earnings (après clôture) | *Élevé* — catalyseur sectoriel IA majeur
+| Septembre 2026 | Prochain FOMC — décision taux Fed | Élevé — pivot possible si données favorables
+| Continu | Conflit Moyen-Orient / Iran — évolution accord de paix | Élevé — impact direct sur le pétrole et l'inflation
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême) — valeur du 10 août : 64 (Greed)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — VIX 15,45 au 10 août 2026
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures de taux
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique et options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel et historique
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-10-2026[TheStreet — Marché 10 août]
+| Résumé de séance S&P 500 / Nasdaq au 10 août 2026
+
+| link:https://www.usnews.com/news/national-news/articles/2026-08-10/july-cpi-could-show-further-easing-in-inflation[US News — CPI juillet]
+| Analyse des attentes du CPI juillet 2026 (publication 12 août)
+
+| link:https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2026[NVIDIA Newsroom — Q2 FY2026]
+| Résultats financiers NVDA Q2 FY2026 — revenus $58,3 Mds
+
+| link:https://www.capitoltrades.com/trades[Capitol Trades]
+| Suivi des transactions boursières des membres du Congrès américain (STOCK Act)
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly / Condor — Stratégies delta-neutres apparentées (Trade #3)]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Cash-Secured Put sur NVDA (Trade #4)]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — En cas de cassure CPI haussier]
