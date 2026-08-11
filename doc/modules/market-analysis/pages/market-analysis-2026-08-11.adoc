@@ -1,0 +1,298 @@
+= Analyse de Marché — 11 août 2026
+:description: QQQ $720.87 au-dessus MA50/MA200, VIX 15.55 calme, NFP −23K, CPI demain crucial — Baromètre Niveau 3/6 Consolidation, Hormuz $83, NVDA earnings 26 août
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $720.87 (~+2 % /mois)
+| $773.03 (~+1.7 % /mois)
+| 15.55 — calme (légère hausse)
+| 63 — Greed
+| Au-dessus ($707.59)
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : tendance intacte, NFP−23K + CPI demain imposent la sélectivité_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 11 août 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: Le marché se situe en zone de *consolidation* : la tendance haussière de long terme reste intacte (QQQ au-dessus de MA50 $707.59 et MA200 $707.02), le VIX est calme à 15.55, et le sentiment Fear & Greed affiche 63 (Greed). Cependant, le NFP juillet à −23 K constitue un choc économique majeur, et le CPI de juillet — publié demain 12 août à 8h30 ET — représente le prochain point d'inflexion. La fermeture du Détroit d'Hormuz depuis mars 2026 maintient le pétrole à $83/baril, alimentant un risque de stagflation. Le renforcement progressif et sélectif est justifié, mais aucun déploiement agressif avant la publication du CPI.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Le Nasdaq Composite a reculé de 0.67 % ce 11 août 2026 (26 428 points), le S&P 500 de 0.10 % (7 753 points) et le Dow Jones de 0.34 % (53 792 points). Le QQQ perd légèrement du terrain à $720.87 (52W range : $555.60–$748.65), restant à 3.7 % sous son plus haut sur 52 semaines. Le SPY à $773.03 est quasi au contact de son ATH à $776.85.
+
+La rotation intra-sectorielle est marquée : les semi-conducteurs optiques plongent (Coherent −14.24 %, Lumentum −8.61 % après les fortes performances récentes), tandis que Datadog bondit +11.48 % sur des résultats Q2 solides. Bending Spoons (BSP) monte +15.70 % en anticipation de ses résultats Q2 demain. AMD a publié des résultats Q2 excellents le 4 août (revenus data center accélérés, guidance serveur +80 % en H2 2026). Les marchés attendent maintenant NVDA le 26 août — catalyseur décisif pour le secteur IA.
+
+* *NFP juillet* : −23 K (vs +80 K attendu) — premier rapport mensuel négatif significatif
+* *Hormuz* : Détroit fermé depuis mars 2026 — pétrole US crude à $83/baril
+* *FOMC 29 juillet* : taux inchangés (vote 9-3 avec dissidents hawkish) — Kevin Warsh (nouveau chairman)
+
+=== Pourquoi (causes profondes)
+
+La Fed maintient ses taux à 3.50–3.75 % depuis décembre 2025 (5e réunion consécutive sans mouvement). Kevin Warsh, le nouveau chairman, fait face à une configuration délicate : une économie qui perd des emplois (−23 K NFP, −50 K éducation gouvernementale, −40 K loisirs/hôtellerie) tandis que l'inflation reste collante, alimentée par le choc pétrolier lié à la fermeture du Détroit d'Hormuz (« plus grande perturbation de l'approvisionnement pétrolier mondial de l'histoire » selon l'AIE).
+
+Les marchés anticipent désormais deux hausses de taux potentielles en 2026, un retournement de sentiment par rapport aux espoirs de baisses qui prévalaient en début d'année. L'Iran conditionne la réouverture d'Hormuz à la levée des sanctions américaines et au paiement de réparations de guerre — aucune résolution à court terme n'est attendue. Le salaire horaire moyen progresse de seulement 3.2 % YoY (plus bas depuis mai 2021), signalant un refroidissement du marché du travail. Le CPI de juillet, publié demain, sera déterminant pour la trajectoire des taux.
+
+* *Fed* : 3.50–3.75 % — statu quo depuis décembre 2025
+* *Inflation* : CPI juillet demain (+2.9 % YoY attendu) — Hormuz = pression haussière
+* *Emploi* : NFP −23 K — choc (−50 K éducation, −40 K loisirs, −19 K retail, −14 K financier)
+* *Salaires* : +3.2 % YoY — plus bas depuis mai 2021
+* *Sentiment* : put/call 0.86 (haussier) — Fear & Greed 63 (Greed)
+* *Risque 1* : Stagflation — NFP négatif + pétrole $83 structurel
+* *Risque 2* : Marché anticipe 2 hausses de taux — pression sur multiples tech
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $720.87 | —
+| MA50 QQQ | $707.59 | Au-dessus (+1.9 %) — haussier
+| MA200 QQQ | $707.02 | Au-dessus (+1.9 %) — haussier
+| Cluster MA50/MA200 | $707 | Support critique — zone de défense
+| Support clé | $707 | Confluence MA50+MA200 (golden cross récent)
+| Résistance clé | $748.65 | 52-week high — à reconquérir
+| RSI (14j) | 65.18 | Élevé mais sous 70 — pas suracheté
+| SPY cours | $773.03 | Quasi ATH ($776.85)
+| MA50 S&P 500 | $7 630 | S&P 500 au-dessus (+1.6 %)
+| MA200 S&P 500 | $7 523 | S&P 500 au-dessus (+3 %)
+| VIX | 15.55 | Calme (+3.76 % vs veille)
+|===
+
+Structure : Higher highs et higher lows depuis le 52W low à $555.60 (août 2025). La tendance de fond reste haussière. La zone $707 représente désormais un support confluence MA50/MA200 à ne pas perdre sous peine de signal baissier.
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 55 %
+
+*Conditions nécessaires* : CPI juillet ≤ 2.9 % YoY demain (soulagement Fed), et QQQ maintient la zone $707 (MA50/MA200).
+
+*Cibles* : QQQ $748–760 (reconquête 52W high + dépassement), SPY $785–800.
+
+*Catalyseurs* :
+
+. NVDA bat les attentes le 26 août 2026 (résultats post-marché confirmés) — cible analysts à $302
+. Fed signale une pause lors du FOMC du 15-16 septembre (chômage + NFP faible plaident pour la prudence)
+. Accord potentiel sur le Détroit d'Hormuz → détente pétrole → recul de l'inflation importée
+. Poursuite du momentum IA (AMD guidance data center +80 % H2 confirmée)
+
+=== Scénario baissier — Probabilité 45 %
+
+*Conditions de déclenchement* : CPI surprise haussière > 3.2 % (propagation Hormuz/pétrole au core), ou QQQ perd la zone $707 en clôture.
+
+*Supports critiques* : QQQ $707 (MA50/MA200 — niveau de rupture du scénario), QQQ $680 (retrace Fibonacci 38.2 % depuis $555 vers $748).
+
+*Risques de queue* :
+
+. *Escalade Iran* : fermeture définitive Hormuz ou attaque d'infrastructure → VIX spike > 25
+. *Récession confirmée* : 2e NFP consécutif négatif en septembre → révision à la baisse des earnings
+. *Fed hawkish* : 2 hausses de taux consécutives → compression des multiples tech (P/E QQQ élevé)
+
+'''
+
+== Signal Congrès américain
+
+NOTE: Données Capitol Trades indisponibles ce jour (scraping bloqué — HTTP 000). Données partielles issues de WebSearch uniquement.
+
+[cols="1,1,1,1,1"]
+|===
+| Ticker | Nb élus | Dernier achat | Élu(s) | Actualité récente
+
+| GOOGL
+| 1
+| 24 juillet 2026
+| Rep. Josh Gottheimer
+| IA/cloud — achat $8K–$120K (footnote:[Source : Benzinga, 10 août 2026 — montant estimé selon déclaration obligatoire.])
+
+| GLW (Corning)
+| 1
+| ~août 2026
+| Inconnu
+| Semi/optique — ~$240K (footnote:[Source : Benzinga — élu non identifié dans les résultats disponibles.])
+|===
+
+*Règle d'application (Baromètre 3)* : signal insuffisant (1 élu par ticker) — GOOGL et GLW en *observation uniquement*, aucun trade actif sur signal Congrès.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Vérifier les cours réels avant d'entrer en position.
+
+=== Trade #1 — Covered Call sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (sur position longue QQQ)
+| *Sous-jacent* | QQQ (~$720.87 footnote:[Cours de clôture estimé du 11 août 2026 — vérifier avant entrée.])
+| *Raisonnement* | Tendance haussière intacte au-dessus MA50/MA200 ($707). Consolidation attendue avant CPI/FOMC → la vente de prime génère des revenus sans biaiser le portefeuille. Limite l'exposition à la baisse si CPI surprise haussière demain.
+| *Expiration* | 19 septembre 2026 (~39 DTE)
+| *Strike(s)* | Call $740 (~2.7 % OTM, sous 52W high $748.65)
+| *Prime reçue* | ~$9/action ($900/contrat) footnote:[Estimation — prime effective dépend de l'IV implicite au moment de l'entrée.]
+| *Delta total* | ~−0.32 (sur le call vendu)
+| *Theta/jour* | ~$0.18/action (~$18/contrat)
+| *Breakeven (baisse)* | $711.87 (= $720.87 − $9 prime)
+| *Entrée* | Vente dès ouverture ou sur remontée vers $723–725
+| *Cible* | Rachat du call à 50 % du crédit reçu (~$4.50) — profit ~$450/contrat
+| *Stop-loss* | QQQ clôture sous $707 (MA50/MA200) → racheter le call immédiatement
+| *Taille* | 5–10 % du portefeuille (position QQQ existante ou nouvelle)
+|===
+
+._Covered Call QQQ $740 — P&L estimé à expiration (par action)_
+[mermaid]
+....
+xychart-beta
+    title "Covered Call QQQ $740 — P&L à expiration (par action)"
+    x-axis ["$695", "$700", "$705", "$712", "$720", "$730", "$740", "$750"]
+    y-axis "P&L ($)" -20 --> 32
+    bar [-17, -12, -7, 0, 8, 18, 28, 28]
+    line [-17, -12, -7, 0, 8, 18, 28, 28]
+....
+
+NOTE: Profit maximal de $28/action si QQQ ≥ $740 à expiration. Breakeven à la baisse : $711.87 (protection partielle de −$9). Perte illimitée sous $711.87 (identique à la détention pure de QQQ mais avec $9 de coussin).
+
+=== Trade #2 — Bull Call Spread sur NVDA (earnings 26 août)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread
+| *Sous-jacent* | NVDA (~$217.48 footnote:[Cours estimé du 11 août 2026 — 52W range : $164.07–$236.54.])
+| *Raisonnement* | NVDA publie ses résultats Q2 le 26 août 2026 (post-marché, confirmé). Strong Buy (58 analystes, target moyen $302.83). AMD Q2 excellent (data center accélère, serveurs +80 % H2 2026) → lecture positive pour NVDA. Le spread limite le risque en cas de "sell-the-news" post-earnings.
+| *Expiration* | 5 septembre 2026 (~25 DTE, après earnings)
+| *Strike(s)* | Long Call $225 / Short Call $245
+| *Prime nette payée* | ~$6/action ($600/contrat) footnote:[Estimation basée sur NVDA à $217.48 et IV typique pré-earnings — à ajuster selon les options réelles.]
+| *Delta net* | ~+0.35
+| *Breakeven* | $231 (= $225 + $6)
+| *Max profit* | $14/action = $1 400/contrat (si NVDA > $245 à expiration)
+| *Max perte* | $600/contrat (prime payée — risque limité et défini)
+| *Entrée* | NVDA > $215 en clôture, avant le 22 août
+| *Cible* | 70 % du max profit (~$980/contrat)
+| *Stop-loss* | Prime perd > 50 % de sa valeur ($300) → clôturer
+| *Taille* | 2–3 % du portefeuille
+|===
+
+=== Trade #3 — Long XLE (Hedge Stagflation / Hormuz)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Achat ETF (position longue directionnelle)
+| *Sous-jacent* | XLE — Energy Select Sector SPDR (~$105 estimé footnote:[Prix XLE estimé — à vérifier avant entrée. XLE +21 % YTD 2026.])
+| *Raisonnement* | Le Détroit d'Hormuz reste fermé depuis mars 2026 (« plus grande perturbation pétrolière de l'histoire » selon l'AIE). L'Iran conditionne la réouverture à la levée des sanctions — aucune résolution imminente. Le pétrole US crude à $83/baril soutient structurellement les profits du secteur énergie. XLE +21 % YTD démontre la dynamique. Si CPI demain surprise à la hausse (Hormuz propagation), XLE profite doublement. Hedge naturel contre la stagflation.
+| *Entrée* | Position longue aux niveaux actuels (~$105)
+| *Cible* | $115–120 (+10–14 %) sur 4–8 semaines (Hormuz toujours fermé)
+| *Stop-loss* | Clôture < $99 (−5.7 %), ou annonce réouverture imminente d'Hormuz
+| *Delta* | ~+1 (position directionnelle)
+| *Taille* | 5–8 % du portefeuille
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3.50–3.75 % — statu quo depuis décembre 2025 (5e hold consécutif)
+| Prochain FOMC | 15–16 septembre 2026 — marché anticipe 2 hausses potentielles en 2026
+| CPI juillet | Publication *demain 12 août 8h30 ET* — attendu ~2.9 % YoY, +0.2 % MoM
+| NFP juillet | −23 000 emplois (vs +80 K attendu) — choc : −50K éduc., −40K loisirs, −19K retail
+| Chômage | 4.1 % (stable mais labor force en contraction)
+| Salaires | +3.2 % YoY — plus bas depuis mai 2021
+| Taux 10 ans | ~4.4 % (estimé — pression à la baisse du NFP vs pression haussière Hormuz/inflation)
+| Put/Call ratio | 0.86 (bullish) — call/put S&P 500 au plus haut depuis 4 ans
+| Pétrole (US Crude) | $83/baril — Détroit d'Hormuz fermé depuis mars 2026
+| Fed Chairman | Kevin Warsh (remplace Powell) — 3 dissidents hawkish au vote de juillet
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| *12 août 2026* | CPI juillet 2026 (8h30 ET) — attendu +2.9 % YoY | *Élevé* — détermine trajectoire Fed
+| 13 août 2026 | Bending Spoons (BSP) résultats Q2 | Modéré — proxy applis consommateur
+| 15-16 sept. 2026 | FOMC — décision taux + SEP | *Élevé* — hike ou pause ?
+| 26 août 2026 | NVDA résultats Q2 (post-marché) | *Élevé* — catalyseur IA secteur entier
+| Continu | Négociations Iran/Hormuz (via Oman) | *Élevé* — pétrole, inflation, géopolitique
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://feargreedmeter.com/fear-and-greed-index[Fear & Greed Meter]
+| Fear & Greed Index stock market — score du jour (63 — Greed, 11 août 2026)
+
+| link:https://www.cnbc.com/quotes/QQQ[QQQ — CNBC]
+| Cours en temps réel QQQ (Invesco QQQ Trust)
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel (15.55 au 11 août 2026)
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-11-2026[TheStreet — Market Today 11 août]
+| Synthèse journalière — Russell 2000 / Large caps
+
+| link:https://convextrade.com/metrics/qqq[Convex Trade — QQQ]
+| Métriques temps réel QQQ ($719.59 au 11 août 2026)
+
+| link:https://www.aljazeera.com/economy/2026/8/10/oil-prices-climb-as-iranian-demands-cloud-outlook-for-strait-of-hormuz[Al Jazeera — Hormuz]
+| Oil prices et Détroit d'Hormuz — exigences iraniennes
+
+| link:https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html[CNBC — FOMC juillet 2026]
+| Compte-rendu FOMC 29 juillet 2026 (taux inchangés, Warsh)
+
+| link:https://www.cnbc.com/2026/08/04/amd-earnings-report-q2-2026.html[CNBC — AMD Q2 2026]
+| Résultats AMD Q2 (data center, guidance H2)
+
+| link:https://www.foxbusiness.com/economy/us-jobs-report-july-2026[Fox Business — NFP juillet]
+| US Jobs Report juillet 2026 (−23 K emplois)
+
+| link:https://cambridgecurrencies.com/next-federal-reserve-interest-rate-decision/[Cambridge Currencies — FOMC]
+| Prochain FOMC 16 septembre 2026 — taux actuels 3.50–3.75 %
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Covered Call et Cash-Secured Put]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly — Stratégie theta neutre]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Se couvrir si le scénario baissier se matérialise]
