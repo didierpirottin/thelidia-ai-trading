@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-08-13.adoc[13 août 2026]
+| Niveau 3/6 — CONSOLIDATION
+| Haussière
+| QQQ $730 ATH, CPI juillet +3,4 % in-line (relief dovish), NVDA 26 août gate, VIX 14,63
+
 | xref:market-analysis:market-analysis-2026-08-12.adoc[12 août 2026]
 | Niveau 3/6 — CONSOLIDATION
 | Haussière

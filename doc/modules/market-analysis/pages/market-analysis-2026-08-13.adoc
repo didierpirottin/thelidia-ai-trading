@@ -1,0 +1,304 @@
+= Analyse de Marché — 13 août 2026
+:description: QQQ $730,28 au-dessus MA50/MA200 ($707) — CPI juillet +3,4 % in-line (relief dovish) — NVDA 26 août gate décisionnel — Baromètre Niveau 3 Consolidation
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $730,28 (+7,0 % sur 1 mois)
+| ~$774 (+4,8 % sur 1 mois)
+| 14,63 — calme (plus bas 7 mois)
+| 62 — Greed
+| Au-dessus ($707,59)
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : CPI in-line libère la pression immédiate — NVDA 26 août reste le gate décisionnel_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 13 août 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: Le CPI de juillet 2026 (+3,4 % YoY headline, +2,5 % core), publié mardi 12 août exactement in-line avec le consensus, a constitué un relief dovish significatif : la probabilité d'une hausse Fed en septembre a chuté de 55 % à 34 % selon CME FedWatch. QQQ en a profité pour progresser de +0,91 % aujourd'hui à $730,28, s'installant à un nouveau sommet historique avec le S&P 500. Cependant, trois signaux tempèrent un positionnement agressif : (1) VIX à 14,63 (plus bas 7 mois) révèle une complaisance structurelle inhabituelle ; (2) le ratio calls/puts a atteint son niveau le plus haussier en quatre ans, signal contrarien classique ; (3) les résultats NVIDIA le 26 août restent un événement binaire majeur pour la composante IA du Nasdaq. Niveau 3 maintenu : renforcement sélectif, stratégies theta/income, attendre la confirmation NVDA avant déploiement agressif.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+La séance du 13 août 2026 signe une nouvelle étape haussière pour les marchés américains, portée par le double effet du CPI de juillet in-line et de la publication du PPI du jour. Le Nasdaq-100 a progressé de +1,25 % à 30 114 points, tandis que le S&P 500, plus mesuré, avance de +0,25 % à 7 799 points — un nouveau record historique. QQQ clôture à $730,28 (premier close au-dessus de $730 en séance régulière), SPY à ~$774.
+
+La star du jour est Workday (WDAY), qui explose de +18 % après la publication de résultats trimestriels solides (revenus $2,54 Mds, marge brute 75,8 %) et l'annonce d'une acquisition potentielle par Silver Lake Partners valorisant l'accord à plus de 8,6 milliards de dollars supplémentaires. Cette actualité a entraîné une rotation favorable vers les valeurs SaaS enterprise. Sur le terrain macro, le CPI de juillet (publié le 12 août) confirme la trajectoire désinflationiste : le core CPI annualisé sur 3 mois est tombé à 1,6 %, soit la première lecture sous la cible Fed de 2 % depuis décembre 2025 — un signal particulièrement positif pour les marchés. Par ailleurs, le taux d'inflation global (+3,4 % YoY) reste légèrement au-dessus de la cible mais dans la trajectoire attendue.
+
+=== Pourquoi (causes profondes)
+
+La dynamique de marché en août 2026 repose sur quatre forces structurelles. Premièrement, la narrative IA reste le principal moteur de la performance Nasdaq : les hyperscalers (AWS +37 % CA, Azure, Google Cloud) continuent de justifier des révisions haussières des BPA du S&P 500 (JPMorgan cible $365 pour 2026). Deuxièmement, la désinflation du core CPI libère progressivement la pression hawkish sur la Fed : avec un core sur 3 mois à 1,6 %, la Fed Warsh est moins contrainte de monter. Troisièmement, le statu quo du FOMC de juillet (9-3 dissidents hawkish) a révélé des fractures internes mais maintenu les taux à 3,50–3,75 % — la probabilité d'une hausse en septembre tombe à 34 % post-CPI (vs 55 % la semaine passée). Quatrièmement, la breadth de marché reste solide : le Bullish Percent Index dépasse 70 %, ce qui traduit une participation large plutôt qu'une concentration sur quelques méga-caps.
+
+Deux risques structurels subsistent : la complaisance du sentiment (put/call à 4 ans de haussisme, VIX à 14,63 sans coussin de protection) et l'événement binaire NVDA le 26 août — si les résultats déçoivent, une rotation brutale hors de la tech est possible.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $730,28 | Nouveau sommet séance — tendance haussière intacte
+| MA50 QQQ | $707,59footnote:[Source : altindex.com / investing.com, données séance du 13 août 2026.] | *Au-dessus* (+3,2 %) — signal haussier
+| MA200 QQQ | $707,02footnote:[Source : altindex.com / investing.com, données séance du 13 août 2026.] | *Au-dessus* (+3,3 %) — support long terme validé
+| S&P 500 MA50 | 7 630 | Au-dessus (+2,2 %) — signal haussier fort
+| S&P 500 MA200 | 7 522 | Au-dessus (+3,7 %) — tendance longue confirmée
+| RSI QQQ (14j) | 65,18 | Neutre-haussier — approche zone overbought (>70) à surveiller
+| Support clé 1 | $707–$710 | Confluence MA50/MA200 — zone de défense critique (testée 2× en juil.)
+| Support clé 2 | $675 | Support juillet (gap-up post-NFP Aug 5) — secondaire
+| Résistance clé | $745–$750 | Zone ATH + extension Fibonacci — objectif haussier prochain
+| Structure | Higher highs / Higher lows | Depuis mars 2026 — rebond en V de fin juillet validé
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 60 %
+
+*Conditions nécessaires* : NVDA bat les attentes le 26 août (guidance data center / IA en hausse) et le FOMC du 16 septembre maintient les taux inchangés (probabilité hike tombe sous 20 %). QQQ tient les clôtures au-dessus de $707 (MA50/MA200). Le CPI de septembre (11 sept.) ressort ≤ 3,3 %.
+
+*Cibles* : QQQ $760–$775 à fin septembre. SPY $800–$810.
+
+*Catalyseurs* : (1) Résultats NVIDIA 26 août — guidance IA cruciale pour tout le secteur semis ; (2) NFP 4 septembre — confirmation du marché de l'emploi ; (3) CPI septembre 11 sept. — donnée clé avant FOMC ; (4) Poursuite de la désinflation core sous 2 % sur 3 mois.
+
+=== Scénario baissier — Probabilité 40 %
+
+*Conditions de déclenchement* : NVDA déçoit le 26 août (guidance insuffisante sur les puces IA) → rotation brutale hors tech. Ou FOMC 16 septembre : hausse surprise de 25 pb (VIX spike probable vers 20–25). Ou CPI septembre > 3,7 % (surprise haussière).
+
+*Supports critiques* : QQQ $707–$710 (MA50/MA200 confluentes) ; QQQ $675 (gap-up juillet — support secondaire) ; QQQ $640–$650 (MA200 dynamique en baisse si correction prolongée).
+
+*Risques de queue* : (1) Escalade géopolitique Moyen-Orient → choc pétrolier, VIX spike ; (2) Révision hausse des taux par Fed Warsh si inflation restant > 3,5 % — compressions des multiples ; (3) Contagion si l'acquisition WDAY/Silver Lake échoue → selloff SaaS.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel.
+
+=== Trade #1 — Covered Call sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Vente de Covered Call (sur position QQQ existante)
+| *Sous-jacent* | QQQ (~$730,28)
+| *Raisonnement* | Trend haussière intacte mais résistance clé à $745–$750 (ATH). VIX bas = IV faible mais theta élevé sur calls OTM proches. Stratégie idéale en consolidation : génère du revenu sans liquider la position. Période optimale avant NVDA earnings (IV pre-event absorbe la prime).
+| *Expiration* | 5 septembre 2026 (~23 DTE — après NVDA 26 août, avant FOMC 16 sept.)
+| *Strike* | Call 750 OTM (~+2,7 % au-dessus du cours)
+| *Prime reçue/payée* | ~$7–$10 reçue / contrat footnote:[Estimation basée sur VIX 14,63 et delta ~0,25 — vérifier la chaîne d'options réelle avant toute entrée en position.]
+| *Delta total* | ~0,25 (risque d'assignation limité si QQQ reste sous $750)
+| *Theta/jour* | ~$0,35–$0,50 / contrat / jour (accélère dans les 2 dernières semaines)
+| *Breakeven(s)* | $737–$740 (coût d'achat QQQ + prime reçue)
+| *Entrée* | Immédiate ou sur rebond vers $732–$735
+| *Cible* | Rachat à 50 % du crédit reçu (~$3,50–$5,00)
+| *Stop-loss* | Si QQQ > $750 en clôture → rouler le call vers oct. $760 (extension haussière)
+| *Taille* | 50–75 % de la position QQQ existante
+|===
+
+._Covered Call QQQ 750 (5 sept.) — P&L estimé à expiration_
+[mermaid]
+....
+xychart-beta
+    title "Covered Call QQQ 750 — P&L (par contrat)"
+    x-axis ["680$", "700$", "710$", "720$", "730$", "740$", "750$", "760$", "770$"]
+    y-axis "P&L ($)" -2000 --> 2800
+    bar [-4828, -2828, -1828, -828, 171, 1171, 2071, 2071, 2071]
+    line [-4828, -2828, -1828, -828, 171, 1171, 2071, 2071, 2071]
+....
+
+NOTE: Calcul illustratif pour QQQ acheté à $730, call 750 vendu avec prime ~$8. Le profit est plafonné à ~$20 (gain sur QQQ) + $8 (prime) = $2 800 par contrat si QQQ ≥ $750 à expiration. En cas de repli fort, la prime de $8 amortit la perte. Breakeven effectif : $722. Strategy idéale si QQQ consolide entre $720 et $750 d'ici au 5 septembre.footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+
+=== Trade #2 — Bull Call Spread sur NVDA (avant earnings 26 août)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (débit limité — directionnel)
+| *Sous-jacent* | NVDA (cours à vérifier — leader IA semis)
+| *Raisonnement* | NVDA earnings le 26 août = catalyseur sectoriel majeur pour tout le Nasdaq. Guidance data center / puces IA critique pour la narrative haussière. Spread limite le risque vs call nu en environnement pré-earnings où l'IV est élevée. NASDAQ-100 +1,25 % aujourd'hui confirme le momentum directionnel.
+| *Expiration* | 28 août 2026 (~2 DTE post-earnings — capture l'événement)
+| *Strike(s)* | Achat Call ATM / Vente Call +8–10 % OTM (ajuster selon cours réel)
+| *Prime reçue/payée* | ~$5–$8 débit / spread footnote:[Estimation — la prime exacte dépend du cours NVDA et de l'IV pré-earnings. Vérifier la chaîne d'options réelle.]
+| *Delta total* | ~0,45 net (directionnel positif)
+| *Theta/jour* | Négatif (~-$0,20 à -$0,50 / jour — spread acheté)
+| *Breakeven(s)* | Strike ATM + prime payée
+| *Entrée* | 3–5 jours avant earnings (19–21 août) — IV encore gérable
+| *Cible* | 80–90 % du profit maximum si NVDA dépasse le strike vendu
+| *Stop-loss* | Perte totale du débit payé (risque défini dès l'entrée)
+| *Taille* | 1–2 % du portefeuille (event binaire — taille conservatrice impérative)
+|===
+
+=== Trade #3 — Iron Condor sur SPY (theta play post-CPI)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (vente de volatilité — income)
+| *Sous-jacent* | SPY (~$774)
+| *Raisonnement* | CPI in-line réduit les surprises macro immédiates. SPY en range probable entre NVDA (26 août) et FOMC (16 sept.). VIX à 14,63 = IV basse mais Condor capture le theta dans un marché sans catalyseur immédiat. SPY moins sensible qu'un call NVDA nu à un résultat décevant.
+| *Expiration* | 5 septembre 2026 (~23 DTE)
+| *Strike(s)* | Vente Put 755 / Achat Put 745 + Vente Call 795 / Achat Call 805
+| *Prime reçue/payée* | ~$3,50–$5,00 crédit net reçu footnote:[Estimation basée sur VIX 14,63 et strikes OTM ~2,5 %. Vérifier les primes réelles avant entrée en position.]
+| *Delta net* | ~0 (position neutre)
+| *Theta/jour* | ~$0,15–$0,25 / jour (accélère en dernières semaines)
+| *Breakeven(s)* | $751 (bas) / $799 (haut) — range de $48 sur SPY
+| *Entrée* | Immédiate si SPY entre $765–$782
+| *Cible* | Rachat à 50 % du crédit reçu (~$1,75–$2,50)
+| *Stop-loss* | Perte > 2× crédit reçu si SPY sort du range $755–$795
+| *Taille* | 3–5 % du portefeuille
+|===
+
+._Iron Condor SPY 745/755/795/805 (5 sept.) — P&L estimé à expiration_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor SPY — P&L estimé à expiration (par contrat)"
+    x-axis ["730$", "745$", "751$", "755$", "774$", "795$", "799$", "805$", "820$"]
+    y-axis "P&L ($)" -600 --> 500
+    bar [-600, -600, 0, 400, 400, 400, 0, -600, -600]
+    line [-600, -600, 0, 400, 400, 400, 0, -600, -600]
+....
+
+NOTE: Profit maximal de $400 / contrat si SPY reste entre $755 et $795 à l'expiration. Zone de profit élargie : $751–$799 (breakevens). Perte maximale de $600 / contrat si SPY < $745 ou > $805. Rapport risque/récompense : 1,5 : 1. Stratégie optimale si le marché consolide horizontalement avant les events NVDA / FOMC.footnote:[Estimation basée sur credit net de ~$4. Vérifier les primes réelles avant entrée en position.]
+
+=== Trade #4 — Cash-Secured Put sur AAPL
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (income conservateur sur qualité)
+| *Sous-jacent* | AAPL (cours à vérifier — Mag7 défensif parmi la tech)
+| *Raisonnement* | AAPL = quality anchor du Mag7 (dividende + buyback = plancher structurel). CSP loin OTM génère un rendement conservateur. Trend haussière intacte → assignation éventuelle reste une bonne entrée long terme. Stratégie défensive adaptée au Niveau 3 : income sans risque directionnel élevé.
+| *Expiration* | 19 septembre 2026 (~37 DTE — post FOMC 16 sept.)
+| *Strike* | Put 5–7 % OTM sous le cours actuel
+| *Prime reçue/payée* | ~$2–$4 reçue / contrat footnote:[Estimation — vérifier la chaîne d'options réelle selon cours AAPL du jour.]
+| *Delta total* | ~-0,15 à -0,20 (probabilité d'assignation ~15–20 %)
+| *Theta/jour* | ~$0,10–$0,15 / contrat / jour
+| *Breakeven(s)* | Strike − prime reçue
+| *Entrée* | Immédiate ou après un repli AAPL de 1–2 %
+| *Cible* | Expiration sans valeur (100 % du crédit reçu) — ou assignation acceptée
+| *Stop-loss* | Si AAPL < strike à 21 DTE → rouler vers une expiration plus lointaine
+| *Taille* | 5–8 % du portefeuille (capital en réserve pour assignation éventuelle)
+|===
+
+'''
+
+== Signal Congrès américain
+
+[IMPORTANT]
+====
+Capitol Trades et Congress Stock Tracker sont inaccessibles depuis l'environnement d'exécution (proxy réseau bloquant). Les données partielles ci-dessous proviennent de résultats WebSearch.
+====
+
+[cols="1,1,1,1,1"]
+|===
+| Ticker | Nb élus | Dernier achat | Élus | Statut dans analyse
+
+| LTH (Life Time Group Holdings)
+| 1 (confirmé)
+| Juillet 2026
+| Julie Johnson (D-TX) — 9 achats consécutifs, aucune vente
+| Observation uniquement (Niveau 3 — pas de trade actif recommandé)
+|===
+
+NOTE: Au Niveau 3 (Consolidation), les signaux haussiers du Congrès sont mentionnés en observation uniquement. LTH (opérateur de salles de sport) présente un signal de conviction élevée de la part de Julie Johnson (D-TX) avec 9 achats consécutifs en juillet, mais les données complètes restent indisponibles. À surveiller si le marché confirme la tendance haussière post-NVDA.
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo (5e consécutif depuis hausse précédente)
+| Prochain FOMC | 15–16 septembre 2026 — 34 % probabilité de hausse (vs 55 % la semaine passée)
+| Président Fed | Kevin Warsh (en poste depuis 22 mai 2026) — ton hawkish, 3 dissidents internes
+| CPI juillet 2026 | +3,4 % YoY headline (+0,1 % MoM) — in-line consensus — relief dovish
+| Core CPI juillet | +2,5 % YoY (+0,2 % MoM) — core 3 mois annualisé à 1,6 % (sous target 2 % Fed)
+| PPI août 2026 | Publié aujourd'hui 13 août — données en cours d'intégration marché
+| Taux 10 ans | ~4,65 % (pression persistante sur multiples de croissance)
+| Put/Call ratio | Ratio calls/puts au plus haussier depuis 4 ans — signal contrarien de complaisance
+| Breadth marché | Bullish Percent Index > 70 % — participation large confirmée
+| Workday (WDAY) | +18 % (12 août) — résultats + acquisition Silver Lake — rotation SaaS favorable
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 19–21 août 2026 | Fenêtre optimale d'entrée Bull Call Spread NVDA | Modéré (positionnement)
+| 26 août 2026 | *NVIDIA earnings (Q2 FY2027)* — guidance IA cruciale | *Élevé* — event binaire sectoriel
+| 4 septembre 2026 | NFP août — rapport emploi américain | Élevé — signal Fed
+| 11 septembre 2026 | CPI août — donnée clé avant FOMC | *Élevé* — gate décisionnel Fed
+| 15–16 septembre 2026 | *FOMC — décision de taux* (34 % probabilité hausse) | *Élevé* — event binaire macro
+| Oct. 2026 | Saison des résultats Q3 — Mag7, semis | Modéré-Élevé (validation IA)
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Fear & Greed Index du 13 août 2026 : 62 — Greed
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| VIX 14,63 le 13 août 2026 — plus bas 7 mois
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilité hausse FOMC sept. : 34 % (vs 55 % semaine précédente)
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| QQQ $730,28 clôture 13 août 2026
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| VIX 14,63 inchangé le 13 août 2026
+
+| link:https://www.fool.com/coverage/stock-market-today/2026/08/13/stock-market-today-aug-13-stocks-rise-as-inflation-cools-workday-soars-18/[The Motley Fool — 13 août 2026]
+| S&P 500 record, WDAY +18 %, CPI juillet in-line
+
+| link:https://www.benzinga.com/markets/market-summary/26/08/61165920/nasdaq-gains-over-100-points-following-inflation-data-investor-sentiment-edges-higher-fear-index-remains-in-greed-zone[Benzinga — 13 août 2026]
+| Nasdaq +100 points sur données inflation, sentiment Greed confirmé
+
+| link:https://marketrebellion.com/news/daily-iv-report/pre-market-iv-report-august-13-2026/[Market Rebellion — Pre-Market IV Report 13 août 2026]
+| Ratio calls/puts individuels — IV pre-market
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly — Stratégie delta-neutral en range (similaire Iron Condor)]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Cash-Secured Put sur valeurs de qualité]
+* xref:ROOT:strategies/leaps.adoc[LEAPS — Options longue durée pour exposition directionnelle]
