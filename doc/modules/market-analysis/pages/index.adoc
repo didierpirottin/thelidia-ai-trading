@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-08-16.adoc[16 août 2026]
+| Niveau 3/6 — CONSOLIDATION
+| Haussière
+| QQQ $731 post-ATH, NVDA earnings 26/08, retail sales en chute, VIX 14.5
+
 | xref:market-analysis:market-analysis-2026-08-13.adoc[13 août 2026]
 | Niveau 3/6 — CONSOLIDATION
 | Haussière

@@ -1,0 +1,299 @@
+= Analyse de Marché — 16 août 2026
+:description: QQQ $731 au-dessus MA50/MA200, SPY $776 près de l'ATH, VIX 14.5 calme — Baromètre Niveau 3 Consolidation — NVDA earnings 26 août catalyseur clé
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| ~$731 (+5 % / 1 mois)
+| $776.34 (ATH -2 jours)
+| 14.5 — calme
+| 65 — Greed
+| Au-dessus ($707.59)
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : trend haussier intact, mais macro se refroidit_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 16 août 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: Le marché est en phase de consolidation post-ATH. QQQ tient bien au-dessus de MA50/MA200 (confluentes à $707), le VIX reste très bas à 14.5, et le Fear & Greed indique 65 (Greed) sans excès. Toutefois, la macro envoie des signaux de refroidissement : retail sales en chute record en juillet et UMich août à 51 (vs 55 attendu). Le renforcement reste sélectif, porté sur les meilleures convictions — NVDA notamment avant ses résultats du 26 août.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Le S&P 500 (SPY) a touché un record historique le 14 août 2026, avant de reculer de 0,2 % le jour suivant. Le Nasdaq 100 (QQQ) recule légèrement de ~0,2 % sur la semaine, mais reste en hausse de ~5 % sur le mois et ~12 % sur 3 mois. L'indice US500 affiche +20,7 % en glissement annuel.
+
+Du côté des séances : les perdants du jour (14 août) sont Salesforce (−2,25 %), Cisco (−1,67 %) et Amgen (−1,28 %) ; les gagnants sont Disney (+2,05 %), Chevron (+1,16 %) et UnitedHealth (+0,61 %). Intel a réussi une levée de fonds de $23 Mds en actions à $95/titre, se négociant à $102,50 soit +7,9 % au-dessus du prix d'offre.
+
+Les deux données macro du jour douchent légèrement l'enthousiasme : les ventes au détail de juillet ont enregistré leur plus forte baisse mensuelle depuis plus d'un an, et le sentiment préliminaire UMich d'août est tombé à 51 contre 55 attendu.
+
+=== Pourquoi (causes profondes)
+
+La Fed (désormais dirigée par Kevin Warsh, qui a remplacé Jerome Powell) a maintenu ses taux entre 3,50 % et 3,75 % lors du FOMC du 29 juillet 2026. Trois membres ont dissenté en faveur d'une hausse — signal hawkish persistant. Aucune guidance directionnelle n'a été fournie ; le marché scrute le FOMC de septembre. La Fed prévoit une seule baisse de taux en 2026.
+
+L'inflation reste au-dessus du target : CPI juillet à +3,4 % sur un an (en baisse vs +3,5 % en juin). Les attentes d'inflation à 1 an ressortent à 4,2 % (UMich), celles à long terme à 3,3 %. Le consommateur s'affaiblit (sentiment à 11 % sous son niveau d'il y a un an). Le put/call ratio est à ~0,91 (appels dominants — optimisme), et le Fear & Greed Index à 65 (Greed).
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | ~$731 | —
+| MA50 QQQ | $707.59 | Au-dessus (+3,3 %) — haussier
+| MA200 QQQ | $707.02 | Au-dessus (+3,4 %) — haussier
+| Résistance clé | $748.65 | 52-week high (−2,3 % de l'actuel)
+| Support clé | ~$707 | Confluence MA50/MA200 — zone critique
+| RSI (14j) | ~63–65 | Neutre-haussier (pas suracheté)
+| SPY MA50 (S&P 500) | 7 630 pts | Au-dessus — confirmation haussière
+| SPY MA200 (S&P 500) | 7 522 pts | Au-dessus — LT intact
+|===
+
+La structure de marché reste en _higher highs_ depuis les lows du printemps 2026. La confluence MA50/MA200 à $707 constitue la zone de support clé à surveiller.
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 55 %
+
+*Conditions nécessaires* : QQQ tient au-dessus de $707 (MA50/MA200) ; NVDA délivre des résultats et une guidance supérieurs aux attentes le 26 août.
+
+*Cibles* : QQQ $760–$780, SPY $800.
+
+*Catalyseurs* : FOMC septembre confirme la pause (pas de hausse malgré les 3 dissenters) ; résultats NVDA dépassent les attentes sur les revenus IA/Data Center ; CPI août (mi-septembre) confirme la désinflation.
+
+=== Scénario baissier — Probabilité 45 %
+
+*Conditions de déclenchement* : cassure de la confluence MA50/MA200 QQQ sous $707 ; NVDA déçoit sur guidance — vente massive Mag7 ; FOMC septembre surprise hawkish (les 3 dissenters convainquent Warsh).
+
+*Supports critiques* : QQQ $707 (MA50/MA200), QQQ $660 (zone gap structurel).
+
+*Risques de queue* : surprise hawkish FOMC septembre (3 dissenters préfigurent) ; retail sales + UMich → confirmation d'un affaiblissement du consommateur virant à la récession.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel.
+
+=== Trade #1 — Covered Call sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (sur position QQQ existante)
+| *Sous-jacent* | QQQ (~$731)
+| *Raisonnement* | Trend haussier intact mais QQQ à −2,3 % de l'ATH ($748.65). VIX bas = prime modeste. Niveau 3 = générer du theta sans casser la position long.
+| *Expiration* | 19 sept. 2026 (~34 DTE)
+| *Strike* | Call $750 (OTM +2,6 %)
+| *Prime reçue* | ~$7–9 $ / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta* | ~0.28
+| *Theta/jour* | ~$0.22 $ / jour
+| *Breakeven* | $731 (coût d'acquisition de la position long)
+| *Entrée* | Vendre le call dès ouverture si QQQ < $740
+| *Cible* | Racheter à 50 % du crédit reçu (~$3,50–4,50)
+| *Stop-loss* | Racheter si QQQ remonte vers $747 (approche de l'ATH)
+| *Taille* | Sur 100 % des actions QQQ détenues
+|===
+
+._Covered Call QQQ $750 — P&L estimé à expiration (par contrat de 100 actions)_
+[mermaid]
+....
+xychart-beta
+    title "Covered Call QQQ Call $750 — P&L estimé (par contrat)"
+    x-axis ["$700", "$710", "$720", "$731", "$740", "$750", "$760", "$770"]
+    y-axis "P&L ($)" -600 --> 1000
+    bar [-300, -200, -100, 0, 100, 800, 800, 800]
+    line [-300, -200, -100, 0, 100, 800, 800, 800]
+....
+
+NOTE: En dessous de $731 (prix actuel), la perte correspond au recul du titre atténué par la prime reçue (~$800). Le gain est plafonné à ~$800/contrat si QQQ clôture au-dessus de $750 à expiration. Le breakeven est à ~$723 (prix actuel − prime reçue).
+
+=== Trade #2 — Bull Call Spread sur NVDA (pré-earnings)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (directionnel, risque limité)
+| *Sous-jacent* | NVDA (~$225 — 52-sem : $164–$236)
+| *Raisonnement* | Earnings NVDA le 26 août = catalyseur majeur. Signal Congrès : 21 élus ont acheté NVDA (source Quiver Quantitative). Momentum IA intact. Spread limite le risque vs long call nu (IV gonflée pré-earnings).
+| *Expiration* | 29 août 2026 (~13 DTE — juste après earnings)
+| *Strike(s)* | Long Call $230 / Short Call $250
+| *Prime payée* | Débit ~$5–7 $ / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~0.45 (jambe longue)
+| *Breakeven* | ~$235–237
+| *Entrée* | 1–2 jours avant le 26 août si NVDA > $220
+| *Cible* | NVDA > $245 post-earnings → spread proche valeur max (~$20)
+| *Stop-loss* | Fermer si NVDA < $215 ou perte > 50 % du débit
+| *Taille* | 1–2 % du portefeuille (risque binaire earnings)
+|===
+
+=== Trade #3 — Iron Condor sur SPY (range play)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (theta pur, delta-neutre)
+| *Sous-jacent* | SPY (~$776)
+| *Raisonnement* | Niveau 3 = marché en consolidation proche ATH. VIX 14.5 = faible volatilité favorable aux stratégies vendeuses. SPY en range $770–$790 probable en l'absence de catalyseur majeur avant NVDA (26 août).
+| *Expiration* | 19 sept. 2026 (~34 DTE)
+| *Strike(s)* | Short Put $755 / Long Put $745 \| Short Call $800 / Long Call $810
+| *Prime reçue* | Crédit ~$2,50–3,50 $ / condor footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~neutre (±0.05 net)
+| *Theta/jour* | ~$0.08 $ / jour
+| *Breakeven* | $752–758 (bas) / $803–808 (haut)
+| *Entrée* | Aujourd'hui si SPY entre $772 et $782
+| *Cible* | 50 % du crédit reçu (~$1,25–1,75)
+| *Stop-loss* | Fermer si SPY < $760 ou > $795 (risque de cassure)
+| *Taille* | 3–5 % du portefeuille
+|===
+
+._Iron Condor SPY — P&L estimé à expiration (par condor)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor SPY — P&L estimé à expiration (par condor)"
+    x-axis ["$740", "$750", "$758", "$770", "$776", "$790", "$803", "$810", "$820"]
+    y-axis "P&L ($)" -800 --> 400
+    bar [-700, -500, 300, 300, 300, 300, 300, -500, -700]
+    line [-700, -500, 300, 300, 300, 300, 300, -500, -700]
+....
+
+NOTE: Le crédit maximum (~$300/condor estimé) est conservé si SPY reste entre $758 et $803 à expiration. En dehors des breakevens ($752/$808), la perte augmente jusqu'au maximum de $700–1 000 (différence de strikes − crédit).
+
+=== Trade #4 — Accumulation QQQ sur repli (ordre conditionnel)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Achat ETF conditionnel (Buy the dip)
+| *Sous-jacent* | QQQ (~$731 ; cible d'achat ~$707–715)
+| *Raisonnement* | MA50/MA200 confluentes à $707 = support de conviction fort. Un retour vers ce niveau = opportunité d'accumulation. Signal Congrès : NVDA et AMZN parmi les plus achetés par les élus (composants majeurs du QQQ).
+| *Entrée* | Limit order à $715 ou rebond confirmé en clôture au-dessus de $707
+| *Cible* | $745–760 (retour vers ATH)
+| *Stop-loss* | Clôture < $700 (cassure MA50/MA200)
+| *Taille* | 3–5 % du portefeuille
+|===
+
+'''
+
+== Signal Congrès
+
+NOTE: Capitol Trades inaccessible ce jour (connexion échouée). Données issues de Quiver Quantitative (période élargie — pas exclusivement du jour).
+
+[cols="1,1,1,1"]
+|===
+| Ticker | Nb élus (acheteurs) | Montant déclaré | Commentaire
+
+| NVDA | 21 | ~$5,4 M | Earnings 26 août — catalyseur majeur
+| AMZN | 23 | ~$4,7 M | AWS + IA cloud en forte croissance
+| AVGO | 17 | ~$1,4 M | Semis IA, momentum intact
+| Cleo Fields (D-LA) | — | ~$1 M+ | 6 valeurs Mag7 achetées du 1er au 22 août
+|===
+
+IMPORTANT: Baromètre Niveau 3 → signaux Congrès utilisés comme critère supplémentaire (pas seul déclencheur). NVDA et AMZN proposés en trade prioritaire car cohérents avec le contexte technique.
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo (FOMC 29 juillet 2026)
+| Fed Chair | Kevin Warsh (a remplacé Powell en 2026)
+| Dissenters FOMC | 3 membres ont voté pour une hausse — risque hawkish
+| Prochain FOMC | Septembre 2026 — guidance absente, résultat incertain
+| Forecast Fed 2026 | 1 seule baisse de taux anticipée
+| CPI juillet 2026 | +3,4 % YoY — en baisse vs 3,5 % juin — au-dessus target 2 %
+| Attentes inflation 1 an | 4,2 % (UMich) — toujours élevées
+| Ventes au détail juillet | Plus forte baisse mensuelle depuis >1 an — consommateur fragilisé
+| UMich sentiment août | 51 préliminaire vs 55 attendu — déception
+| Taux 10 ans | [données non disponibles en temps réel pour ce jour]
+| Put/call ratio | ~0,91 — appels dominants (optimisme)
+| Fear & Greed | 65 — Greed
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 26 août 2026 | NVDA earnings (Q2 FY2027) | Élevé — catalyseur majeur Mag7/IA
+| Septembre 2026 | FOMC — décision taux | Élevé — 3 dissenters hawkish, Warsh sans guidance
+| Mi-septembre 2026 | CPI août 2026 | Élevé — désinflation ou rebond = pivot décisionnel
+| Continu | Retail sales & sentiment UMich | Modéré — signe d'un ralentissement consommateur
+| Continu | Taux 10 ans US | Modéré — compression des multiples si remonte > 4,5 %
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — données et futures
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.federalreserve.gov/monetarypolicy/fomcpresconf20260729.htm[FOMC Juillet 2026 — Federal Reserve]
+| Conférence de presse FOMC 29 juillet 2026
+
+| link:https://www.quiverquant.com/congresstrading/[Quiver Quantitative — Congress Trading]
+| Suivi des achats/ventes d'élus du Congrès
+
+| link:https://ts2.tech/en/stock-market-today-16-08-2026/[Stock Market Today 16 août 2026]
+| Actualité du marché du jour
+
+| link:https://www.smartcalendars.ai/en/feeds/magnificent-7-earnings-calendar[Mag7 Earnings Calendar 2026]
+| Calendrier des résultats des 7 majeurs
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — si trade Covered Call sur QQQ]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — si scénario baissier se matérialise]
+* xref:ROOT:options/index.adoc[Options — Concepts fondamentaux (Iron Condor, Spreads)]
