@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-08-17.adoc[17 août 2026]
+| Niveau 3/6 — CONSOLIDATION
+| Haussière
+| QQQ $729 au-dessus MA50/MA200, retail earnings HD/WMT/TGT, FOMC minutes, NVDA 26 août
+
 | xref:market-analysis:market-analysis-2026-08-16.adoc[16 août 2026]
 | Niveau 3/6 — CONSOLIDATION
 | Haussière

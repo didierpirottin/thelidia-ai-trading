@@ -1,0 +1,300 @@
+= Analyse de Marché — 17 août 2026
+:description: QQQ $729 au-dessus MA50/MA200 — Baromètre Niveau 3 Consolidation — Semaine retail earnings (HD/WMT/TGT) + FOMC minutes + catalyseur NVDA 26 août
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $729,15 (+1,0 % / 1 mois)
+| $776,34 (-0,20 % / jour)
+| 15,19 — calme (2026 low)
+| 65 — Greed
+| Au-dessus (~$710)
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : trend haussier intact, semaine à risques (retail earnings + FOMC minutes)_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 17 août 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: Le trend haussier est intact — QQQ à $729 tient nettement au-dessus de sa MA50 ($710) et MA200 ($700) après un rebond en V depuis les bas de fin juillet ($667). Le VIX à 15,19 (2026 low) et le Fear & Greed à 65 (Greed) indiquent une absence de panique. Cependant, une semaine chargée en catalyseurs (Home Depot mardi, Walmart jeudi, FOMC minutes mercredi, puis NVDA le 26 août) justifie d'attendre avant de déployer agressivement de nouveaux longs. Stratégie : renforcement sélectif et stratégies theta / premium-vendeur.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+- *QQQ* : $729,15 — légèrement en baisse (-0,3 %) ce lundi, mais +8,5 % sur 3 mois depuis le creux de fin juillet ($667)
+- *SPY* : $776,34 — -0,20 % aujourd'hui ; S&P 500 à 7 778 pts (-0,1 %) ; Dow -0,5 %
+- *Baisse du jour* : marché en repli modéré — pétrole en hausse (tensions US-Iran), rendements obligataires en hausse
+- *Ventes au détail juillet* : inférieures aux attentes — signal de fragilisation du consommateur américain
+- *Confiance consommateur* : en recul malgré une légère accalmie sur l'inflation
+- *Workday (WDAY)* : -2,4 % — doubles downgrades Deutsche Bank + BTIG après rebond +76 % depuis juin
+- *Nike (NKE)* : au plus bas depuis septembre 2014 (-39 % YTD) — consommateur discrétionnaire sous pression
+- *VIX* : 15,19 — proche du point bas annuel (14,2 le 15 août) — calme général sur les marchés
+
+=== Pourquoi (causes profondes)
+
+- *Fed (Kevin Warsh)* : Taux maintenus à 3,50–3,75 % lors du FOMC de juillet — 3 membres ont dissenté pour une hausse
+- *Inflation* : CPI solidement au-dessus de 3 % (cible Fed : 2 %) — pression maintenue
+- *Emploi* : NFP juillet décevant (estimé à +23 K — sous les attentes) — ralentissement du marché du travail
+- *Iran* : Tensions US-Iran ravivées ce lundi → pétrole + → risque inflationniste → compression marges
+- *FOMC* : Prochaines minutes publiées mercredi 19 août — potentiel catalyseur hawkish si les 3 dissidents sont mis en avant
+- *Sentiment* : Put/call ratio 1,13 (vs 0,82 vendredi) — virage défensif intraday ; Fear & Greed 65 reste en zone Greed
+- *Risque structurel* : Concentration Mag7 toujours élevée — NVDA gate critique le 26 août
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $729,15 | —
+| MA50 QQQ | ~$710 | Au-dessus — haussier CT
+| MA200 QQQ | ~$700 | Au-dessus — haussier LT (golden cross maintenu)
+| Support clé | $717 | Ancien pivot de résistance devenu support
+| Résistance clé | $737–$745 | Zone ATH / consolidation récente
+| RSI SPX (14j) | 65,18 | Neutre à légèrement suracheté — pas encore extrême
+| Put/Call ratio | 1,13 | Bearish shift intraday — surveiller si persistant
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 50 %
+
+*Conditions nécessaires* : retail earnings (Home Depot, Walmart, Target) montrent résilience du consommateur ; FOMC minutes neutres sans signal de hausse ; Iran tensions se stabilisent ; pétrole reflue sous $80.
+
+*Cibles* : QQQ $750–$760, SPY $800.
+
+*Catalyseurs* :
+- Résultats Nvidia le 26 août (beat + guidance IA forte → flywheel semis/tech)
+- Pause confirmée de la Fed en septembre
+- Données CPI août en baisse → désinfection confirmée
+
+=== Scénario baissier — Probabilité 50 %
+
+*Conditions de déclenchement* : retail earnings décevants (consommateur US en récession partielle) ; FOMC minutes hawkish avec 3 dissidents cités ; pétrole > $90 (Iran escalade) → CPI surprise.
+
+*Supports critiques* : QQQ $717 (support pivot), QQQ $710 (MA50), QQQ $700 (MA200).
+
+*Risques de queue* :
+- NVDA guidance baissier le 26 août → selloff IA généralisé (SOX -10 %)
+- Surprise hausse Fed en septembre → VIX spike > 25
+- Récession consommateur US confirmée → rotation défensive massive
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel.
+
+=== Trade #1 — Covered Call sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (vente d'option sur position longue existante)
+| *Sous-jacent* | QQQ (~$729 $) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Raisonnement* | Niveau 3 = stratégie premium-vendeur sur positions core ; résistance forte à $737–$745 ; RSI 65 (zone résistance CT) ; Theta favorise le vendeur dans un range
+| *Expiration* | 5 septembre 2026 (~20 DTE)
+| *Strike(s)* | $745 Call (OTM +2,2 %)
+| *Prime reçue* | ~$3,50–$4,50 / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~-0,25 (position shortée)
+| *Theta/jour* | ~+$0,15–$0,20 / jour en faveur du vendeur
+| *Breakeven* | $729 (déjà en position — couverture partielle)
+| *Entrée* | Sur QQQ > $730 ou en ouverture de séance
+| *Cible* | Rachat à 50 % du crédit reçu (~$1,75–$2,25)
+| *Stop-loss* | Rachat si QQQ dépasse $742 en clôture (risque d'assignation)
+| *Taille* | 1 contrat pour 100 actions QQQ détenues
+|===
+
+._Covered Call QQQ $745 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Covered Call QQQ $745 — P&L par contrat"
+    x-axis ["$700", "$710", "$720", "$729", "$737", "$745", "$755", "$765"]
+    y-axis "P&L ($)" -2000 --> 2000
+    bar [-2900, -1900, -900, 0, 800, 1600, 1600, 1600]
+    line [-2900, -1900, -900, 0, 800, 1600, 1600, 1600]
+....
+
+NOTE: Le P&L inclut les gains/pertes sur les 100 actions QQQ + la prime du call vendu (~$400). Le gain est plafonné à ~$1 600 si QQQ dépasse $745. En-dessous de $729, la position perd car les actions baissent (le call expire sans valeur = seule la prime est conservée, elle amortit la baisse).
+
+=== Trade #2 — Bull Call Spread sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (débit)
+| *Sous-jacent* | QQQ (~$729 $)
+| *Raisonnement* | Trend haussier intact ; catalyseur NVDA le 26 août ; coût limité par rapport à un long call nu — adapté à un niveau 3 où l'upside est incertain
+| *Expiration* | 19 septembre 2026 (~33 DTE)
+| *Strike(s)* | Buy $735 Call / Sell $750 Call
+| *Prime payée* | ~$4,50–$5,50 débit / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~+0,35
+| *Theta/jour* | légèrement négatif (position acheteuse nette)
+| *Breakeven* | ~$739,50–$740,50
+| *Entrée* | QQQ > $730 en clôture, idéalement après retail earnings
+| *Cible* | 60–70 % du gain max (~$6–$7 / contrat)
+| *Stop-loss* | Perte de 50 % du débit payé (~$2,25–$2,75)
+| *Taille* | 1–2 % du portefeuille
+|===
+
+=== Trade #3 — Cash-Secured Put sur Home Depot (post-earnings)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (CSP — vente de put)
+| *Sous-jacent* | HD — Home Depot (résultats mardi 18 août)
+| *Raisonnement* | Earnings mardi → IV spike → prime gonflée ; HD = entreprise de qualité (amélioration habitat) ; si miss → repli → vendre le put OTM sur la faiblesse à un strike de support ; Niveau 3 favorise les CSP sur qualité
+| *Expiration* | 19 septembre 2026 (~32 DTE)
+| *Strike(s)* | ~5 % OTM sous le cours post-earnings (à déterminer après réaction mardi)
+| *Prime reçue* | ~$2,50–$4,00 estimé selon réaction footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~-0,25 à -0,30
+| *Breakeven* | Strike - Prime reçue
+| *Entrée* | Attendre la réaction post-earnings mardi matin avant de vendre
+| *Cible* | 50 % du crédit reçu en 10–15 jours
+| *Stop-loss* | Si HD casse son support de 52 semaines ou débit > 2× crédit
+| *Taille* | 2–3 % du portefeuille (cash requis pour assignation)
+|===
+
+=== Trade #4 — Long AMAT (Signal Congrès + Thème IA/Semis)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Long Stock ou Long Call OTM (30–45 DTE)
+| *Sous-jacent* | AMAT — Applied Materials (fabricant équipements semi) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Raisonnement* | *Signal Congrès* : Tommy Tuberville (R-AL) a acheté AMAT le 5 août 2026 ; AMAT bénéficiaire direct des investissements fab IA (TSMC, Intel, Samsung) ; résultats NVDA le 26 août = catalyseur fort pour toute la chaîne semis ; baromètre 3 = signal Congrès cohérent → trade prioritaire
+| *Expiration* | 19 septembre 2026 (si option)
+| *Strike(s)* | ~5 % OTM (à ajuster selon cours réel AMAT)
+| *Entrée* | Achat progressif (50 % entrée, 50 % après confirmation NVDA 26 août)
+| *Cible* | +8–12 % si NVDA beat + guidance IA solide
+| *Stop-loss* | -7 % sous le cours d'achat / cassure MA50 AMAT en clôture
+| *Taille* | 2–3 % du portefeuille
+|===
+
+=== Trade #5 — Iron Condor sur SPY (stratégie range)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (theta pure, delta-neutral)
+| *Sous-jacent* | SPY (~$776 $)
+| *Raisonnement* | Niveau 3 = range attendu avec catalyseurs connus et limités ; VIX 15 (bas mais suffisant pour condor) ; neutralité directionnelle adaptée à l'incertitude retail earnings + FOMC minutes
+| *Expiration* | 5 septembre 2026 (~20 DTE)
+| *Strike(s)* | Sell $790C / Buy $800C / Sell $760P / Buy $750P
+| *Crédit reçu* | ~$2,00–$2,80 / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Breakeven(s)* | ~$757,20 (baisse) / ~$792,80 (hausse)
+| *Theta/jour* | ~+$0,10–$0,15 / jour en faveur
+| *Entrée* | Lundi ou mardi matin, avant réactions retail earnings
+| *Cible* | 50 % du crédit reçu
+| *Stop-loss* | Débit total = 2× crédit reçu / SPY sort de la range définie
+| *Taille* | 1–2 % du portefeuille max
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo (FOMC juillet 2026 — 3 dissidents pro-hausse)
+| Président Fed | Kevin Warsh (remplacé Powell) — préférence pour moins de forward guidance
+| Prochain FOMC | Septembre 2026 — Minutes juillet publiées mercredi 19 août
+| CPI dernier | > 3,0 % YoY — solidement au-dessus de la cible 2 % — persistant
+| NFP dernier | +23 K (estimé juillet — miss sévère) — ralentissement marché travail
+| Taux 10 ans | En hausse ce lundi (Iran tensions + craintes inflation)
+| Put/Call ratio | 1,13 (vs 0,82 vendredi) — virage défensif intraday
+| Fear & Greed | 65 (Greed zone — vs 66,6 la veille)
+| Pétrole | En hausse — tensions US-Iran ravivées — risque inflationniste
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| Mardi 18 août | Home Depot (HD) — résultats Q2 | Élevé — baromètre consommateur
+| Mercredi 19 août | FOMC Minutes (réunion juillet) | Élevé — signal hawkish/dovish Fed
+| Mercredi 19 août | Target (TGT) + Lowe's (LOW) + TJX — résultats | Élevé — retail consumer picture
+| Jeudi 20 août | Walmart (WMT) — résultats Q2 | Élevé — plus grand retailer US
+| Mercredi 26 août | Nvidia (NVDA) — résultats Q2 | Critique — gate décisionnel IA/tech
+| Septembre 2026 | FOMC — décision taux | Élevé — 3 dissidents pro-hausse à surveiller
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — données et futures
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm[Fed — FOMC Statement juin 2026]
+| Dernier communiqué FOMC disponible
+
+| link:https://www.tickmill.com/blog/daily-market-outlook-august-17-2026[Tickmill — Daily Market Outlook 17/08/2026]
+| Analyse technique quotidienne S&P 500
+
+| link:https://www.fool.com/coverage/stock-market-today/2026/08/17/[Motley Fool — Stock Market Today 17/08/2026]
+| Résumé de séance avec contexte macro
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-17-2026[TheStreet — Market Today 17/08/2026]
+| Updates en temps réel Dow, S&P, Nasdaq
+
+| link:https://www.capitoltrades.com/trades[Capitol Trades]
+| Suivi des transactions des membres du Congrès américain
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Covered Call et Cash-Secured Put]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — si scenario baissier se confirme]
