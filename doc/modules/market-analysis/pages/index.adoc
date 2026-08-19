@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-08-19.adoc[19 août 2026]
+| Niveau 3/6 — CONSOLIDATION
+| Haussière
+| QQQ $715 snapback 3-day streak, 30yr yield 19-year high, Treasury buybacks, NVDA 26 août
+
 | xref:market-analysis:market-analysis-2026-08-18.adoc[18 août 2026]
 | Niveau 4/6 — PRUDENCE
 | Neutre CT / Haussière LT

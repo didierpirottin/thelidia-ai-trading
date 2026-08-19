@@ -1,0 +1,324 @@
+= Analyse de Marché — 19 août 2026
+:description: QQQ $715 au-dessus MA50/MA200, snapback après 3 jours de baisse, 30yr yield à 19-year high, NVDA earnings 26 août — Baromètre Niveau 3 Consolidation
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $715.53 (YTD +19,09 %)
+| $771.12 (YTD +10,09 %)
+| ~15.5 — calme
+| 54–56 — Neutre/Greed
+| Au-dessus (~$707)
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : snapback sur 3-day streak, NVDA binary event J-7, yields à extrêmes_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 19 août 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: Le marché est en consolidation : la tendance haussière reste intacte (QQQ au-dessus MA50 $707 et MA200 $643), mais le contexte impose la prudence. Le 30yr Treasury a touché un plus haut de 19 ans en début de semaine avant de refluer grâce aux rachats du Trésor américain. NVIDIA publie ses résultats le 26 août — événement binaire majeur qui crée une zone de risque élevée sur les semi-conducteurs. Le renforcement progressif est approprié, mais on évite les longs non couverts en tech avant ce catalyseur.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+- *QQQ* : $715.53 (−0,28 % en séance) — 3 jours de baisse consécutifs cassés — 1 mois +9,82 % — YTD +19,09 %
+- *SPY* : $771.12 (+0,48 %) — ATH récent $777.88 (13 août) — 1 mois −0,07 % — YTD +10,09 %
+- *VIX* : ~15.5 (range 14.89–16.09 en séance) — niveau bas, proche 2026 low
+- *Événement 1* : Treasury US double les rachats de dette longue (10, 20, 30 ans) → yields reculent de 10 bps
+- *Événement 2* : 30yr Treasury avait atteint un plus haut de 19 ans (~5.28 %) en début de semaine
+- *Événement 3* : Moderna +176 % — résultats positifs essai Phase III vaccin mélanome (avec Merck)
+- *Événement 4* : Bitcoin en hausse — Trump presse le Congrès sur un projet de loi crypto
+- *Secteur moteur* : Healthcare et Cyclicals — S&P +0,2 % tiré par les valeurs non-tech
+- *Secteur à la traîne* : Semi-conducteurs / Chipmakers — pression yields + attentisme pré-NVDA
+
+=== Pourquoi (causes profondes)
+
+- *Fed* : taux 3,50–3,75 % — statu quo (décision 29 juillet 2026) — Chair Kevin Warsh (successeur Powell) — communication plus courte et moins détaillée que sous Powell
+- *Dissenters hawkish* : 3 membres du FOMC voulaient hausser les taux en juillet — porte ouverte à une hausse en septembre
+- *Prochain FOMC* : septembre 2026 — marché anticipe 1 seule baisse sur toute l'année 2026
+- *Minutes FOMC* : publiées ce soir (19 août) — clé pour évaluer le ton hawkish des dissenters
+- *Inflation* : CPI juillet +3,4 % YoY (+0,1 % SA mensuel) — au-dessus du target Fed 2 % — prochain CPI le 11 septembre
+- *Emploi* : NFP juillet +114K — déception (attentes ~+170K) — point de fragilité macro
+- *Yields longs* : 10yr à 4,70 % (recul depuis pic) — 30yr ~5,18 % après −10 bps — majorité des investisseurs sondés par Bloomberg anticipent le 10yr au-dessus de 5 % avant fin 2026
+- *Sentiment* : put/call ratio 1,13 — légèrement défensif (>1,0 = plus de puts que de calls) — Fear & Greed 54–56 (neutre à légère greed)
+- *Risque 1* : 30yr yield à 19-year high — compression des multiples growth / tech
+- *Risque 2* : NVDA earnings le 26 août — événement binaire majeur, attentes très élevées (+50 % rev. YoY)
+- *Risque 3* : Fed hawkish dissenters — probabilité de hausse en septembre non nulle
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $715.53 | En repli depuis ATH juin ($745.34) — −3,9 %
+| MA50 QQQ | ~$707 | Au-dessus — marge +1,2 % — support proche
+| MA200 QQQ | ~$643 | Au-dessus — marge +11 % — support structurel fort
+| Support clé | ~$694 | Zone congestion pré-breakout / support technique juillet
+| Résistance clé | ~$745 | ATH clôture 2 juin 2026 — 3 tests sans franchissement
+| RSI (Nasdaq) | ~62 | Neutre-haussier — pas en zone de surachat (>70)
+| SPY cours | $771.12 | À 0,87 % de l'ATH ($777.88 du 13 août)
+| MA50 SPY (SPX) | ~$7 755 (SPX) | S&P 500 au-dessus MA50 — signal haussier
+| MA200 SPY (SPX) | ~$7 586 (SPX) | S&P 500 bien au-dessus MA200 — structure LT intacte
+|===
+
+Structure : QQQ en range $694–$745 depuis mi-juillet. Higher lows préservés depuis janvier 2026. Le 30yr yield est le facteur technique exogène le plus surveillé.
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 55 %
+
+*Conditions nécessaires* : NVDA dépasse les attentes le 26 août (rev. > $28,7 Mds + guidance solide) ; le 10yr yield ne dépasse pas 4,80 % ; QQQ tient au-dessus de MA50 ($707) ; minutes FOMC ce soir non hawkish.
+
+*Cibles* : QQQ $745–$760 (nouveau ATH), SPY $790–$800.
+
+*Catalyseurs* : (1) NVDA Q2 FY2027 guidance confirme la dynamique IA — semi-conducteurs rebondissent ; (2) Rachats du Trésor calment la pression sur le 30yr ; (3) Fed signale prudence en septembre malgré les dissenters.
+
+=== Scénario baissier — Probabilité 45 %
+
+*Conditions de déclenchement* : le 10yr yield dépasse 5,00 % (borne psychologique) ; NVDA déçoit sur la guidance malgré un chiffre correct ; minutes FOMC révèlent un ton hawkish surprenant ; NFP août (4 septembre) montre une nouvelle faiblesse.
+
+*Supports critiques* : QQQ $694 (zone congestion / support juillet), QQQ $643 (MA200 — correction −10 % depuis le cours actuel).
+
+*Risques de queue* : (1) Escalade géopolitique — spike VIX rapide sur des marchés complaisants ; (2) 30yr yield dépasse 5,50 % — choc obligataire structurel sur les multiples ; (3) Récession surprise — NFP négatif deux mois consécutifs.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à la composition de votre portefeuille réel.
+
+=== Trade #1 — Covered Call sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (vente de call couvert sur position QQQ existante)
+| *Sous-jacent* | QQQ (~$715.53 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | Résistance forte à $745 (ATH juin 2026) — upside limité à court terme. IV élevée pré-NVDA earnings → prime attractive. Tendance haussière protège le sous-jacent. Stratégie optimale en période de consolidation.
+| *Expiration* | 29 août 2026 (~10 DTE — après résultats NVDA)
+| *Strike* | Call $740 OTM (~3,4 % au-dessus du cours)
+| *Prime reçue* | ~$3.50–4.00 $ / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta* | ~0.25 (légèrement OTM)
+| *Theta/jour* | ~+$12–15 $ / jour
+| *Breakeven* | ~$719 (cours actuel + prime reçue)
+| *Entrée* | Immédiat — IV pré-earnings élevée, capter la prime maintenant
+| *Cible* | Rachat à 50 % du crédit (~$1.75–2.00 $) ou expiration sans valeur
+| *Stop-loss* | QQQ clôture sous $707 (MA50) — fermer la position entière
+| *Taille* | Sur 100 % de la position QQQ existante
+|===
+
+._Covered Call QQQ $740 — P&L estimé à expiration (par 100 actions)_
+[mermaid]
+....
+xychart-beta
+    title "Covered Call QQQ Call $740 exp. 29/08 — P&L (par contrat)"
+    x-axis ["$680", "$695", "$707", "$715", "$725", "$735", "$740", "$750", "$760"]
+    y-axis "P&L ($)" -3500 --> 2800
+    bar [-3150, -1650, -650, 0, 650, 1150, 1375, 1375, 1375]
+    line [-3150, -1650, -650, 0, 650, 1150, 1375, 1375, 1375]
+....
+
+NOTE: Le profit est plafonné à ~$1 375 si QQQ clôture au-dessus de $740 à expiration. Breakeven à $719. En dessous de $707 (MA50), stop-loss recommandé.
+
+=== Trade #2 — Cash-Secured Put sur SPY
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (CSP)
+| *Sous-jacent* | SPY (~$771.12 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | SPY plus résistant que QQQ (healthcare/cyclicals forts). ATH récent $777.88 (13 août) — structure bullish. Snap du 3-day losing streak — momentum positif. Put OTM sur le S&P offre un bon rapport risque/prime.
+| *Expiration* | 19 septembre 2026 (~31 DTE)
+| *Strike* | Put $750 OTM (~2,7 % en dessous du cours)
+| *Prime reçue* | ~$4.50–5.50 $ / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta* | ~−0.22
+| *Theta/jour* | ~+$8–10 $ / jour
+| *Breakeven* | ~$745 (strike − prime reçue)
+| *Entrée* | Si SPY reste au-dessus de $765 en clôture de séance
+| *Cible* | 50 % du crédit (~$2.25–2.75 $)
+| *Stop-loss* | SPY clôture sous $755 — rouler plus bas ou fermer la position
+| *Taille* | 2–3 % du portefeuille (marge cash réservée)
+|===
+
+=== Trade #3 — Bull Call Spread sur QQQ (post-NVDA)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (débit)
+| *Sous-jacent* | QQQ (~$715.53 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | Pari haussier sur un breakout de la résistance $745 si NVDA dépasse les attentes le 26 août. Coût limité par la vente du call supérieur. Risque défini — idéal pour un événement binaire.
+| *Expiration* | 19 septembre 2026 (~31 DTE)
+| *Strikes* | Achat Call $720 / Vente Call $745
+| *Prime payée* | ~$6.00–7.50 $ / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta net* | ~0.40
+| *Breakeven* | ~$726–$727.50
+| *Entrée* | Initier APRÈS résultats NVDA (26 août soir) si la réaction est positive
+| *Cible* | 80–100 % du spread max ($25 − prime payée) → ~$17.50–19.00 $
+| *Stop-loss* | Perte > 50 % de la prime payée (~−$3.50 $)
+| *Taille* | 1–2 % du portefeuille
+|===
+
+=== Trade #4 — Long XLV (Healthcare ETF — secteur leader)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Achat ETF sectoriel (position directionnelle)
+| *Sous-jacent* | XLV — Health Care Select Sector SPDR footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Raisonnement* | Secteur leader du 19 août (S&P tiré par healthcare/cyclicals tandis que tech recule). Moderna +176 % relance l'intérêt biotech. Décorrélé des risques NVDA et yields tech. Secteur défensif + momentum — combinaison rare.
+| *Expiration* | N/A — position spot 4–6 semaines
+| *Prime* | N/A
+| *Breakeven* | Prix d'entrée
+| *Entrée* | Achat progressif : 50 % maintenant, 50 % sur un repli vers le support
+| *Cible* | +5–8 % sur 4 semaines
+| *Stop-loss* | Clôture sous −4 % du prix d'entrée
+| *Taille* | 3–5 % du portefeuille
+|===
+
+=== Trade #5 — Iron Condor sur SPY (theta pur — consolidation)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (crédit net)
+| *Sous-jacent* | SPY (~$771.12 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | SPY en range probable $750–$780 avant FOMC septembre. VIX ~15.5 → IV correcte pour vendre un condor. Stratégie theta adaptée au niveau 3 Consolidation. Risque défini, profit si range tenu.
+| *Expiration* | 19 septembre 2026 (~31 DTE)
+| *Strikes* | Put spread 750/745 + Call spread 790/795
+| *Prime reçue* | ~$1.80–2.20 $ / contrat (crédit net) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta* | ~±0.10 par jambe
+| *Theta/jour* | ~+$5–7 $ / jour
+| *Breakevens* | $747.80 (côté baisse) / $792.20 (côté hausse)
+| *Entrée* | Si VIX > 15 en ouverture de séance
+| *Cible* | 50 % du crédit reçu (~$0.90–1.10 $)
+| *Stop-loss* | Débit > 2× crédit reçu — fermer la jambe touchée immédiatement
+| *Taille* | 2 % du portefeuille
+|===
+
+._Iron Condor SPY 745/750-790/795 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor SPY 750/745-790/795 exp. 19/09 — P&L (par contrat)"
+    x-axis ["$735", "$745", "$750", "$760", "$771", "$780", "$790", "$795", "$805"]
+    y-axis "P&L ($)" -330 --> 220
+    bar [-300, -300, 0, 190, 190, 190, 0, -300, -300]
+    line [-300, -300, 0, 190, 190, 190, 0, -300, -300]
+....
+
+NOTE: Profit max ~$190 si SPY reste dans la zone $750–$790 à expiration. Perte max ~$300 en dehors des wings. Breakevens : $747.80 et $792.20.
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo depuis juillet 2026 — 3 dissenters voulaient hausser
+| Prochain FOMC | Septembre 2026 — 1 seule baisse anticipée sur toute l'année
+| Minutes FOMC | Publiées ce soir (19 août) — ton hawkish possible à surveiller
+| CPI dernier | +3,4 % YoY (juillet 2026) — au-dessus du target 2 % — prochain CPI le 11 sept.
+| NFP dernier | +114K (juillet 2026) — déception significative vs attentes +170K
+| Taux 10 ans | 4,70 % — en recul depuis le pic de début de semaine (vers 4,85 %)
+| Taux 30 ans | ~5,18 % — plus haut en 19 ans touché en début de semaine — −10 bps ce jour
+| Taux Fed Funds | 3,50–3,75 % — Chair Kevin Warsh
+| Put/Call ratio | 1,13 (CBOE) — légèrement défensif (>1,0 = prudence options market)
+| Fear & Greed | 54–56 — Neutre à légère Greed
+| Dollar | En baisse — pression liée aux buybacks Trésor sur la dette longue
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 19 août 2026 (soir) | Minutes FOMC juillet — ton des 3 dissenters hawkish | Élevé
+| 26 août 2026 | NVDA Q2 FY2027 earnings (après clôture) — rev. attendu $28,7 Mds | Élevé (majeur)
+| 4 septembre 2026 | NFP août — rebond attendu vers +170K après +114K en juillet | Élevé
+| 11 septembre 2026 | CPI août — décisif pour FOMC septembre | Élevé
+| Septembre 2026 | FOMC septembre — possibilité de hausse si dissenters l'emportent | Élevé
+| Semaines 35–36 | Résultats retail (HD, WMT, TGT) — santé consommateur américain | Modéré
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — données et futures
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-19-2026[TheStreet — Market Today Aug 19 2026]
+| S&P 500 rises despite tech weakness — healthcare and cyclicals lead
+
+| link:https://finance.yahoo.com/markets/live/stock-market-today-wednesday-august-19-dow-sp-500-nasdaq-081116064.html[Yahoo Finance — Live Updates Aug 19 2026]
+| Treasury buybacks, Moderna +176 %, snap du 3-day losing streak
+
+| link:https://www.bloomberg.com/news/articles/2026-08-19/us-10-year-treasury-yield-will-top-5-this-year-markets-pulse[Bloomberg — 10yr Yield Outlook]
+| Majorité des répondants au Bloomberg Markets Pulse anticipent 10yr > 5 % fin 2026
+
+| link:https://intellectia.ai/blog/nvda-earnings-august-26-2026-preview[Intellectia AI — NVDA Earnings Preview]
+| Preview NVDA Q2 FY2027 — attentes rev. $28,7 Mds + data center >$25 Mds
+
+| link:https://www.cnbc.com/2026/08/17/stock-market-volatility-vix-wall-street.html[CNBC — VIX 2026 Low]
+| VIX Wall Street fear gauge atteint un plus bas 2026
+
+| link:https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm[Federal Reserve — FOMC Minutes juin 2026]
+| Minutes officielles FOMC
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — si recommandé dans les trades]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — protection en cas de baisse]
+* xref:ROOT:options/index.adoc[Options — Concepts fondamentaux (Iron Condor, Spreads)]
