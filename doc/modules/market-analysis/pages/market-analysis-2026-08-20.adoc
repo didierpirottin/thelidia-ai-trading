@@ -1,0 +1,308 @@
+= Analyse de Marché — 20 août 2026
+:description: QQQ $710 teste la MA50 — Baromètre Niveau 4 Prudence — NVIDIA earnings 26 août, SPX cassé sous MA50, taux 10 ans à pic 20 mois
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| ~$710,02 (-1,0 % jour)
+| ~$762,88 (-0,8 % jour)
+| 15,84 — calme (bas 2026 : 14,2 le 16/08)
+| 46 — Neutre
+| Contact ($709,6) — support critique testé
+| *Niveau 4/6 — PRUDENCE*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 4/6 — PRUDENCE : QQQ sur MA50, NVIDIA dans 6 jours, taux 10 ans à pic 20 mois_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 20 août 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 1, 0, 0]
+....
+
+NOTE: Le marché bascule de la Consolidation (Niveau 3 la semaine passée) vers la Prudence (Niveau 4) aujourd'hui. Trois signaux convergent : QQQ teste exactement sa MA50 à $709,6 après une chute de -2,7 % en 3 séances depuis l'ATH du 16 août à $731 ; le S&P 500 a cassé sous sa propre MA50 (7755) ; et les résultats NVIDIA du 26 août constituent un événement binaire à très fort impact dans 6 jours de bourse. À cela s'ajoute un taux 10 ans proche de son pic des 20 derniers mois (4,75 %), compressant les multiples des valeurs de croissance. Le VIX reste bas (15,84) et le put/call ratio complaisant (0,92), ce qui signale que le marché est structurellement sous-couvert. Attitude recommandée : stratégies theta et couverture partielle, pas d'initiation de nouveaux longs non couverts avant NVIDIA.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Séance difficile généralisée le 20 août 2026 : le Dow Jones chute de 1,3 % (~700 points), le S&P 500 recule de 0,8 % et le Nasdaq Composite perd 1,0 %. Le QQQ abandonne ~1 % à $710,02, testant exactement sa moyenne mobile à 50 jours ($709,6). Ce repli efface une partie du rally récent qui avait porté QQQ jusqu'à un ATH de $731 le 16 août — le niveau VIX le plus bas de l'année (14,2) était atteint ce même jour, signal d'une complaisance extrême qui précède souvent une consolidation.
+
+Deux catalyseurs déclenchent la séance : (1) le *Département du Trésor américain* annonce un programme de rachat d'obligations à long terme — le rally obligataire qui s'ensuit s'avère éphémère, les taux repart à la hausse ; (2) *Walmart* publie des résultats décevants (ventes de même magasin +2,6 %, guidance 2026 en dessous des attentes) et chute de 9 %, pesant lourdement sur le secteur XLP et l'indice Dow. En parallèle, le président Trump annonce sur les réseaux sociaux une « opération économique écrasante » contre l'Iran, ravivant les tensions géopolitiques et faisant remonter les prix de l'énergie.
+
+Sur les secteurs, XLK (Technologie) reste largement leader sur l'année avec +33 % YTD, suivi de XLE (Énergie) +21 % et XLI (Industrie) +20 % YTD. XLP (Consommation de base) est lanterne rouge à +6,6 % YTD, pénalisé par les grandes enseignes de distribution.
+
+=== Pourquoi (causes profondes)
+
+Le contexte macro reste sous tension à plusieurs niveaux. La *Réserve Fédérale* (présidée par Kevin Warsh, ayant succédé à Powell en 2026) maintient les taux entre 3,50 % et 3,75 % depuis juillet, malgré 3 membres du FOMC qui ont voté pour une hausse supplémentaire. L'inflation PCE projetée à 3,6 % pour 2026 reste au-dessus de la cible de 2 %, et le CPI de juillet est ressorti globalement en ligne avec les attentes à +3,4 % YoY. Le *NFP de juillet* a déçu, signalant un possible ralentissement du marché de l'emploi, rendant la décision de septembre encore plus incertaine.
+
+Le principal risque structurel à court terme est le *taux à 10 ans américain*, qui a touché un pic de 4,75 % (plus haut depuis 20 mois) avant de reculer légèrement à 4,64-4,65 %, mais qui reste à des niveaux qui compriment mécaniquement les multiples des valeurs de croissance. Cette pression de taux, combinée à la concentration extrême du S&P 500 sur les Mag7 (~35 % de la capitalisation), amplifie la sensibilité du marché à toute déception sur ces méga-caps — et *NVIDIA*, l'action la plus scrutée au monde, publie le 26 août.
+
+Du côté du sentiment, l'*AAII* enregistre pour la 27e semaine consécutive une majorité bearish (37,9 % bearish vs 34,7 % bullish), bien au-dessus de la moyenne historique de 31,5 % — signal contrarian haussier à surveiller. Le *put/call ratio* CBOE total à 0,92 (23e percentile, lecture «complacent») indique que peu d'investisseurs se protègent activement, créant une vulnérabilité en cas de choc.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | ~$710,02 | Session -1,0 % — test MA50
+| MA50 QQQ | $709,6 | *Contact* — support critique à surveiller impérativement
+| MA200 QQQ | $636,4 | Au-dessus (+11,6 %) — tendance LT haussière intacte
+| Golden Cross QQQ | MA50 > MA200 | Bullish LT — structure préservée
+| SPX vs MA50 | ~7755 (MA50) | *En-dessous* — signal baissier CT confirmé
+| SPX vs MA200 | ~7586 (MA200) | Au-dessus — support LT tenu
+| Support clé QQQ | $709,6 | MA50 — testé en séance
+| Support critique 2 | ~$690 | Gap up Q2 2026 / MA100 approx.
+| Résistance clé | $720–$725 | Range haut de semaine / résistance CT
+| RSI QQQ (14J) | ~65,2 | Bullish mais proche zone suracheté (>70)
+| VIX | 15,84 | Calme — marché complaisant avant événement NVIDIA
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 55 %
+
+*Conditions nécessaires* : QQQ maintient la clôture hebdomadaire au-dessus de sa MA50 ($709,6) ; NVIDIA publie des résultats supérieurs aux attentes le 26 août (revenus > $28,7 Mds, guidance solide) ; le taux 10 ans revient sous 4,50 % après les données macro d'août–septembre.
+
+*Cibles* : QQQ $740–$750, SPY $785–$795.
+
+*Catalyseurs* : résultats NVIDIA Q2-FY2027 (26 août, après clôture) avec consensus à $28,7 Mds de revenus (+50 % YoY) et data center attendu à $25 Mds — tout dépassement significatif peut relancer le secteur IA et propulser QQQ vers de nouveaux ATH ; confirmation d'une pause prolongée de la Fed au FOMC de septembre ; résultats Broadcom (3 sept.) qui valident l'élan IA. L'AAII bearish depuis 27 semaines constitue un puissant signal contrarian — une surprise haussière sur NVIDIA pourrait provoquer un short squeeze significatif.
+
+=== Scénario baissier — Probabilité 45 %
+
+*Conditions de déclenchement* : QQQ casse sa MA50 ($709,6) en clôture et reste sous $700 deux séances consécutives ; NVIDIA déçoit sur la guidance ou les revenus ; CPI août > 3,5 % force le marché à pricer une hausse de taux Fed en septembre.
+
+*Supports critiques* : QQQ $690 (gap Q2 / MA100), puis QQQ $636 (MA200).
+
+*Risques de queue* : (1) Escalade militaire Iran — blocade du détroit d'Ormuz → pétrole > $100 → inflation importée → Fed forcée à monter — VIX spike depuis niveau très bas (15,84) ; (2) NFP août < 0 K → récession craint → earnings revisions à la baisse ; (3) Concentration Mag7 (~35 % SPX) — si NVIDIA seule déçoit, l'impact sur QQQ et SPX est démultiplié.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes indiquées sont des estimations — vérifier les cours réels avant d'entrer en position. footnote:[Estimations de primes basées sur les niveaux de volatilité implicite observés le 20 août 2026 — à confirmer avec un broker.]
+
+=== Trade #1 — Covered Call sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (revenu theta sur position QQQ existante)
+| *Sous-jacent* | QQQ (~$710)
+| *Raisonnement* | QQQ teste sa MA50 — upside limité à CT avant NVIDIA (26/08) ; IV pré-earnings élevée = prime vendeuse attractive ; stratégie génère du revenu si QQQ consolide dans la zone $700–730 pendant 30 jours
+| *Expiration* | 19 septembre 2026 (~30 DTE)
+| *Strike(s)* | Vente Call $730 (OTM ~+2,8 %)
+| *Prime reçue* | ~$4,00 / contrat ($400) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta call vendu* | ~-0,22 (delta net position : +0,78)
+| *Theta/jour* | ~+$0,13 / jour par contrat
+| *Breakeven* | n/a — position longue sous-jacente couverte jusqu'à $730
+| *Entrée* | Immédiate si QQQ entre $705–$715 en séance
+| *Cible* | Racheter le call à 50 % du crédit (~$2,00 débit)
+| *Stop-loss* | Racheter le call si QQQ > $733 en clôture
+| *Taille* | Vendre calls sur 33–50 % des parts QQQ détenues
+|===
+
+=== Trade #2 — Bear Put Spread sur SPY (couverture)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bear Put Spread (protection définie, coût limité)
+| *Sous-jacent* | SPY (~$762,88)
+| *Raisonnement* | SPX a cassé sous sa MA50 (7755) — signal baissier CT confirmé ; taux 10 ans à 4,64–4,75 % comprime les multiples ; Walmart -9 % + risque Iran = pression sur consommation et énergie ; coût limité au débit payé, protection significative si SPY descend vers $745
+| *Expiration* | 19 septembre 2026 (~30 DTE)
+| *Strike(s)* | Achat Put SPY $760 / Vente Put SPY $745
+| *Prime payée* | ~$4,50 débit net ($450 / contrat) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~-0,28
+| *Breakeven* | $755,50 SPY
+| *Max gain* | $10,50 / action ($1 050 / contrat) si SPY ≤ $745 à expiration
+| *Max perte* | $4,50 / action ($450 / contrat) — prime payée
+| *Entrée* | Immédiate — SPX sous MA50 = déclencheur confirmé
+| *Cible* | 70 % du max gain (~$7,35 net) — fermer le spread
+| *Stop-loss* | Fermer si SPY remonte > $768 (MA50 récupérée, invalidation du setup)
+| *Taille* | 2–3 % du portefeuille
+|===
+
+._Bear Put Spread SPY 760/745 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Bear Put Spread SPY 760/745 — P&L par contrat ($)"
+    x-axis ["740$", "745$", "750$", "755$", "756$", "758$", "760$", "765$", "770$"]
+    y-axis "P&L ($)" -500 --> 1100
+    bar [1050, 1050, 550, 50, -50, -250, -450, -450, -450]
+    line [1050, 1050, 550, 50, -50, -250, -450, -450, -450]
+....
+
+NOTE: Plancher de perte : $450 (débit payé) si SPY ≥ $760 à expiration. Plafond de gain : $1 050 si SPY ≤ $745. Breakeven à $755,50 SPY. Ce spread protège efficacement contre une continuation de la baisse post-Walmart/Iran/taux.
+
+=== Trade #3 — Iron Condor sur QQQ (à initier après NVIDIA, 27–28 août)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (theta / IV crush post-earnings)
+| *Sous-jacent* | QQQ (~$710 — prix approximatif post-NVIDIA)
+| *Raisonnement* | Après publication des résultats NVIDIA (26 août), l'IV s'effondre (IV crush) — il faut vendre cette volatilité ; QQQ susceptible de se stabiliser dans un range après le catalyseur ; taux theta élevé dans un régime de vol normalisé
+| *Expiration* | 17 octobre 2026 (~50 DTE depuis le 27 août)
+| *Strike(s)* | Vente Call $740 / Achat Call $755 + Vente Put $680 / Achat Put $665
+| *Prime reçue* | ~$3,80 net ($380 / contrat) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~neutre (≈ 0)
+| *Theta/jour* | ~+$8–10 / jour par contrat
+| *Breakevens* | $676,20 (bas) / $743,80 (haut)
+| *Range profitable* | QQQ entre $680 et $740 (±4 % du cours)
+| *Entrée* | 27 ou 28 août — impérativement APRÈS résultats NVIDIA publiés
+| *Cible* | 50 % du crédit reçu (~$1,90) — fermer le spread
+| *Stop-loss* | Débit > 2× crédit initial ($7,60) OU QQQ sort du range ±$15
+| *Taille* | 3–5 % du portefeuille (1–2 contrats)
+|===
+
+._Iron Condor QQQ 665/680/740/755 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ 665/680/740/755 — P&L par contrat ($)"
+    x-axis ["660$", "665$", "670$", "676$", "680$", "710$", "740$", "744$", "750$", "755$", "760$"]
+    y-axis "P&L ($)" -1200 --> 450
+    bar [-1120, -1120, -620, 0, 380, 380, 380, 0, -620, -1120, -1120]
+    line [-1120, -1120, -620, 0, 380, 380, 380, 0, -620, -1120, -1120]
+....
+
+NOTE: Zone de profit maximale ($380 / contrat) : QQQ entre $680 et $740. Breakevens : $676,20 (inférieur) et $743,80 (supérieur). Perte maximale $1 120 si QQQ sort du range de ±$15 à expiration. Ce trade ne doit être initié QUE le lendemain des résultats NVIDIA pour bénéficier de l'IV crush.
+
+=== Trade #4 — Bull Call Spread sur NVDA (jeu earnings défini-risque)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (exposition haussière définie avant earnings)
+| *Sous-jacent* | NVDA — cours ~$217,56
+| *Raisonnement* | Consensus analystes à $300–315 (upside 40–45 %) ; revenus Q2-FY2027 attendus $28,7 Mds (+50 % YoY) avec data center à $25 Mds ; historiquement NVDA monte après résultats quand les attentes IA sont fortes ; le spread limite la perte à la prime payée (risque défini)
+| *Expiration* | 5 septembre 2026 (~10 DTE après earnings du 26 août)
+| *Strike(s)* | Achat Call $220 / Vente Call $250
+| *Prime payée* | ~$8,50 débit ($850 / contrat) footnote:[Estimation — vérifier les cours réels avant d'entrer en position. IV pré-earnings très élevée sur NVDA.]
+| *Breakeven* | $228,50 NVDA
+| *Max gain* | $21,50 ($2 150 / contrat) si NVDA ≥ $250
+| *Max perte* | $8,50 ($850 / contrat) — prime payée
+| *Delta* | ~+0,45
+| *Entrée* | 25 août (veille des résultats) — pas avant
+| *Cible* | NVDA > $238 (cible consensus minimale) → +50 % sur le spread
+| *Stop-loss* | NVDA tombe sous $205 post-earnings → fermer immédiatement
+| *Taille* | 1–2 % du portefeuille (position spéculative à risque défini)
+|===
+
+WARNING: Ce trade est purement spéculatif et doit être dimensionné en conséquence (1–2 % max). Une guidance décevante de NVDA peut provoquer une chute de -10 à -20 % en une séance. Ne pas dépasser la taille recommandée.
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed Funds | 3,50–3,75 % — statu quo (réunion juillet 2026, 3 dissidents pour hausse)
+| Président Fed | Kevin Warsh (remplacé Powell en 2026) — ton hawkish
+| Prochain FOMC | *15–16 septembre 2026* — marché scrute NFP août + CPI août pour anticiper la décision
+| CPI juillet 2026 | +3,4 % YoY — en ligne avec les attentes (ni surprise dovish ni hawkish)
+| PCE projeté 2026 | 3,6 % — au-dessus de la cible 2 % de la Fed
+| NFP juillet 2026 | En dessous des attentes — signal de ralentissement de l'emploi
+| Taux 10 ans | 4,64–4,75 % — pic des 20 derniers mois, revenu de 4,75 % à 4,64 % après annonce rachat Treasury
+| Put/Call ratio | 0,92 total CBOE (17/08) — 23e percentile, lecture «complaisant»
+| AAII Bearish | 37,9 % — au-dessus avg historique (31,5 %) pour la *27e semaine consécutive*
+| AAII Bullish | 34,7 % — en dessous avg historique (37,5 %)
+| Fear & Greed | 46 — Neutre
+| VIX | 15,84 (+4,28 % jour) — bas 2026 atteint le 16/08 à 14,2
+| Bitcoin | +11,5 % à ~$71 809 — rotation spéculative post-annonce Treasury
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| *26 août 2026* | Résultats NVIDIA Q2-FY2027 (après clôture) | *Élevé* — catalyseur binaire pour l'ensemble du secteur IA/semis
+| 3 septembre 2026 | Résultats Broadcom | Élevé — confirmation ou non de l'élan IA
+| ~5 septembre 2026 | NFP août 2026 | Élevé — déterminant pour la décision FOMC du 16 sept.
+| ~10 septembre 2026 | CPI août 2026 | Élevé — déterminant pour FOMC + taux 10 ans
+| *15–16 septembre 2026* | FOMC — décision de taux + dot plot | *Élevé* — hausse possible si macro défavorable (3 dissidents juillet)
+| Continu | Escalade Iran / prix pétrole | Modéré à Élevé — impact sur inflation et sentiment
+| Continu | Taux 10 ans (cible 4,75 %) | Élevé — compression multiples tech si maintenu
+|===
+
+'''
+
+== Signal Congrès américain
+
+WARNING: Les données Capitol Trades n'étaient pas accessibles directement le 20 août 2026 (erreur réseau lors du scraping). Source alternative (Trendlyne) signale des transactions du 12–19 août 2026 mais sans agrégation par ticker disponible. [Données Congrès indisponibles ce jour — relancer `/copy-congress-trades` pour un accès direct.]
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême) — valeur du jour : 46 Neutre
+
+| link:https://www.cboe.com/tradable-products/vix/[CBOE VIX]
+| Indice de volatilité officiel — VIX 15,84 le 20/08/2026
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://finance.yahoo.com/markets/stocks/articles/stock-market-today-aug-20-135212527.html[Yahoo Finance — Stock Market Today Aug. 20]
+| Article du jour : Nasdaq falls, Treasury rally fades
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-20-2026[TheStreet — Aug. 20 2026]
+| Recap séance : Dow -1,3 %, Walmart -9 %, Treasury yields
+
+| link:https://www.aaii.com/sentimentsurvey[AAII Sentiment Survey]
+| Enquête hebdomadaire — Bearish 37,9 % pour la 27e semaine consécutive
+
+| link:https://www.thetrading.tools/put-call-ratio[The Trading Tools — Put/Call Ratio]
+| Put/call ratio CBOE total : 0,92 (complaisant)
+
+| link:https://altindex.com/ticker/qqq/technical-analysis[AltIndex — QQQ Technical Analysis]
+| MA50 $709,6 / MA200 $636,4 / RSI 65,2 — données du 20/08/2026
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Protection définie sur SPY]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP & Covered Call — stratégies theta recommandées]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly / Condor — Stratégie theta post-IV crush (Trade #3)]

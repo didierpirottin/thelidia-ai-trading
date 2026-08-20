@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-08-20.adoc[20 août 2026]
+| Niveau 4/6 — PRUDENCE
+| Haussière LT / Baissière CT
+| QQQ $710 teste MA50, SPX sous MA50, taux 10Y pic 20 mois, Walmart -9 %, NVIDIA 26 août
+
 | xref:market-analysis:market-analysis-2026-08-19.adoc[19 août 2026]
 | Niveau 3/6 — CONSOLIDATION
 | Haussière
