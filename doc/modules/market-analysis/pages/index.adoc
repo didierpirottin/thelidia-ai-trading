@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-08-24.adoc[24 août 2026]
+| Niveau 4/6 — PRUDENCE
+| Neutre CT / Haussière LT
+| QQQ $705 sous MA50, NVDA earnings 26/08, Warsh Jackson Hole 28/08, sanctions Iran + tarifs Canada
+
 | xref:market-analysis:market-analysis-2026-08-20.adoc[20 août 2026]
 | Niveau 4/6 — PRUDENCE
 | Haussière LT / Baissière CT
