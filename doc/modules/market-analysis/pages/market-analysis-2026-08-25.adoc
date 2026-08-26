@@ -1,0 +1,269 @@
+= Analyse de Marché — 25 août 2026
+:description: QQQ $710,60 sous MA50 ($714), zone critique MA200 ($707) — Baromètre 4/6 PRUDENCE — NVDA earnings 26 août + Warsh Jackson Hole 28 août — stratégies theta/delta-neutres
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $710,60 (+3,8 % / 1 mois)
+| ~$762 (−0,3 % séance)
+| 15,85 — calme
+| 55 — Neutral
+| En-dessous (~$714)
+| *Niveau 4/6 — PRUDENCE*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 4/6 — PRUDENCE : QQQ sous MA50, double catalyseur binaire dans 48h (NVDA + Warsh)_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 25 août 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 1, 0, 0]
+....
+
+NOTE: QQQ se trouve dans une zone critique entre la MA50 ($714) et la MA200 ($707) — une marge de seulement $3,60 sépare le support long terme. Deux catalyseurs majeurs binaires interviennent dans les 48 heures : les résultats Nvidia le 26 août (après clôture) et le discours de Kevin Warsh à Jackson Hole le 28 août. Le VIX reste calme (15,85) mais le put/call ratio à 1,13 reflète une prudence croissante des traders options. L'attitude recommandée est de favoriser les stratégies theta/delta-neutres et d'éviter les achats directionnels avant la levée de cette double incertitude.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+QQQ a clôturé à $710,60 le 25 août 2026, rebondissant depuis les $705 du 24 août après un sell-off des semis (−1,8 % XLK). Sur un mois, QQQ affiche +3,8 % mais reste en repli de −2,7 % depuis l'ATH du 13 août ($730). Le Dow a terminé en hausse (+0,3 % à 53 417 pts) grâce à la rotation vers les financières (+1,3 %) et les biens de consommation de base (+1,7 %), tandis que le S&P 500 a cédé −0,3 % à 7 652,86 pts. En données de séance, le Nasdaq Composite a brièvement rebondi à 26 088 pts (+0,42 % intraday) avant de clôturer proche de l'équilibre. Le Dick's Sporting Goods a plongé −17 % après un miss Q2, tandis que Kura Oncology a progressé +10,5 % sur achat d'insider.
+
+=== Pourquoi (causes profondes)
+
+La Fed maintient ses taux entre 3,50 % et 3,75 %, décision contestée par 3 membres hawkish dissidents lors du FOMC de juillet. Kevin Warsh, nouveau président de la Fed depuis 2026, s'est montré opaque sur la trajectoire des taux, laissant les marchés dans l'incertitude. L'inflation reste ancrée au-dessus de la cible : CPI +3,4 % YoY en juillet, core +2,5 %. Plus préoccupant, le NFP de juillet a surpris négativement à −23 K emplois, un signal de fragilisation du marché du travail qui place la Fed dans une position difficile face à la stagflation. Le put/call ratio à 1,13 reflète une couverture défensive des institutionnels, et le Fear & Greed à 55 (Neutre) confirme l'absence de conviction directionnelle. Les tensions géopolitiques avec l'Iran maintiennent une prime de risque sur les matières premières et pèsent sur les flux vers les actifs risqués.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $710,60 | —
+| MA50 QQQ | ~$714 | En-dessous — signal de vente court terme
+| MA200 QQQ | ~$707 | Au-dessus (marge $3,60) — support critique LT
+| ATH QQQ | $730 (13 août) | Repli −2,7 % depuis ATH
+| SPX MA50 | 7 736 | SPX sous MA50 — signal vente CT
+| SPX MA200 | 7 598 | SPX au-dessus — tendance LT intacte
+| Support clé | $707 | MA200 — perte = signal baissier LT
+| Résistance clé | $714–$722 | Zone MA50 / récupération structure
+| RSI (14j) | ~42,9 | Neutre déclinant — pas de signal achat
+| MACD | −2,55 | Actif — signal vente
+| Put/Call ratio | 1,13 | Défensif — couverture institutionnelle
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 40 %
+
+*Conditions nécessaires* : Nvidia bat les attentes et guide Q3 supérieur au consensus ; Warsh adopte un ton neutre ou légèrement dovish à Jackson Hole ; QQQ clôture au-dessus de la MA50 ($714) et y tient pendant 3 séances consécutives.
+
+*Cibles* : QQQ $730–$740 (re-test ATH), SPY $780.
+
+*Catalyseurs* : MRVL bat les attentes le 27 août et confirme la demande infrastructure IA (+35 % rev YoY) ; CPI août (11 septembre) < 3,3 % — allègement hawkish ; le deal Google de $12 Md avec Marvell + partenariat Nvidia ($2 Md) ré-accélèrent les flux vers les semis IA.
+
+=== Scénario baissier — Probabilité 60 %
+
+*Conditions de déclenchement* : Warsh signale une hausse en septembre à Jackson Hole (surprise hawkish) ou Nvidia déçoit sur son guidance Q3 (restrictions export Chine) ; le taux 10 ans remonte au-dessus de 4,5 % en réaction.
+
+*Supports critiques* : QQQ $707 (MA200 — perte = cassure de la tendance haussière LT) ; QQQ $685–$690 (gap de récupération début août).
+
+*Risques de queue* : NFP août < 0 en septembre (récession confirmée) — la Fed face à un dilemme stagflationniste ; escalade géopolitique Iran → pétrole > $100 + compression de la consommation.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes et niveaux de strikes sont des estimations — vérifier les cours réels avant d'entrer en position.
+
+=== Trade #1 — Iron Condor sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (stratégie theta vendeuse, delta-neutre)
+| *Sous-jacent* | QQQ (~$710,60 $) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Raisonnement* | QQQ en range $700–$722 depuis 5 séances ; VIX bas (15,85) → prime vendeuse correcte sans spike ; stratégie gagnante en consolidation/incertitude pré-catalyseurs ; neutralise le risque directionnel Nvidia / Jackson Hole
+| *Expiration* | 5 septembre 2026 (~11 DTE post-catalyseurs)
+| *Strike(s)* | Sell Put 700 / Buy Put 690 + Sell Call 722 / Buy Call 732
+| *Prime reçue* | ~$3,20–$3,50 par contrat (crédit net) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~0 (delta-neutre)
+| *Theta/jour* | ~$0,28 / jour par contrat
+| *Breakeven(s)* | $696,50 (baisse) / $725,50 (hausse)
+| *Entrée* | Avant les résultats NVDA (aujourd'hui ou demain matin si QQQ < $714)
+| *Cible* | 50 % du crédit reçu (~$1,60–$1,75 profit par contrat)
+| *Stop-loss* | Débit > 2× crédit OU QQQ < $700 / > $722 en clôture
+| *Taille* | 3–5 % du portefeuille
+|===
+
+._Iron Condor QQQ — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ — P&L estimé à expiration (par contrat)"
+    x-axis ["$685", "$690", "$697", "$700", "$710", "$722", "$725", "$732"]
+    y-axis "P&L ($)" -700 --> 400
+    bar [-350, -350, 0, 350, 350, 350, 0, -350]
+    line [-350, -350, 0, 350, 350, 350, 0, -350]
+....
+
+NOTE: Le profit maximum (~$350 / contrat) est atteint si QQQ reste entre $700 et $722 à expiration. La perte maximale est de $1 000 (spread − crédit) si QQQ dépasse $732 ou chute sous $690. Les breakevens à $696,50 et $725,50 correspondent à la zone de range récente, cohérente avec l'incertitude pré-Jackson Hole.
+
+=== Trade #2 — Covered Call sur QQQ existant
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (génération de revenus theta)
+| *Sous-jacent* | QQQ (~$710,60 $)
+| *Raisonnement* | Générer du theta pendant la consolidation ; prime protège partiellement en cas de baisse ; Strike 722 = zone MA50 / résistance naturelle
+| *Expiration* | 29 août 2026 (5 DTE — post Jackson Hole vendredi)
+| *Strike(s)* | Call 722
+| *Prime reçue* | ~$2,20–$2,50 par contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Theta/jour* | ~$0,45 / jour (accélération proche expiration)
+| *Breakeven(s)* | $708,10 à la baisse (QQQ − prime reçue)
+| *Entrée* | Dès ouverture si QQQ < $714
+| *Cible* | Expiration sans valeur — garder 100 % de la prime
+| *Stop-loss* | Racheter le call si QQQ > $720 en clôture (perte de position limitée)
+| *Taille* | Sur 50–100 % des actions QQQ détenues en portefeuille
+|===
+
+=== Trade #3 — Bull Call Spread sur MRVL (conditionnel post-earnings 27 août)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread — CONDITIONNEL (attendre réaction post-résultats)
+| *Sous-jacent* | MRVL (~$248 $ pré-earnings) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Raisonnement* | 88 % probabilité de beat (Polymarket) ; deal Google $12 Md + partenariat Nvidia ($2 Md) ; 35 % rev growth YoY attendu ; Jensen Huang (NVDA CEO) a qualifié MRVL de "prochain trillion-dollar AI chip company" ; entrée UNIQUEMENT si MRVL +5 % ou plus après résultats
+| *Expiration* | 19 septembre 2026 (~23 DTE post-réaction)
+| *Strike(s)* | Buy Call $255 / Sell Call $275
+| *Prime payée* | ~$5,50 par contrat (débit) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~+0,45
+| *Breakeven(s)* | $260,50
+| *Entrée* | Le 28 août au matin uniquement si MRVL gap-up > $260 en ouverture
+| *Cible* | +150 % sur le débit (~$8,25 / contrat, MRVL vers $270–$275)
+| *Stop-loss* | −50 % du débit payé ($2,75 / contrat)
+| *Taille* | 2–3 % du portefeuille
+|===
+
+=== Trade #4 — Long Put SPY (hedging Jackson Hole)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Long Put (protection court terme — hedging Warsh)
+| *Sous-jacent* | SPY (~$762 $)
+| *Raisonnement* | Scénario baissier à 60 % ; 1/3 probabilité hausse septembre — Warsh peut surprendre ; coût réduit car VIX encore bas (15,85) ; asymétrie favorable sur 5 jours
+| *Expiration* | 29 août 2026 (5 DTE — post discours Warsh vendredi)
+| *Strike(s)* | Put 755
+| *Prime payée* | ~$2,80–$3,20 par contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta* | ~−0,35
+| *Breakeven(s)* | $751,80 (SPY − prime)
+| *Entrée* | Avant le discours de Warsh (vendredi matin 28 août)
+| *Cible* | +100 % si SPY < $751 (Warsh hawkish)
+| *Stop-loss* | −50 % de la prime si Warsh neutre/dovish → couper lundi
+| *Taille* | 1–2 % du portefeuille (assurance pure)
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo (juillet 2026, 3 dissidents hawkish)
+| Prochain FOMC | Septembre 2026 — 1/3 probabilité de hausse selon CME FedWatch
+| Président Fed | Kevin Warsh (nouveau chair 2026) — ton opaque, peu de guidance
+| Jackson Hole | 27–29 août 2026 — discours Warsh vendredi 28 — catalyseur majeur
+| CPI juillet | +3,4 % YoY — en ligne attentes — core +2,5 % YoY — > cible 2 %
+| CPI août | Publication prévue le 11 septembre 2026
+| NFP juillet | −23 K emplois — miss sévère — signal de fragilisation économique
+| Taux 10 ans | ~4,3–4,5 % (légère détente intraday 25 août)
+| Put/Call ratio | 1,13 (25 août) — défensif, couverture institutionnelle accrue
+| SPX ATH | 7 840 (13 août) — repli actuel −2,4 %
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 26 août 2026 (après clôture) | Résultats Nvidia (NVDA) — Q2 FY2027 | Élevé — guide Q3 = directeur semis IA
+| 27 août 2026 (après clôture) | Résultats Marvell (MRVL) — $2,7 Md rev attendu +35 % | Élevé — confirmation demande IA infrastructure
+| 27 août 2026 (soir) | Résultats ADSK, ULTA, WDAY, AFRM | Modéré — indicateurs consommation / SaaS
+| 28 août 2026 (matin) | Discours Warsh — Jackson Hole Economic Symposium | Élevé — ton = taux septembre
+| 11 septembre 2026 | CPI août 2026 | Élevé — pivot ou confirmation hawkish
+| Septembre 2026 | FOMC décision taux | Élevé — hausse si CPI > 3,3 % ou employ fort
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Fear & Greed Index 55 (Neutral) — 25 août 2026
+
+| link:https://www.cboe.com/tradable-products/vix/[CBOE VIX]
+| VIX 15,85 — données de séance 25 août 2026
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités décision Fed — 1/3 odds hausse septembre
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| QQQ $710,60 — données du 25 août 2026
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Données VIX temps réel
+
+| link:https://www.benzinga.com/markets/market-summary/26/08/61401099/nasdaq-tumbles-200-points-as-chip-stocks-slide-fear-greed-index-remains-in-neutral-zone[Benzinga — Nasdaq tumbles 200 pts, chip stocks slide]
+| Fear & Greed Neutral — contexte chip sell-off
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-25-2026[TheStreet — Stock Market Today 25 août 2026]
+| Movers du jour, NVDA et ZM earnings après clôture
+
+| link:https://finance.yahoo.com/economy/policy/articles/warsh-first-jackson-hole-speech-200000444.html[Yahoo Finance — Warsh premier discours Jackson Hole]
+| Contexte et enjeux du discours Warsh à Jackson Hole
+
+| link:https://247wallst.com/investing/2026/08/24/marvell-could-give-investors-a-reason-to-celebrate-on-august-27th/[24/7 Wall St. — Marvell earnings Aug 27]
+| Analyse MRVL pré-résultats : deal Google, Nvidia, AI
+
+| link:https://blog.oneuptrader.com/analysis/technical-analysis/sp-500-futures-es-technical-analysis-25-august-2026/[OneUp Trader — S&P 500 technical analysis 25 août 2026]
+| Analyse technique SPX — MA50/MA200 convergence
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly / Iron Condor — Stratégie theta delta-neutre]
+* xref:ROOT:hedging/protective-put.adoc[Protective Put — Hedging directionnel]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP + Covered Call — Génération de revenus]

@@ -1,4 +1,5 @@
 * xref:market-analysis:index.adoc[Analyses de Marché]
+** xref:market-analysis:market-analysis-2026-08-25.adoc[25 août 2026 — Niveau 4 Prudence]
 ** xref:market-analysis:market-analysis-2026-08-24.adoc[24 août 2026 — Niveau 4 Prudence]
 ** xref:market-analysis:market-analysis-2026-08-20.adoc[20 août 2026 — Niveau 4 Prudence]
 ** xref:market-analysis:market-analysis-2026-08-19.adoc[19 août 2026 — Niveau 3 Consolidation]
