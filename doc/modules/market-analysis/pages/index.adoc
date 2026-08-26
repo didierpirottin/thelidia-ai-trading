@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-08-26.adoc[26 août 2026]
+| Niveau 3/6 — CONSOLIDATION
+| Neutre CT / Haussière LT
+| QQQ ~$710 rebond, NVDA bullish AMC, PCE cool, Jackson Hole 28 août, Iron Condor QQQ
+
 | xref:market-analysis:market-analysis-2026-08-25.adoc[25 août 2026]
 | Niveau 4/6 — PRUDENCE
 | Haussière LT / Fragilisée CT
