@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-08-27.adoc[27 août 2026]
+| Niveau 3/6 — CONSOLIDATION
+| Haussière
+| NVDA +8,7 % blowout Q2 FY2027, QQQ $718 au-dessus MA50, Warsh Jackson Hole demain, PCE 3,3 %
+
 | xref:market-analysis:market-analysis-2026-08-26.adoc[26 août 2026]
 | Niveau 3/6 — CONSOLIDATION
 | Neutre CT / Haussière LT

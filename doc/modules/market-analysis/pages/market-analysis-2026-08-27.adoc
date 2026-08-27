@@ -1,0 +1,273 @@
+= Analyse de Marché — 27 août 2026
+:description: QQQ 718,66 $ au-dessus MA50 — baromètre Niveau 3 Consolidation — NVDA +8,7 % blowout Q2 FY2027 — Jackson Hole : Warsh parle demain (28 août) — PCE Core 3,3 %
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| 718,66 $ (+1,0 % séance)
+| 770,32 $ (+0,7 % séance)
+| 14,92 — calme (14,50–15,13 en séance)
+| 55–59 — Neutral
+| Au-dessus (~713,35 $)
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : trend haussier intact post-NVDA, breadth étroite, Warsh demain_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 27 août 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 1, 0, 0, 0]
+....
+
+NOTE: Le QQQ rebondit à 718,66 $ et repasse clairement au-dessus de sa MA50 (713,35 $), porté par un résultat Nvidia exceptionnel — revenue Q2 FY2027 de 96,2 Mds $, guidance +70 % pour l'année suivante. Cependant, la hausse reste cantonnée au seul secteur technologique (breadth étroite) et le Core PCE à 3,3 % (publié hier) laisse peu de marge à Warsh pour signaler des baisses de taux rapides. Le discours inaugural de Kevin Warsh à Jackson Hole demain (28 août) constitue le prochain catalyseur binaire. L'attitude correcte est un renforcement sélectif sur les meilleures opportunités AI/tech, sans déploiement agressif avant confirmation Warsh.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Le QQQ clôture à 718,66 $, en hausse de 1,0 % en séance (range : 714,53–719,27 $), franchissant à nouveau sa MA50 à 713,35 $ pour la première fois depuis le 24 août. Cette reprise fait suite à une clôture précédente de 711,37 $ après le sell-off lié aux tensions US-Canada et aux sanctions Iran qui avaient ramené l'ETF à 705 $. Le Nasdaq Composite gagne +1,5 % en séance, le S&P 500 +0,7 %, mais le Dow Jones ne progresse que de +0,2 %, illustrant une reprise à deux vitesses.
+
+Le catalyseur central est Nvidia : le groupe publie ses résultats Q2 FY2027 avec un chiffre d'affaires de 96,2 Mds $, un bénéfice net de 59,7 Mds $, et une guidance de croissance de revenus de +70 % pour l'année à venir. Le titre gagne 8,74 % à 227,98 $, atteignant un nouveau record historique. Salesforce (+21,55 %) et CrowdStrike progressent également après leurs résultats trimestriels. IBM avance de +3,77 %.
+
+La technologie est le seul secteur du S&P 500 à terminer en hausse — consumer discretionary, real estate, utilities et défensives reculent, signe d'une breadth étroite malgré la performance des indices.
+
+=== Pourquoi (causes profondes)
+
+La dynamique de la journée est dictée par deux forces opposées. D'un côté, l'IA reste le moteur structurel de l'économie : les résultats Nvidia dissipent les craintes d'un plafonnement de la demande de puces IA et valident les thèses des bulls sur l'infrastructure cloud. De l'autre, le Core PCE publié hier (26 août) à +3,3 % YoY confirme que l'inflation reste au-dessus du target de 2 % de la Fed, sans surprise ni soulagement. Ce chiffre place Kevin Warsh dans une position délicate pour son discours inaugural de demain à Jackson Hole : signaler des baisses de taux trop tôt serait incohérent avec un PCE à 3,3 %, mais un ton hawkish pourrait effacer le rebond tech.
+
+Côté sentiment, le put/call ratio reste autour de 0,83 (complacent, haussier), et le Fear & Greed entre 55 et 59 indique une neutralité légèrement optimiste — pas d'excès d'avidité, pas de peur. Les flux sont acheteurs sur les ETF technologiques mais vendeurs sur les valeurs décycliques et l'immobilier.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | 718,66 $ | +1,0 % séance — reprise haussière
+| MA50 QQQ | 713,35 $ | Au-dessus (+0,7 %) — niveau reconquis
+| MA200 QQQ | 651,74 $ | Au-dessus (+10,3 %) — tendance LT haussière intacte
+| SPY cours | 770,32 $ | Au-dessus MA50 (744,59 $) et MA200 (697,91 $)
+| 52-sem. haut | 748,65 $ | Résistance — QQQ à −4,0 % de l'ATH
+| 52-sem. bas | 555,60 $ | Support LT lointain (creux d'avril 2026)
+| Support clé | 713,35 $ | MA50 — testée comme résistance → support
+| Résistance clé | 748,65 $ | ATH 52 semaines à reconquérir
+| RSI | ~50 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.] | Neutre — ni suracheté ni survendu
+| Structure | Higher highs depuis creux $555 (avril 2026) | Tendance haussière intacte
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 55 %
+
+*Conditions nécessaires* : Kevin Warsh adopte un ton neutre à accommodant à Jackson Hole (28 août), signalant au moins une pause prolongée des taux sans signaux de hausse. Le QQQ consolide au-dessus de sa MA50 (713 $) et se dirige vers l'ATH. Le NFP du 4 septembre reste solide sans relancer l'inflation. Les guidances des autres Mag7 pour le T3 restent positives.
+
+*Cibles* : QQQ 748–760 $, SPY 790–800 $.
+
+*Catalyseurs* : Discours Warsh "dovish light" → détente obligataire et retour du risque sur tech. Momentum Nvidia soutient le secteur semi-conducteurs sur 4–6 semaines. Saisonnalité post-Labor Day favorable (flux institutionnels de rentrée).
+
+=== Scénario baissier — Probabilité 45 %
+
+*Conditions de déclenchement* : Warsh surprend avec un ton hawkish, signalant une hausse possible en septembre ou novembre face au PCE 3,3 %. Le NFP du 4 septembre est trop chaud, relançant les craintes inflationnistes. La breadth étroite actuelle ne s'élargit pas — seul tech avance, reste du marché stagne ou recule.
+
+*Supports critiques* : QQQ 713 $ (MA50 — premier support dynamique). QQQ 690 $ (zone gap post-NVDA + support technique). QQQ 651 $ (MA200 — scénario extrême de retournement).
+
+*Risques de queue* : VIX spike > 20 si Warsh hawkish brutal → sell-off synchronisé actions/obligations. Résurgence tensions commerciales (tarifs Canada effectifs 8 sept.). Déception guidances Apple ou Amazon lors de leurs prochains résultats Q3.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel.
+
+=== Trade #1 — Covered Call sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (optimisation position existante)
+| *Sous-jacent* | QQQ (~718,66 $)
+| *Raisonnement* | QQQ de retour au-dessus de la MA50. Discours Warsh demain génère un gamma élevé — IV légèrement gonflée, prime Call attractive. Stratégie de niveau 3 par excellence : encaisser une prime sur position existante sans sortir de la tendance haussière.
+| *Expiration* | 19 sept. 2026 (23 DTE — post-Warsh et post-NFP)
+| *Strike(s)* | Call 735 $ (~2,3 % OTM)
+| *Prime reçue* | ~5,50 $ footnote:[Estimation — vérifier les cours réels avant d'entrer en position.] / contrat (~550 $ net)
+| *Delta total* | ~0,25
+| *Theta/jour* | ~+0,25 $ / action / jour
+| *Breakeven(s)* | N/A (position existante — prime réduit le coût de base)
+| *Entrée* | Vendredi matin (28 août) après le discours de Warsh si possible
+| *Cible* | Rachat à 75 % du crédit reçu (~4,12 $)
+| *Stop-loss* | Rachat si QQQ clôture > 738 $ / débit > 11 $
+| *Taille* | 10–15 % de la position QQQ détenue
+|===
+
+=== Trade #2 — Bull Call Spread sur NVDA
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread (momentum post-earnings, risque défini)
+| *Sous-jacent* | NVDA (~227,98 $)
+| *Raisonnement* | Blowout Q2 FY2027 — revenue 96,2 Mds $, guidance +70 %. Breakout sur nouveau record historique. Spread limite le coût vs achat direct de calls après un spike de +8,7 %. Signal Congrès : 9 achats récents (données 6 mois, Quiver Quant).
+| *Expiration* | 19 sept. 2026 (23 DTE)
+| *Strike(s)* | Achat Call 230 $ / Vente Call 255 $
+| *Prime payée* | ~5,50 $ footnote:[Estimation — vérifier les cours réels avant d'entrer en position.] / contrat (~550 $ débit)
+| *Delta total* | ~0,45 (net, position débitrice)
+| *Theta/jour* | Faible — position débitrice
+| *Breakeven(s)* | 235,50 $ (achat long call 230 + débit 5,50)
+| *Max profit* | 19,50 $/action → 1 950 $/contrat si NVDA > 255 $ à expiration
+| *Entrée* | Sur repli vers 224–226 $ (digestion du spike initial)
+| *Cible* | 60 % du max profit (~1 170 $/contrat) ou NVDA > 248 $
+| *Stop-loss* | Perte totale du débit si NVDA < 222 $ à mi-parcours (~12 DTE)
+| *Taille* | 3–5 % du portefeuille
+|===
+
+._Bull Call Spread NVDA 230/255 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Bull Call Spread NVDA 230/255 — P&L estimé (par contrat)"
+    x-axis ["215$", "225$", "230$", "235.50$", "240$", "245$", "250$", "255$+"]
+    y-axis "P&L ($)" -600 --> 2000
+    bar [-550, -550, -550, 0, 450, 950, 1450, 1950]
+    line [-550, -550, -550, 0, 450, 950, 1450, 1950]
+....
+
+NOTE: Perte maximale de 550 $ (débit payé) si NVDA < 230 $ à expiration. Breakeven à 235,50 $. Gain maximal de 1 950 $/contrat si NVDA > 255 $ — soit un ratio risque/rendement de 3,5:1. Zone de profit progressif entre 235,50 $ et 255 $.
+
+=== Trade #3 — Cash-Secured Put sur MSFT
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (entrée position qualité + signal Congrès)
+| *Sous-jacent* | MSFT (~505,06 $)
+| *Raisonnement* | Signal Congrès persistant : 20 achats vs 10 ventes sur 6 mois (Quiver Quant) — signal bipartisan haussier. Azure Cloud fort, Copilot IA en déploiement accéléré. MSFT moins sensible aux résultats NVDA qu'AMD ou Broadcom. CSP permet d'acquérir à ~490 $ avec 3 % de marge de sécurité.
+| *Expiration* | 19 sept. 2026 (23 DTE)
+| *Strike(s)* | Put 490 $ (~3 % OTM)
+| *Prime reçue* | ~4,00 $ footnote:[Estimation — vérifier les cours réels avant d'entrer en position.] / contrat (~400 $/contrat)
+| *Delta total* | ~−0,22
+| *Theta/jour* | ~+0,20 $ / action / jour
+| *Breakeven(s)* | 486 $ (490 − 4)
+| *Cash requis* | ~49 000 $ / contrat (100 actions × 490 $)
+| *Entrée* | Vendre si MSFT > 500 $ en séance vendredi
+| *Cible* | 50 % du crédit reçu (~2,00 $)
+| *Stop-loss* | Rachat si MSFT < 484 $ ou débit > 8 $
+| *Taille* | 4–6 % du portefeuille (capital réservé en cas d'assignation)
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | Statu quo — FOMC suivant : 15-16 sept. 2026
+| Président Fed | Kevin Warsh — discours Jackson Hole demain 28 août (premier en tant que Chair)
+| Core PCE (juil.) | +3,3 % YoY — publié 26 août — en ligne avec prévisions, au-dessus target 2 %
+| CPI prochain | 11 septembre 2026 — déterminant pour FOMC du 16 sept.
+| NFP prochain | 4 septembre 2026 (1er vendredi du mois)
+| FOMC prochain | 15–16 septembre 2026
+| Taux 10 ans | [donnée non disponible en temps réel — dernière valeur connue : ~4,70 % au 24 août]
+| Put/Call ratio | 0,83 total (26 août) — complacent / haussier (35e percentile)
+| NVDA earnings | Q2 FY2027 : Revenue 96,2 Mds $, net income 59,7 Mds $, guidance +70 %
+| Tarifs Canada | 50 % sur 20 Mds $ US — riposte Ottawa effective 8 sept. 2026
+| Iran sanctions | Dispositif "D-Day économique" Bessent — pression pétrolière persistante
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 28 août 2026 | Discours Kevin Warsh — Jackson Hole (premier comme Chair Fed) | Élevé — signal pivot ou hawkish → catalyseur majeur
+| 4 sept. 2026 | NFP août 2026 — rapport emploi | Élevé — santé du marché du travail et pression salariale
+| 8 sept. 2026 | Tarifs rétorsion Canada effectifs | Modéré — impact inflationniste et commerce bilatéral
+| 11 sept. 2026 | CPI août 2026 | Élevé — déterminant pour décision FOMC
+| 15–16 sept. 2026 | FOMC — décision de taux (premier post-Jackson Hole) | Élevé — premier test de la politique Warsh
+| Oct. 2026 | Résultats Q3 Mag7 (AAPL, AMZN, META, GOOGL, MSFT) | Modéré-Élevé — validation ou déception des guidances
+|===
+
+'''
+
+== Signal Congrès américain
+
+[cols="1,1,1,1"]
+|===
+| Ticker | Achats / Ventes (6 mois) | Dernier achat connu | Signal
+
+| MSFT | 20 achats / 10 ventes | David Taylor — juillet 2026 | Haussier bipartisan
+| NVDA | 9 achats / 14 ventes | Cleo Fields — juin 2026 | Mixte (plus de ventes)
+|===
+
+NOTE: Données Capitol Trades indisponibles ce jour (timeout réseau). Données partielles issues de Quiver Quantitative (6 mois glissants). Baromètre 3 → MSFT en observation comme trade CSP, signal Congrès comme critère supplémentaire seulement.
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché — 55–59/100 (Neutral) au 27 août 2026
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| VIX à 14,92 — données officielles CBOE
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| QQQ 718,66 $ — cours de séance du 27 août 2026
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| VIX 14,92 — séance du 27 août 2026
+
+| link:https://finance.yahoo.com/markets/stocks/articles/stock-market-today-aug-27-144318504.html[Yahoo Finance — Market Today Aug 27]
+| S&P 500 monte après le beat Nvidia — analyse complète de séance
+
+| link:https://www.fool.com/coverage/stock-market-today/2026/08/27/stock-market-today-aug-27-tech-strength-powers-nasdaq-higher-as-nvidia-leads-rally/[Motley Fool — Market Today Aug 27]
+| Tech Power Nasdaq Higher — Nvidia leads rally
+
+| link:https://www.regardsofwallstreet.com/news/jackson-hole-2026-dates-schedule-warsh-first-speech[Regards of Wall Street — Jackson Hole 2026]
+| Programme Jackson Hole 27-29 août — discours Warsh 28 août
+
+| link:https://www.quiverquant.com/congresstrading/[Quiver Quantitative — Congress Trading]
+| Suivi des trades des membres du Congrès US
+
+| link:https://www.thetrading.tools/put-call-ratio[The Trading Tools — Put/Call Ratio]
+| Put/Call ratio 0,83 total (26 août) — 35e percentile, complacent
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Collecte de prime sur qualité (Trade #3)]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Couverture directionnelle si Warsh hawkish]
+* xref:ROOT:strategies/global-strategy.adoc[Covered Call — Optimisation de position en phase de consolidation]
