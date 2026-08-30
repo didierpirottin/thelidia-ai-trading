@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-08-30.adoc[30 août 2026]
+| Niveau 4/6 — PRUDENCE
+| Haussière LT / Neutre CT
+| QQQ $716 MA50 fragile, Warsh hawkish Jackson Hole (56 % hike sept.), NFP 4/9 + CPI 11/9 + FOMC 16/9
+
 | xref:market-analysis:market-analysis-2026-08-27.adoc[27 août 2026]
 | Niveau 3/6 — CONSOLIDATION
 | Haussière

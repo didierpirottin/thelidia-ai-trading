@@ -1,0 +1,306 @@
+= Analyse de Marché — 30 août 2026
+:description: QQQ $716 juste au-dessus MA50, Fed Warsh hawkish à Jackson Hole (56 % hike sept.), géopolitique Moyen-Orient — Baromètre Niveau 4 Prudence
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $716,43 (+1,6 % sem.)
+| $769,35 (−0,3 % ven.)
+| ~14,8 — calme
+| 54 — Neutre
+| Au-dessus ($713)
+| *Niveau 4/6 — PRUDENCE*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 4/6 — PRUDENCE : Fed Warsh hawkish, FOMC 16 sept., géopolitique actif_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 30 août 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 1, 0, 0]
+....
+
+NOTE: Le marché est en phase de prudence. Fed Chair Warsh a adopté un ton résolument hawkish à Jackson Hole (28 août), portant les probabilités de hausse de 25 bps le 16 septembre à 56 %. QQQ tient juste au-dessus de la MA50 ($713) mais le momentum est neutre (RSI 42,9, MACD négatif) et la breadth reste faible. Trois événements majeurs arrivent en 17 jours — NFP (4 sept.), CPI (11 sept.), FOMC (16 sept.) — : ce n'est pas le moment d'initier de nouveaux longs.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+* *QQQ* : $716,43 — 1 sem. +1,6 % / 1 mois +5,1 % / 3 mois −2,1 % (estimé)
+* *SPY* : $769,35 — 1 sem. −0,3 % / 1 mois +4,6 % / 3 mois −1,3 % (estimé)
+* *NVDA résultats 26 août* : earnings positifs — QQQ a récupéré de $705 (lun.) → $721 (jeu.)
+* *Jackson Hole 28 août* : Warsh hawkish inaugural — hausse sept. → probabilité passe de 40 % à 56 %
+* *Géopolitique 28-30 août* : frappe US sur lanceurs iraniens (Strait of Hormuz) — pétrole +2 %
+* *Séance vendredi 28 août* : S&P 500 −0,3 % post-Warsh — QQQ ferme $716 vs $721 la veille
+* *Breadth faible* : moins de 50 % des actions S&P 500 en hausse sur la semaine
+* *Secteur moteur* : Tech/IA — NVDA earnings catalyseur principal de la semaine
+* *Secteur à la traîne* : Obligations / Financières sensibles aux taux longs — pression Warsh
+
+=== Pourquoi (causes profondes)
+
+* *Fed* : taux 5,25 %–5,50 % — statu quo à la réunion de juillet — prochain FOMC 16 septembre 2026
+* *Warsh* : discours inaugural hawkish à Jackson Hole — "inflation toujours trop haute" — surprise marché
+* *Inflation* : CPI juillet +3,4 % YoY — légèrement au-dessus du target 2 % — pas de victoire déclarée
+* *Emploi* : NFP août attendu vendredi 4 septembre — anticipé ~+150 K — déterminant pour le FOMC
+* *Sentiment* : put/call ratio ~0,80 — complacence bullish — F&G 54 (neutre)
+* *Risque 1* : Warsh imprévisible vs Powell — prime de risque monétaire rehaussée
+* *Risque 2* : Géopolitique Ormuz — pétrole en hausse — risque d'inflation secondaire
+* *Risque 3* : Taux 10 ans ~4,7 % (pic 20 mois mi-août) — compression des multiples P/E tech
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours (28/08) | $716,43 | —
+| MA50 QQQ | ~$713 | Au-dessus — marge faible (+$3,50)
+| MA200 QQQ | ~$652 | Au-dessus — support long terme solide (+9,8 %)
+| Support clé 1 | $713 | MA50 — niveau pivot critique des 2 prochaines semaines
+| Support clé 2 | ~$695 | Gap up du 6 août — cible si MA50 cassée
+| Résistance clé | $748 | ATH du 16 août — objectif haussier principal
+| RSI (14j) | 42,9 | Neutre — légèrement baissier (momentum faible)
+| MACD | −2,55 | Signal vente — divergence baissière court terme
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 40 %
+
+*Conditions nécessaires* : NFP août robuste (>+150 K, 4 sept.) réduisant le risque de hike immédiat ; CPI août en ligne ou sous 3,2 % (11 sept.) ; QQQ maintient la MA50 $713 pendant les deux prochaines semaines.
+
+*Cibles* : QQQ $740–$748 (retour sur ATH), SPY $795–$800.
+
+*Catalyseurs* : pause Fed confirmée le 16 septembre → rebond violent de la tech ; résolution partielle des tensions Strait of Hormuz → pétrole recule ; flux d'ETF acheteurs nets tech.
+
+=== Scénario baissier — Probabilité 60 %
+
+*Conditions de déclenchement* : Warsh vote une hausse de +25 bps le 16 septembre et maintient un ton hawkish ; CPI surprise haussière (>3,6 % YoY, 11 sept.) ; NFP très faible → scenario stag-flation.
+
+*Supports critiques* : QQQ $713 (MA50 — cassure = signal de vente court terme) ; QQQ $695 (gap up août — cible intermédiaire) ; QQQ $652 (MA200 — support long terme décisif).
+
+*Risques de queue* : escalade Strait of Hormuz → choc pétrolier → relance inflation ; sell-off obligataire si taux 10 ans franchit 5,0 % → compression brutale des multiples P/E tech.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel.
+
+=== Trade #1 — Iron Condor sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (theta vendeuse, delta-neutre)
+| *Sous-jacent* | QQQ (~$716 footnote:[Estimation basée sur la clôture du 28 août 2026 — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | QQQ en consolidation dans le range $705–$731 depuis mi-août. VIX ~14,8 faible mais l'IV des options offre encore des primes acceptables. Trois événements majeurs (NFP, CPI, FOMC) rendent peu probable un franchissement de l'ATH $748 avant fin septembre. Structure non-directionnelle idéale pour Baromètre 4.
+| *Expiration* | 17 octobre 2026 (49 DTE)
+| *Strike(s)* | Vente Call $755 / Achat Call $770 — Vente Put $675 / Achat Put $660
+| *Prime reçue* | ~$6,50 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.] net / contrat
+| *Delta total* | ~0 (neutre)
+| *Theta/jour* | ~+$25–35 / jour / contrat
+| *Breakeven(s)* | $668,50 (baisse) / $761,50 (hausse)
+| *Entrée* | QQQ entre $710–$720 ; IV rank > 20 % — lundi 31 août
+| *Cible* | 50 % du crédit reçu (~+$325/contrat) → racheter avant FOMC si atteint
+| *Stop-loss* | QQQ ferme sous $690 ou au-dessus $745 → racheter le spread concerné
+| *Taille* | 3–5 % du portefeuille (portefeuille $100 K → 1–2 contrats)
+|===
+
+._Iron Condor QQQ Oct. 2026 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ Oct. 2026 — P&L estimé (par contrat)"
+    x-axis ["640$", "660$", "668$", "680$", "715$", "745$", "755$", "762$", "780$"]
+    y-axis "P&L ($)" -1000 --> 800
+    bar [-850, -850, 0, 650, 650, 650, 650, 0, -850]
+    line [-850, -850, 0, 650, 650, 650, 650, 0, -850]
+....
+
+NOTE: Crédit max +$650/contrat si QQQ reste entre $668 et $762 à expiration. Perte max −$850/contrat si QQQ ferme sous $660 ou au-dessus $770. Racheter les spreads avant le FOMC du 16 sept. si 50 % du crédit est atteint.
+
+=== Trade #2 — Cash-Secured Put sur SPY (loin OTM)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (theta vendeuse, revenu passif)
+| *Sous-jacent* | SPY (~$769 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | SPY bien au-dessus de la MA200 (~$650). Vente put OTM à −6,4 % = "achat conditionnel" en cas de forte correction seulement. Prime disponible grâce au VIX et au risque FOMC. Idéal pour générer un revenu régulier sans exposition directionnelle majeure.
+| *Expiration* | 17 octobre 2026 (49 DTE)
+| *Strike(s)* | Put $720 (−6,4 % OTM)
+| *Prime reçue* | ~$3,50–4,00 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.] / contrat
+| *Delta total* | ~−0,08 (peu directionnelle)
+| *Theta/jour* | ~+$3–4 / jour / contrat
+| *Breakeven(s)* | $716,00 (baisse)
+| *Entrée* | SPY > $760 en début de semaine (lundi 31 août)
+| *Cible* | 50 % du crédit reçu (~+$175/contrat) ou expiration sans valeur
+| *Stop-loss* | SPY ferme sous $745 → racheter le put
+| *Taille* | 1–2 % du portefeuille par put (capital requis : ~$72 000/contrat → adapter)
+|===
+
+=== Trade #3 — Bear Put Spread sur QQQ (hedging FOMC)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bear Put Spread (protection directionnelle, coût limité)
+| *Sous-jacent* | QQQ (~$716 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | Protection court terme avant FOMC (16 sept.). Si Warsh vote une hausse de 25 bps, QQQ peut casser la MA50 ($713) et tester $695 voire $680. Coût limité via spread = protection asymétrique peu onéreuse. Complément naturel à l'Iron Condor (Trade #1).
+| *Expiration* | 19 septembre 2026 (20 DTE — post-FOMC)
+| *Strike(s)* | Achat Put $710 / Vente Put $690
+| *Prime payée* | ~$5,00 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.] / contrat (débit)
+| *Delta total* | ~−0,30 à −0,35
+| *Breakeven(s)* | $705,00 (baisse)
+| *Gain max* | ~$15,00/contrat si QQQ < $690 à expiration
+| *Entrée* | QQQ entre $714–$720 — initier début sept. (semaine du 7 sept.)
+| *Cible* | 60–80 % du gain max (~$9–12/contrat) si QQQ atteint $696–$700 avant FOMC
+| *Stop-loss* | QQQ > $730 → sortie de la protection (scénario bearish invalidé)
+| *Taille* | 1–2 % du portefeuille
+|===
+
+=== Trade #4 — Covered Call sur QQQ (positions existantes)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (revenu sur position longue existante)
+| *Sous-jacent* | QQQ (~$716 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]) — uniquement si position longue déjà en portefeuille
+| *Raisonnement* | Résistance forte à $748 (ATH du 16 août) — peu probable franchissement avant FOMC. Vendre le Call OTM pour générer un revenu mensuel et abaisser le PRU. Stratégie Wheel si QQQ cédé à $750.
+| *Expiration* | 17 octobre 2026 (49 DTE)
+| *Strike(s)* | Call $750 (+4,7 % OTM)
+| *Prime reçue* | ~$7,50 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.] / contrat
+| *Delta total* | ~+0,20
+| *Theta/jour* | ~+$8–10 / jour / contrat
+| *Breakeven(s)* | $708,50 à la baisse (PRU réduit par la prime)
+| *Entrée* | Lundi 31 août dès l'ouverture — QQQ entre $714–$722
+| *Cible* | Expiration Call sans valeur → prime intégrale conservée ; ou rachat à 50 % du crédit
+| *Stop-loss* | QQQ > $750 → racheter le Call ou accepter la cession si sortie souhaitée
+| *Taille* | 1 Call par tranche de 100 actions QQQ en portefeuille
+|===
+
+=== Trade #5 — GS en observation (Signal Congrès)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Observation uniquement — pas de trade actif (Baromètre 4)
+| *Sous-jacent* | GS (Goldman Sachs)
+| *Raisonnement* | Sénateur Dave McCormick (R) a acheté GS à trois reprises en août 2026 ($100K–$250K par transaction, les 4, 10 et 12 août). Signal Congrès notable. Mais Baromètre 4 = pas d'initiation de position haussière directionnelle.
+| *Signal Congrès* | McCormick (R) — 3 achats GS — 4, 10, 12 août 2026 — $100K–$250K chacun
+| *Contexte* | GS bénéficie structurellement des taux élevés et de la volatilité obligataire post-Warsh
+| *Conditions d'activation* | Baromètre redescend à 3 + NFP / CPI favorables + GS au-dessus de sa MA50
+| *Taille si activé* | 2–3 % du portefeuille max
+|===
+
+'''
+
+== Signal Congrès — Top achats (30 derniers jours)
+
+[NOTE]
+====
+L'accès direct à Capitol Trades a été bloqué par la politique réseau de cet environnement. Signal obtenu via les divulgations STOCK Act publiques (sources : Trendlyne / AltIndex / CongressStock.com).
+====
+
+* *GS (Goldman Sachs)* | 3 achats | Dernier : 12 août 2026 | Sénateur Dave McCormick (R) | Contextuel : bénéficie des taux élevés et de la volatilité obligataire post-Warsh — observation seulement (Baromètre 4)
+* _[Données Congrès partielles — scraping Capitol Trades indisponible ce jour]_
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 5,25 %–5,50 % — statu quo réunion juillet 2026
+| Prochain FOMC | 16 septembre 2026 — 56 % probabilité de hausse +25 bps (post-Jackson Hole)
+| CPI dernier | +3,4 % YoY (juillet 2026) — légèrement au-dessus de la cible 2 %
+| NFP prochain | 4 septembre 2026 — anticipé ~+150 K — déterminant pour le FOMC
+| Taux 10 ans | ~4,7 % (pic 20 mois atteint mi-août 2026)
+| Put/Call ratio | ~0,80 — niveau bullish — proche zone de complacence
+| Pétrole (Brent) | +2 % le 29 août (frappe US sur lanceurs iraniens — Strait of Hormuz)
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 4 septembre 2026 (ven.) | NFP août — emplois non-agricoles | Élevé — détermine l'orientation du FOMC du 16 sept.
+| 11 septembre 2026 (ven.) | CPI août — inflation YoY | Élevé — pivot dovish ou confirmation du hike
+| 16 septembre 2026 (mer.) | FOMC — décision taux Fed Warsh | Élevé — pause = QQQ vers ATH ; hike = cassure MA50
+| 18 septembre 2026 (ven.) | OpEx septembre | Modéré — volatilité à l'expiration des options
+| Semaine du 13 oct. 2026 | TSMC résultats Q3 | Modéré — indicateur santé IA/semi-conducteurs
+| Novembre 2026 (estimé) | NVDA résultats Q3 | Élevé — baromètre de la demande IA mondiale
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Fear & Greed à 54 (Neutre) au 30 août 2026
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| VIX ~14,8 — volatilité faible mais risque event FOMC 16 sept.
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| 56 % probabilité hausse 25 bps le 16 septembre 2026 (post-Jackson Hole)
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| QQQ $716,43 — clôture 28 août 2026 ; 52 sem. $555,60–$748,65
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.cnbc.com/2026/08/28/-september-fed-decision-now-a-coin-flip-as-rate-hike-odds-increase.html[CNBC — Fed rate hike odds]
+| Probabilités de hausse Fed post-Jackson Hole (28 août 2026)
+
+| link:https://www.bloomberg.com/news/articles/2026-08-28/warsh-s-inflation-warning-sets-up-september-showdown-for-the-fed[Bloomberg — Warsh Jackson Hole]
+| Analyse du discours hawkish de Warsh à Jackson Hole
+
+| link:https://www.npr.org/2026/08/28/nx-s1-5947903/federal-reserve-inflation-jackson-hole-interest-rates[NPR — Fed inflation warning]
+| Warsh : "l'inflation est trop haute" — risque de hausse septembre
+
+| link:https://us.trendlyne.com/us/politicians/recent-trades/[Trendlyne — Congress Trades]
+| Tracker des achats du Congrès (STOCK Act disclosures, 22–26 août 2026)
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — protection directionnelle avant FOMC]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly / Iron Condor — stratégies theta delta-neutres]
+* xref:ROOT:strategies/wheel.adoc[Wheel / Covered Call / CSP — générer revenu sur positions]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Cash-Secured Put et rotation]
