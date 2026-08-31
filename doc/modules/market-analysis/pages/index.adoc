@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-08-31.adoc[31 août 2026]
+| Niveau 4/6 — PRUDENCE
+| Haussière LT / Fragilisée CT
+| QQQ ~716$ au-dessus MA50 (marge fine), Iran-US frappes reprises, WTI >90$, VIX 14,5, NFP/CPI/FOMC dans 16 jours
+
 | xref:market-analysis:market-analysis-2026-08-30.adoc[30 août 2026]
 | Niveau 4/6 — PRUDENCE
 | Haussière LT / Neutre CT

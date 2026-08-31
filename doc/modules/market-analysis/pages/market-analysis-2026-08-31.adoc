@@ -1,0 +1,279 @@
+= Analyse de Marché — 31 août 2026
+:description: QQQ ~716$ au-dessus MA50 (marge fine), VIX 14,5 (complacence), Iran-US reprennent les frappes → pétrole >90$ — Baromètre Niveau 4/6 Prudence avant triple gate macro (NFP 4/9, CPI 11/9, FOMC 16/9)
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| ~716 $ (+3,8 % août)
+| ~767 $ (+2,6 % août)
+| 14,5 — Calme (complacence)
+| 54 — Neutre
+| Au-dessus (~713 $, marge +3 $)
+| *Niveau 4/6 — PRUDENCE*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 4/6 — PRUDENCE : VIX complaisant avant triple gate macro + Iran relancé_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 31 août 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 1, 0, 0]
+....
+
+NOTE: Le niveau 4 (Prudence) s'impose malgré un mois d'août solide (+3,8 % sur le Nasdaq 100). Trois facteurs convergent pour limiter les nouveaux longs : (1) VIX à 14,5 — complacence extrême juste avant NFP, CPI et FOMC dans les 16 jours qui suivent ; (2) les frappes Iran-US reprennent le 31 août, propulsant le WTI au-dessus de 90 $/bbl, ce qui relance la pression inflationniste ; (3) le président de la Fed Kevin Warsh a déclaré à Jackson Hole que « l'inflation sous-jacente ne ralentit pas », avec déjà 3 dissidents favorables à une hausse immédiate. La MA50 tient (716 vs 713 $), mais la marge est trop fine pour déployer du capital agressivement.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Août 2026 aura été un mois de forte récupération pour les indices américains. Le Nasdaq 100 a progressé de +3,8 %, le S&P 500 de +2,6 % et le Dow Jones de +1,4 %, après les turbulences de fin juillet liées à la Fed et à la géopolitique iranienne. Le catalyseur principal a été les résultats trimestriels de Nvidia le 26 août, une nouvelle fois au-dessus des attentes, qui ont propulsé QQQ jusqu'à un sommet de 52 semaines à 748,65 $.
+
+Cependant, la journée du 31 août a effacé une partie de ces gains : les États-Unis et l'Iran ont échangé des frappes militaires pour la première fois depuis plus d'un mois (attaque américaine sur l'île Larak, riposte iranienne vers des bases US en Jordanie et aux Émirats). Le pétrole WTI a immédiatement bondi de +3 %, dépassant le seuil des 90 $/bbl. Le S&P 500 a clôturé en recul de −0,33 % (7 686 pts), le Nasdaq Composite −0,12 % (26 371), le Dow −0,7 % (53 186).
+
+=== Pourquoi (causes profondes)
+
+La cause sous-jacente principale est la tension entre une tendance haussière long terme intacte et un contexte macro qui se dégrade en surface. La Fed, sous la direction de Kevin Warsh, maintient ses taux à 3,50–3,75 % pour le 5e trimestre consécutif, mais trois membres du FOMC ont voté pour une hausse immédiate lors de la réunion de juillet — un signal hawkish sous-estimé par le marché. Warsh a confirmé à Jackson Hole (28 août) que l'inflation sous-jacente reste trop élevée par rapport à l'objectif PCE.
+
+Le choc pétrolier aggrave cette équation : avec le WTI au-dessus de 90 $, la publication du CPI d'août (prévue le 11 septembre) devient un gate décisionnel majeur. Si l'inflation surprend à la hausse, le scénario d'une hausse de taux le 16 septembre — actuellement sous-pricé — deviendrait probable. Le sentiment global reste neutre (F&G 54) et le VIX, à 14,5, reflète une complaisance marquée des investisseurs vis-à-vis des risques à court terme.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | ~716 $ | Clôture du 31 août 2026
+| MA50 QQQ | ~713 $ | Au-dessus — marge +3 $ seulement — critique
+| MA200 QQQ | ~652 $ | Au-dessus — support solide à long terme
+| Résistance clé | 748,65 $ | ATH 52 semaines (sommet 16 août 2026)
+| Support clé 1 | 713 $ | MA50 — ligne critique : une cassure = signal baissier CT
+| Support clé 2 | 675 $ | Zone gap-up post-NVDA earnings (août)
+| RSI | ~55 | Neutre — pas suracheté malgré +3,8 % mensuel
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 40 %
+
+*Conditions nécessaires* : CPI août ≤ 3,0 % (désinflation malgré le pétrole) ; Fed fait pause le 16 septembre (les 3 dissidents restent minoritaires) ; Iran et États-Unis s'engagent dans une désescalade, pétrole redescend sous 80 $/bbl ; QQQ tient au-dessus de MA50 (713 $).
+
+*Cibles* : QQQ 748–760 $ (retest ATH), SPY 790–800 $.
+
+*Catalyseurs* : données d'inflation favorables le 11 septembre ; poursuite de la saison des résultats tech en octobre (Amazon 22 oct., Apple 29 oct.) ; flux d'achats institutionnels en début de T4.
+
+=== Scénario baissier — Probabilité 60 %
+
+*Conditions de déclenchement* : CPI août > 3,5 % (répercussion pétrole) ; Fed hausse les taux +25 pb le 16 septembre (Warsh suit les 3 dissidents) ; escalade Iran → Détroit d'Ormuz bloqué → pétrole > 100 $.
+
+*Supports critiques* : QQQ 713 $ (MA50 — cassure = signal baissier à court terme) ; QQQ 675 $ (gap-up post-NVDA — zone de rebond attendu) ; QQQ 652 $ (MA200 — scénario hawkish extrême).
+
+*Risques de queue* : surprise hawkish Fed le 16 sept. → drawdown tech −10 à −15 % ; escalade militaire majeure Iran → VIX spike au-dessus de 25 ; blocage du Détroit d'Ormuz → choc pétrolier mondial.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Les primes mentionnées sont des estimations basées sur un VIX de 14,5 — vérifier les cours réels des options avant d'entrer en position.footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+
+=== Trade #1 — Covered Call sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (nécessite de détenir QQQ en portefeuille)
+| *Sous-jacent* | QQQ (~716 $)
+| *Raisonnement* | Trend LT intact (au-dessus MA50/MA200) mais momentum stagnant CT ; VIX 14,5 favorise les stratégies theta ; la résistance naturelle à 748,65 $ (ATH) en fait un strike logique pour vendre la prime ; niveau 4 = générer du revenu sans ajouter de delta long
+| *Expiration* | 17 octobre 2026 (47 DTE)
+| *Strike(s)* | Call 748 $ (résistance ATH)
+| *Prime reçue/payée* | ~9–12 $ reçue par contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0,22 (leg short call)
+| *Theta/jour* | ~+2–3 $/j
+| *Breakeven(s)* | 716 $ (on détient QQQ au prix actuel)
+| *Entrée* | Ouvrir si QQQ entre 710–725 $ en clôture
+| *Cible* | Racheter le call à 50 % de la prime (~4–6 $)
+| *Stop-loss* | Rouler le call vers un strike supérieur si QQQ franchit 745 $ en clôture
+| *Taille* | Sur position QQQ existante uniquement (ne pas initier une position nue)
+|===
+
+=== Trade #2 — Bear Put Spread sur QQQ (hedge géopolitique / Fed hawkish)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bear Put Spread (hedge directionnel)
+| *Sous-jacent* | QQQ (~716 $)
+| *Raisonnement* | Iran-US frappes reprises → WTI >90$ → risque CPI chaud ; 3 dissidents FOMC + Warsh hawkish → surprise hausse possible le 16 sept. ; QQQ à seulement 3$ au-dessus MA50 → cassure probable si choc ; VIX 14,5 = puts bon marché = assurance peu chère
+| *Expiration* | 17 octobre 2026 (47 DTE, post-FOMC 16 sept.)
+| *Strike(s)* | Achat Put 700 $ / Vente Put 675 $
+| *Prime reçue/payée* | ~10–12 $ payée par spread (risque limité et défini) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0,28 net
+| *Theta/jour* | ~−1 $/j (coût d'assurance)
+| *Breakeven(s)* | ~688–690 $ (soit −3,8 % depuis 716 $)
+| *Entrée* | 50 % du sizing maintenant (hedge immédiat) ; 50 % si QQQ < 710 $
+| *Cible* | Vendre quand valeur du spread = 2× le coût initial payé
+| *Stop-loss* | Risque max = prime payée (spread à risque défini — pas de stop intermédiaire)
+| *Taille* | 2–3 % du portefeuille (rôle d'assurance)
+|===
+
+._Bear Put Spread QQQ 700/675 (Oct 17) — P&L estimé à expiration (par spread)_
+[mermaid]
+....
+xychart-beta
+    title "Bear Put Spread QQQ 700/675 — P&L estimé (par spread)"
+    x-axis ["710$", "700$", "690$", "689$", "685$", "680$", "675$", "665$"]
+    y-axis "P&L ($)" -15 --> 20
+    bar [-11, -11, -1, 0, 4, 9, 14, 14]
+    line [-11, -11, -1, 0, 4, 9, 14, 14]
+....
+
+NOTE: Perte maximale de −11 $ si QQQ reste au-dessus de 700 $ (les deux puts expirent sans valeur). Breakeven à ~689 $, soit −3,8 % depuis 716 $. Gain maximum de +14 $ si QQQ ≤ 675 $ (les deux puts en pleine valeur intrinsèque). Ce spread joue un rôle d'assurance de portefeuille face au risque Iran + surprise Fed hawkish.
+
+=== Trade #3 — Iron Condor sur QQQ (stratégie theta pure)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor
+| *Sous-jacent* | QQQ (~716 $)
+| *Raisonnement* | VIX 14 = volatilité implicite compressée → range-bound attendu avant les events (NFP, CPI, FOMC) ; QQQ entre MA50 (713) et résistance (748) définit une zone de consolidation naturelle ; niveau 4 = stratégie delta-neutral par excellence
+| *Expiration* | 17 octobre 2026 (47 DTE)
+| *Strike(s)* | Vente Put 690 / Achat Put 670 // Vente Call 745 / Achat Call 765
+| *Prime reçue/payée* | ~6–8 $ de crédit total footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0,05 à 0 (quasi delta-neutral)
+| *Theta/jour* | ~+3–4 $/j
+| *Breakeven(s)* | 684 $ (baisse) / 751 $ (hausse)
+| *Entrée* | Si QQQ entre 710–725 $, VIX stable entre 13–16
+| *Cible* | Fermer à 50 % du crédit reçu (~3–4 $)
+| *Stop-loss* | Fermer si QQQ < 690 $ ou > 745 $ en clôture (jamais laisser filer)
+| *Taille* | 3–5 % du portefeuille
+|===
+
+._Iron Condor QQQ 690/670 + 745/765 (Oct 17) — P&L estimé à expiration_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ — P&L estimé à expiration (par spread)"
+    x-axis ["665$", "675$", "684$", "690$", "716$", "745$", "751$", "760$", "765$"]
+    y-axis "P&L ($)" -20 --> 15
+    bar [-14, -9, 0, 7, 7, 7, 0, -9, -14]
+    line [-14, -9, 0, 7, 7, 7, 0, -9, -14]
+....
+
+NOTE: Zone de profit maximale entre 684 $ et 751 $, soit ±4,9 % autour du cours actuel. Si QQQ sort de cette zone (choc Iran ou surprise Fed), la perte est plafonnée à −14 $ par spread (écart de 20 $ − crédit de 6 $). AVERTISSEMENT : cette stratégie est exposée aux événements binaires (NFP, CPI, FOMC) — ne pas déployer la totalité avant le 4 septembre.
+
+=== Trade #4 — Long VIX Call 20 (tail hedge géopolitique)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Achat de Call sur VIX (tail hedge asymétrique)
+| *Sous-jacent* | VIX (~14,5)
+| *Raisonnement* | VIX 14 = coût de la protection au plus bas de 2026 ; triple trigger dans 16 jours (NFP 4/9 + CPI 11/9 + FOMC 16/9) ; Iran → Détroit d'Ormuz → VIX peut tripler rapidement ; asymétrie exceptionnelle : coût ~1,25 $/contrat, payoff potentiel x3–5
+| *Expiration* | 15 octobre 2026 (45 DTE, couvre FOMC 16 sept.)
+| *Strike(s)* | Call VIX 20 (OTM +38 %)
+| *Prime reçue/payée* | ~1,00–1,50 $ payée par contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~+0,18
+| *Theta/jour* | ~−0,03 $/j (coût d'assurance minimal)
+| *Breakeven(s)* | VIX > 21,25 à expiration
+| *Entrée* | Maintenant, avant NFP du 4 septembre
+| *Cible* | Vendre si VIX > 22 (profit x2–3) ou avant FOMC si le trade ne s'active pas
+| *Stop-loss* | Perte totale de la prime (assurance — pas de stop intermédiaire)
+| *Taille* | 0,5–1 % du portefeuille (protection lottery)
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo (5e réunion consécutive)
+| Prochain FOMC | 15–16 septembre 2026 — risque surprenant de hausse (+25 pb)
+| Dissidents hawkish | 3 membres FOMC ont voté pour une hausse en juillet
+| Warsh (Jackson Hole) | 28 août : "inflation sous-jacente ne ralentit pas" — ton hawkish
+| CPI août | Publication le 11 septembre 2026 — gate décisionnel critique
+| NFP août | Publication le 4 septembre 2026 — cette semaine
+| Taux 10 ans | [donnée non disponible en temps réel — dernière valeur connue : ~4,5–4,7 %]
+| WTI pétrole | >90 $/bbl (+3 % le 31 août suite aux frappes Iran-US)
+| Put/Call ratio | [donnée non disponible en temps réel — données intrajournalières non récupérées]
+| Fear & Greed | 54 — Neutre
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 4 sept. 2026 | NFP août (emploi US) | Élevé — détermine la pression salariale / trajectoire Fed
+| 11 sept. 2026 | CPI août (inflation US) | Élevé — gate décisionnel pour le FOMC
+| 15–16 sept. 2026 | FOMC — décision de taux | Élevé — risque de hausse surprise (+25 pb)
+| 22 oct. 2026 | Résultats Amazon Q3 | Modéré — cloud / IA / consommation
+| 29 oct. 2026 | Résultats Apple Q3 | Modéré — hardware / services / iPhone 18
+| En continu | Iran-US — Détroit d'Ormuz | Élevé — risque pétrolier systémique
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — données et futures
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/markets/live/stock-market-today-monday-august-31-dow-sp-500-nasdaq-113851714.html[Yahoo Finance — Market Live 31 août]
+| Données de marché du 31 août 2026 (S&P, Nasdaq, Dow)
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-31-2026[TheStreet — 31 août 2026]
+| Iran-US frappes, pétrole, mouvements sectoriels
+
+| link:https://www.thenationalnews.com/business/energy/2026/08/31/oil-rises-to-above-90-as-us-and-iran-resume-strikes/[The National — Pétrole >90$]
+| Pétrole au-dessus de 90 $ après frappes US-Iran du 31 août
+
+| link:https://fedratecalc.com/us-economic-calendar/september-2026/[FedRateCalc — Calendrier septembre 2026]
+| Calendrier macro de septembre 2026 (NFP 4/9, CPI 11/9, FOMC 15–16/9)
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Protection directionnelle du portefeuille]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Générer du revenu sur positions existantes]
+* xref:ROOT:options/index.adoc[Options — Concepts fondamentaux]
