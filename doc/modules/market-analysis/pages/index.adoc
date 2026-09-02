@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-09-01.adoc[1er septembre 2026]
+| Niveau 4/6 — PRUDENCE
+| Haussière LT / Fragilisée CT
+| QQQ $716,76 au-dessus MA50, Iran-US tankers Ormuz, WTI >$90 spike, VIX ~16, FOMC 16 sept. hike risk
+
 | xref:market-analysis:market-analysis-2026-08-31.adoc[31 août 2026]
 | Niveau 4/6 — PRUDENCE
 | Haussière LT / Fragilisée CT
