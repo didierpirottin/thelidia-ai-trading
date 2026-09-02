@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-09-02.adoc[2 septembre 2026]
+| Niveau 4/6 — PRUDENCE
+| Neutre CT / Haussière LT
+| QQQ $708 teste MA50+MA200 ($709–711), VIX +9,5 % à 16,34, FOMC 15 sept risque hike, Iran-pétrole élevé
+
 | xref:market-analysis:market-analysis-2026-09-01.adoc[1er septembre 2026]
 | Niveau 4/6 — PRUDENCE
 | Haussière LT / Fragilisée CT
