@@ -1,0 +1,264 @@
+= Analyse de Marché — 3 septembre 2026
+:description: QQQ $715.94 au-dessus MA50 (marge +0.7%), VIX 15.20, Fear & Greed 33 (Peur) — Triple gate macro imminent : NFP 4/9, CPI 11/9, FOMC Warsh 16/9 — Guerre Iran-US active, WTI $91 — Baromètre Niveau 4/6 Prudence
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $715.94 (~+3.5 % août)
+| ~$770 (~+2.5 % août)
+| 15.20 — Calme (complacence pré-NFP)
+| 33 — Peur
+| Au-dessus ($710.98 — marge +0.7 %)
+| *Niveau 4/6 — PRUDENCE*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 4/6 — PRUDENCE : Triple gate macro imminent + guerre Iran-US active_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 3 septembre 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 1, 0, 0]
+....
+
+NOTE: Le niveau 4 (Prudence) s'impose malgré le rally du jour (+1.4 % Nasdaq, +1.06 % S&P 500). Trois facteurs convergent pour maintenir la vigilance : (1) QQQ à $715.94 n'est qu'à +0.7 % de la MA50 ($710.98) — la marge est trop mince pour déployer du capital directionnel, et le NFP de demain (4 septembre) pourrait la soumettre à un test ; (2) triple gate macro dans les 13 jours : NFP 4/9, CPI août 11/9, FOMC Warsh 16/9 — avec une probabilité de hausse des taux estimée à 56 % par les futures ; (3) la guerre Iran-US est toujours active (frappes reprises le 30 août), le WTI est à $91 et le Brent à $95, maintenant une pression inflationniste qui complique la tâche de la Fed. Les stratégies theta delta-neutral sont privilegiées dans ce contexte.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+La séance du 3 septembre 2026 a été haussière sur l'ensemble des indices américains : le Nasdaq Composite a progressé de +1.4 % à 26 584 points, le S&P 500 de +1.06 % à 7 747 points, et le Dow Jones de +1.18 % à 53 686 points. Les principaux moteurs de la journée sont les valeurs technologiques IA : Nvidia (+3.35 %), Meta (+2.38 %) et Berkshire (+1.1 %). Le VIX a reculé de 7 % à 15.20, signalant une séance de détente sur la volatilité. Pourtant, le Fear & Greed Index reste en territoire *Peur* (33), en forte baisse depuis les 54 points enregistrés le 31 août — une divergence notable entre la performance de marché et le sentiment des investisseurs.
+
+Sur la période récente, le mois d'août a été positif (+3.5 % estimé pour QQQ, +2.5 % pour SPY), porté par les résultats de Nvidia le 26 août (Q2 FY2027 au-dessus des attentes, QQQ à un sommet de 52 semaines à $748). Depuis ce pic, les indices ont subi une correction liée à la reprise des frappes Iran-US le 30-31 août.
+
+=== Pourquoi (causes profondes)
+
+La Fed est présidée par Kevin Warsh depuis début 2026, qui a affiché un positionnement nettement plus hawkish que son prédécesseur. Le taux des Fed Funds est actuellement à 4.25–4.50 %, avec une réunion FOMC le 16 septembre 2026. Les marchés futures intègrent une probabilité de 56 % de hausse de 25 bps, après les déclarations de Warsh à Jackson Hole fin août selon lesquelles « l'inflation sous-jacente ne ralentit pas suffisamment ». Le CPI de juillet 2026 s'est établi à 3.4 % en glissement annuel (en baisse depuis 3.5 % en juin), mais reste bien au-dessus de la cible de 2 %. Le CPI août, attendu le 11 septembre, sera déterminant pour la décision du FOMC.
+
+Le conflit Iran-US, initié en février 2026, a entraîné des perturbations majeures du trafic maritime en mer d'Arabie et dans le Strait d'Hormuz. Le WTI à $91 et le Brent à $95 constituent une pression inflationniste persistante — le risque de stagflation (inflation + ralentissement) est identifié comme tail risk principal. La reprise des frappes le 30-31 août a fait chuter le Fear & Greed de 54 à 33, illustrant la sensibilité du marché à ce risque géopolitique.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $715.94 | —
+| MA50 QQQ | $710.98 | Au-dessus — marge +0.7 % (ultra-fragile)
+| MA200 QQQ | $655.12 | Au-dessus — tendance LT haussière confirmée (+9.2 %)
+| Support clé 1 | $710.98 | MA50 — test probable si NFP déçoit demain
+| Support clé 2 | $700.00 | Support psychologique / gap du 16 juillet
+| Résistance clé | $748.00 | ATH 27 août (post-NVDA blowout)
+| RSI 14j | 46.03 | Neutre — ni suracheté ni survendu
+| MACD | -1.36 | Signal de vente (momentum négatif à CT)
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 35 %
+
+*Conditions nécessaires* : NFP du 4 septembre supérieur à 150K (marché du travail résilient) ET CPI août (11/9) sous 3.2 % (désinflation confirmée) → Warsh maintient le statu quo le 16/9.
+
+*Cibles* : QQQ $755–780, SPY $800–820.
+
+*Catalyseurs* : désescalade Iran → pétrole sous $80 → désinflation importée ; résultats TSMC (3ème semaine octobre) positifs → rechargement du thème semis.
+
+=== Scénario baissier — Probabilité 65 %
+
+*Conditions de déclenchement* : NFP faible (< 100K) OU CPI août > 3.5 % → Warsh hawkish confirmé → hausse 25 bps le 16/9 → cassure MA50 QQQ.
+
+*Supports critiques* : QQQ $700 (support psychologique), puis QQQ $655 (MA200 — plancher structurel).
+
+*Risques de queue* : escalade Iran → fermeture Strait of Hormuz → VIX spike > 35, pétrole > $120, scénario 1970s ; stagflation confirmée par double signal NFP négatif + CPI positif.
+
+'''
+
+== Signal Congrès américain
+
+NOTE: Capitol Trades n'était pas directement accessible ce jour (connexion réseau bloquée). Données reconstituées via sources secondaires (recherche web).
+
+[cols="1,1,1,1,1"]
+|===
+| Ticker | Nb élus acheteurs | Dernier achat | Élus (partiel) | Actualité récente
+
+| NVDA | ~1-2 | ~août 2026 | Rep. Virginie (achat) | Q2 FY2027 blowout, IA leader
+| AAPL | ~1 | ~août 2026 | Dem. Louisiane (achat) | Stable, iPhone 18 cycle
+| NVDA | *Signal mixte* | — | Sen. Whitehouse (RI) — *vente* | Même ticker, signal partagé
+|===
+
+WARNING: Signal Congrès sur NVDA *mixte* : un ou deux élus ont acheté, mais le sénateur Whitehouse a vendu. Baromètre niveau 4 → ces signaux sont mis en observation uniquement, pas de trade actif basé sur le Congrès seul.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à la composition de votre portefeuille réel.
+
+=== Trade #1 — Iron Condor sur QQQ (entrée post-NFP)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (theta pur, delta-neutral)
+| *Sous-jacent* | QQQ (~$715.94)
+| *Raisonnement* | QQQ en range $700-748 depuis 2 semaines ; RSI 46 neutre ; IV suffisante pour vendre des spreads ; attente FOMC = parfait pour stratégie theta avec buffer géopolitique ; ENTRER après confirmation NFP 4/9
+| *Expiration* | 17 octobre 2026 (~44 DTE — post-FOMC du 16/9)
+| *Strike(s)* | Short Put $700 / Long Put $685 + Short Call $735 / Long Call $750
+| *Prime reçue* | ~$5.00 total par contrat ($500) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~0 (delta-neutral)
+| *Theta/jour* | ~$8-12 $ / jour
+| *Breakeven(s)* | $695 (baisse) / $740 (hausse)
+| *Entrée* | Lundi 7 ou mardi 8 septembre — après lecture NFP du 4/9
+| *Cible* | Fermeture à 50 % du crédit reçu (~$250 profit)
+| *Stop-loss* | Si débit > 2× crédit ($10.00) — fermer immédiatement
+| *Taille* | 3–5 % du portefeuille — max 10 contrats
+|===
+
+._Iron Condor QQQ (Oct. 2026) — P&L estimé à expiration_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ — P&L estimé (par contrat)"
+    x-axis ["670", "685", "695", "700", "710", "717", "725", "735", "740", "750", "765"]
+    y-axis "P&L ($)" -1200 --> 700
+    bar [-1000, -1000, 0, 250, 500, 500, 500, 500, 0, -1000, -1000]
+    line [-1000, -1000, 0, 250, 500, 500, 500, 500, 0, -1000, -1000]
+....
+
+NOTE: Plancher de profit : $500/contrat si QQQ entre $700 et $735 à expiration. Breakevens à $695 (put side) et $740 (call side). Max perte ~$1 000 si QQQ sort du range. Stratégie optimale pour un marché en consolidation sans direction.
+
+=== Trade #2 — Cash-Secured Put sur NVDA (Observation Congrès)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put OTM (theta vendeur, exposition haussière limitée)
+| *Sous-jacent* | NVDA (~$158 estimé) footnote:[Estimation basée sur Q2 blowout +8.7 % le 27/08 et +3.35 % ce jour — vérifier le cours réel avant d'entrer en position.]
+| *Raisonnement* | Signal Congrès partiel (achat Rep. VA) + momentum IA intact (NVDA +3.35 % aujourd'hui) ; résultats Q2 FY2027 blowout ; IV élevée post-earnings = prime attractive ; baromètre niveau 4 → CSP fortement OTM uniquement
+| *Expiration* | 17 octobre 2026 (~44 DTE)
+| *Strike(s)* | Put $130 (~18 % OTM — buffer géopolitique)
+| *Prime reçue* | ~$2.50–3.50 par contrat ($250–350) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~-0.10 (très OTM)
+| *Theta/jour* | ~$4-6 $ / jour
+| *Breakeven(s)* | ~$126.50–127.50
+| *Entrée* | Après confirmation NFP positif (4/9)
+| *Cible* | 50–75 % du crédit reçu
+| *Stop-loss* | NVDA casse $140 en clôture — racheter le put
+| *Taille* | 2–3 % du portefeuille (cash réservé ~$13 000/contrat)
+|===
+
+=== Trade #3 — Covered Call sur QQQ (positions existantes)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (revenu sur position longue existante)
+| *Sous-jacent* | QQQ (~$715.94)
+| *Raisonnement* | Résistance forte à $748 (ATH 27/08) — faible probabilité de dépassement CT ; VIX 15.20 → IV suffisante pour vendre ; génération de revenu passive pendant attente FOMC
+| *Expiration* | 17 octobre 2026 (~44 DTE)
+| *Strike(s)* | Call $740 (~+3.4 % OTM)
+| *Prime reçue* | ~$8–11 par contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~0.30
+| *Theta/jour* | ~$12–18 $ / jour
+| *Breakeven(s)* | N/A (position couverte)
+| *Entrée* | Immédiatement ou lundi 7 septembre
+| *Cible* | 50 % du crédit reçu (~$400–550)
+| *Stop-loss* | QQQ > $748 → racheter le call ou rouler vers exp. suivante
+| *Taille* | 1 call pour 100 actions QQQ détenues
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed (Warsh) | ~4.25–4.50 % — statu quo actuel, hausse 25 bps probable 16/9 (56 %)
+| Prochain FOMC | 16 septembre 2026 — CRITIQUE (Warsh hawkish)
+| CPI juillet 2026 | +3.4 % YoY — au-dessus target 2 %, en légère baisse (vs 3.5 % juin)
+| CPI août 2026 | *Non publié — attendu 11 septembre 2026* (donnée clé pré-FOMC)
+| NFP août 2026 | *Non publié — attendu demain 4 septembre 2026* (ULTRA-CRITIQUE)
+| Taux 10 ans | ~4.6–4.8 % (pression sur multiples tech)
+| WTI / Brent | $91.01 / $95.63 — conflit Iran-US actif (3 sessions de hausse)
+| Put/Call ratio | 0.95 (complaisant, donnée 1/9) — signal de complacence
+| Fear & Greed | 33 — Peur (en forte baisse vs 54 le 31/08)
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| *4 septembre 2026 (demain)* | NFP août 2026 — rapport emploi | *Très élevé* — gate 1/3 pré-FOMC
+| 7 septembre 2026 | Labor Day (US) — marchés fermés | —
+| *11 septembre 2026* | CPI août 2026 | *Très élevé* — gate 2/3, déterminant pour FOMC
+| *16 septembre 2026* | FOMC Warsh — décision taux | *Très élevé* — hausse ou pause ?
+| Semaine 19 octobre | TSMC — résultats Q3 2026 | Élevé — baromètre semis/IA
+| ~Novembre 2026 | NVIDIA — résultats Q3 FY2027 | Élevé — catalyseur structurel IA
+| Continu | Iran-US — évolution conflit | Élevé — WTI, sentiment, VIX
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême) — valeur du jour : 33 (Peur)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — valeur du jour : 15.20
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures — FOMC 16/9
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-03-2026[TheStreet — Market Today 3 sept.]
+| Résumé de séance — Nasdaq, S&P 500, Dow, Iran-US
+
+| link:https://www.capitoltrades.com/[Capitol Trades]
+| Tracker des transactions des membres du Congrès américain
+
+| link:https://fedratecalc.com/us-economic-calendar/september-2026/[Calendrier économique sept. 2026]
+| NFP, CPI, FOMC — dates et prévisions
+
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly — Stratégie theta delta-neutral]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Cash-Secured Put et revenus]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Hedging directionnel baissier]
