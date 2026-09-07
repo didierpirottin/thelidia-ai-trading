@@ -1,0 +1,271 @@
+= Analyse de Marché — 7 septembre 2026
+:description: Labor Day — données du 5 sept. : QQQ 718,96 $ au-dessus MA50, NFP blowout +162 K (3× attentes), FOMC 52 % hike le 16/9, CPI le 11/9 — Baromètre Niveau 4/6 Prudence
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| 718,96 $ (~-1,5 % / 3 mois)
+| 770,19 $ (~+0,5 % / 3 mois)
+| 16,34 — tension modérée
+| 42 — Fear
+| Au-dessus (710,98 $, marge +8 $)
+| *Niveau 4/6 — PRUDENCE*
+|===
+
+NOTE: Le 7 septembre 2026 est le *Labor Day* (jour férié américain). Tous les cours et indicateurs ci-dessous sont ceux du *vendredi 5 septembre 2026*, dernier jour de bourse. Les marchés rouvrent le mardi 8 septembre.
+
+'''
+
+== Baromètre du marché
+
+._Niveau 4/6 — PRUDENCE : NFP blowout relance le risque de hausse Fed avant CPI+FOMC_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 7 septembre 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 1, 0, 0]
+....
+
+NOTE: Le niveau 4 (Prudence) s'impose avec une urgence renforcée par rapport aux semaines précédentes. Trois facteurs convergent : (1) le NFP d'août (+162 K contre 55 K attendus — soit 3× les attentes) réintroduit un risque de hausse de taux à ~52 % de probabilité implicite pour le FOMC du 15-16 septembre ; (2) le CPI d'août est attendu le 11 septembre — ce chiffre est LE catalyseur décisionnel de la Fed, avec un pétrole > 90 $/bbl depuis fin août qui pèse sur les anticipations ; (3) la Fed est en période de silence depuis le 5 septembre : aucune communication officielle jusqu'au 17 septembre. La MA50 est tenue (718,96 $ vs 710,98 $, marge +8 $), mais le MACD est négatif (-1,36) et le RSI est à 46 — momentum clairement affaibli. Aucun déploiement agressif ne se justifie avant la résolution CPI/FOMC.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+La semaine du 1er au 5 septembre 2026 s'est conclue par un choc macro inattendu. Jeudi 4 septembre, le rapport sur l'emploi d'août (NFP) a affiché +162 000 emplois créés contre 55 000 attendus — le chiffre le plus fort depuis mars 2026, avec en prime 55 000 révisions à la hausse sur les deux mois précédents. Le taux de chômage est resté stable à 4,1 % malgré une amélioration du taux de participation. La croissance des salaires (+3,1 % YoY) reste benigne mais non négligeable dans le contexte inflationniste actuel.
+
+La réaction des marchés a été immédiate : le S&P 500 a perdu -0,4 % vendredi 5 septembre, le Dow -0,5 %, le Nasdaq Composite -0,3 %. QQQ a toutefois limité les dégâts à +0,18 % grâce à la résilience de quelques méga-caps. Le taux à 10 ans a bondi à 4,79 %, au plus haut depuis trois ans. Les marchés sont ensuite entrés dans le long week-end de Labor Day.
+
+Sur un mois (depuis la mi-août), QQQ a effacé le pic du 16 août (748,65 $ — ATH 52 semaines lié aux résultats NVDA Q2 FY2027) et consolide en range $710-$720. Les sept secteurs sur onze qui ont reculé sur la semaine illustrent un leadership de marché très étroit, concentré sur l'énergie (pétrole > 90 $/bbl) et les méga-caps IA.
+
+=== Pourquoi (causes profondes)
+
+Le problème de fond est identique depuis plusieurs semaines : la Fed de Kevin Warsh est dans une posture hawkish avec trois dissidents favorables à une hausse immédiate depuis la réunion de juillet. Le NFP d'août vient de transformer ce signal de minorité en probabilité de marché : les futures impliquent désormais ~52 % de chance de hausse de +25 pb le 16 septembre.
+
+La dynamique inflationniste reste ambiguë : le CPI de juillet (+3,4 % YoY) était en ligne avec les attentes, mais la répercussion d'un pétrole constamment au-dessus de 90 $/bbl sur le CPI d'août (attendu le 11 septembre) est la principale inconnue. Un CPI > 3,5 % validerait quasi-certeinement une hausse de taux. Le gouverneur Waller a déclaré le 3 septembre qu'il soutiendrait un statu quo si l'inflation continuait vers 2 % — déclaration qui maintient l'incertitude intacte.
+
+Le taux à 10 ans à 4,79 % exerce une pression structurelle sur les multiples des valeurs de croissance du Nasdaq. Le put/call ratio à 0,95 reflète une complacence résiduelle qui ne correspond pas au niveau de risque effectif des prochains jours.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | 718,96 $ | Clôture du 5 septembre 2026
+| MA50 QQQ (SMA) | 710,98 $ | Au-dessus — marge +8 $ — à surveiller
+| MA200 QQQ (SMA) | 655,12 $ | Bien au-dessus — support long terme solide
+| RSI (14j) | 46,03 | Neutre / légèrement sous 50 — momentum défensif
+| MACD | -1,36 | Signal vendeur — momentum CT négatif
+| ATH 52 sem. (résistance) | 748,65 $ | Plafond fort — testé post-NVDA earnings (16 août)
+| Support clé MA50 | 710,98 $ | Cassure = signal baissier CT confirmé
+| S&P 500 cours | ~7 712 $ | Référence — 1 % sous ATH
+| S&P 500 MA50 | 7 686,05 $ | S&P au-dessus — signal haussier maintenu
+| S&P 500 MA200 | 7 637,83 $ | S&P au-dessus — trend LT intact
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 35 %
+
+*Conditions nécessaires* : CPI août ≤ 3,0 % (désinflation malgré le pétrole élevé) ; Fed en pause le 16 septembre (Waller et la majorité dovish tiennent face aux trois dissidents) ; QQQ tient au-dessus de MA50 (710,98 $) durant la semaine du CPI.
+
+*Cibles* : QQQ 740–750 $ (retest ATH), SPY 790–800 $.
+
+*Catalyseurs* : Publication favorable du CPI le 11 septembre créant une détente sur le 10 ans ; décision FOMC de statu quo le 16 septembre déclenchant un rally de soulagement ; début de saison des résultats T3 2026 (mi-octobre) avec Mag7 attendu en hausse.
+
+=== Scénario baissier — Probabilité 65 %
+
+*Conditions de déclenchement* : CPI août > 3,5 % (répercussion pétrole > 90 $) confirmant une hausse de taux le 16 septembre ; QQQ casse MA50 < 711 $ sur volume en clôture ; escalade géopolitique Iran-US vers l'Ormuz.
+
+*Supports critiques* : QQQ 710,98 $ (MA50 SMA, premier support), QQQ 655,12 $ (MA200 SMA, support long terme).
+
+*Risques de queue* : Pétrole > 100 $/bbl (blocus Ormuz) → VIX spike vers 25-30 ; CPI > 4 % réintroduisant le scénario de multiples hausses consécutives ; cassure simultanée du 10 ans au-dessus de 5 % → correction -10 %+.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Vérifier les cours en temps réel avant tout passage d'ordre.
+
+=== Trade #1 — Iron Condor sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor — vente de spread call + vente de spread put
+| *Sous-jacent* | QQQ (~718,96 $) footnote:[Estimation — vérifier les cours réels à l'ouverture du 8 septembre avant d'entrer en position.]
+| *Raisonnement* | QQQ compressé en range $710-$745 (MA50 / ATH 52 semaines) ; VIX 16,34 offre une prime theta intéressante ; stratégie delta-neutre adaptée à l'attente de résolution CPI/FOMC ; niveau 4 = privilégier les stratégies theta
+| *Expiration* | 17 oct. 2026 (~40 DTE — post-FOMC du 16 sept.)
+| *Strike(s)* | Short Put 695 / Long Put 680 + Short Call 745 / Long Call 760
+| *Prime reçue* | ~4,50 $ / contrat (2,50 $ put spread + 2,00 $ call spread)
+| *Delta total* | ≈ 0 (delta-neutre)
+| *Theta/jour* | ~5–8 $ / jour / contrat
+| *Breakeven(s)* | 690,50 $ (baisse) / 749,50 $ (hausse)
+| *Entrée* | QQQ entre 714–722 $ — ouverture à 40 DTE dès le 8 sept.
+| *Cible* | 50 % de la prime reçue (~225 $ / contrat)
+| *Stop-loss* | Perte > 1× crédit reçu (> 450 $ / contrat) ou cassure de MA50 en clôture
+| *Taille* | 5–8 % du portefeuille
+|===
+
+._Iron Condor QQQ — P&L estimé à expiration (par contrat, 100 actions)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ — P&L estimé à expiration ($/contrat)"
+    x-axis ["670$", "680$", "691$", "700$", "718$", "735$", "745$", "750$", "760$", "770$"]
+    y-axis "P&L ($)" -1200 --> 600
+    bar [-1050, -1050, 50, 450, 450, 450, 450, -50, -1050, -1050]
+    line [-1050, -1050, 50, 450, 450, 450, 450, -50, -1050, -1050]
+....
+
+NOTE: P&L maximum de +450 $/contrat atteint si QQQ reste entre 695 $ et 745 $ à expiration. Pertes maximales de -1 050 $/contrat en cas de sortie du range de chaque côté. Breakeven baissier : 690,50 $ (695 - 4,50 $) ; breakeven haussier : 749,50 $ (745 + 4,50 $). Le profit diminue linéairement entre le short strike et le breakeven.
+
+=== Trade #2 — Bear Put Spread sur SPY (protection CPI / FOMC)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bear Put Spread (débit)
+| *Sous-jacent* | SPY (~770,19 $) footnote:[Estimation — vérifier les cours réels à l'ouverture du 8 septembre avant d'entrer en position.]
+| *Raisonnement* | CPI (11/9) + FOMC (15-16/9) = double catalyseur hawkish potentiel ; 52 % probabilité de hausse de taux dans les futures ; protection asymétrique peu coûteuse (×3,3 rendement max) ; une baisse de seulement -1,8 % suffit pour être rentable
+| *Expiration* | 19 sept. 2026 (post-FOMC — 12 DTE à l'ouverture du 8 sept.)
+| *Strike(s)* | Buy Put 760 / Sell Put 745
+| *Prime payée* | ~3,50 $ / contrat (débit net)
+| *Delta total* | ~-0,40 (exposé à la baisse)
+| *Breakeven(s)* | 756,50 $ (SPY -1,8 % depuis 770 $)
+| *Max profit* | ~11,50 $ si SPY < 745 $ à expiration (rendement ×3,3×)
+| *Entrée* | SPY 768–775 $, avant la publication du CPI (11 sept.)
+| *Cible* | 50–70 % du profit maximum ou SPY < 755 $
+| *Stop-loss* | Perte totale de la prime (~350 $/contrat) — traiter comme assurance
+| *Taille* | 2–3 % du portefeuille (coût d'assurance macro)
+|===
+
+=== Trade #3 — Covered Call sur QQQ (pour porteurs existants)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (si déjà long QQQ)
+| *Sous-jacent* | QQQ (~718,96 $) footnote:[Estimation — vérifier les cours réels à l'ouverture du 8 septembre avant d'entrer en position.]
+| *Raisonnement* | Résistance forte à 748–748,65 $ (ATH 52 semaines testé 3 fois) ; marché en range CT — génère un revenu (~0,7 %) sur exposition existante ; réduit le coût de base pour les positions long terme
+| *Expiration* | 17 oct. 2026 (40 DTE)
+| *Strike(s)* | Call 745 (OTM de ~3,6 % par rapport au cours actuel)
+| *Prime reçue* | ~5 $ / contrat
+| *Theta/jour* | ~5 $ / jour
+| *Breakeven(s)* | 713,96 $ (coût de base réduit de 5 $)
+| *Entrée* | Vente du call à l'ouverture mardi 8 sept. si QQQ > 714 $
+| *Cible* | Rachat à 50 % de la prime (~2,50 $) ou expiration sans valeur
+| *Stop-loss* | Rachat si QQQ franchit 755 $ (rollup du call vers strike supérieur)
+| *Taille* | 1 contrat par 100 actions QQQ détenues
+|===
+
+=== Trade #4 — Long Call VIX (protection spike de volatilité)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Long Call OTM sur VIX
+| *Sous-jacent* | VIX (~16,34)
+| *Raisonnement* | CPI (11/9) + FOMC (15-16/9) = double catalyseur dans 4–9 jours ; call OTM peu coûteux — asymétrie forte en cas de surprise hawkish ; si CPI > 3,5 % → VIX peut spike vers 22-28 ; rendement potentiel ×10+ sur la prime
+| *Expiration* | 17 sept. 2026 (post-FOMC — 10 DTE)
+| *Strike(s)* | Call VIX 22 (OTM de ~35 %)
+| *Prime payée* | ~0,35–0,50 $ / contrat
+| *Breakeven(s)* | VIX > 22,40 à expiration
+| *Max profit* | Asymétrique — VIX à 25 : ~+250 $/contrat pour ~50 $ investis
+| *Entrée* | VIX entre 15–17, avant CPI du 11 sept.
+| *Cible* | VIX > 22 ou vente si VIX spike intraday > 20
+| *Stop-loss* | Perte totale de la prime (~50 $/contrat) — acceptable comme assurance
+| *Taille* | 0,5–1 % du portefeuille
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo depuis juillet 2026 (5e trimestre consécutif) — hike potentiel +25 pb le 16 sept.
+| Prochain FOMC | 15–16 septembre 2026 — ~52 % probabilité de hausse implicite dans les futures
+| CPI dernier | +3,4 % YoY (juillet 2026) — en ligne avec les attentes — résultats août attendus le 11/9
+| NFP dernier | +162 K (août 2026) — 3× attentes (55 K) — chiffre le plus fort depuis mars — surprise haussière
+| Salaires | +3,1 % YoY (août 2026) — bénin mais sous surveillance dans contexte inflationniste
+| Taux 10 ans | 4,79 % — proche de sommets sur 3 ans — pression sur les multiples tech
+| Put/Call ratio | 0,95 — complaisant (5e centile des bas récents)
+| Pétrole WTI | > 90 $/bbl — pression inflationniste — tensions Iran-US persistantes
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 8 septembre 2026 | Réouverture des marchés post-Labor Day | Modéré — ajustement des positions post-NFP
+| 10 septembre 2026 | PPI août (8h30 ET) | Modéré — signal avant-coureur du CPI
+| 11 septembre 2026 | *CPI août (8h30 ET)* | *Élevé — gate décisionnel Fed : hike ou pause*
+| 12 septembre 2026 | UMich Consumer Sentiment (Préliminaire) | Faible
+| 15–16 septembre 2026 | *FOMC — Décision taux (hike +25 pb ?)* | *Élevé — catalyseur directionnel majeur*
+| Mi-octobre 2026 | Début saison résultats T3 2026 (Mag7) | Élevé — MSFT, GOOGL, AMZN, META, AAPL, NVDA
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême) — valeur : 42 (Fear)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — données et futures — valeur : 16,34
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures — 52 % hike sept. 2026
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ — dernier cours : 718,96 $
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel — dernier : 16,34
+
+| link:https://www.benzinga.com/markets/equities/26/09/61646501/is-stock-market-open-today-labor-day-2026-september-7[Benzinga — Labor Day 2026]
+| Confirmation fermeture des marchés le 7 septembre 2026
+
+| link:https://www.investing.com/analysis/us-jobs-report-beats-all-expectations-boosts-case-for-a-september-hike-200687154[Investing.com — NFP août 2026]
+| Analyse du NFP d'août 2026 (+162 K) et impact sur la Fed
+
+| link:https://www.cnbc.com/2026/09/03/us-treasury-yields-bonds.html[CNBC — Waller / Taux 10 ans]
+| Déclaration de Waller sur les conditions de statu quo ; taux 10 ans à 4,79 %
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Protection directionnelle avant catalyseur]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly — Stratégie theta sur range défini]
+* xref:ROOT:strategies/wheel.adoc[Wheel / Covered Call — Générer un revenu sur positions existantes]

@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-09-07.adoc[7 septembre 2026]
+| Niveau 4/6 — PRUDENCE
+| Haussière LT / Affaiblie CT
+| Labor Day — NFP +162 K (3× attentes), FOMC 52 % hike le 16/9, CPI le 11/9, QQQ 718,96 $ — VIX 16,34
+
 | xref:market-analysis:market-analysis-2026-09-06.adoc[6 septembre 2026]
 | Niveau 4/6 — PRUDENCE
 | Haussière LT / Dégradée CT
