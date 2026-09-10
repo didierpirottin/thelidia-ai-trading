@@ -1,0 +1,297 @@
+= Analyse de Marché — 10 septembre 2026
+:description: QQQ $716 sur MA50 (marge fine), S&P sous MA50+MA200, VIX +8,4 % breakout, WTI $102 — Baromètre Niveau 5 Couverture — CPI demain + FOMC hike J+5
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $716.31 (~-1,9 % / 3 mois)
+| $759.03 (~-1,4 % / 1 mois)
+| 17.84 — tension (breakout range 28 j.)
+| 35 — Fear
+| Au-dessus ($710.98) — marge +0,75 %
+| *Niveau 5/6 — COUVERTURE*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 5/6 — COUVERTURE : S&P sous MA200, VIX breakout, double risque CPI+FOMC_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 10 septembre 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 0, 1, 0]
+....
+
+NOTE: Le marché passe en mode *Couverture* ce 10 septembre 2026. Le S&P 500 franchit sous sa MA50 (7 686) ET sa MA200 (7 637) simultanément — cassure baissière du marché large jamais vue depuis le creux du 29 juillet ($667 sur QQQ). Le VIX sort d'une range comprimée à 14–17 sur 28 jours avec un spike de +8,4 % à 17,84, signalant une nervosité croissante avant le rapport CPI (demain 11 sept.) et le FOMC (16 sept., marché price une hausse de 25 bps). Le pétrole WTI à $102 (+60 % YTD) alimente un scénario stagflationniste qui coince la Fed. *Ne pas acheter les baisses avant confirmation d'un plancher.*
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Le 10 septembre 2026, les marchés américains enregistrent leur quatrième journée consécutive de baisse. Le S&P 500 recule de 0,58 % à 7 591,70, le Nasdaq Composite cède 0,65 % à 26 081,72 et le Dow Jones perd 316 points (-0,60 %) à 52 064. Le QQQ clôture à $716.31 (range intraday $714.02–$719.70), menaçant directement sa MA50 à $710.98 — marge résiduelle de seulement $5,33 (+0,75 %). Le SPY se fixe à $759.03 (range $756.64–$762.94), avec un S&P 500 sous-jacent qui franchit sous *les deux* moyennes mobiles majeures (MA50 : 7 686 et MA200 : 7 637).
+
+Le déclencheur du jour est une nouvelle escalade géopolitique au Moyen-Orient : les États-Unis frappent des tankers iraniens, les Houthis attaquent des infrastructures pétrolières saoudiennes. Le WTI bondit de +6,7 % à $102,48 le baril, signant le premier passage au-dessus de $100 depuis juillet 2026. Le Brent frôle brièvement $100. Le pétrole a désormais progressé de +60 % depuis le début de l'année. Sur le plan macro domestique, le PPI août ressort à +0,4 % MoM (en ligne avec les attentes Dow Jones), sans surprise mais dans le contexte d'une inflation sous-jacente qui reste collante.
+
+Secteur moteur du jour : l'énergie (XLE surperformance). Secteur à la traîne : la technologie (XLK, Nasdaq -0,65 %), pénalisée par la compression des multiples de valorisation face à la remontée des taux longs due à l'inflation pétrolière. Le VIX — indice de la peur — franchit 17,84 (+8,38 %), mettant fin à une range exceptionnellement comprimée à 14–17 ayant duré 28 jours de bourse consécutifs.
+
+=== Pourquoi (causes profondes)
+
+La dynamique sous-jacente est *stagflationniste* : un choc d'offre pétrolier via la guerre au Moyen-Orient fait grimper l'énergie, ce qui alimente l'inflation (CPI juillet à +3,4 % YoY), ce qui oblige la Fed à durcir sa politique monétaire au moment même où la croissance ralentit. La Fed a maintenu ses taux à 3,50–3,75 % en juillet, mais avec trois dissidents réclamant une hausse — et le marché price désormais 25 bps de hausse au FOMC du 16 septembre. Le NFP août (+162 K, surprise haussière par rapport aux attentes d'environ 100 K) a renforcé la pression hawkish : le marché du travail reste trop solide pour justifier une pause.
+
+La psychologie des investisseurs se dégrade : le Fear & Greed Index tombe à 35 (Fear), le put/call ratio remonte à 0,82, et les flux se dirigent vers les actifs défensifs. La concentration du S&P 500 sur la Mag7 amplifie la sensibilité à tout revirement sur les taux : si le coût du capital monte, les GAFAM à hauts multiples souffrent davantage.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $716.31 | 4ème journée de baisse consécutive
+| MA20 QQQ | ~$714 | Au-dessus — support court terme
+| MA50 QQQ | $710.98 | Au-dessus — marge critique +$5,33 (+0,75 %)
+| MA200 QQQ | $655.12 | Au-dessus — solide (+9,3 %)
+| S&P 500 vs MA50 | 7 686 | *En-dessous* (7 591) — cassure bearish
+| S&P 500 vs MA200 | 7 637 | *En-dessous* (7 591) — double cassure
+| Support clé QQQ | $710.98 | MA50 — testé le 2 sept., tenu ; cassure → $680
+| Résistance clé QQQ | $730–748 | Zone ATH août 2026 — désormais résistance
+| RSI QQQ (14 j.) | ~46 | Neutre en dégradation — direction baissière CT
+| VIX | 17.84 | Breakout de range 14–17 (28 jours) — tension montante
+|===
+
+Structure depuis l'ATH (~$748, mi-août 2026) : *lower highs, lower lows* — tendance baissière CT confirmée sur le marché large (S&P). QQQ résiste mieux grâce à la tech, mais la marge sur MA50 devient critique.
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 30 %
+
+*Conditions nécessaires* : CPI août < 3,2 % demain (surprise dovish), QQQ tient MA50 en clôture hebdomadaire, Fed annonce une pause au lieu d'une hausse le 16 septembre.
+
+*Cibles* : QQQ $740–748 $, SPY $780–790 $.
+
+*Catalyseurs* : Désinflation accélérée (effet base pétrole), désescalade Moyen-Orient faisant retomber le WTI sous $90, déclarations Fed dovish en conférence de presse le 16 sept.
+
+=== Scénario baissier — Probabilité 70 %
+
+*Conditions de déclenchement* : CPI août ≥ 3,4 % demain (en ligne ou au-dessus), Fed hausse confirmée +25 bps le 16 sept., pétrole WTI ≥ $110 (escalade militaire).
+
+*Supports critiques* : QQQ $710.98 (MA50, à surveiller dès demain matin), puis $680–690 (ancienne résistance / support juillet), puis $655.12 (MA200 — scénario extrême).
+
+*Risques de queue* : Escalade majeure Moyen-Orient → VIX > 28, pétrole > $120, shutdown gouvernemental US (calendrier budgétaire), récession surprise → NFP négatif en octobre.
+
+'''
+
+== Signal Congrès américain
+
+NOTE: Données Capitol Trades indisponibles ce jour — accès bloqué par le proxy réseau. Sources alternatives (Trendlyne, AltIndex) confirment >202 000 trades suivis au 9 septembre 2026, dernière divulgation STOCK Act : 31 août 2026. Conformément à la règle du baromètre 5, les signaux haussiers éventuels du Congrès sont ignorés — le contexte marché prime.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel.
+
+=== Trade #1 — Bear Put Spread sur SPY
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bear Put Spread (protection directionnelle)
+| *Sous-jacent* | SPY (~$759 $)
+| *Raisonnement* | S&P 500 sous MA50 ET MA200 — double cassure baissière. CPI demain + FOMC hike potentiel J+5. Spread limite le coût vs long put pur — idéal en niveau 5.
+| *Expiration* | 17 octobre 2026 (~37 DTE)
+| *Strike(s)* | Achat Put 760 / Vente Put 735
+| *Prime nette* | ~$6–6,50 débit par spread footnote:[Estimation sur base VIX ~18 % — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~-0,25 net
+| *Theta/jour* | ~+$0,05 (vendeuse partiellement)
+| *Breakeven* | ~$753.50 (baisse)
+| *Max profit* | ~$18.50 / action ($1 850 / spread) si SPY ≤ $735
+| *Max loss* | ~$6.25 ($625 / spread) si SPY > $760
+| *Entrée* | Immédiatement ou post-CPI demain si ≥ 3,4 %
+| *Cible* | 50–75 % du profit max ($925–$1 390 / spread)
+| *Stop-loss* | SPY clôture > $770 (invalidation bearish) / rouler si nécessaire
+| *Taille* | 4–6 % du portefeuille
+|===
+
+._Bear Put Spread SPY 760/735 — P&L estimé à expiration (par spread / 1 contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Bear Put Spread SPY 760/735 — P&L estimé (par contrat)"
+    x-axis ["$700", "$720", "$735", "$750", "$754", "$760", "$780", "$800"]
+    y-axis "P&L ($)" -700 --> 2000
+    bar [1875, 1875, 1875, 375, 0, -625, -625, -625]
+    line [1875, 1875, 1875, 375, 0, -625, -625, -625]
+....
+
+NOTE: Plancher de profit à $1 875 si SPY ≤ $735 à expiration. Breakeven à ~$753.50. Perte maximale limitée à -$625 (prime débourée) si SPY > $760. Profil idéal pour une protection directionnelle en contexte de double risque CPI/FOMC.
+
+=== Trade #2 — Long Put sur QQQ (Hedge cassure MA50)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Long Put directionnel
+| *Sous-jacent* | QQQ (~$716 $)
+| *Raisonnement* | Marge de seulement $5 sur MA50 ($710.98). Si CPI > 3,4 % → gap baissier probable sous MA50 dès l'ouverture. Ratio risque/récompense très favorable à ce niveau.
+| *Expiration* | 17 octobre 2026 (~37 DTE)
+| *Strike(s)* | Put 710 (légèrement OTM = zone MA50)
+| *Prime* | ~$9–11 payée par contrat footnote:[Estimation sur base VIX ~18 % — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~-0,44
+| *Theta/jour* | ~-$0,25 / jour (coût du temps)
+| *Breakeven* | ~$699–701 (baisse)
+| *Entrée* | Si QQQ < $714 intraday OU post-CPI > 3,4 % (confirme cassure)
+| *Cible* | QQQ $680–690 → +$20–30 sur la prime (~+200 %)
+| *Stop-loss* | QQQ clôture > $725 (MA50 confirmée, invalide le setup) / perte > $400
+| *Taille* | 2–3 % du portefeuille
+|===
+
+=== Trade #3 — Long Calls VIX (Spike CPI/FOMC)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Long Call sur VIX (hedge volatilité pure)
+| *Sous-jacent* | VIX (~17.84)
+| *Raisonnement* | VIX sort d'une compression 28 jours sur range 14–17. Double déclencheur potentiel de spike : CPI demain 8h30 ET + FOMC 16 sept. Coût de couverture encore raisonnable sous 20.
+| *Expiration* | 15 octobre 2026 (~35 DTE)
+| *Strike(s)* | Call VIX 22 (OTM +23 %)
+| *Prime* | ~$1,20–1,80 payée par contrat footnote:[Estimation sur base VIX ~18 % — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~+0,30 sur VIX
+| *Theta/jour* | ~-$0,05 / jour (faible coût)
+| *Breakeven* | ~23,20–23,80 sur VIX
+| *Entrée* | Immédiatement — fenêtre pré-CPI optimale
+| *Cible* | VIX spike 22–25 → +150–200 % sur la prime
+| *Stop-loss* | Perte totale de la prime (budget d'assurance prédéfini)
+| *Taille* | 1–2 % du portefeuille (assurance pure)
+|===
+
+=== Trade #4 — Collar sur Positions Tech Longues
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Collar (Vente Call + Achat Put sur position existante)
+| *Sous-jacent* | QQQ long existant (~$716 $)
+| *Raisonnement* | Protège les gains sans vendre (efficacité fiscale). Plafonne l'upside CT en échange d'une protection du downside. Adapté si conviction LT maintenue.
+| *Expiration* | 17 octobre 2026 (~37 DTE)
+| *Strike(s)* | Vente Call 730 (+2 %) / Achat Put 700 (-2,3 %)
+| *Prime nette* | ~-$1,50 à -$2,00 débit (call reçu ~$4, put payé ~$5,50) footnote:[Estimation sur base VIX ~18 % — vérifier les cours réels avant d'entrer en position.]
+| *Intervalle protégé* | $700 à $730 (protection dans la fenêtre de risque CT)
+| *Entrée* | Sur position existante — immédiatement
+| *Cible* | Expiration avec QQQ dans la fenêtre $700–$730, revendre les options
+| *Stop-loss* | Rouler le put si QQQ < $700 avec tendance baissière confirmée
+| *Taille* | Sur 50–75 % de la position QQQ existante
+|===
+
+=== Trade #5 — Réduction d'Exposition / Cash (Défensif)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Sortie partielle / Passage en cash (action de portefeuille)
+| *Sous-jacent* | Portefeuille global
+| *Raisonnement* | Niveau 5 = réduire le delta total, pas ajouter des longs. CPI + FOMC hike = risque de gap baissier brutal. USD cash rémunéré à 3,5–3,75 % = alternative sans risque attractive. Permet de redéployer au niveau 2–3 si capitulation.
+| *Action* | Alléger 20–30 % des positions longues risquées (actions, ETF tech)
+| *Cible cash* | 25–35 % du portefeuille
+| *Condition de redéploiement* | VIX > 28 + QQQ sur MA200 ($655) = signal d'achat agressif
+| *A éviter* | Acheter les baisses avant confirmation du plancher (pas de bottom-fishing)
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,50–3,75 % — statu quo en juillet (3 dissidents hawkish)
+| Prochain FOMC | 15–16 septembre 2026 — marché price +25 bps de HAUSSE
+| CPI dernier (juillet) | +3,4 % YoY — au-dessus du target Fed 2 %
+| CPI août (à venir) | Rapport demain 11 sept. 8h30 ET — consensus +3,3 % YoY
+| PPI août | +0,4 % MoM — en ligne avec attentes
+| NFP août | +162 K — surprise haussière hawkish (consens ~100 K)
+| WTI Pétrole | $102.48 (+6,7 % jour / +60 % YTD) — premier $100 depuis juillet
+| Taux 10 ans US | ~4,80–5,00 % footnote:[Estimation — vérifier les cours réels avant d'entrer en position.] — en hausse avec l'inflation pétrolière
+| Put/Call ratio | 0,82 (au 9 sept.) — neutre, légèrement prudent
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 11 septembre 2026 | CPI août — 8h30 ET (consensus +3,3 % YoY) | Élevé — déclencheur de gap
+| 16 septembre 2026 | FOMC décision de taux (risque +25 bps) | Élevé — pivot ou accélération
+| 16 septembre 2026 | Conférence de presse Powell post-FOMC | Élevé — guidance future
+| 2 octobre 2026 | NFP septembre 2026 | Modéré — contexte emploi/inflation
+| 7 octobre 2026 | Minutes FOMC septembre | Modéré — détail des délibérations
+| Mi-octobre 2026 | Début saison résultats Q3 2026 (banques, Mag7) | Élevé — guidance forward
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême) — valeur du 10/09 : 35 (Fear)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — VIX 17.84 au 10/09 (+8,38 %)
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed — marché price +25 bps au 16 sept. 2026
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-10-2026[TheStreet — Marché 10 sept.]
+| Couverture live du marché au 10 septembre 2026
+
+| link:https://edition.cnn.com/2026/09/09/economy/oil-price-iran-war[CNN — Pétrole $100]
+| Pétrole à $100 / conflit Moyen-Orient — contexte catalyseur
+
+| link:https://equityclock.com/2026/09/09/stock-market-outlook-for-september-10-2026/[EquityClock — Outlook 10 sept.]
+| Analyse saisonnière et put/call ratio
+
+| link:https://insight.factset.com/consumer-price-index-cpi-for-august-2026-is-projected-to-rise-3.3-year-over-year[FactSet — CPI août projections]
+| Projections CPI août 2026 (+3,3 % YoY consensus)
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Stratégie recommandée Trade #1]
+* xref:ROOT:hedging/protective-put.adoc[Protective Put — Stratégie recommandée Trade #2]
+* xref:ROOT:hedging/collar.adoc[Collar — Stratégie recommandée Trade #4]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — À revisiter en Niveau 2–3 lors du retour]
