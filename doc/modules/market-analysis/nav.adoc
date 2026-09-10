@@ -1,5 +1,6 @@
 * xref:market-analysis:index.adoc[Analyses de Marché]
 ** xref:market-analysis:market-analysis-2026-09-10.adoc[10 sept. 2026 — Niveau 5 Couverture]
+** xref:market-analysis:market-analysis-2026-09-09.adoc[9 sept. 2026 — Niveau 4 Prudence]
 ** xref:market-analysis:market-analysis-2026-09-08.adoc[8 sept. 2026 — Niveau 4 Prudence]
 ** xref:market-analysis:market-analysis-2026-09-07.adoc[7 sept. 2026 — Niveau 4 Prudence]
 ** xref:market-analysis:market-analysis-2026-09-06.adoc[6 sept. 2026 — Niveau 4 Prudence]

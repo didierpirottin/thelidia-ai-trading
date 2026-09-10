@@ -1,0 +1,258 @@
+= Analyse de Marché — 9 septembre 2026
+:description: Oil choc Brent >101$ + yields 52-sem high (4,80%) relancent risque hausse Fed J-6 — QQQ 715,70$ sur MA50, S&P sous MA50, CPI J-2, FOMC J-6 — Baromètre Niveau 4/6 Prudence (tension accrue)
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| ~715,70 $ (-1,0 % / 1 mois)
+| ~765,41 $ (-1,2 % / 1 mois)
+| 16,34 — tension modérée
+| 39 — Fear
+| Au-dessus (710,98 $, marge +4,7 $)
+| *Niveau 4/6 — PRUDENCE*
+|===
+
+NOTE: Données intraday du 9 septembre 2026 (mercredi). Le pétrole Brent franchit 101 $/bbl pour la première fois depuis juillet — choc inflationniste majeur à 48 h du CPI et 6 jours du FOMC. Valeurs indicatives — vérifier les cours réels avant toute position.
+
+'''
+
+== Baromètre du marché
+
+._Niveau 4/6 — PRUDENCE : oil choc >100$ + yields 52-sem high relancent le risque de hausse Fed avant CPI+FOMC_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 9 septembre 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 1, 0, 0]
+....
+
+NOTE: Le niveau 4 (Prudence) est maintenu mais avec une tension accrue par rapport aux séances précédentes. Trois facteurs se superposent ce jour : (1) le pétrole Brent franchit 101 $/bbl (+3,36 %) — premier niveau à trois chiffres depuis juillet — sous l'effet de l'escalade militaire US-Iran qui menace le détroit d'Ormuz et la supply mondiale ; (2) le taux à 10 ans atteint 4,80 %, nouveau plus haut en 52 semaines, signalant que les marchés obligataires réintègrent une hausse de taux possible dès le 16 septembre ; (3) le S&P 500 passe sous son propre MA50 (7 644 vs 7 686) — seul QQQ tient encore au-dessus de son MA50 ($715,70 vs $710,98), mais la marge est tombée à 4,7 $ seulement. Un CPI d'août > 3,5 % jeudi 11 septembre déclencherait quasi-certainement le passage en Niveau 5 (Couverture). Aucun déploiement directionnel n'est justifié avant la résolution de ce double binaire.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+La séance du 9 septembre 2026 est dominée par un choc pétrolier inattendu. Le Brent crude a bondi de 3,36 % à 101,21 $/bbl, franchissant le seuil symbolique de 100 $ pour la première fois depuis juillet 2026, tandis que le WTI américain progressait de 3,25 % à 96,05 $/bbl. Le déclencheur est l'escalade militaire entre les États-Unis et l'Iran, qui ravive les craintes de perturbation des approvisionnements énergétiques dans le détroit d'Ormuz — une artère critique représentant environ 20 % des exportations mondiales de pétrole.
+
+Cette poussée pétrolière a eu un effet de double peine sur les marchés actions : d'un côté, elle relance directement les anticipations inflationnistes à 48 heures de la publication du CPI d'août (11 septembre) ; de l'autre, elle pousse les rendements obligataires encore plus haut — le taux à 10 ans a établi un nouveau plus haut sur 52 semaines à 4,80 %, un niveau non revu depuis novembre 2023. Résultat : le Dow Jones a cédé plus de 600 points en séance, le Nasdaq Composite a perdu 0,68 %, et le S&P 500 a glissé de 0,38–0,58 % sous son propre MA50 pour la première fois depuis plusieurs semaines.
+
+Depuis le début de septembre, les marchés subissent les conséquences d'un contexte macro qui se durcit : le NFP d'août, publié le 4 septembre, avait montré +162 000 emplois créés (contre 56 000 attendus), réintroduisant le risque de hausse de taux. Le CPI de juillet (+3,4 % YoY) restait au-dessus de la cible Fed. Et la Fed est en période de silence depuis le 5 septembre — aucune communication officielle possible jusqu'au 17 septembre. La conjonction de tous ces éléments maintient les indices en range étroit ($708–$720 pour QQQ) depuis une semaine.
+
+=== Pourquoi (causes profondes)
+
+Le mécanisme de fond est le suivant : la Fed de Kevin Warsh affiche une posture hawkish avec trois membres dissidents qui souhaitaient une hausse dès juillet. Le NFP blowout du 4 septembre avait fait monter la probabilité de hausse en septembre à ~52–66 % selon les futures. Le pétrole à 101 $/bbl aujourd'hui vient renforcer ce scénario : si le CPI d'août intègre partiellement la hausse du pétrole de fin août, le chiffre du 11 septembre risque de surprendre à la hausse, ce qui verrouillerait une décision hawkish le 16 septembre.
+
+La structure de taux est également défavorable aux actifs de croissance. Le taux à 10 ans à 4,80 % exerce une pression mécanique sur les multiples des valeurs du Nasdaq, dont les valorisations reposent sur des flux de trésorerie long terme actualisés à des taux plus élevés. Le put/call ratio à 0,95 (dernier chiffre connu) indique une complacence encore résiduelle qui ne reflète pas la véritable gravité du scénario macro à court terme. Le Fear & Greed Index a reculé de 42 à 39 (zone Fear) entre le 7 et le 9 septembre — la direction est à la prudence accrue.
+
+L'énergie est le seul secteur gagnant ce jour, ainsi que les utilities (valeurs défensives). Les industriels et la consommation cyclique — secteurs les plus sensibles à la fois à l'inflation et à la montée des taux — subissent les pertes les plus lourdes.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | ~715,70 $ | Intraday — 9 septembre 2026
+| MA50 QQQ (SMA) | 710,98 $ | Au-dessus — marge +4,7 $ — critique
+| MA200 QQQ (SMA) | 655,12 $ | Bien au-dessus — support LT solide (+60 $)
+| RSI (14j) | 46,03 | Neutre / orienté vendeur (sous 50)
+| MACD | -1,36 | Signal vendeur — momentum CT négatif
+| ATH 52 sem. (résistance) | 748,65 $ | Résistance forte — pic post-NVDA du 16 août
+| Support clé 1 | 710,98 $ | MA50 — cassure = signal baissier CT déclenché
+| Support clé 2 | 680–685 $ | Support intermédiaire (clôtures précédentes)
+| Support clé 3 | 655,12 $ | MA200 — support long terme ultime
+| S&P 500 cours | ~7 644 $ | En-DESSOUS de MA50 (7 686) — signal court terme
+| S&P 500 MA50 | 7 686 $ | S&P EST EN-DESSOUS — dégradation technique
+| S&P 500 MA200 | 7 638 $ | S&P à +6 pts — support critique à surveiller
+| 10Y Treasury | 4,80 % | Plus haut 52 semaines — pression sur multiples
+| Pétrole Brent | 101,21 $/bbl | Choc inflationniste — 1er >100$ depuis juillet
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 30 %
+
+*Conditions nécessaires* : CPI août (11/9) ≤ 2,9 % — désinflation malgré le choc pétrolier ; Fed maintient son statu quo le 16 septembre (majorité dovish résiste aux trois dissidents hawkish) ; QQQ tient au-dessus de MA50 ($710,98) toute la semaine du 11 au 16 septembre.
+
+*Cibles* : QQQ 740–750 $, SPY 790–800 $.
+
+*Catalyseurs* : Désescalade militaire au Moyen-Orient → pétrole retombe sous 90 $ → inflation expectations reculent → Fed signal pause prolongée → yields reflètent → rotation vers la croissance.
+
+=== Scénario baissier — Probabilité 70 %
+
+*Conditions de déclenchement* : CPI août > 3,5 % le 11 septembre (oil pass-through) ; Fed hausse de +25 pb le 16 septembre ; cassure de QQQ sous MA50 ($710,98) en clôture.
+
+*Supports critiques* : QQQ 710,98 $ (MA50, 4ème test), QQQ 680–685 $ (support intermédiaire), QQQ 655,12 $ (MA200, ligne de défense ultime).
+
+*Risques de queue* : Frappe militaire directe sur l'Iran → VIX spike >25 → passage Niveau 5 (Couverture) avec réduction du delta ; hausse Fed surprise de +50 pb (non pricée) → choc obligataire → rechute violente des actifs de durée longue.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Toutes les primes sont des estimations — vérifier les cours options réels sur votre broker avant d'entrer en position.footnote:[Estimations indicatives — primes calculées sur la base d'une IV implicite de ~18 % et d'un delta théorique Black-Scholes. Vérifier les cours réels avant exécution.]
+
+=== Trade #1 — Iron Condor sur QQQ (trade principal)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (4 jambes — vente strangle + achat wings)
+| *Sous-jacent* | QQQ (~715,70 $)
+| *Raisonnement* | Range $708–$720 depuis 5 sessions — VIX 16,34 modéré — delta-neutral adapté Niveau 4 — FOMC/CPI absorbés avant expiration (38 DTE)
+| *Expiration* | 17 octobre 2026 (38 DTE)
+| *Strike(s)* | Sell Put 680 $ / Buy Put 670 $ + Sell Call 750 $ / Buy Call 760 $
+| *Prime reçue* | ~3,00 $ net / contrat (~300 $) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~0 (delta-neutral)
+| *Theta/jour* | ~8 $/jour
+| *Breakeven(s)* | 677 $ (baisse) / 753 $ (hausse)
+| *Entrée* | QQQ entre 710–725 $ à l'ouverture
+| *Cible* | 50 % du crédit reçu (~150 $ profit)
+| *Stop-loss* | Débit > 2× crédit (>600 $) OU cassure MA50 en clôture
+| *Taille* | 3–5 % du portefeuille
+|===
+
+._Iron Condor QQQ Oct.17 — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ — Put680/670 + Call750/760 — P&L à expiration ($)"
+    x-axis ["660$", "670$", "677$", "685$", "715$", "745$", "753$", "760$", "770$"]
+    y-axis "P&L ($)" -750 --> 350
+    bar [-700, -700, 0, 300, 300, 300, 0, -700, -700]
+    line [-700, -700, 0, 300, 300, 300, 0, -700, -700]
+....
+
+NOTE: Profit maximum de 300 $ si QQQ expire entre 680 $ et 750 $ (zone de 70 $ de large, ±4,9 % du cours actuel). Perte maximale de 700 $ si QQQ dépasse les wings ($670 ou $760). Breakevens à $677 et $753. Le profit est acquis progressivement via le theta (~8 $/jour). La largeur de la zone de profit est calibrée pour absorber le mouvement lié au CPI (11/9) et au FOMC (16/9).
+
+=== Trade #2 — Cash-Secured Put sur SPY (theta OTM loin)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (CSP)
+| *Sous-jacent* | SPY (~765,41 $)
+| *Raisonnement* | Support MA200 S&P 500 à ~SPY 763 $ — strike OTM -6 % = marge de sécurité élevée — theta positif en attendant direction — si assigné : entrée à prix intéressant près du support LT
+| *Expiration* | 17 octobre 2026 (38 DTE)
+| *Strike(s)* | Put 720 $ (~-6 % OTM)
+| *Prime reçue* | ~2,80 $ / contrat (~280 $) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~-0,15
+| *Theta/jour* | ~4 $/jour
+| *Breakeven(s)* | ~717,20 $ (si assigné)
+| *Entrée* | Si SPY > 760 $ (au-dessus MA200)
+| *Cible* | 50 % du crédit reçu (~140 $)
+| *Stop-loss* | Roll si SPY approche 735 $ (réduire le strike ou fermer)
+| *Taille* | 5–7 % du portefeuille (tenir le cash pour couverture)
+|===
+
+=== Trade #3 — Protective Put sur QQQ (assurance pré-FOMC)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Long Put OTM (hedge sur positions longues existantes)
+| *Sous-jacent* | QQQ (~715,70 $)
+| *Raisonnement* | Double événement binaire J-2 (CPI) + J-6 (FOMC) — asymétrie : coût de l'assurance (~280 $) << perte potentielle si hausse Fed +25 pb (-3 à -5 % QQQ = -$21 à -$35 par action)
+| *Expiration* | 19 septembre 2026 (10 DTE — lendemain FOMC)
+| *Strike(s)* | Put 690 $ (~-3,6 % OTM)
+| *Prime payée* | ~2,80–3,20 $ / contrat (estimé) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~-0,20
+| *Theta/jour* | N/A (position acheteuse — décroissance temporelle subie)
+| *Breakeven(s)* | ~687 $ à expiration
+| *Entrée* | Avant CPI du 11 sept. (urgence — gamma monte avant l'événement)
+| *Cible* | Vendre si QQQ monte > 730 $ (dévaluation de la prime) — ou conserver jusqu'à FOMC
+| *Stop-loss* | Pas de stop — assurance, laisser expirer si scénario haussier réalisé
+| *Taille* | 1–2 % du portefeuille (coût pure assurance)
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed (target range) | 3,50–3,75 % — statu quo depuis juillet (3 dissidents hawkish)
+| Prochain FOMC | 15–16 septembre 2026 (J-6) — probabilité hausse +25 pb : ~52–66 %
+| CPI dernier (juillet) | +3,4 % YoY — en ligne avec attentes mais au-dessus target 2 %
+| CPI août (prochain) | Publication 11 septembre 2026 (J-2) — *catalyseur décisionnel*
+| NFP août | +162 K emplois (vs. +56 K attendus — 3× les attentes)
+| Taux 10 ans US | 4,80 % — nouveau plus haut 52 semaines (depuis nov. 2023)
+| Pétrole Brent | 101,21 $/bbl (+3,36 %) — 1er passage à >100$ depuis juillet 2026
+| WTI | 96,05 $/bbl (+3,25 %)
+| Put/Call ratio | ~0,95 (dernière valeur connue — 1er septembre)
+| Fear & Greed | 39 — Fear (vs. 42 le 7 septembre — dégradation)
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 11 septembre 2026 | CPI août US (8h30 EST) | Élevé — *LE* catalyseur FOMC
+| 15–16 septembre 2026 | FOMC — décision Fed | Élevé — hausse ou pause ?
+| 17 septembre 2026 | Conférence de presse Warsh | Élevé — guideline Q4
+| En cours | Tensions militaires US-Iran | Élevé — pétrole, VIX
+| 17 octobre 2026 | Expiration options oct. | Modéré — pic volatilité possible
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême) — valeur du 9/9 : 39
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — 16,34 le 9/9/2026
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed — probabilité hausse 16/9 : ~52–66 %
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-09-2026[TheStreet — Market Today Sept. 9]
+| Actualité marché du jour : Dow, Russell 2000, Brent $101, yields 52-wk high
+
+| link:https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html[CNBC — CPI juillet 2026]
+| CPI juillet : +3,4 % YoY — données de référence
+
+| link:https://verifiedinvesting.com/blogs/us-economic-metrics/non-farm-payroll-august-2026[NFP août 2026 — Verified Investing]
+| NFP août : +162 K (vs. +56 K attendu)
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:hedging/protective-put.adoc[Protective Put — Assurer une position longue]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly — Stratégie delta-neutral en range]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Générer des revenus avec les puts vendus]
+* xref:market-analysis:market-analysis-2026-09-07.adoc[Analyse du 7 sept. 2026 — Niveau 4 Prudence (précédente)]
