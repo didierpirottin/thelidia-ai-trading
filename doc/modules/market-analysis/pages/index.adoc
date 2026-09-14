@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-09-14.adoc[14 septembre 2026]
+| Niveau 4/6 — PRUDENCE
+| Haussière LT / Fragilisée CT
+| QQQ $714.88 — VIX 17.62 +11 % — FOMC 85 % hike 16/9 — pétrole $106 — choc AI safety Amodei/Altman
+
 | xref:market-analysis:market-analysis-2026-09-10.adoc[10 septembre 2026]
 | Niveau 5/6 — COUVERTURE
 | Baissière CT / Haussière LT affaiblie

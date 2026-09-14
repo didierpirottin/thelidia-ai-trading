@@ -1,0 +1,268 @@
+= Analyse de Marché — 14 septembre 2026
+:description: QQQ $714.88 — VIX 17.62 +11 % — FOMC hike 85 % le 16/9 — pétrole $106 — Amodei/Altman AI safety choc — Baromètre Niveau 4 Prudence
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $714.88 (~−2,1 % / 1 mois)
+| $760.88 (−0,45 % séance)
+| 17.62 — tension (+11 % intraday)
+| 43 — Neutral (11/9)
+| Contact (~$713)
+| *Niveau 4/6 — PRUDENCE*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 4/6 — PRUDENCE : FOMC hawkish en 48 h, QQQ teste MA50, oil $106, taux 10 ans ~5 %_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 14 septembre 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 1, 0, 0]
+....
+
+NOTE: Le marché est en mode PRUDENCE pour la troisième semaine consécutive. Le FOMC se réunit les 15–16 septembre avec 85 % de probabilité implicite d'une hausse de taux de +25 bp — la première depuis la pause de juillet. Le QQQ teste sa MA50 ($713) intraday pour la première fois en trois semaines, fragilisé par le double choc IA (essai Amodei/Altman sur la sécurité) et le pétrole ($106 Brent, Ormuz). Pas de capitulation (VIX < 20, F&G 43), pas de signal d'achat : stratégies theta et couvertures prioritaires.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Lundi 14 septembre 2026 : les trois indices américains ferment dans le rouge sous l'effet d'un triple choc simultané. Premièrement, le PDG d'Anthropic, Dario Amodei, publie un essai demandant à l'industrie de ralentir le développement des modèles frontier pour des raisons de sécurité. Sam Altman (OpenAI) soutient publiquement cette position et annonce le report de l'IPO d'OpenAI prévue en 2026. Cette narrative change frappe directement les semi-conducteurs liés à l'IA : NVDA, AMD et Micron plongent respectivement de 5 à 6 %. Deuxièmement, le pétrole Brent franchit $106 (+3 % intraday, +9 % la semaine précédente), dopé par des attaques sur le trafic maritime dans le détroit d'Ormuz et la fermeture temporaire du pipeline saoudien East-West. Troisièmement, le taux 10 ans américain touche ~5 %, son niveau le plus élevé depuis 2023, aggravant la compression des multiples sur le Nasdaq. Le tout intervient à 48 heures du FOMC (16 septembre), avec 85 % de probabilité de hausse implicite après un CPI août chaud (+3,4 % YoY, +0,4 % MoM) publié le 11 septembre.
+
+=== Pourquoi (causes profondes)
+
+La Fed se retrouve acculée par la convergence de deux chocs inflationnistes : la résurgence des prix pétroliers (géopolitique Ormuz) et une inflation core qui reste sticky à +2,4 % YoY, au-dessus du target 2 %. Le NFP août (+162 K vs 56 K attendu), publié le 4 septembre, a levé le doute sur le ralentissement économique et balisé la voie pour la hausse. Le marché obligataire avait déjà anticipé cela : le taux 10 ans dépasse 5 %, niveau qui comprime mécaniquement les P/E des valeurs de croissance et du Nasdaq. Sur le plan des flux, le put/call equity reste près de la neutralité (pas de panique), mais les secteurs défensifs surperforment : l'énergie bénéficie directement du spike pétrolier. Le risque structurel majeur reste la concentration : les Magnificent 7 représentent une fraction très élevée du Nasdaq, et toute pression sur la narrative IA se répercute amplement sur QQQ.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $714.88 | Day range $713.63–$717.63
+| MA50 QQQ | ~$713 | Contact — légèrement au-dessus (fragile)
+| MA200 QQQ | ~$648 | Au-dessus — tendance LT haussière intacte
+| Support clé | $700 | Zone psychologique + approche MA200
+| Support 2 | $677 | Breakeven iron condor / zone technique
+| Résistance clé | $746 | Plus-haut récent août 2026
+| RSI QQQ | ~40 (est.) | Neutre-faible — pas survendu
+| Nasdaq Composite RSI | 28.4 | Survendu sur composite — rebond possible
+| S&P 500 | 7 634 | Sous MA50 (7 686) — légèrement en-dessous
+| VIX | 17.62 | +11,24 % — tension montante
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 35 %
+
+*Conditions nécessaires* : FOMC +25 bp déjà pricé sans surprise hawkish additionnelle dans le dot plot ; QQQ reclaim MA50 ($713) en clôture cette semaine ; Brent repasse sous $100 (accord diplomatique Ormuz ou désescalade).
+
+*Cibles* : QQQ $746 (résistance août), SPY $785.
+
+*Catalyseurs* : Pause de la Fed confirmée après le hike de septembre ; résultats Mag7 Q3 solides en octobre (Apple, Microsoft, Alphabet, Meta) ; détente géopolitique Ormuz → reflux pétrolier.
+
+=== Scénario baissier — Probabilité 65 %
+
+*Conditions de déclenchement* : FOMC hawkish avec dot plot signalant deux hausses supplémentaires ; Brent dépasse $110 → CPI septembre encore plus chaud ; QQQ casse sous $700 en clôture hebdomadaire.
+
+*Supports critiques* : QQQ $700 (zone psychologique + MA200 en approche progressive), QQQ $648 (MA200 actuelle).
+
+*Risques de queue* : Escalade Ormuz avec pétrole à $120+, déclenchant une récession stagflationniste ; vote au Congrès d'une régulation IA suite à l'appel Amodei/Altman → headwind structurel sur le secteur tech.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel. Vérifier les cours réels et les primes disponibles avant d'entrer en position.
+
+=== Trade #1 — Iron Condor sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor (stratégie theta / range-bound)
+| *Sous-jacent* | QQQ (~$714.88 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | IV élevée (VIX +11 %) = prime vendeuse attractive ; QQQ probablement range $677–$748 post-FOMC ; IV crush prévu après décision du 16/9 ; stratégie delta-neutre adaptée au Niveau 4
+| *Expiration* | 3 octobre 2026 (~19 DTE — capture l'IV crush post-FOMC)
+| *Strike(s)* | Vente Put $680 / Achat Put $670 + Vente Call $745 / Achat Call $755
+| *Prime reçue* | ~$3.00 / action (~$300 / contrat) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~+0.02 (quasi-neutre)
+| *Theta/jour* | ~+$15–18 / jour / contrat
+| *Breakeven(s)* | $677 (côté baisse) / $748 (côté hausse)
+| *Entrée* | Lundi 15/9 avant FOMC — IV encore élevée
+| *Cible* | 50 % du crédit reçu (~$150 / contrat) à J+10–12
+| *Stop-loss* | Racheter si débit > 2× crédit initial ($600 perte max)
+| *Taille* | 3–5 % du portefeuille (risque max $700 / contrat)
+|===
+
+._Iron Condor QQQ — P&L estimé à expiration (par contrat)_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor QQQ Oct 3 — P&L estimé (par contrat)"
+    x-axis ["660$", "670$", "677$", "680$", "715$", "745$", "748$", "755$", "770$"]
+    y-axis "P&L ($)" -800 --> 450
+    bar [-700, -700, 0, 300, 300, 300, 0, -700, -700]
+    line [-700, -700, 0, 300, 300, 300, 0, -700, -700]
+....
+
+NOTE: Profit maximum de $300/contrat entre $677 et $748. Perte maximale de $700/contrat si QQQ sort des strikes extrêmes ($670 ou $755). Breakeven en bas à $677 (=$680 − $3 crédit), en haut à $748 (=$745 + $3 crédit). La zone de profit couvre un range de $71 (environ ±5 % autour du cours actuel) — confortable pour une expiration de 19 jours post-FOMC.
+
+=== Trade #2 — Cash-Secured Put sur SPY
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put (CSP) loin OTM — stratégie theta pure
+| *Sous-jacent* | SPY (~$760.88 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | SPY au-dessus de MA200 → tendance LT intacte ; strike $720 = 5,4 % OTM → marge de sécurité large ; si assigné, prix d'achat SPY attractif avec buffer de récession
+| *Expiration* | 17 octobre 2026 (~33 DTE)
+| *Strike(s)* | Put $720 (5,4 % OTM)
+| *Prime reçue* | ~$2.00 / action (~$200 / contrat) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0.12
+| *Theta/jour* | ~+$5 / jour / contrat
+| *Breakeven(s)* | $718.00
+| *Entrée* | Ordre limite à la prime indiquée — cette semaine
+| *Cible* | 50 % du crédit reçu (~$100 / contrat) à J+15–20
+| *Stop-loss* | Racheter si SPY clôt sous $720 sur 2 séances consécutives
+| *Taille* | 5 % du portefeuille (collatéral requis ~$72 000 / contrat)
+|===
+
+=== Trade #3 — Bear Put Spread sur QQQ (directionnel CT)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bear Put Spread — directionnel baissier court terme
+| *Sous-jacent* | QQQ (~$714.88 footnote:[Estimation — vérifier les cours réels avant d'entrer en position.])
+| *Raisonnement* | FOMC hawkish probable → pression baissière post-annonce mercredi ; cassure de MA50 en cours → cible $700 ; R/R ~3:1 avec coût limité
+| *Expiration* | 26 septembre 2026 (~12 DTE)
+| *Strike(s)* | Achat Put $710 / Vente Put $700
+| *Prime payée* | ~$2.50 / action (~$250 / contrat) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0.35
+| *Theta/jour* | ~−$10 / jour (coût du temps à surveiller)
+| *Breakeven(s)* | $707.50
+| *Entrée* | Si QQQ < $715 en clôture lundi 15/9 avant FOMC
+| *Cible* | 80 % de la valeur max (~$560 sur $750 max) si QQQ < $700
+| *Stop-loss* | Si QQQ reclaim $720 sur 2 clôtures consécutives
+| *Taille* | 1–2 % du portefeuille (position de hedging limitée)
+|===
+
+=== Trade #4 — Collar sur positions tech longues existantes
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Collar (protection Put + financement Call vendu)
+| *Sous-jacent* | QQQ ou action tech longue existante (~$714.88)
+| *Raisonnement* | FOMC + pétrole $106 = risque asymétrique à la baisse ; protège les gains sans sortir de position ; Call vendu finance partiellement la protection
+| *Expiration* | 17 octobre 2026 (~33 DTE)
+| *Strike(s)* | Achat Put $695 (~$7–9 débit) / Vente Call $742 (~$4–6 crédit)
+| *Prime nette* | ~$3–4 débit / action (coût de protection) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0.15 (légère orientation défensive)
+| *Breakeven(s)* | Protection totale sous $695 — gain plafonné à $742
+| *Entrée* | Avant FOMC du 16/9 — urgence élevée si position longue exposée
+| *Cible* | Laisser expirer si marché range — rouler si QQQ < $695
+| *Stop-loss* | N/A — structure de protection intégrale
+| *Taille* | 100 % de la position existante à protéger
+|===
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | ~5,25–5,50 % — hausse de +25 bp attendue le 16 septembre
+| Prochain FOMC | 15–16 septembre 2026 — 85 % probabilité de hausse — dot plot crucial
+| CPI août 2026 | +3,4 % YoY / +0,4 % MoM — au-dessus des attentes (gas +3,9 %)
+| Core CPI août | +2,4 % YoY / +0,3 % MoM — légèrement au-dessus des estimations
+| NFP août 2026 | +162 K (vs 56 K attendu) — surprise haussière massive — libéré le 4/9
+| Taux 10 ans | ~5,00 % — plus haut depuis 2023 — compression multiples Nasdaq
+| Brent crude | ~$106 (+3 % intraday, +9 % la semaine précédente)
+| Put/Call ratio | Neutre (AMD 1:1, USO 1:1.3, PLTR 2.4:1 côté bull)
+| Nasdaq Composite RSI | 28.4 — survendu sur le composite
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 15–16 sept. 2026 | FOMC — décision taux + dot plot Fed (statement 16/9 14h ET) | Élevé
+| 16 sept. 2026 | Conférence de presse Fed Chair Warsh (14h30 ET) | Élevé
+| ~14 oct. 2026 | CPI septembre 2026 (BLS) — données inflation septembre | Élevé
+| Oct–Nov 2026 | Résultats Mag7 Q3 : AAPL, MSFT, GOOGL, META, AMZN | Élevé
+| ~28 oct. 2026 | FOMC suivant — possible 2e hike si CPI sept. chaud | Élevé
+| Continu | Situation Ormuz / Saudi pipeline — prix pétrole Brent | Modéré–Élevé
+| ~25 sept. 2026 | Micron résultats Q4 FY2026 | Modéré
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — données et futures
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-14-133832281.html[Yahoo Finance — Stock Market Today 14/9/2026]
+| Récit de séance du 14 septembre 2026 (AI safety + oil + yields)
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-14-2026[TheStreet — Market Today 14/9]
+| Nasdaq, S&P 500 et taux 10 ans — contexte du 14 sept.
+
+| link:https://www.bls.gov/news.release/cpi.nr0.htm[BLS CPI Summary — Août 2026]
+| Rapport officiel CPI août 2026
+
+| link:https://www.federalreserve.gov/monetarypolicy/fomcminutes20260729.htm[FOMC Minutes juillet 2026]
+| Minutes de la dernière réunion FOMC (référence hawkish)
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly — Stratégie range-bound theta pure]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Cash-Secured Put et Covered Call]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Couverture directionnelle baissière]
+* xref:ROOT:hedging/collar.adoc[Collar — Protéger une position longue existante]
