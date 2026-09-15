@@ -1,0 +1,287 @@
+= Analyse de Marché — 15 septembre 2026
+:description: QQQ $705 sous MA50/MA200, FOMC hike demain, taux 10 ans 5 % record 2007 — Niveau 5 Couverture
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $705.30 (~+15 % YTD)
+| $760.88 (~+10,5 % YTD)
+| 16.34 — calme (trompeur)
+| 29 — Fear
+| En-dessous ($714.87)
+| *Niveau 5/6 — COUVERTURE*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 5/6 — COUVERTURE : double cassure MA50 + MA200, FOMC hike demain, taux 10 ans à 5 %_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 15 sept. 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0, 0, 0, 0, 1, 0]
+....
+
+NOTE: QQQ a cassé sous la MA50 ($714.87) *et* la MA200 ($717.19) simultanément — double cassure rarement vue sans suivi baissier. Le FOMC annonce sa décision demain 16 septembre avec une hausse de +25 bps attendue, la première depuis 2023. Le taux 10 ans à 5,02 % (sommet depuis juillet 2007) comprime mécaniquement les multiples des valeurs de croissance tech. VIX anormalement bas à 16.34 malgré ce contexte : signe de complaisance, potentiel spike violent si le dot plot surprend à la hausse.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+* *QQQ* : $705.30 — 1 sem ~-1,8 % / 1 mois ~-3,2 % / YTD ~+15 %
+* *SPY* : $760.88 — 1 sem ~-1,5 % / 1 mois ~-2,5 % / YTD ~+10,5 %
+* *Double cassure QQQ* : passage sous MA50 ($714.87) et MA200 ($717.19) le même jour
+* *Taux 10 ans* : 5,02 % — sommet depuis juillet 2007, bond sell-off intensifié
+* *FOMC 15-16 sept.* : décision demain — hausse +25 bps attendue (1ère depuis 2023)
+* *CPI août 2026* : +3,4 % YoY (+0,4 % mensuel) — en ligne avec attentes
+* *Core CPI août* : +2,4 % YoY — supérieur au target Fed de 2 %
+* *Secteur moteur* : XLE +43 % YTD — énergie portée par tensions géopolitiques (Iran)
+* *Secteur retardataire* : XLK -0,73 % séance — tech sous forte pression des taux
+* *Dow Jones* : -0,63 % séance à 52 093 pts — selloff généralisé
+
+=== Pourquoi (causes profondes)
+
+* *Fed* : taux ~3,55 % — hausse attendue à 3,80 % — prochain FOMC *16 sept. 2026*
+* *Fed Chair* : Kevin Warsh (hawkish) — a succédé à Jerome Powell en 2026
+* *Inflation* : CPI +3,4 % YoY — en ligne attentes mais toujours au-dessus du target 2 %
+* *Emploi* : NFP août +162 K — marché de l'emploi résistant = signal hawkish pour la Fed
+* *Sentiment* : put/call ratio 0,95 (données 1er sept.) — Fear & Greed 29 (Fear)
+* *Risque 1* : Taux 10 ans à 5 %+ → compression multiples croissance/tech (PE se contracte)
+* *Risque 2* : Dot plot FOMC potentiellement plus hawkish que prévu (+1 hike supplémentaire fin 2026)
+* *Risque 3* : Iran — tensions géopolitiques persistantes → pétrole élevé → inflation structure
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $705.30 | —
+| MA50 QQQ | $714.87 | *En-dessous* — cassure baissière confirmée
+| MA200 QQQ | $717.19 | *En-dessous* — double cassure critique
+| MA20 QQQ | ~$708 | En-dessous — tendance baissière CT
+| Support clé | ~$695 | Zone de consolidation / gap technique
+| Résistance clé | $714.87 | MA50 — obstacle à tout rebond significatif
+| RSI (14j) | ~38 | Approche oversold — pas encore extrême
+|===
+
+Structure : *Lower highs / Lower lows* depuis fin août 2026 — tendance baissière court terme établie.
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 30 %
+
+*Conditions nécessaires* : Fed pause surprise (pas de hausse) ou dot plot dovish; taux 10 ans repasse sous 4,70 %; QQQ recasse au-dessus de MA50 en clôture hebdomadaire.
+
+*Cibles* : QQQ $730, SPY $790.
+
+*Catalyseurs* : pause Fed surprise demain, CPI septembre en baisse accélérée, résultats Mag7 solides en octobre.
+
+=== Scénario baissier — Probabilité 70 %
+
+*Conditions de déclenchement* : FOMC hausse +25 bps + dot plot hawkish (2 hikes encore attendus en 2026); taux 10 ans dépasse 5,25 %; QQQ clôture sous $695.
+
+*Supports critiques* : QQQ $695 (support technique consolidation), QQQ $670 (zone MA200 longue durée).
+
+*Risques de queue* : escalade géopolitique Iran → spike VIX brutal au-dessus de 30; récession surprise si taux à 5 %+ écrasent l'emploi en Q4.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel.
+
+=== Trade #1 — Bear Put Spread sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bear Put Spread (débit)
+| *Sous-jacent* | QQQ (~$705.30) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Raisonnement* | QQQ sous MA50 ET MA200 → tendance baissière CT confirmée. FOMC demain avec risque event asymétrique à la baisse. Taux 10 ans 5 %+ = pression structurelle tech. Spread limité en risque vs achat de put sec.
+| *Expiration* | 17 octobre 2026 (32 DTE)
+| *Strike(s)* | Acheter Put $700 / Vendre Put $675
+| *Prime payée* | ~$6.50 net (~$650 / contrat) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~-0,30
+| *Theta/jour* | ~+$0.50 (net légèrement positif — la jambe vendue aide)
+| *Breakeven* | $700 - $6.50 = *$693.50*
+| *Entrée* | Clôture QQQ sous $705 — idéalement après annonce FOMC si baissier
+| *Cible* | 60–70 % du gain max (~$11 / contrat)
+| *Stop-loss* | Perte totale du débit ($650 max) — risque défini dès l'entrée
+| *Taille* | 3–5 % du portefeuille
+|===
+
+._Bear Put Spread QQQ 700/675 — P&L estimé à expiration ($ par action)_
+[mermaid]
+....
+xychart-beta
+    title "Bear Put Spread QQQ 700/675 — P&L ($/action à expiration)"
+    x-axis ["$730", "$720", "$710", "$700", "$694", "$685", "$675", "$660"]
+    y-axis "P&L ($/action)" -10 --> 22
+    bar [-6.5, -6.5, -6.5, -6.5, 0, 8.5, 18.5, 18.5]
+    line [-6.5, -6.5, -6.5, -6.5, 0, 8.5, 18.5, 18.5]
+....
+
+NOTE: Perte max = -$6.50/action (-$650/contrat) si QQQ > $700 à expiration. Gain max = +$18.50/action (+$1 850/contrat) si QQQ < $675. Breakeven exact à $693.50.
+
+=== Trade #2 — Collar sur AAPL (protection position existante)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Collar (achat Put + vente Call sur position longue)
+| *Sous-jacent* | AAPL (~$235) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Raisonnement* | Protéger une position tech core à coût quasi nul. Baromètre 5 = protection obligatoire sur les longs tech. La vente du Call finance le Put — stratégie défensive sans sacrifier de cash.
+| *Expiration* | 21 novembre 2026 (67 DTE)
+| *Strike(s)* | Acheter Put $220 / Vendre Call $255
+| *Prime nette* | ~-$1 à +$1 (collar quasi-costless) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~0 (position partiellement neutralisée)
+| *Breakeven* | Cours actuel AAPL (~$235)
+| *Entrée* | Au marché sur position AAPL existante
+| *Cible* | Protection active jusqu'au passage du FOMC et à la clarification de la tendance
+| *Stop-loss* | N/A — protection automatique par le Put $220
+| *Taille* | 100 % des actions AAPL détenues (couverture intégrale)
+|===
+
+=== Trade #3 — Long Call VIX $22 (couverture volatilité FOMC)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Achat de Call VIX (couverture asymétrique)
+| *Sous-jacent* | VIX (~16.34) — anormalement bas avant un FOMC à risque hawkish
+| *Raisonnement* | VIX à 16 avant FOMC avec hausse + dot plot hawkish possible = complaisance. Achat de volatilité à bas prix. Couverture asymétrique : prime faible ($175), gain potentiel élevé si spike. VIX était à 20,66 lors du FOMC de juillet.
+| *Expiration* | 15 octobre 2026 (contrat futures VIX Oct)
+| *Strike(s)* | Call VIX $22 (OTM)
+| *Prime payée* | ~$1.75 (~$175 / contrat) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta* | ~+0,25
+| *Breakeven* | VIX > $23.75 à expiration
+| *Entrée* | Avant clôture aujourd'hui (avant annonce FOMC demain)
+| *Cible* | VIX > $25 → vendre (+50–100 % de la prime)
+| *Stop-loss* | Perte totale de la prime ($175 max — risque limité et accepté)
+| *Taille* | 1–2 % du portefeuille (assurance pure — coût minimal)
+|===
+
+=== Trade #4 — Bear Put Spread sur SPY (hedge indice large)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bear Put Spread (débit)
+| *Sous-jacent* | SPY (~$760.88) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Raisonnement* | Diversification du hedge sur l'indice large en complément du Trade #1. SPY corrélé avec le risque FOMC. Taux 10 ans 5 %+ pèse sur l'ensemble du marché, pas seulement le Nasdaq.
+| *Expiration* | 17 octobre 2026 (32 DTE)
+| *Strike(s)* | Acheter Put $755 / Vendre Put $730
+| *Prime payée* | ~$6 net (~$600 / contrat) footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~-0,28
+| *Breakeven* | $755 - $6 = *$749*
+| *Entrée* | Si SPY clôture sous $760
+| *Cible* | 50–60 % du gain max
+| *Stop-loss* | Perte totale du débit ($600 max)
+| *Taille* | 3–4 % du portefeuille
+|===
+
+'''
+
+== Signal Congrès — Achats récents (30 derniers jours)
+
+WARNING: Capitol Trades et Quiver Quantitative inaccessibles depuis l'environnement d'exécution (proxy réseau bloqué). Données issues des résultats WebSearch uniquement — non vérifiées en temps réel.
+
+* *NVDA* | Multiples élus | Août–Sept 2026 | IA — signal "monopole inévitable"
+* *AMD* | Multiples élus | Août–Sept 2026 | Semi-conducteurs IA — achats liés aux thèses NVDA
+* *LMT / RTX (Défense)* | Plusieurs élus | Août–Sept 2026 | Escalade Iran → demande défense forte
+
+NOTE: *Baromètre niveau 5 → signaux haussiers du Congrès ignorés.* Le contexte de marché prime sur les signaux d'achat des élus. Ces tickers restent en observation uniquement.
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | ~3,55 % — hausse attendue à 3,80 % demain (FOMC 16 sept.)
+| Prochain FOMC | 16 septembre 2026 — décision 14h00 ET + conférence Warsh 14h30 ET
+| CPI août 2026 | +3,4 % YoY — en ligne attentes — core +2,4 %
+| NFP août 2026 | +162 K emplois — signal hawkish (marché de l'emploi résistant)
+| Taux 10 ans | 5,02 % — sommet depuis juillet 2007
+| Put/Call ratio | 0,95 (données 1er sept.) — légèrement élevé, pas extrême
+| Fed Chair | Kevin Warsh — posture hawkish, premier mandat actif
+| VIX | 16.34 — calme mais sous-évalué par rapport au risque réel
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 16 sept. 2026 | Décision FOMC — annonce 14h00 ET + conférence Warsh | Élevé
+| 16 sept. 2026 | Publication dot plot Fed (projections taux fin 2026–2027) | Élevé
+| 11 oct. 2026 | Début saison résultats Q3 — banques (JPM, GS, WFC) | Modéré
+| Mi-oct. 2026 | Résultats Mag7 (GOOGL, MSFT, META, AAPL, AMZN, TSLA) | Élevé
+| Nov. 2026 | Résultats NVDA (calendrier fiscal décalé — généralement nov.) | Élevé
+| Oct. 2026 | Prochaine réunion FOMC (date exacte à confirmer) | Modéré–Élevé
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Indicateur de sentiment de marché (0 = Peur extrême, 100 = Avidité extrême)
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| Indice de volatilité officiel — données et futures VIX
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités de décision Fed implicites dans les futures sur fonds fédéraux
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| Cours en temps réel, historique, options QQQ
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel et historique
+
+| link:https://www.kiplinger.com/investing/live/fed-meeting-updates-and-commentary-september-2026[Kiplinger — FOMC Sept. 2026]
+| Mises à jour en direct de la réunion Fed de septembre 2026
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-14-2026[TheStreet — Marchés 14 sept. 2026]
+| Analyse des marchés — séance du 14–15 septembre 2026
+
+| link:https://fred.stlouisfed.org/series/DGS10[FRED — Taux 10 ans]
+| Données officielles Fed St. Louis — rendement 10 ans quotidien
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Protection directionnelle baissière]
+* xref:ROOT:hedging/collar.adoc[Collar — Protection d'une position longue existante]
+* xref:ROOT:hedging/protective-put.adoc[Protective Put — Couverture simple d'une position]
