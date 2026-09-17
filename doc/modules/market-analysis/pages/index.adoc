@@ -14,6 +14,11 @@ TIP: Pour lire la logique des stratégies utilisées dans ces analyses, consulte
 |===
 | Date | Baromètre | Tendance | Résumé
 
+| xref:market-analysis:market-analysis-2026-09-17.adoc[17 septembre 2026]
+| Niveau 4/6 — PRUDENCE
+| Haussière LT / Neutre CT
+| QQQ ~$711 au contact MA50 — Fed hike +25pb 3,75-4 % — NFP +162K — rebond post-FOMC +1,73 %
+
 | xref:market-analysis:market-analysis-2026-09-16.adoc[16 septembre 2026]
 | Niveau 5/6 — COUVERTURE
 | Baissière CT / Haussière LT dégradée
