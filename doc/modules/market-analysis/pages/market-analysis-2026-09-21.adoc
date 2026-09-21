@@ -1,0 +1,284 @@
+= Analyse de Marché — 21 septembre 2026
+:description: QQQ $741 (+2,5 %) — VIX 14,82 — Fed hike +25bp (3,75–4,00 %) — rally chip stocks / reflux pétrole — Baromètre Niveau 3 Consolidation
+
+xref:market-analysis:index.adoc[← Retour aux Analyses de Marché]
+
+[cols="1,1,1,1,1,1"]
+|===
+| QQQ | SPY | VIX | Fear & Greed | MA50 QQQ | Baromètre
+
+| $741.11 (+2,5 % séance)
+| $761.69 (~+1,5 % séance)
+| 14,82 — calme (−4,02 %)
+| 29 — Fear
+| Au-dessus ($713.40)
+| *Niveau 3/6 — CONSOLIDATION*
+|===
+
+'''
+
+== Baromètre du marché
+
+._Niveau 3/6 — CONSOLIDATION : rally post-hike sur structure haussière, mais RSI proche overbought et Fed hawkish_
+[mermaid]
+....
+xychart-beta
+    title "Baromètre — 21 septembre 2026"
+    x-axis ["1 Opport.", "2 Buy Dip", "3 Consol.", "4 Prudence", "5 Couvert.", "6 Danger"]
+    y-axis "Actif" 0 --> 1
+    bar [0,0,1,0,0,0]
+....
+
+NOTE: La Fed a relevé ses taux de 25 bp le 16 septembre 2026 (3,75–4,00 %), sa première hausse en trois ans. Le marché absorbe ce choc et rebondit fortement ce lundi grâce au reflux du pétrole (Brent < 100 $) et à un rally des semi-conducteurs. La structure technique de QQQ reste haussière (au-dessus MA50 et MA200), mais le RSI du Nasdaq approche 70 et QQQ bute contre la résistance $745. Un second hike avant fin d'année reste possible selon le dot plot. Le niveau 3 — Consolidation s'impose : renforcement sélectif, strategies theta et spreads, pas d'exposition directionnelle agressive.
+
+'''
+
+== Analyse de l'évolution récente
+
+=== Ce qui s'est passé (faits)
+
+Le Nasdaq a enregistré sa meilleure journée depuis début août ce lundi 21 septembre 2026, avec le QQQ en hausse de 2,5 % à $741.11 et le SPY progressant d'environ 1,5 % à $761.69. Ce rebond intervient cinq jours après la décision de la Réserve fédérale de relever son taux directeur de 25 points de base le 16 septembre, portant la fourchette des fed funds à 3,75–4,00 %. La semaine dernière avait vu les indices subir le contrecoup de cette surprise hawkish — premier hike en trois ans — avant que plusieurs catalyseurs positifs n'enclenchent la reprise ce matin.
+
+Les facteurs moteurs du rebond sont : (1) le Brent tombé sous 100 $ pour la quatrième session consécutive, allégeant les craintes inflationnistes liées à la crise iranienne ; (2) un rally généralisé des semi-conducteurs (Intel +5,76 % après l'annonce d'un partenariat, NVDA +1,37 % à $225.31) ; (3) les rendements du T-Note 10 ans qui repassent sous 5 % ; (4) l'optimisme autour du sommet Trump–Xi programmé à Washington cette semaine, porteur d'espoir sur les tarifs et les échanges IA.
+
+Sur le secteur, les semi-conducteurs et la tech IA sont les leaders nets. L'énergie est à la traîne sur la pression exercée par la baisse du brut. Novo Nordisk (NVO) chute −8 % après une présentation stratégique jugée décevante.
+
+=== Pourquoi (causes profondes)
+
+La décision de la Fed du 16 septembre constitue le pivot macro majeur du mois. Après trois ans de statu quo, Kevin Warsh a conduit le FOMC à voter 12–0 en faveur d'un hike de 25 bp. Le dot plot médian de fin 2026 est désormais à 4,1 %, ce qui implique un second relèvement avant décembre — un scénario activement discuté par le marché. Le prochain FOMC est programmé les 27–28 octobre.
+
+Sur l'inflation, le CPI de septembre est attendu à environ 3,0 % en glissement annuel, nettement au-dessus de la cible de 2 %. Le reflux des prix du pétrole (Brent passé de $106 le 14 sept. à < $100 aujourd'hui) est le soulagement attendu par les opérateurs, mais l'inflation structurelle reste un enjeu. Le NFP d'août a surpris à la hausse (+162 K, trois fois les attentes), ce qui a conforté la Fed dans son choix de hiker. Le prochain NFP est attendu le 2 octobre.
+
+Le sentiment des investisseurs individuels (AAII) montre un pessimisme record depuis 16 mois : bearish à 53,3 % (vs. moyenne 31,5 %), bullish à 28,8 %. Historiquement, une telle lecture constitue un signal contrarian haussier à moyen terme. Le put/call ratio à 0,81 suggère néanmoins que les options traders restent positionnés côté acheteur. Le Fear & Greed à 29 (Fear) confirme un sentiment deprimé — autre signal contrarian.
+
+Les principaux risques structurels sont : (1) la concentration du Nasdaq sur quelques méga-caps IA ; (2) le possible second hike en octobre ou décembre comprimant encore les multiples de valorisation ; (3) la résurgence du risque géopolitique Iran si le conflit reprend.
+
+=== Signaux techniques clés
+
+[cols="1,1,1"]
+|===
+| Indicateur | Valeur | Signal
+
+| QQQ cours | $741.11 | Rebond +2,5 % — proche résistance
+| MA50 QQQ | $713.40 | Au-dessus (+3,9 %) — haussier
+| MA200 QQQ | $681.20 | Au-dessus (+8,8 %) — haussier LT
+| Support clé | $713 | MA50 — niveau pivot testé tout septembre
+| Résistance clé | $745 | Ancien ATH / zone technique critique
+| RSI Nasdaq 100 | ~68,5 | Proche surachat (seuil 70) — vigilance
+| SPY | $761.69 | Au niveau MA50 ($762) / sous MA200 ($769)
+|===
+
+'''
+
+== Perspectives à 4–8 semaines
+
+=== Scénario haussier — Probabilité 55 %
+
+*Conditions nécessaires* : QQQ franchit et tient $745 en clôture hebdomadaire ; accord Trump–Xi réduit les tensions tarifaires ; Fed tient un discours de pause lors du FOMC du 27–28 octobre.
+
+*Cibles* : QQQ $765, SPY $785.
+
+*Catalyseurs* : FOMC oct. sans nouveau hike (pause confirmée) ; CPI octobre du 13 oct. sous 3 % (surprise désinflationniste) ; Mag7 earnings oct. 29–30 (MSFT, META, GOOGL, AAPL, AMZN) > attentes, guidances IA solides ; NVDA Q3 le 19 nov. en ligne avec la tendance IA.
+
+=== Scénario baissier — Probabilité 45 %
+
+*Conditions de déclenchement* : FOMC oct. 27–28 signale un deuxième hike (2ème choc hawkish en 6 semaines) ; CPI oct. du 13 oct. > 3,3 % (surprise inflationniste) ; guidance Mag7 décevante (pression sur marges) ; reprise escalade Iran.
+
+*Supports critiques* : QQQ $713 (MA50 — retour niveau pré-hike) ; QQQ $681 (MA200 — ligne de défense long terme).
+
+*Risques de queue* : reprise du conflit Iran → VIX spike + pétrole > $105 ; NFP oct. du 2 oct. négatif → crainte récession ; cassure QQQ < $700 → capitulation potentielle.
+
+'''
+
+== Recommandations de trades
+
+NOTE: Ces recommandations sont à visée éducative. Adapter la taille des positions à votre tolérance au risque et à votre portefeuille réel.
+
+=== Trade #1 — Covered Call sur QQQ
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Covered Call (sur position QQQ existante)
+| *Sous-jacent* | QQQ (~$741)
+| *Raisonnement* | QQQ bute contre la résistance $745 (ancien ATH). VIX 14,82 : IV faible mais prime near-ATM intéressante. Risque de re-correction si FOMC oct. signale 2ème hike. Stratégie adaptée au niveau 3 : encaisser une prime en range.
+| *Expiration* | 17 octobre 2026 (~26 DTE)
+| *Strike* | $745 Call (OTM +0,5 %)
+| *Prime reçue* | ~$5.50 / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0.35 (sur le call vendu)
+| *Theta/jour* | ~+$0.21/jour
+| *Breakeven* | $735.50 (downside position longue)
+| *Entrée* | QQQ entre $739 et $743 en séance
+| *Cible* | Rachat call à 50 % du crédit (~$2.75)
+| *Stop-loss* | QQQ clôture > $750 → racheter le call
+| *Taille* | 100 % des actions QQQ détenues (couverture naturelle)
+|===
+
+=== Trade #2 — Bull Call Spread sur NVDA (pré-earnings)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Bull Call Spread
+| *Sous-jacent* | NVDA (~$225)
+| *Raisonnement* | NVDA leader des chip stocks ce matin (+1,37 %). Momentum IA intact. Résultats Q3 FY2027 le 19 novembre — catalyseur majeur. Spread limite le risque vs. long call pur — adapté au niveau 3.
+| *Expiration* | 21 novembre 2026 (~61 DTE, post-earnings)
+| *Strike(s)* | Buy $230 Call / Sell $250 Call
+| *Prime payée* | ~$5.50 / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~+0.35
+| *Theta/jour* | nd (spread débiteur)
+| *Breakeven* | $235.50 à expiration
+| *Entrée* | NVDA > $224 en clôture
+| *Cible* | 70 % du max profit (~$10 / contrat) — clôture partielle avant earnings
+| *Stop-loss* | NVDA clôture < $215 — ou débit > 2× la mise initiale
+| *Taille* | 2–3 % du portefeuille
+|===
+
+._Bull Call Spread NVDA $230/$250 — P&L estimé à expiration_
+[mermaid]
+....
+xychart-beta
+    title "Bull Call Spread NVDA $230/$250 — P&L estimé (par contrat)"
+    x-axis ["210", "215", "220", "225", "230", "235.50", "240", "245", "250", "255"]
+    y-axis "P&L ($)" -600 --> 1600
+    bar [-550, -550, -550, -550, -550, 0, 450, 950, 1450, 1450]
+    line [-550, -550, -550, -550, -550, 0, 450, 950, 1450, 1450]
+....
+
+NOTE: Prime payée ~$5.50, soit −$550 max. Breakeven à $235.50. Profit max $14.50/contrat (+$1 450) si NVDA ≥ $250 à expiration. Le catalyseur principal est le résultat NVDA du 19 novembre 2026.
+
+=== Trade #3 — CSP sur AAPL (pré-earnings oct. 30)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Cash-Secured Put
+| *Sous-jacent* | AAPL (~$337)
+| *Raisonnement* | Résultats AAPL le 30 oct. → IV en hausse = prime vendeuse. Strike OTM −6,5 % : marge de sécurité confortable. AAPL fondamentalement solide (buy-back actif). Adapté niveau 3 : theta pur, risque défini.
+| *Expiration* | 7 novembre 2026 (~47 DTE, post-earnings)
+| *Strike* | $315 Put (OTM −6,5 %)
+| *Prime reçue* | ~$4.00 / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~−0.20
+| *Theta/jour* | ~+$0.085/jour
+| *Breakeven* | $311.00 (côté baissier)
+| *Entrée* | AAPL > $335 en séance
+| *Cible* | 50 % du crédit (~$2.00)
+| *Stop-loss* | AAPL clôture < $325 — ou débit > 2× crédit
+| *Taille* | Cash pour 100 actions = ~$31 500 (5 % portefeuille max)
+|===
+
+=== Trade #4 — Iron Condor sur SPY (range play post-hike)
+
+[cols="1,2"]
+|===
+| Paramètre | Valeur
+
+| *Type* | Iron Condor
+| *Sous-jacent* | SPY (~$762)
+| *Raisonnement* | SPY au MA50 (~$762) et sous MA200 ($769) — zone de range probable jusqu'au FOMC oct. VIX 14,82 : primes correctes pour structure neutre. Catalyseurs clés Oct. 2 (NFP) / Oct. 13 (CPI) / Oct. 27 (FOMC) créent des bornes naturelles.
+| *Expiration* | 17 octobre 2026 (~26 DTE)
+| *Strike(s)* | Sell $745P / Buy $735P / Sell $775C / Buy $785C
+| *Prime reçue* | ~$3.50 net / contrat footnote:[Estimation — vérifier les cours réels avant d'entrer en position.]
+| *Delta total* | ~0 (neutre directionnel)
+| *Theta/jour* | ~+$0.13/jour
+| *Breakeven(s)* | $741.50 (bas) / $778.50 (haut)
+| *Entrée* | SPY entre $758 et $764 en séance
+| *Cible* | 50 % du crédit (~$1.75)
+| *Stop-loss* | Débit > 2× crédit ($7.00) — ou SPY sort de $740–$780
+| *Taille* | 2 % du portefeuille par condor
+|===
+
+._Iron Condor SPY $735/$745/$775/$785 — P&L estimé à expiration_
+[mermaid]
+....
+xychart-beta
+    title "Iron Condor SPY — P&L estimé à expiration (par contrat)"
+    x-axis ["725", "735", "741", "745", "755", "762", "775", "778", "785", "795"]
+    y-axis "P&L ($)" -700 --> 400
+    bar [-650, -650, 0, 350, 350, 350, 350, 0, -650, -650]
+    line [-650, -650, 0, 350, 350, 350, 350, 0, -650, -650]
+....
+
+NOTE: Prime nette reçue ~$3.50 (max profit +$350/contrat). Breakevens à $741.50 et $778.50. Max loss −$6.50/contrat si SPY sort des ailes ($735 ou $785). Toute fermeture à 50 % du crédit (~$175 gain) est un succès.
+
+'''
+
+== Contexte macro et données clés
+
+[cols="1,2"]
+|===
+| Indicateur macro | Valeur / Commentaire
+
+| Taux Fed | 3,75–4,00 % — hausse +25 bp le 16/09/2026 (1ère en 3 ans)
+| Prochain FOMC | 27–28 octobre 2026 — marché anticipe pause ou 2ème hike
+| Dot plot médian 2026 | 4,1 % — second hike avant déc. officiellement en jeu
+| CPI dernière lecture | ~3,0 % YoY — au-dessus cible 2 %
+| NFP août | +162 K — surprise haussière (3× attentes)
+| Taux 10 ans | < 5 % (retombé sous ce seuil aujourd'hui)
+| Pétrole Brent | < $100 (−4 sessions consécutives depuis pic $106 le 14/09)
+| Put/Call ratio | 0,81 — bullish
+| AAII Bearish | 53,3 % — plus haut 16 mois (contrarian haussier LT)
+|===
+
+'''
+
+== Événements à surveiller
+
+[cols="1,1,1"]
+|===
+| Date | Événement | Impact potentiel
+
+| 22–26 sept. 2026 | Sommet Trump–Xi à Washington | Élevé (tarifs, IA, minerais)
+| 2 oct. 2026 | NFP septembre | Élevé (Fed : 2ème hike si surprise haussière)
+| 13 oct. 2026 | CPI septembre | Élevé (inflation vs. 2 % cible)
+| 27–28 oct. 2026 | FOMC — décision taux | Très élevé (pause ou 2ème hike)
+| 29–30 oct. 2026 | Earnings Mag7 : MSFT / META / GOOGL / AAPL / AMZN | Très élevé
+| 19 nov. 2026 | Earnings NVDA Q3 FY2027 | Élevé (gate IA)
+|===
+
+'''
+
+== Sources et liens utiles
+
+[cols="1,3"]
+|===
+| Source | Description
+
+| link:https://edition.cnn.com/markets/fear-and-greed[CNN Fear & Greed Index]
+| Fear & Greed : 29 (Fear) au 21 septembre 2026
+
+| link:https://www.cboe.com/tradable_products/vix/[CBOE VIX]
+| VIX : 14,82 au 21 septembre 2026
+
+| link:https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html[CME FedWatch]
+| Probabilités hike FOMC oct. 27–28
+
+| link:https://finance.yahoo.com/quote/QQQ/[QQQ — Yahoo Finance]
+| QQQ $741.11 au 21 septembre 2026
+
+| link:https://finance.yahoo.com/quote/%5EVIX/[VIX — Yahoo Finance]
+| Cours VIX en temps réel
+
+| link:https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html[CNBC — Fed rate decision Sept. 2026]
+| Hike +25 bp confirmé — 3,75–4,00 %
+
+| link:https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-21-2026[TheStreet — Stock Market Today Sept. 21]
+| Nasdaq surges best day since early August
+
+| link:https://www.bloomberg.com/news/articles/2026-09-18/investor-sentiment-plunges-to-16-month-low-aaii-survey-shows[Bloomberg — AAII Sentiment]
+| AAII bearish 53,3 % — plus bas 16 mois
+|===
+
+'''
+
+== Voir aussi dans la base de connaissance
+
+* xref:ROOT:strategies/global-strategy.adoc[Stratégie Globale — Arbre de décision par phase de marché]
+* xref:ROOT:hedging/index.adoc[Hedging — Guide complet de protection du portefeuille]
+* xref:ROOT:hedging/vix-volatilite.adoc[VIX & Volatilité — Interpréter et utiliser le VIX]
+* xref:ROOT:strategies/wheel.adoc[Wheel / CSP — Wheel strategy et Cash-Secured Puts]
+* xref:ROOT:strategies/butterfly.adoc[Iron Butterfly — Stratégie neutre et theta]
+* xref:ROOT:hedging/bear-put-spread.adoc[Bear Put Spread — Protection baissière]
